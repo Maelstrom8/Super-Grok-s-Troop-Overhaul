@@ -178,8 +178,7 @@ These are equipment slots where CraftedItem IDs and Item IDs go. Do not make up 
 
 `equipment slots: Head, Cape, Body, Gloves, Leg`
 
-These are the equipment slots where Item IDs go, specifically armors. Do not make up custom IDs. They only accept existing IDs of Items. In Kult of the Kallipygos, the armors have T1, T2, etc in the their IDs, you can use that.
-They typically stop at Tier 6, you can reuse those armors and just give the higher tiered troops better skills or weapons.
+These are the equipment slots where Item IDs go, specifically armors. Do not make up custom IDs. They only accept existing IDs of Items. In Kult of the Kallipygos, the armors have T1, T2, etc in the their IDs, you can use that to reference what kind of armors to use for troops. There's a ton of armors, but they typically stop at Tier 6, you can reuse those armors and just give the higher tiered troops better skills or weapons.
 
 `equipmentroster`
 
