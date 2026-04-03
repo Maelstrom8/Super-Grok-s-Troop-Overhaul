@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<partyTemplates>
+	<!--The Paladins of Silvind's Radiance-->
+	<MBPartyTemplate id="paladins_of_silvinds_radiance_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="18" max_value="36" troop="NPCCharacter.paladins_of_silvinds_radiance_infantry_t3"/>
+			<PartyTemplateStack min_value="9" max_value="18" troop="NPCCharacter.paladins_of_silvinds_radiance_infantry_t4"/>
+			<PartyTemplateStack min_value="9" max_value="18" troop="NPCCharacter.paladins_of_silvinds_radiance_infantry_t5"/>
+			<PartyTemplateStack min_value="9" max_value="18" troop="NPCCharacter.paladins_of_silvinds_radiance_cav_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Noboribetsu Oni-->
+	<MBPartyTemplate id="oni_of_noboribetsu_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t3"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t4"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t5"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t3_1hs"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t4_1hs"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.oni_of_noboribetsu_t5_1hs"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Daughters of Goondor-->
+	<MBPartyTemplate id="daughters_of_goondor_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.daughters_of_goondor_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.daughters_of_goondor_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.daughters_of_goondor_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Darawish al-Zephyr-->
+	<MBPartyTemplate id="zephyr_dervishes_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.zephyr_dervishes_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.zephyr_dervishes_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.zephyr_dervishes_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--SISTERHOOD OF STEEL-->
+	<MBPartyTemplate id="sisterhoodofsteel_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_t3"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_t4"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_t5"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_ranged_t3"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_ranged_t4"/>
+			<PartyTemplateStack min_value="8" max_value="15" troop="NPCCharacter.sisterhoodofsteel_ranged_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--ORDER OF THE FUZZY PEACH-->
+	<MBPartyTemplate id="orderofthefuzzypeach_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_t5"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_ranged_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_ranged_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_ranged_t5"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_infantry_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_infantry_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderofthefuzzypeach_infantry_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--ORDER OF THE AUBERGINE-->
+	<MBPartyTemplate id="orderoftheaubergine_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_t5"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_ranged_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_ranged_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_ranged_t5"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_infantry_t3"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_infantry_t4"/>
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.orderoftheaubergine_infantry_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--COREIN RIDERS-->
+	<MBPartyTemplate id="coreinriders_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.coreinriders_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.coreinriders_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.coreinriders_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Arsch Leckenechts-->
+	<MBPartyTemplate id="arschleckenechts_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.arschleckenechts_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.arschleckenechts_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.arschleckenechts_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Thottingham-->
+	<MBPartyTemplate id="thottingham_brigandettes_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.thottingham_brigandettes_ranged_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.thottingham_brigandettes_ranged_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.thottingham_brigandettes_ranged_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!--Sable Sentinels-->
+	<MBPartyTemplate id="sable_sentinel_party_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.sable_sentinel_t3"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.sable_sentinel_t4"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.sable_sentinel_t5"/>
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

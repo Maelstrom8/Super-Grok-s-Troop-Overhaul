@@ -1,0 +1,4823 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Items>
+	<Item id="zd_headscarf"
+	      name="{=kotk_zd_headscarf}T2 Darawish al-Zephyr Headscarf"
+	      mesh="zd_headscarf"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_aserai_head_armor_01"
+	      name="{=kotk_t2_aserai_head_armor_01}T2 Aserai Helm"
+	      mesh="aserai_snek_helm_04"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_aserai_head_armor_02"
+	      name="{=kotk_t2_aserai_head_armor_02}T2 Aserai Helm"
+	      mesh="aserai_t2_headdress"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_aserai_head_armor_03"
+	      name="{=kotk_t2_aserai_head_armor_03}T2 Aserai Helm"
+	      mesh="aserai_t2_headdress_mod_1"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="se_gulam_hood"
+	      name="{=kotk_se_gulam_hood}T2 Southern Empire Hood"
+	      mesh="se_gulam_hood"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_gulam_hood"
+	      name="{=kotk_t2_gulam_hood}T2 Ghulam Hood"
+	      mesh="t2_gulam_hood"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_beni_zilal_hood"
+	      name="{=kotk_t2_beni_zilal_hood}T2 Beni Zilal Hood"
+	      mesh="t2_beni_zilal_hood"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="steel_cap_new"
+	      name="{=kotk_steel_cap_new}T3 Darawish al-Zephyr Helm"
+	      mesh="steel_cap_new"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_aserai_head_armor_01"
+	      name="{=kotk_t3_aserai_head_armor_01}T3 Aserai Helm"
+	      mesh="aserai_snek_helm_03"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_eastern_mercenary_head_armor_01"
+	      name="{=kotk_t3_eastern_mercenary_head_armor_01}T3 Eastern Mercenary Helm"
+	      mesh="t3_eastern_mercenary_hat"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_gulam_hood"
+	      name="{=kotk_t3_gulam_hood}T3 Ghulam Hood"
+	      mesh="t3_gulam_hood"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_beni_zilal_hood"
+	      name="{=kotk_t4_beni_zilal_hood}T3 Beni Zilal Hood"
+	      mesh="t4_beni_zilal_hood"
+	      culture="Culture.aserai"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="steel_cap_new_chain"
+	      name="{=kotk_steel_cap_new_chain}T4 Darawish al-Zephyr Helm"
+	      mesh="steel_cap_new_chain"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_aserai_head_armor_01"
+	      name="{=kotk_t4_aserai_head_armor_01}T4 Aserai Helm"
+	      mesh="aserai_snek_helm_02"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_eastern_mercenary_head_armor_01"
+	      name="{=kotk_t4_eastern_mercenary_head_armor_01}T4 Eastern Mercenary Helm"
+	      mesh="ork_helm_01"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_gulam_hood"
+	      name="{=kotk_t4_gulam_hood}T4 Ghulam Hood"
+	      mesh="t4_gulam_hood"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_aserai_head_armor_01"
+	      name="{=kotk_t5_aserai_head_armor_01}T5 Aserai Helm"
+	      mesh="aserai_snek_helm_01_2024"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_eastern_mercenary_head_armor_01"
+	      name="{=kotk_t5_eastern_mercenary_head_armor_01}T5 Eastern Mercenary Helm"
+	      mesh="nympho_collar_new_grinded_metal"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_head_armor_01"
+	      name="{=kotk_t6_aserai_head_armor_01}T6 Aserai Helm"
+	      mesh="aserai_snek_helm_05"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_hero_head_armor_01"
+	      name="{=kotk_t6_aserai_hero_head_armor_01}T6 Aserai Hero Helm"
+	      mesh="aserai_t6_waifu_helm"
+	      culture="Culture.aserai"
+	      weight="2.8"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_arwa_head_armor_01"
+	      name="{=kotk_t6_aserai_arwa_head_armor_01}T6 Arwa's Helm"
+	      mesh="aserai_t6_waifu_helm_01"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="58"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="immortal_mask_silver"
+	      name="{=kotk_immortal_mask_silver}T6 Aserai Marid Helm"
+	      mesh="immortal_mask_silver"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="immortal_mask_brass"
+	      name="{=kotk_immortal_mask_brass}T6 Aserai Marid Helm"
+	      mesh="immortal_mask_brass"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_aserai_battle_crown"
+	      name="{=kotk_kotk_aserai_battle_crown}KOTK Aserai Noble Helm"
+	      subtype="head_armor"
+	      mesh="kotk_aserai_battle_crown"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="2.8"
+	      difficulty="4"
+	      appearance="9"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="44"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_aserai_lord_helmet_b"
+	      name="{=kotk_kotk_aserai_lord_helmet_b}KOTK Aserai Noble Helm"
+	      mesh="kotk_aserai_lord_helmet_b"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      subtype="head_armor"
+	      weight="3.5"
+	      difficulty="4"
+	      appearance="5.4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="46"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type3"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_brass_aserai_helmet_b_closed"
+	      name="{=kotk_kotk_brass_aserai_helmet_b_closed}KOTK Aserai Noble Helm"
+	      subtype="head_armor"
+	      mesh="kotk_brass_aserai_helmet_b_closed"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="2.55"
+	      difficulty="4"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="43"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_battania_head_armor_01"
+	      name="{=kotk_t2_battania_head_armor_01}T2 Battanian Helm"
+	      mesh="t3_battanian_shamen_01_circlet"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_battania_head_armor_02"
+	      name="{=kotk_t2_battania_head_armor_02}T2 Battanian Helm"
+	      mesh="nympho_latex_gear_01_head"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_battania_head_armor_03"
+	      name="{=kotk_t2_battania_head_armor_03}T2 Battanian Helm"
+	      mesh="battania_hood_new_uv"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_battania_head_armor_01"
+	      name="{=kotk_t3_battania_head_armor_01}T3 Battanian Helm"
+	      mesh="battania_wolf_helm_edit"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_battania_head_armor_02"
+	      name="{=kotk_t3_battania_head_armor_02}T3 Battanian Helm"
+	      mesh="battania_helmet_e_edit"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_battania_head_armor_03"
+	      name="{=kotk_t3_battania_head_armor_03}T3 Battanian Helm"
+	      mesh="knight3_hood_faction"
+	      culture="Culture.battania"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_battania_head_armor_01"
+	      name="{=kotk_t4_battania_head_armor_01}T4 Battanian Helm"
+	      mesh="battania_helmet_f"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_battania_head_armor_02"
+	      name="{=kotk_t4_battania_head_armor_02}T4 Battanian Helm"
+	      mesh="battania_fur_helmet_a_edit"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_battania_head_armor_01"
+	      name="{=kotk_t5_battania_head_armor_01}T5 Battanian Helm"
+	      mesh="battania_lord_helmet_b_edit"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_battania_head_armor_02"
+	      name="{=kotk_t5_battania_head_armor_02}T5 Battanian Helm"
+	      mesh="battania_lord_helmet_c_edit"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_helm_gold"
+	      name="{=kotk_t6_wolf_helm_gold}T6 Golden Wolf Helm"
+	      mesh="t6_wolf_helm_gold"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_helm_silver"
+	      name="{=kotk_t6_wolf_helm_silver}T6 Silver Wolf Helm"
+	      mesh="t6_wolf_helm_silver"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_head_armor_01"
+	      name="{=kotk_t6_battania_head_armor_01}T6 Battanian Helm"
+	      mesh="battania_ridged_helm_edit"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_head_armor_01"
+	      name="{=kotk_t6_battania_hero_head_armor_01}T6 Battanian Hero Helm"
+	      mesh="battania_t6_herohelmstag_antler_01"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_head_armor_02"
+	      name="{=kotk_t6_battania_hero_head_armor_02}T6 Battanian Hero Helm"
+	      mesh="battania_t6_herohelmstag_antler_02"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_head_armor_03"
+	      name="{=kotk_t6_battania_hero_head_armor_03}T6 Battanian Hero Helm"
+	      mesh="battania_t6_herohelmstag2_antler_01"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_corein_head_armor_01"
+	      name="{=kotk_t6_battania_corein_head_armor_01}T6 Corein's Helm"
+	      mesh="battania_t6_herohelmstag2_antler_02"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="60"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="corein_hero_crown_2024_green"
+	      name="{=kotk_corein_hero_crown_2024_green}T6 Corein's Helm"
+	      mesh="corein_hero_crown_2024_green"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="60"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_helm_green"
+	      name="{=kotk_t6_wolf_helm_green}T6 Corein's Helm"
+	      mesh="t6_wolf_helm_green"
+	      culture="Culture.battania"
+	      weight="2.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="60"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="darkcrown_2_gold"
+	      name="{=kotk_darkcrown_2_gold}T6 Gwydion Golden Helm"
+	      mesh="darkcrown_2_gold"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="darkcrown_3_gold"
+	      name="{=kotk_darkcrown_3_gold}T6 Gwydion Golden Helm"
+	      mesh="darkcrown_3_gold"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="darkcrown_4_gold"
+	      name="{=kotk_darkcrown_4_gold}T6 Gwydion Golden Helm"
+	      mesh="darkcrown_4_gold"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="darkcrown_faction_gold"
+	      name="{=kotk_darkcrown_faction_gold}T6 Gwydion Faction Helm"
+	      mesh="darkcrown_faction_gold"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_imperial_head_armor_01"
+	      name="{=kotk_t2_imperial_head_armor_01}T2 Imperial Helm"
+	      mesh="imperial_laurel"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_forestpeople_hat"
+	      name="{=kotk_t2_forestpeople_hat}T2 Forest People Hat"
+	      mesh="robin_hood_hat"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_imperial_head_armor_gold"
+	      name="{=kotk_t3_imperial_head_armor_gold}T3 Imperial Helm"
+	      mesh="imperial_helm_t5"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_imperial_head_armor_silver"
+	      name="{=kotk_t3_imperial_head_armor_silver}T3 Imperial Helm"
+	      mesh="imperial_helm_b_t5"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_swordsister_mercenary_head_armor_01"
+	      name="{=kotk_t3_swordsister_mercenary_head_armor_01}T3 Sword Sister Mercenary Helm"
+	      mesh="imperial_laurel"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_western_merc_helm"
+	      name="{=kotk_t3_western_merc_helm}T3 Western Mercenary Helm"
+	      mesh="t3_western_merc_helm"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bone_armor_gold_helm"
+	      name="{=kotk_t3_bone_armor_gold_helm}T3 Gold Bone Helm"
+	      mesh="t3_bone_armor_gold_helm"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bone_armor_bone_helm"
+	      name="{=kotk_t3_bone_armor_bone_helm}T3 Bone Helm"
+	      mesh="t3_bone_armor_bone_helm"
+	      culture="Culture.empire"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_imperial_helm_silver"
+	      name="{=kotk_t4_imperial_helm_silver}T4 Imperial Helm"
+	      mesh="t4_imperial_helm_silver"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_imperial_head_armor_silver"
+	      name="{=kotk_t4_imperial_head_armor_silver}T4 Imperial Helm"
+	      mesh="imperial_helm_b_t4"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_helm_t4_new_gold"
+	      name="{=kotk_imperial_helm_t4_new_gold}T4 Imperial Helm"
+	      mesh="imperial_helm_t4_new_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_helm_t4_new_silver"
+	      name="{=kotk_imperial_helm_t4_new_silver}T4 Imperial Helm"
+	      mesh="imperial_helm_t4_new_silver"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_swordsister_mercenary_head_armor_01"
+	      name="{=kotk_t4_swordsister_mercenary_head_armor_01}T4 Sword Sister Mercenary Helm"
+	      mesh="sword_sister_t4_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="simpavliaton_helm_gold"
+	      name="{=kotk_simpavliaton_helm_gold}T5 Imperial Gold Simpavliaton Helm"
+	      mesh="simpavliaton_helm_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="simpavliaton_helm_silver"
+	      name="{=kotk_simpavliaton_helm_silver}T5 Imperial Silver Simpavliaton Helm"
+	      mesh="simpavliaton_helm_silver"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_t5_artemis_helm_gold"
+	      name="{=kotk_imperial_t5_artemis_helm_gold}T5 Imperial Artemis Helm"
+	      mesh="imperial_t5_artemis_helm_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_helm_t5_new_gold"
+	      name="{=kotk_imperial_helm_t5_new_gold}T5 Imperial Helm"
+	      mesh="imperial_helm_t5_new_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_helm_t5_new_silver"
+	      name="{=kotk_imperial_helm_t5_new_silver}T5 Imperial Helm"
+	      mesh="imperial_helm_t5_new_silver"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_horselord_helm"
+	      name="{=kotk_t5_imperial_horselord_helm}T5 Imperial Horselord Helm"
+	      mesh="t5_imperial_horselord_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="imperial_t5_helm_twilek_gold"
+	      name="{=kotk_imperial_t5_helm_twilek_gold}T5 Imperial Helm"
+	      mesh="imperial_t5_helm_twilek_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_gladiator_helm_with_fin"
+	      name="{=kotk_t5_imperial_gladiator_helm_with_fin}T5 Imperial Helm"
+	      mesh="t5_imperial_gladiator_helm_with_fin"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_gladiator_helm_with_fin_gold"
+	      name="{=kotk_t5_imperial_gladiator_helm_with_fin_gold}T5 Imperial Helm"
+	      mesh="t5_imperial_gladiator_helm_with_fin_gold"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_swordsister_mercenary_head_armor_01"
+	      name="{=kotk_t5_swordsister_mercenary_head_armor_01}T5 Sword Sister Mercenary Helm"
+	      mesh="sword_sister_t5_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_head_armor_14"
+	      name="{=kotk_t5_head_armor_14}T5 Helm of the Main Character"
+	      mesh="ghostarmor"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_head_armor_hero_gold"
+	      name="{=kotk_t6_imperial_head_armor_hero_gold}T6 Imperial Helm"
+	      mesh="imperial_t6_helm_alternate"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_head_armor_hero_brass"
+	      name="{=kotk_t6_imperial_head_armor_hero_brass}T6 Imperial Helm"
+	      mesh="imperial_t6_helm_alternate_a"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_head_armor_hero_silver"
+	      name="{=kotk_t6_imperial_head_armor_hero_silver}T6 Imperial Helm"
+	      mesh="imperial_t6_helm_alternate_b"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_rhagaea_head_armor_01"
+	      name="{=kotk_t6_rhagaea_head_armor_01}T6 Rhagaea's Helm"
+	      mesh="imperial_t6_helm_rhagaea"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="65"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_ira_head_armor_01"
+	      name="{=kotk_t6_ira_head_armor_01}T6 Ira's Helm"
+	      mesh="t6_ira_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="60"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="comatasa_helm"
+	      name="{=kotk_comatasa_helm}T6 Comatasa's Helm"
+	      mesh="comatasa_helm"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="56"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_horselord_helm_alt_01"
+	      name="{=kotk_t5_imperial_horselord_helm_alt_01}T6 Imperial Gold Helm"
+	      mesh="t5_imperial_horselord_helm_alt_01"
+	      culture="Culture.empire"
+	      weight="2.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="56"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_bimbo_huntress_headband_original"
+	      name="{=kotk_t6_bimbo_huntress_headband_original}T6 Bimbo Huntress Helm"
+	      mesh="t6_bimbo_huntress_headband_original"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_huntress_headband_faction"
+	      name="{=kotk_t6_huntress_headband_faction}T6 Huntress Helm"
+	      mesh="t6_huntress_headband_faction"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_huntress_headband_original"
+	      name="{=kotk_t6_huntress_headband_original}T6 Elite Huntress Helm"
+	      mesh="t6_huntress_headband_original"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_head_armor_14"
+	      name="{=kotk_t6_head_armor_14}T6 Helm of the Main Character"
+	      mesh="ghostarmor"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_empire_battle_crown_west"
+	      name="{=kotk_kotk_empire_battle_crown_west}KOTK Imperial Noble Helmet"
+	      subtype="head_armor"
+	      mesh="kotk_empire_battle_crown_west"
+	      culture="Culture.empire"
+	      is_merchandise="false"
+	      weight="3.1"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_heavy_nasalhelm_over_imperial_mail"
+	      name="{=kotk_kotk_heavy_nasalhelm_over_imperial_mail}KOTK Imperial Noble Helmet"
+	      subtype="head_armor"
+	      mesh="kotk_heavy_nasalhelm_over_imperial_mail"
+	      culture="Culture.empire"
+	      is_merchandise="false"
+	      weight="3.6"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_empire_battle_crown_north"
+	      name="{=kotk_kotk_empire_battle_crown_north}KOTK Imperial Noble Helmet"
+	      subtype="head_armor"
+	      mesh="kotk_empire_battle_crown_north"
+	      culture="Culture.empire"
+	      is_merchandise="false"
+	      weight="2.1"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="45"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_khuzait_head_armor_01"
+	      name="{=kotk_t2_khuzait_head_armor_01}T2 Khuzait Helm"
+	      mesh="khuz_headband_t2"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="oni_mask_wood"
+	      name="{=kotk_oni_mask_wood}T3 Oni Mask"
+	      mesh="oni_mask_wood"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_khuzait_newsamurai_helm"
+	      name="{=kotk_t3_khuzait_newsamurai_helm}T3 Khuzait Helm"
+	      mesh="t3_khuzait_newsamurai_helm"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="type1"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_khuzait_head_armor_01"
+	      name="{=kotk_t3_khuzait_head_armor_01}T3 Khuzait Helm"
+	      mesh="khuz_helm_l_edit_with_mask_ver1"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_khuzait_archer_helmet"
+	      name="{=kotk_t4_khuzait_archer_helmet}T3 Khuzait Archer Helm"
+	      mesh="t4_khuzait_archer_helmet"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="oni_mask_iron"
+	      name="{=kotk_oni_mask_iron}T4 Oni Mask"
+	      mesh="oni_mask_iron"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_khuzait_newsamurai_helm"
+	      name="{=kotk_t4_khuzait_newsamurai_helm}T4 Khuzait Helm"
+	      mesh="t4_khuzait_newsamurai_helm"
+	      culture="Culture.khuzait"
+	      weight="0.1"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="type1"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_khuzait_head_armor_01"
+	      name="{=kotk_t4_khuzait_head_armor_01}T4 Khuzait Helm"
+	      mesh="khuz_helm_l_edit_with_mask_ver2"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_archer_helm"
+	      name="{=kotk_t5_khuzait_archer_helm}T4 Khuzait Archer Helm"
+	      mesh="t5_khuzait_archer_helm"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="oni_mask_gold"
+	      name="{=kotk_oni_mask_gold}T5 Oni Mask"
+	      mesh="oni_mask_gold"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_newsamurai_helm"
+	      name="{=kotk_t5_khuzait_newsamurai_helm}T5 Khuzait Helm"
+	      mesh="t5_khuzait_newsamurai_helm"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_head_armor_01"
+	      name="{=kotk_t5_khuzait_head_armor_01}T5 Khuzait Helm"
+	      mesh="khuz_helm_l_edit_with_mask_ver3"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit1_helm_og_maps"
+	      name="{=kotk_nn_samurai_suit1_helm_og_maps}T5 Samurai I Helm"
+	      mesh="nn_samurai_suit1_helm_og_maps"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit2_helm_og_maps"
+	      name="{=kotk_nn_samurai_suit2_helm_og_maps}T5 Samurai II Helm"
+	      mesh="nn_samurai_suit2_helm_og_maps"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit3_helm_og_maps"
+	      name="{=kotk_nn_samurai_suit3_helm_og_maps}T5 Samurai III Helm"
+	      mesh="nn_samurai_suit3_helm_og_maps"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="samurai_helm_red"
+	      name="{=kotk_samurai_helm_red}T5 Red Samurai Helm"
+	      mesh="samurai_helm_red"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="samurai_helm_black"
+	      name="{=kotk_samurai_helm_black}T5 Black Samurai Helm"
+	      mesh="samurai_helm_black"
+	      culture="Culture.khuzait"
+	      weight="2.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_head_armor_01"
+	      name="{=kotk_t6_khuzait_head_armor_01}T6 Khuzait Helm"
+	      mesh="khuz_helm_l_edit_with_mask_ver3"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_head_armor_02"
+	      name="{=kotk_t6_khuzait_head_armor_02}T6 Khuzait Helm"
+	      mesh="helmet8"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_head_armor_03"
+	      name="{=kotk_t6_khuzait_head_armor_03}T6 Khuzait Helm"
+	      mesh="helmet8_a"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_head_armor_04"
+	      name="{=kotk_t6_khuzait_head_armor_04}T6 Khuzait Helm"
+	      mesh="helmet8_b"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_head_armor_05"
+	      name="{=kotk_t6_khuzait_head_armor_05}T6 Khuzait Helm"
+	      mesh="t6_khuzait_helm_gold"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_helm_red"
+	      name="{=kotk_t6_khuzait_nn_2024_helm_red}T6 Khuzait Helm"
+	      mesh="t6_khuzait_nn_2024_helm_red"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_helm_alt_01_red"
+	      name="{=kotk_t6_khuzait_nn_2024_helm_alt_01_red}T6 Khuzait Helm"
+	      mesh="t6_khuzait_nn_2024_helm_alt_01_red"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_helm"
+	      name="{=kotk_t6_khuzait_nn_2024_helm}T6 Khuzait Helm"
+	      mesh="t6_khuzait_nn_2024_helm"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_helm_alt_01"
+	      name="{=kotk_t6_khuzait_nn_2024_helm_alt_01}T6 Khuzait Helm"
+	      mesh="t6_khuzait_nn_2024_helm_alt_01"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_helm_faction_gold"
+	      name="{=kotk_t6_khuzait_helm_faction_gold}T6 Khuzait Helm"
+	      mesh="khuzait_noble_helm_gold_faction"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nergui_head_armor_01"
+	      name="{=kotk_t6_khuzait_nergui_head_armor_01}T6 Khuzait Nergui Helm"
+	      mesh="t6_nergui_helmet_ld"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_helmet_j"
+	      name="{=kotk_kotk_khuzait_helmet_j}KOTK Khuzait Noble Helm"
+	      subtype="head_armor"
+	      mesh="kotk_khuzait_helmet_j"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="2.1"
+	      difficulty="4"
+	      appearance="2.2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_helmet_f"
+	      name="{=kotk_kotk_khuzait_helmet_f}KOTK Khuzait Noble Helm"
+	      subtype="head_armor"
+	      mesh="kotk_khuzait_helmet_f"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="4.5"
+	      difficulty="4"
+	      appearance="2.4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_helmet_g"
+	      name="{=kotk_kotk_khuzait_helmet_g}KOTK Khuzait Noble Helm"
+	      subtype="head_armor"
+	      mesh="kotk_khuzait_helmet_g"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="3.5"
+	      difficulty="4"
+	      appearance="2.2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_helmet_m"
+	      name="{=kotk_kotk_khuzait_helmet_m}KOTK Khuzait Noble Helm"
+	      mesh="kotk_khuzait_helmet_m"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="4"
+	      appearance="3.55"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_gold_jewelry_circlet"
+	      name="{=kotk_t2_gold_jewelry_circlet}T2 Gold Circlet"
+	      mesh="t2_gold_jewelry_circlet"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bimbo_circlet"
+	      name="{=kotk_bimbo_circlet}T2 Bimbo Circlet"
+	      mesh="bimbo_circlet"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_earrings_01_gold"
+	      name="{=kotk_kotk_earrings_01_gold}T2 KotK Earrings"
+	      mesh="kotk_earrings_01_gold"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="slave_suit_iron_collar"
+	      name="{=kotk_slave_suit_iron_collar}T2 Iron Slave Collar"
+	      mesh="slave_suit_iron_collar"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="slave_suit_gold_collar"
+	      name="{=kotk_slave_suit_gold_collar}T2 Gold Slave Collar"
+	      mesh="slave_suit_gold_collar"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="gold_tiara_01"
+	      name="{=kotk_gold_tiara_01}T2 Gold Circlet"
+	      mesh="gold_tiara_01"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="gold_tiara_02"
+	      name="{=kotk_gold_tiara_02}T2 Silver Circlet"
+	      mesh="gold_tiara_02"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="iron_circlet_bandit"
+	      name="{=kotk_iron_circlet_bandit}T2 Iron Circlet"
+	      mesh="iron_circlet_bandit"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_nympho_head_armor_01"
+	      name="{=kotk_t2_nympho_head_armor_01}T2 Nympho Helm"
+	      mesh="nympho_latex_gear_01_head"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_01"
+	      name="{=kotk_t2_bandit_head_armor_01}T2 Bandit Helm"
+	      mesh="bandit_cloak"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_02"
+	      name="{=kotk_t2_bandit_head_armor_02}T2 Bandit Helm"
+	      mesh="bandit_cloak_02"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_03"
+	      name="{=kotk_t2_bandit_head_armor_03}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_01_hood"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_04"
+	      name="{=kotk_t2_bandit_head_armor_04}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_01_hood_cloak"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_05"
+	      name="{=kotk_t2_bandit_head_armor_05}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_02_hood_cloak"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_06"
+	      name="{=kotk_t2_bandit_head_armor_06}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_02_hood"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_07"
+	      name="{=kotk_t2_bandit_head_armor_07}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_01a_hood_cloak"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_head_armor_08"
+	      name="{=kotk_t2_bandit_head_armor_08}T2 Bandit Helm"
+	      mesh="desert_bandit_gear_02a_hood_cloak"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="goondor_t3_helm"
+	      name="{=kotk_goondor_t3_helm}T3 Goondor Helm"
+	      mesh="goondor_t3_helm"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="looter_bucket_helm"
+	      name="{=kotk_looter_bucket_helm}T3 Bandit Bucket Helm"
+	      mesh="looter_bucket_helm"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_nympho_head_armor_01"
+	      name="{=kotk_t3_nympho_head_armor_01}T3 Nympho Helm"
+	      mesh="nympho_latex_gear_01_head"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_desert_bandit_head_armor_01"
+	      name="{=kotk_t3_desert_bandit_head_armor_01}T3 Bandit Helm"
+	      mesh="desert_bandit_gear_01a_hood"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_desert_bandit_head_armor_02"
+	      name="{=kotk_t3_desert_bandit_head_armor_02}T3 Bandit Helm"
+	      mesh="desert_bandit_gear_02a_hood"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bandit_head_armor_01"
+	      name="{=kotk_t3_bandit_head_armor_01}T3 Bandit Helm"
+	      mesh="viking_helm_ver_04_dirty"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="knight3_hood_faction"
+	      name="{=kotk_knight3_hood_faction}T3 Faction Hood"
+	      mesh="knight3_hood_faction"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bandit_head_armor_02"
+	      name="{=kotk_t3_bandit_head_armor_02}T3 Bandit Helm"
+	      mesh="mid_helm_02_dirty"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_dryad_head_armor_01"
+	      name="{=kotk_t3_dryad_head_armor_01}T3 Dryad Helm"
+	      mesh="dryad_headgear_01"
+	      culture="Culture.neutral_culture"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="goondor_t4_helmet"
+	      name="{=kotk_goondor_t4_helmet}T4 Goondor Helm"
+	      mesh="goondor_t4_helmet"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_emberline_huntress_circlet"
+	      name="{=kotk_t4_emberline_huntress_circlet}T4 Emberline Huntress Helm"
+	      mesh="t4_emberline_huntress_circlet"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_nympho_head_armor_01"
+	      name="{=kotk_t4_nympho_head_armor_01}T4 Nympho Helm"
+	      mesh="nympho_latex_gear_01_head"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bandit_head_armor_01"
+	      name="{=kotk_t4_bandit_head_armor_01}T4 Bandit Helm"
+	      mesh="looter_merc_helms_01_orky_03"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bandit_head_armor_02"
+	      name="{=kotk_t4_bandit_head_armor_02}T4 Bandit Helm"
+	      mesh="looter_merc_helms_01_orky_04"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bandit_head_armor_03"
+	      name="{=kotk_t4_bandit_head_armor_03}T4 Bandit Helm"
+	      mesh="ork_helm_05"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="type1"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_mercenary_helm"
+	      name="{=kotk_t4_mercenary_helm}T4 Mercenary Helm"
+	      mesh="t4_mercenary_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="giga_chad_helm"
+	      name="{=kotk_giga_chad_helm}T4 HELM OF THE GIGA-CHAD"
+	      mesh="giga_chad_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_dryad_head_armor_01"
+	      name="{=kotk_t4_dryad_head_armor_01}T4 Dryad Helm"
+	      mesh="dryad_headgear_01"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_gladiator_helm"
+	      name="{=kotk_kotk_gladiator_helm}T5 KotK Gladiator Helm"
+	      mesh="kotk_gladiator_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_barbarian_headdress"
+	      name="{=kotk_kotk_barbarian_headdress}T5 Barbarian Headdress"
+	      mesh="kotk_barbarian_headdress"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="goondor_t5_helmet"
+	      name="{=kotk_goondor_t5_helmet}T5 Goondor Helm"
+	      mesh="goondor_t5_helmet"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_nympho_head_armor_01"
+	      name="{=kotk_t5_nympho_head_armor_01}T5 Nympho Gold Collar"
+	      mesh="nympho_collar_new_grinded_metal"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nympho_latex_gear_01_head_silver"
+	      name="{=kotk_nympho_latex_gear_01_head_silver}T5 Nympho Gold Collar"
+	      mesh="nympho_latex_gear_01_head_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_iron_mercenary_helm"
+	      name="{=kotk_t5_iron_mercenary_helm}T5 Iron Mercenary Helm"
+	      mesh="t5_iron_mercenary_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_bandit_head_armor_01"
+	      name="{=kotk_t5_bandit_head_armor_01}T5 Bandit Helm"
+	      mesh="looter_merc_helms_01_orky_05"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="demon_viking_helm"
+	      name="{=kotk_demon_viking_helm}T5 Bandit Helm"
+	      mesh="demon_viking_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nympho_collar_new_grinded_metal"
+	      name="{=kotk_nympho_collar_new_grinded_metal}T5 Silver Nymphomaniac Collar"
+	      mesh="nympho_collar_new_grinded_metal"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nympho_collar_new_gold"
+	      name="{=kotk_nympho_collar_new_gold}T5 Gold Nymphomaniac Collar"
+	      mesh="nympho_collar_new_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_dryad_head_armor_01"
+	      name="{=kotk_t5_dryad_head_armor_01}T5 Dryad Helm"
+	      mesh="dryad_headgear_01"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_whorelord_helm_silver"
+	      name="{=kotk_t6_whorelord_helm_silver}T6 Whorelord Helm"
+	      mesh="t6_whorelord_helm_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_whorelord_helm_gold"
+	      name="{=kotk_t6_whorelord_helm_gold}T6 Whorelord Helm"
+	      mesh="t6_whorelord_helm_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_nympho_head_armor_01"
+	      name="{=kotk_t6_nympho_head_armor_01}T6 Nympho Collar"
+	      mesh="nympho_collar_new_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nympho_latex_gear_01_head_gold"
+	      name="{=kotk_nympho_latex_gear_01_head_gold}T6 Nympho Collar"
+	      mesh="nympho_latex_gear_01_head_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_angel_armor_helm"
+	      name="{=kotk_t6_angel_armor_helm}T6 Angel Helm"
+	      mesh="t6_angel_armor_helm"
+	      culture="Culture.neutral_culture"
+	      weight="1.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_uber_hunter_helm"
+	      name="{=kotk_t6_uber_hunter_helm}T6 Uber Hunter Choker"
+	      mesh="t6_uber_hunter_helm"
+	      culture="Culture.neutral_culture"
+	      weight="1.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="crown_of_dicks"
+	      name="{=kotk_crown_of_dicks}T6 Pethros Heirloom Crown"
+	      mesh="crown_of_dicks"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="giga_giga_chad_helm"
+	      name="{=kotk_giga_giga_chad_helm}T6 HELM OF THE GIGA-GIGA-CHAD"
+	      mesh="giga_giga_chad_helm"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="100"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_devil_armor_helm_silver"
+	      name="{=kotk_t6_devil_armor_helm_silver}T6 Devil Princess Helm"
+	      mesh="t6_devil_armor_helm_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_warrior_princess_circlet_gold"
+	      name="{=kotk_t6_warrior_princess_circlet_gold}T6 Warrior Princess Helm"
+	      mesh="t6_warrior_princess_circlet_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_sturgian_head_armor_01"
+	      name="{=kotk_t2_sturgian_head_armor_01}T2 Nord Helm"
+	      mesh="sturgia_helmet_j"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_sturgian_valk_circlet"
+	      name="{=kotk_t2_sturgian_valk_circlet}T2 Valkyrjur Circlet"
+	      mesh="t2_sturgian_valk_circlet"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_head_armor_01"
+	      name="{=kotk_t3_sturgian_head_armor_01}T3 Nord Helm"
+	      mesh="viking_helm_ver_04"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="viking_helm_ver_04_gold_base"
+	      name="{=kotk_viking_helm_ver_04_gold_base}T3 Nord Helm"
+	      mesh="viking_helm_ver_04_gold_base"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_head_armor_02"
+	      name="{=kotk_t3_sturgian_head_armor_02}T3 Nord Helm"
+	      mesh="sturgian_valkir_helm_01_c"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_head_armor_03"
+	      name="{=kotk_t3_sturgian_head_armor_03}T3 Nord Helm"
+	      mesh="sturgian_valkir_helm_02_c"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_head_armor_04"
+	      name="{=kotk_t3_sturgian_head_armor_04}T3 Nord Helm"
+	      mesh="sturgian_valkir_helm_03_c"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_valk_circlet"
+	      name="{=kotk_t3_sturgian_valk_circlet}T3 Valkyrjur Circlet"
+	      mesh="t3_sturgian_valk_circlet"
+	      culture="Culture.nord"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgia_nasal_helm"
+	      name="{=kotk_t3_sturgia_nasal_helm}T3 Nord Nasalhelm"
+	      mesh="t3_sturgia_nasal_helm"
+	      culture="Culture.nord"
+	      weight="1.8"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="22"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="lakerat_nasal_helm"
+	      name="{=kotk_lakerat_nasal_helm}T3 Lakerat Nasalhelm"
+	      mesh="lakerat_nasal_helm"
+	      culture="Culture.nord"
+	      weight="1.8"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="22"
+			       has_gender_variations="false"
+			       hair_cover_type="type1"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t4_sturgian_head_armor_01"
+	      name="{=kotk_t4_sturgian_head_armor_01}T4 Nord Helm"
+	      mesh="viking_helm_ver_5"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_head_armor_02"
+	      name="{=kotk_t4_sturgian_head_armor_02}T4 Nord Helm"
+	      mesh="mid_helm_02"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_head_armor_03"
+	      name="{=kotk_t4_sturgian_head_armor_03}T4 Nord Helm"
+	      mesh="sturgian_valkir_helm_01_b"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_head_armor_04"
+	      name="{=kotk_t4_sturgian_head_armor_04}T4 Nord Helm"
+	      mesh="sturgian_valkir_helm_02_b"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_head_armor_05"
+	      name="{=kotk_t4_sturgian_head_armor_05}T4 Nord Helm"
+	      mesh="sturgian_valkir_helm_03_b"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_valk_circlet"
+	      name="{=kotk_t4_sturgian_valk_circlet}T4 Valkyrjur Circlet"
+	      mesh="t4_sturgian_valk_circlet"
+	      culture="Culture.nord"
+	      weight="1.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="skolderbroda_t5_helm"
+	      name="{=kotk_skolderbroda_t5_helm}T5 Skolderbroda Helm"
+	      mesh="skolderbroda_t5_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_head_armor_01"
+	      name="{=kotk_t5_sturgian_head_armor_01}T5 Nord Helm"
+	      mesh="viking_helm_ver_7"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="lakerat_nasal_helm_mask"
+	      name="{=kotk_lakerat_nasal_helm_mask}T5 Lakerat Helm"
+	      mesh="lakerat_nasal_helm_mask"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="type1"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_head_armor_02"
+	      name="{=kotk_t5_sturgian_head_armor_02}T5 Nord Helm"
+	      mesh="viking_dragon_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_head_armor_03"
+	      name="{=kotk_t5_sturgian_head_armor_03}T5 Nord Helm"
+	      mesh="sturgian_valkir_helm_03_a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_head_armor_04"
+	      name="{=kotk_t5_sturgian_head_armor_04}T5 Nord Helm"
+	      mesh="sturgian_valkir_helm_02_a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_head_armor_05"
+	      name="{=kotk_t5_sturgian_head_armor_05}T5 Nord Helm"
+	      mesh="sturgian_valkir_helm_01_a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="viking_helm_ver_5a"
+	      name="{=kotk_viking_helm_ver_5a}T5 Nord Helm"
+	      mesh="viking_helm_ver_5a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="viking_helm_ver_7a"
+	      name="{=kotk_viking_helm_ver_7a}T5 Nord Helm"
+	      mesh="viking_helm_ver_7a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="viking_helm_4a_01"
+	      name="{=kotk_viking_helm_4a_01}T5 Nord Helm"
+	      mesh="viking_helm_4a_01"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="sturgian_crown_01_gold"
+	      name="{=kotk_sturgian_crown_01_gold}T5 Nord Golden Circlet"
+	      mesh="sturgian_crown_01_gold"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_valk_circlet"
+	      name="{=kotk_t5_sturgian_valk_circlet}T5 Valkyrjur Circlet"
+	      mesh="sturgian_crown_01_gold"
+	      culture="Culture.nord"
+	      weight="1.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_01"
+	      name="{=kotk_t6_sturgian_head_armor_01}T6 Nord Helm"
+	      mesh="viking_helm_4a"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="cyber_viking_helm"
+	      name="{=kotk_cyber_viking_helm}T6 Nord Helm"
+	      mesh="cyber_viking_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_02"
+	      name="{=kotk_t6_sturgian_head_armor_02}T5 Bandit Helm"
+	      mesh="mid_helm_01"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_02a"
+	      name="{=kotk_t6_sturgian_head_armor_02}T5 Bandit Helm"
+	      mesh="mid_helm_01_dirty"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_03"
+	      name="{=kotk_t6_sturgian_head_armor_03}T6 Nord Helm"
+	      mesh="sturgia_t6_gear_01_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_04"
+	      name="{=kotk_t6_sturgian_head_armor_04}T6 Nord Helm"
+	      mesh="sturgia_t6_gear_02_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_05"
+	      name="{=kotk_t6_sturgian_head_armor_05}T6 Nord Helm"
+	      mesh="sturgia_t6_gear_03_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_06"
+	      name="{=kotk_t6_sturgian_head_armor_06}T6 Nord Helm"
+	      mesh="sturgian_valkir_helm_03_d"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_07"
+	      name="{=kotk_t6_sturgian_head_armor_07}T6 Nord Helm"
+	      mesh="sturgian_valkir_helm_02_d"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_head_armor_08"
+	      name="{=kotk_t6_sturgian_head_armor_08}T6 Nord Helm"
+	      mesh="sturgian_valkir_helm_01_d"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_helm"
+	      name="{=kotk_t6_valkyrjur_helm}T6 Valkyrjur Silver Helm"
+	      mesh="t6_valkyrjur_helm"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_helm_brass"
+	      name="{=kotk_t6_valkyrjur_helm_brass}T6 Valkyrjur Brass Helm"
+	      mesh="t6_valkyrjur_helm_brass"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_helm_dark_gold"
+	      name="{=kotk_t6_valkyrjur_helm_dark_gold}T6 Valkyrjur Dark Gold Helm"
+	      mesh="t6_valkyrjur_helm_dark_gold"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_valk_helm_brass"
+	      name="{=kotk_t6_sturgian_valk_helm_brass}T6 Valkyrjur Helm"
+	      mesh="t6_sturgian_valk_helm_brass"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_nn_viking_helm_original"
+	      name="{=kotk_t6_nn_viking_helm_original}T6 Siga's Helm"
+	      mesh="t6_nn_viking_helm_original"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="58"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_nn_viking_helm_original_alt_01"
+	      name="{=kotk_t6_nn_viking_helm_original_alt_01}T6 Svana's Helm"
+	      mesh="sturgian_crown_01_gold"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="58"
+			       has_gender_variations="false"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_coomsviking_helm_02"
+	      name="{=kotk_t6_coomsviking_helm_02}T6 Coomsviking Silver Helm"
+	      mesh="t6_coomsviking_helm_02"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_coomsviking_helm_02_gold"
+	      name="{=kotk_t6_coomsviking_helm_02_gold}T6 Coomsviking Gold Helm"
+	      mesh="t6_coomsviking_helm_02_gold"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_coomsviking_bloody"
+	      name="{=kotk_t6_coomsviking_bloody}T6 Coomsviking Filthy Helm"
+	      mesh="t6_coomsviking_bloody"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_coomsviking_silver"
+	      name="{=kotk_t6_coomsviking_silver}T6 Coomsviking Silver Helm"
+	      mesh="t6_coomsviking_silver"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_coomsviking_gold"
+	      name="{=kotk_t6_coomsviking_gold}T6 Coomsviking Gold Helm"
+	      mesh="t6_coomsviking_gold"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_sturgian_lord_helmet_b"
+	      name="{=kotk_kotk_sturgian_lord_helmet_b}KOTK Nord Noble Helmet"
+	      mesh="kotk_sturgian_lord_helmet_b"
+	      culture="Culture.nord"
+	      is_merchandise="false"
+	      subtype="head_armor"
+	      weight="3.5"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type2"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="kotk_decorated_goggled_helmet"
+	      name="{=kotk_kotk_decorated_goggled_helmet}KOTK Nord Noble Helmet"
+	      mesh="kotk_decorated_goggled_helmet"
+	      culture="Culture.nord"
+	      is_merchandise="false"
+	      weight="3.2"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="kotk_sturgian_helmet_closed"
+	      name="{=kotk_kotk_sturgian_helmet_closed}KOTK Nord Noble Helmet"
+	      mesh="kotk_sturgian_helmet_closed"
+	      culture="Culture.nord"
+	      is_merchandise="false"
+	      weight="3.8"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="53"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_bimbo_earrings"
+	      name="{=kotk_t2_bimbo_earrings}T2 Bimbo Earrings"
+	      mesh="t2_bimbo_earrings"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="thottingham_t2_hat"
+	      name="{=kotk_thottingham_t2_hat}T2 Thottingham Hat"
+	      mesh="thottingham_t2_hat"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_vlandia_head_armor_01"
+	      name="{=kotk_t2_vlandia_head_armor_01}T2 Vlandian Helm"
+	      mesh="iron_circlet_bandit"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bimbo_helm"
+	      name="{=kotk_t3_bimbo_helm1}T3 Bimbo Helm"
+	      mesh="t3_bimbo_helm"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_vlandia_head_armor_01"
+	      name="{=kotk_t3_vlandia_head_armor_01}T3 Vlandian Helm"
+	      mesh="vlandia_helmet_h_e"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_vlandia_head_armor_02"
+	      name="{=kotk_t3_vlandia_head_armor_02}T3 Vlandian Helm"
+	      mesh="vlandia_helmet_n_e"
+	      culture="Culture.vlandia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandia_head_armor_01"
+	      name="{=kotk_t4_vlandia_head_armor_01}T4 Vlandian Helm"
+	      mesh="vlandia_helmet_i_y"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="vlandian_crown_01_gold"
+	      name="{=kotk_vlandian_crown_01_gold}T4 Vlandian Gold Circlet"
+	      mesh="vlandian_crown_01_gold"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandia_helm_silver"
+	      name="{=kotk_t4_vlandia_helm_silver}T4 Vlandian Helm"
+	      mesh="t4_vlandia_helm_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandia_head_armor_02"
+	      name="{=kotk_t4_vlandia_head_armor_02}T4 Vlandian Helm"
+	      mesh="vlandia_helmet_t_y"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_knight_helmet"
+	      name="{=kotk_t4_knight_helmet}T4 Vlandian Knight Helm"
+	      mesh="t4_knight_helmet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandian_bimbo_archer_circlet"
+	      name="{=kotk_t4_vlandian_bimbo_archer_circlet}T4 Bimbo Archer Circlet"
+	      mesh="t4_vlandian_bimbo_archer_circlet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandian_og_archer_circlet"
+	      name="{=kotk_t4_vlandian_og_archer_circlet}T4 Vlandian Archer Circlet"
+	      mesh="t4_vlandian_og_archer_circlet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bimbo_helm"
+	      name="{=kotk_t4_bimbo_helm}T4 Bimbo Helm"
+	      mesh="t4_bimbo_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_western_merc_helm"
+	      name="{=kotk_t4_western_merc_helm}T4 Western Mercenary Helm"
+	      mesh="t4_western_merc_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="chain"
+			       material_type="Chainmail" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_kardia_helm"
+	      name="{=kotk_t4_kardia_helm}T4 Noble Vlandian Helm"
+	      mesh="t4_kardia_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bimbo_vlandian_t5_sallet"
+	      name="{=kotk_bimbo_vlandian_t5_sallet}T5 Bimboknight Helm"
+	      mesh="bimbo_vlandian_t5_sallet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       covers_head="false"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bimbo_vlandian_t5_sallet_visorup"
+	      name="{=kotk_bimbo_vlandian_t5_sallet_visorup}T5 Bimboknight Helm"
+	      mesh="bimbo_vlandian_t5_sallet_visorup"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       covers_head="false"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_bimboknight_helm"
+	      name="{=kotk_t6_bimboknight_helm}T5 Bimboknight Helm"
+	      mesh="t6_bimboknight_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       covers_head="false"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_kardia_helm"
+	      name="{=kotk_t5_kardia_helm}T5 Gendarme Helm"
+	      mesh="t5_kardia_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_vlandia_helmet_r_a"
+	      name="{=kotk_kotk_vlandia_helmet_r_a}T5 KotK Segmented Skullcap over Mail Coif"
+	      mesh="kotk_vlandia_helmet_r_a"
+	      culture="Culture.vlandia"
+	      weight="3.2"
+	      appearance="2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       beard_cover_type="type4"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_helm_01_gold"
+	      name="{=kotk_t5_vlandia_helm_01_gold}T5 Golden Vlandian Helm"
+	      mesh="vlandia_helm_01_gold"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_helm_01_silver"
+	      name="{=kotk_t5_vlandia_helm_01_silver}T5 Silver Vlandian Helm"
+	      mesh="vlandia_helm_01_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_cavalry_helm_visorup"
+	      name="{=kotk_t5_vlandia_cavalry_helm_visorup}T5 Vlandian Helm"
+	      mesh="t5_vlandia_cavalry_helm_visorup"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_cavalry_helm_visordown"
+	      name="{=kotk_t5_vlandia_cavalry_helm_visordown}T5 Vlandian Helm"
+	      mesh="t5_vlandia_cavalry_helm_visordown"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_head_armor_01"
+	      name="{=kotk_t5_vlandia_head_armor_01}T5 Vlandian Helm"
+	      mesh="vlandian_t5_sallet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_head_armor_02"
+	      name="{=kotk_t5_vlandia_head_armor_02}T5 Vlandian Helm"
+	      mesh="vlandian_t5_sallet_visor_up"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_head_armor_03"
+	      name="{=kotk_t5_vlandia_head_armor_03}T5 Vlandian Helm"
+	      mesh="vlandian_t6_sallet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="gendarme_helm_gold"
+	      name="{=kotk_gendarme_helm_gold}T5 Gendarm Helm"
+	      mesh="gendarme_helm_gold"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="soul_eater_helm_01_faction"
+	      name="{=kotk_soul_eater_helm_01_faction}T5 Faction Souleater Helm"
+	      mesh="soul_eater_helm_01_faction"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="soul_eater_helm_01_black_gold"
+	      name="{=kotk_soul_eater_helm_01_black_gold}T5 Black Souleater Helm"
+	      mesh="soul_eater_helm_01_black_gold"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="soul_eater_helm_01_gold"
+	      name="{=kotk_soul_eater_helm_01_gold}T5 Gold Souleater Helm"
+	      mesh="soul_eater_helm_01_gold"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_royal_armor_helm"
+	      name="{=kotk_t6_royal_armor_helm}T6 Gold Royal Helm"
+	      mesh="t6_royal_armor_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="soul_eater_helm_01_cav_de_fer"
+	      name="{=kotk_soul_eater_helm_01_cav_de_fer}T6 Vlandian Cavaliers de Fer Helm"
+	      mesh="soul_eater_helm_01_cav_de_fer"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="skull_t6_helm_gold"
+	      name="{=kotk_skull_t6_helm_gold}T6 Gold Skull Helm"
+	      mesh="skull_t6_helm_gold"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="skull_t6_helm_black_worn"
+	      name="{=kotk_skull_t6_helm_black_worn}T6 Black Skull Helm"
+	      mesh="skull_t6_helm_black_worn"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_head_armor_01"
+	      name="{=kotk_t6_vlandia_head_armor_01}T6 Vlandian Helm"
+	      mesh="vlandia_helm_01"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_head_armor_02"
+	      name="{=kotk_t6_vlandia_head_armor_02}T6 Vlandian Helm"
+	      mesh="helmet7"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_souleater_helm_8_dark"
+	      name="{=kotk_kotk_souleater_helm_8_dark}T6 KotK Soul Eater Helm"
+	      mesh="kotk_souleater_helm_8_dark"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_souleater_helm_6_dark"
+	      name="{=kotk_kotk_souleater_helm_6_dark}T6 KotK Soul Eater Helm"
+	      mesh="kotk_souleater_helm_6_dark"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_souleater_helm_8"
+	      name="{=kotk_kotk_souleater_helm_8}T6 KotK Soul Eater Helm"
+	      mesh="kotk_souleater_helm_8"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_head_armor_03"
+	      name="{=kotk_t6_vlandia_head_armor_03}T6 Vlandian Helm"
+	      mesh="helmet7_a"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_head_armor_04"
+	      name="{=kotk_t6_vlandia_head_armor_04}T6 Vlandian Helm"
+	      mesh="helmet7_b"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_hero_head_armor"
+	      name="{=kotk_t6_vlandia_hero_head_armor}T6 Vlandian Hero Helm"
+	      mesh="t6_vlandian_sallet_new_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_calatild_head_armor"
+	      name="{=kotk_t6_vlandia_calatild_head_armor}T6 Calatild's Helm"
+	      mesh="t6_vlandian_sallet_new_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_silvind_waifu_helm"
+	      name="{=kotk_t6_silvind_waifu_helm}T6 Silvind's Helm"
+	      mesh="t6_silvind_waifu_helm"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_helm_new_silver"
+	      name="{=kotk_t6_vlandia_helm_new_silver}T6 Vlandian Faction Helm"
+	      mesh="t6_vlandia_helm_new_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandian_sallet_new_silver"
+	      name="{=kotk_t6_vlandian_sallet_new_silver}T6 Vlandian Faction Helm"
+	      mesh="t6_vlandian_sallet_new_silver"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_head_armor_01"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_head_armor_01}T6 Vlandian Cavaliers de Fer Helm"
+	      mesh="t6_vlandia_cavaliers_de_fer_head_armor_01"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_head_armor_02"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_head_armor_02}T6 Vlandian Cavaliers de Fer Helm"
+	      mesh="t6_vlandia_cavaliers_de_fer_head_armor_02"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_head_armor_03"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_head_armor_03}T6 Vlandian Cavaliers de Fer Helm"
+	      mesh="t6_vlandia_cavaliers_de_fer_head_armor_03"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_vlandia_helmet_s_a"
+	      name="{=kotk_kotk_vlandia_helmet_s_a}KOTK Vlandian Noble Helmet"
+	      subtype="head_armor"
+	      mesh="kotk_vlandia_helmet_s_a"
+	      culture="Culture.vlandia"
+	      is_merchandise="false"
+	      weight="3.7"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_vlandia_lord_helmet_c"
+	      name="{=kotk_kotk_vlandia_lord_helmet_c}KOTK Vlandian Noble Helmet"
+	      mesh="kotk_vlandia_lord_helmet_c"
+	      culture="Culture.vlandia"
+	      is_merchandise="false"
+	      subtype="head_armor"
+	      weight="3.6"
+	      difficulty="4"
+	      appearance="4.2"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type4"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="kotk_vlandia_lord_helmet_b"
+	      name="{=kotk_kotk_vlandia_lord_helmet_b}KOTK Vlandian Noble Helmet"
+	      mesh="kotk_vlandia_lord_helmet_b"
+	      culture="Culture.vlandia"
+	      is_merchandise="false"
+	      subtype="head_armor"
+	      weight="3.9"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="52"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       beard_cover_type="type3"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+</Items>

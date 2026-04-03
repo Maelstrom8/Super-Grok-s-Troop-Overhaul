@@ -1,0 +1,5031 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Items>
+	<Item id="zd_t2_boot"
+	      name="{=kotk_zd_t2_boot}T2 Darawish al-Zephyr Boot"
+	      mesh="zd_t2_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_aserai_leg_armor_01"
+	      name="{=kotk_t2_aserai_leg_armor_01}T2 Aserai Legarmor"
+	      mesh="aserai_boot_03"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_aserai_leg_armor_02"
+	      name="{=kotk_t2_aserai_leg_armor_02}T2 Aserai Legarmor"
+	      mesh="aserai_boot_03_mod_1"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_gulam_boot"
+	      name="{=kotk_t2_gulam_boot}T2 Ghulam Boots"
+	      mesh="t2_gulam_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_aserai_leg_armor_01"
+	      name="{=kotk_t3_aserai_leg_armor_01}T3 Aserai Legarmor"
+	      mesh="aserai_boot_03"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_aserai_leg_armor_02"
+	      name="{=kotk_t3_aserai_leg_armor_02}T3 Aserai Legarmor"
+	      mesh="aserai_boot_02_mod_1"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_eastern_mercenary_leg_armor_01"
+	      name="{=kotk_t3_eastern_mercenary_leg_armor_01}T3 Eastern Mercenary Legarmor"
+	      mesh="mercenary_archer_armor_01_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_gulam_boot"
+	      name="{=kotk_t3_gulam_boot}T3 Ghulam Boots"
+	      mesh="t3_gulam_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_aserai_leg_armor_01"
+	      name="{=kotk_t4_aserai_leg_armor_01}T4 Aserai Legarmor"
+	      mesh="aserai_boot_02"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_aserai_leg_armor_02"
+	      name="{=kotk_t4_aserai_leg_armor_02}T4 Aserai Legarmor"
+	      mesh="t5_armored_short_boot_red_gold"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_eastern_mercenary_leg_armor_01"
+	      name="{=kotk_t4_eastern_mercenary_leg_armor_01}T4 Eastern Mercenary Legarmor"
+	      mesh="mercenary_armor_01_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_gulam_boot"
+	      name="{=kotk_t4_gulam_boot}T4 Ghulam Boots"
+	      mesh="t4_gulam_boot"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_beni_zilal_boots"
+	      name="{=kotk_t2_beni_zilal_boots}T4 Beni Zilal Long Boots"
+	      mesh="t2_beni_zilal_boots"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="zd_t5_boot"
+	      name="{=kotk_zd_t5_boot}T5 Darawish al-Zephyr Boots"
+	      mesh="zd_t5_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_aserai_leg_armor_01"
+	      name="{=kotk_t5_aserai_leg_armor_01}T5 Aserai Legarmor"
+	      mesh="aserai_boot_01"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_aserai_leg_armor_02"
+	      name="{=kotk_t5_aserai_leg_armor_02}T5 Aserai Legarmor"
+	      mesh="t5_armored_short_boot_black_gold"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_boot_new_black_gold"
+	      name="{=kotk_t6_aserai_boot_new_black_gold}T5 Aserai Legarmor"
+	      mesh="t6_aserai_boot_new_black_gold"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_boot_new_red_gold"
+	      name="{=kotk_t6_aserai_boot_new_red_gold}T5 Aserai Legarmor"
+	      mesh="t6_aserai_boot_new_red_gold"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_eastern_mercenary_leg_armor_01"
+	      name="{=kotk_t5_eastern_mercenary_leg_armor_01}T5 Eastern Mercenary Legarmor"
+	      mesh="mercenary_armor_01_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_gulam_boot"
+	      name="{=kotk_t5_gulam_boot}T5 Ghulam Boots"
+	      mesh="t5_gulam_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_jawwal_leg_armor_zebra"
+	      name="{=kotk_t5_jawwal_leg_armor_zebra}T5 Jawwal Legarmor"
+	      mesh="jawwal_new_zebra_t5_boots"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_jawwal_leg_armor_leopard"
+	      name="{=kotk_t5_jawwal_leg_armor_leopard}T5 Jawwal Legarmor"
+	      mesh="jawwal_new_leopard_t5_boots"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_jawwal_alt_leg_armor_leopard"
+	      name="{=kotk_t5_jawwal_alt_leg_armor_leopard}T5 Jawwal Legarmor"
+	      mesh="jawwal_t5_leopard_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_jawwal_alt_leg_armor_zebra"
+	      name="{=kotk_t5_jawwal_alt_leg_armor_zebra}T5 Jawwal Legarmor"
+	      mesh="jawwal_t5_zebra_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_leg_armor_05"
+	      name="{=kotk_t6_aserai_leg_armor_05}T6 Aserai Legarmor"
+	      mesh="aserai_boot_01"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_hero_leg_armor"
+	      name="{=kotk_t6_aserai_hero_leg_armor}T6 Aserai Hero Legarmor"
+	      mesh="aserai_t6_waifu_boot"
+	      culture="Culture.aserai"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_arwa_leg_armor"
+	      name="{=kotk_t6_aserai_arwa_leg_armor}T6 Arwa's Legarmor"
+	      mesh="aserai_t6_waifu_boot_01"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="marid_boot"
+	      name="{=kotk_marid_boot}T6 Aserai Marid Legarmor"
+	      mesh="marid_boot"
+	      culture="Culture.aserai"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_khuzait_leather_boots"
+	      name="{=kotk_kotk_khuzait_leather_boots}Curved Boots"
+	      mesh="kotk_khuzait_leather_boots"
+	      culture="Culture.aserai"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="kotk_empire_plated_boots"
+	      name="{=kotk_kotk_empire_plated_boots}KOTK Aserai Noble Splint Boots"
+	      mesh="kotk_empire_plated_boots"
+	      culture="Culture.aserai"
+	      weight="2.7"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="wedding_boot_01_aserai"
+	      name="{=kotk_wedding_boot_01_aserai}KOTK Aserai Wedding Boot"
+	      mesh="wedding_boot_01_aserai"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="wedding_boot_01_strugia"
+	      name="{=kotk_wedding_boot_01_strugia}KOTK Nord Wedding Boot"
+	      mesh="wedding_boot_01_sturgia"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_battania_leg_armor_01"
+	      name="{=kotk_t2_battania_leg_armor_01}T2 Battanian Legarmor"
+	      mesh="battania_fur_boot_a_brown"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_battania_leg_armor_02"
+	      name="{=kotk_t2_battania_leg_armor_02}T2 Battanian Legarmor"
+	      mesh="battania_fur_boot_b_regular"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_battania_leg_armor_01"
+	      name="{=kotk_t3_battania_leg_armor_01}T3 Battanian Legarmor"
+	      mesh="battania_fur_boot_a_edit"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_battania_leg_armor_02"
+	      name="{=kotk_t3_battania_leg_armor_02}T3 Battanian Legarmor"
+	      mesh="battania_fur_boot_b_regular"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_battania_leg_armor_01"
+	      name="{=kotk_t4_battania_leg_armor_01}T4 Battanian Legarmor"
+	      mesh="battania_fur_boot_a2"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_battania_leg_armor_02"
+	      name="{=kotk_t4_battania_leg_armor_02}T4 Battanian Legarmor"
+	      mesh="battania_fur_boot_b_regular_stocking_01"
+	      culture="Culture.battania"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_barbarian_3_boots"
+	      name="{=kotk_kotk_barbarian_3_boots}T5 Barbarian Boots"
+	      mesh="kotk_barbarian_3_boots"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_battania_leg_armor_01"
+	      name="{=kotk_t5_battania_leg_armor_01}T5 Battanian Legarmor"
+	      mesh="battania_fur_boot_b_regular"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_battania_leg_armor_02"
+	      name="{=kotk_t5_battania_leg_armor_02}T5 Battanian Legarmor"
+	      mesh="t3_barbarian_boots_default_alt_1"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_battania_leg_armor_03"
+	      name="{=kotk_t5_battania_leg_armor_03}T5 Battanian Legarmor"
+	      mesh="t4_barbarian_boot"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_leg_armor_05"
+	      name="{=kotk_t6_battania_leg_armor_05}T6 Battanian Legarmor"
+	      mesh="battania_fur_boot_a2"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_leg_armor_06"
+	      name="{=kotk_t6_battania_leg_armor_06}T6 Battanian Legarmor"
+	      mesh="t3_barbarian_boots_default_alt_1"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_hero_leg_armor_01"
+	      name="{=kotk_t6_battania_hero_leg_armor_01}T6 Battanian Hero Legarmor"
+	      mesh="battania_t6_boots_hero"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_corein_leg_armor_01"
+	      name="{=kotk_t6_battania_corein_leg_armor_01}T6 Corein's Legarmor"
+	      mesh="battania_t6_boots_hero_corein"
+	      culture="Culture.battania"
+	      weight="2"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="corein_hero_boot_2024_green"
+	      name="{=kotk_corein_hero_boot_2024_green}T6 Corein's Legarmor"
+	      mesh="corein_hero_boot_2024_green"
+	      culture="Culture.battania"
+	      weight="2"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_gwydion_battania_leg_armor_06"
+	      name="{=kotk_t6_gwydion_battania_leg_armor_06}T6 Battanian Legarmor"
+	      mesh="t5_dryad_boots"
+	      culture="Culture.battania"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_battania_fur_boot_a"
+	      name="{=kotk_kotk_battania_fur_boot_a}KOTK Battanian Fur Boots"
+	      mesh="kotk_battania_fur_boot_a"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      difficulty="4"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="12"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="t2_imperial_leg_armor_01"
+	      name="{=kotk_t2_imperial_leg_armor_01}T2 Imperial Legarmor"
+	      mesh="imperial_sandal_a"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_imperial_leg_armor_02"
+	      name="{=kotk_t2_imperial_leg_armor_02}T2 Imperial Legarmor"
+	      mesh="spartan_shoe"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_jawwal_leg_armor_01"
+	      name="{=kotk_t2_jawwal_leg_armor_01}T2 Jawwal Legarmor"
+	      mesh="jawwal_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_jawwal2_leg_armor_01"
+	      name="{=kotk_t2_jawwal2_leg_armor_01}T2 Jawwal Legarmor"
+	      mesh="jawwal2_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_embersofflame_leg_armor_01"
+	      name="{=kotk_t2_embersofflame_leg_armor_01}T2 Embers of the Flame Legarmor"
+	      mesh="embersofflame_t2_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_hidden_hand_leg_armor_01"
+	      name="{=kotk_t2_hidden_hand_leg_armor_01}T2 Hidden Hand Legarmor"
+	      mesh="hidden_hand_boots_t2"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_imperial_leg_armor_01"
+	      name="{=kotk_t3_imperial_leg_armor_01}T3 Imperial Legarmor"
+	      mesh="imperial_sandal_a"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_imperial_civilian_boot"
+	      name="{=kotk_t3_imperial_civilian_boot}T3 Imperial Legarmor"
+	      mesh="t3_imperial_civilian_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_faction_new"
+	      name="{=kotk_thicc_elves_faction_new}T3 Imperial Legarmor"
+	      mesh="thicc_elves_faction_new"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="imperial_sandal_a1"
+	      name="{=kotk_imperial_sandal_a1}T3 Imperial Legarmor"
+	      mesh="imperial_sandal_a1"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_swordsister_mercenary_leg_armor_01"
+	      name="{=kotk_t3_swordsister_mercenary_leg_armor_01}T3 Sword Sister Mercenary Legarmor"
+	      mesh="sword_sister_armor_01_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="se_bikini_heels"
+	      name="{=kotk_se_bikini_heels}T3 Southern Empire Heels"
+	      mesh="se_bikini_heels"
+	      culture="Culture.empire"
+	      weight="1"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bone_armor_gold_shoe"
+	      name="{=kotk_t3_bone_armor_gold_shoe}T3 Gold Bone Legarmor"
+	      mesh="t3_bone_armor_gold_shoe"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bone_armor_bone_shoe"
+	      name="{=kotk_t3_bone_armor_bone_shoe}T3 Bone Legarmor"
+	      mesh="t3_bone_armor_bone_shoe"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_embersofflame_leg_armor_01"
+	      name="{=kotk_t3_embersofflame_leg_armor_01}T3 Embers of the Flame Legarmor"
+	      mesh="embersofflame_t3_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_hidden_hand_leg_armor_01"
+	      name="{=kotk_t3_hidden_hand_leg_armor_01}T3 Hidden Hand Legarmor"
+	      mesh="hidden_hand_boots_t3"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="goondor_t4_boot"
+	      name="{=kotk_goondor_t4_boot}T4 Goondor Boot"
+	      mesh="goondor_t4_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="imperial_hero_civilian_boot_faction"
+	      name="{=kotk_imperial_hero_civilian_boot_faction}T4 Faction Civilian Boot"
+	      mesh="imperial_hero_boots_faction"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_rhagaea_civilian_leg_armor_01"
+	      name="{=kotk_t4_rhagaea_civilian_leg_armor_01}T4 Rhagaea's Civilian Legarmor"
+	      mesh="rhagaea_civilian_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_hero_leg_armor_01"
+	      name="{=kotk_t4_imperial_hero_leg_armor_01}T4 Imperial Hero Civilian Legarmor"
+	      mesh="imperial_hero_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_leg_armor_gold"
+	      name="{=kotk_t4_imperial_leg_armor_gold}T4 Imperial Legarmor"
+	      mesh="imperial_boot_b_01"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_leg_armor_silver"
+	      name="{=kotk_t4_imperial_leg_armor_silver}T4 Imperial Legarmor"
+	      mesh="imperial_boot_b_02"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_swordsister_mercenary_leg_armor_01"
+	      name="{=kotk_t4_swordsister_mercenary_leg_armor_01}T4 Sword Sister Mercenary Legarmor"
+	      mesh="sword_sister_armor_02_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="se_gulam_boot"
+	      name="{=kotk_se_gulam_boot}T4 Southern Empire Boots"
+	      mesh="se_gulam_boot"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bl_bodysuit_cleveage_southern_empire_boots"
+	      name="{=kotk_bl_bodysuit_cleveage_southern_empire_boots}T4 Southern Empire Short Boots"
+	      mesh="bl_bodysuit_cleveage_southern_empire_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="se_long_boots"
+	      name="{=kotk_se_long_boots}T4 Southern Empire Long Boots"
+	      mesh="se_long_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_embersofflame_leg_armor_01"
+	      name="{=kotk_t4_embersofflame_leg_armor_01}T4 Embers of the Flame Legarmor"
+	      mesh="embersofflame_t4_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_hidden_hand_leg_armor_01"
+	      name="{=kotk_t4_hidden_hand_leg_armor_01}T4 Hidden Hand Legarmor"
+	      mesh="hidden_hand_boots_t4"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_leg_armor_12"
+	      name="{=kotk_t5_leg_armor_12}T4 Leather Boots"
+	      mesh="thicc_elf_boots"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_leg_armor_13"
+	      name="{=kotk_t5_leg_armor_13}T4 Leather Boots"
+	      mesh="thicc_elf_boots_2"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_leg_armor_14"
+	      name="{=kotk_t5_leg_armor_14}T4 Leather Boots"
+	      mesh="thicc_elf_boots_3"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_artemis_boot"
+	      name="{=kotk_t5_imperial_artemis_boot}T5 Imperial Artemis Legarmor"
+	      mesh="t5_imperial_artemis_boot"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_leg_armor_silver_simp"
+	      name="{=kotk_t5_imperial_leg_armor_silver_simp}T5 Imperial Legarmor"
+	      mesh="t6_imperial_boot_heavy_silver"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_leg_armor_silver"
+	      name="{=kotk_t5_imperial_leg_armor_silver}T5 Imperial Legarmor"
+	      mesh="imperial_boot_a_02"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="imperial_boot_b_01"
+	      name="{=kotk_imperial_boot_b_01}T5 Imperial Legarmor"
+	      mesh="imperial_boot_b_01"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_leg_armor_gold_simp"
+	      name="{=kotk_t5_imperial_leg_armor_gold_simp}T5 Imperial Legarmor"
+	      mesh="t6_imperial_boot_heavy_gold"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_swordsister_mercenary_leg_armor_01"
+	      name="{=kotk_t5_swordsister_mercenary_leg_armor_01}T5 Sword Sister Mercenary Legarmor"
+	      mesh="sword_sister_armor_03_boot"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="comatasa_heels"
+	      name="{=kotk_comatasa_heels}T5 Comatasa's Heels"
+	      mesh="comatasa_heels"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="embersofflame_t5_boots"
+	      name="{=kotk_embersofflame_t5_boots}T5 Embers of the Flame Legarmor"
+	      mesh="embersofflame_t5_boots"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_hidden_hand_leg_armor_01"
+	      name="{=kotk_t5_hidden_hand_leg_armor_01}T5 Hidden Hand Legarmor"
+	      mesh="hidden_hand_boots_t4"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_leg_armor_gold"
+	      name="{=kotk_t6_imperial_leg_armor_gold}T6 Imperial Legarmor"
+	      mesh="t6_imperial_new_boot_gold"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_leg_armor_silver"
+	      name="{=kotk_t6_imperial_leg_armor_silver}T6 Imperial Legarmor"
+	      mesh="t6_imperial_new_boot_silver"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperatrix_boot"
+	      name="{=kotk_t6_imperatrix_boot}T6 Imperatrix Boot"
+	      mesh="t6_imperatrix_boot"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_rhagaea_leg_armor_brass_a"
+	      name="{=kotk_t6_rhagaea_leg_armor_brass_a}T6 Rhagaea's Imperial Legarmor"
+	      mesh="t6_rhagaea_boot_new"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="35"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_ira_leg_armor_brass_a"
+	      name="{=kotk_t6_ira_leg_armor_brass_a}T6 Ira's Imperial Legarmor"
+	      mesh="t6_ira_boot"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_se_boots"
+	      name="{=kotk_t6_se_boots}T6 Elite Southern Empire Boots"
+	      mesh="t6_se_boots"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="se_cyb_leg"
+	      name="{=kotk_se_cyb_leg}T6 Comatasa's Legarmor"
+	      mesh="se_cyb_leg"
+	      culture="Culture.empire"
+	      weight="1.8"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_elite_imperial_boots_gold"
+	      name="{=kotk_t6_elite_imperial_boots_gold}T6 Elite Imperial Boots"
+	      mesh="t6_elite_imperial_boots_gold"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="pethros_heels"
+	      name="{=kotk_pethros_heels}T6 Red Bottoms of the TRUE EMPRESS"
+	      mesh="pethros_heels"
+	      culture="Culture.empire"
+	      weight="1"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="40"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_bimbo_huntress_boot_original"
+	      name="{=kotk_t6_bimbo_huntress_boot_original}T6 Bimbo Huntress Legarmor"
+	      mesh="t6_bimbo_huntress_boot_original"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_huntress_boot_faction"
+	      name="{=kotk_t6_huntress_boot_faction}T6 Huntress Legarmor"
+	      mesh="t6_huntress_boot_faction"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_huntress_boot_original"
+	      name="{=kotk_t6_huntress_boot_original}T6 Elite Huntress Boots"
+	      mesh="t6_huntress_boot_original"
+	      culture="Culture.empire"
+	      weight="1.8"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_heavy_boot_gold"
+	      name="{=kotk_t6_imperial_heavy_boot_gold}T6 Imperial Heavy Legarmor"
+	      mesh="t6_imperial_heavy_boot_gold"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_heavy_boot_silver"
+	      name="{=kotk_t6_imperial_heavy_boot_silver}T6 Imperial Heavy Legarmor"
+	      mesh="t6_imperial_heavy_boot_silver"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_heavy_faction"
+	      name="{=kotk_t6_imperial_heavy_faction}T6 Imperial Heavy Legarmor"
+	      mesh="t6_imperial_heavy_faction"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_fine_town_boots"
+	      name="{=kotk_kotk_fine_town_boots}KOTK Noble Civilian Boots"
+	      mesh="kotk_fine_town_boots"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="kotk_decorated_imperial_boots"
+	      name="{=kotk_kotk_decorated_imperial_boots}KOTK Imperial Noble Boots"
+	      mesh="kotk_decorated_imperial_boots"
+	      culture="Culture.empire"
+	      weight="2.3"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="khuzait_wedding_boot"
+	      name="{=kotk_khuzait_wedding_boot}KOTK Khuzit Wedding Boot"
+	      mesh="imperial_sandal_a"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_wedding_boot"
+	      name="{=kotk_t2_wedding_boot}KOTK Wedding Boot"
+	      mesh="wedding_boot_01"
+	      culture="Culture.empire"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_shibari_legs"
+	      name="{=kotk_t2_shibari_legs}T2 Shibari Boots Legarmor"
+	      mesh="t2_shibari_legs"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_khuzait_leg_armor_01"
+	      name="{=kotk_t2_khuzait_leg_armor_01}T2 Khuzait Legarmor"
+	      mesh="khuz_t3_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_oni_boot"
+	      name="{=kotk_kotk_oni_boot}T3 Oni Boot"
+	      mesh="kotk_oni_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_khuzait_newsamurai_boot"
+	      name="{=kotk_t3_khuzait_newsamurai_boot}T3 Khuzait Legarmor"
+	      mesh="t3_khuzait_newsamurai_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_khuzait_leg_armor_01"
+	      name="{=kotk_t3_khuzait_leg_armor_01}T3 Khuzait Legarmor"
+	      mesh="khuz_t3_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_khuzait_newsamurai_boot"
+	      name="{=kotk_t4_khuzait_newsamurai_boot}T4 Khuzait Legarmor"
+	      mesh="t4_khuzait_newsamurai_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_newsamurai_boot"
+	      name="{=kotk_t5_khuzait_newsamurai_boot}T5 Khuzait Boots"
+	      mesh="t5_khuzait_newsamurai_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_khuzait_leg_armor_01"
+	      name="{=kotk_t4_khuzait_leg_armor_01}T4 Khuzait Legarmor"
+	      mesh="khuz_t4_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_archer_boot"
+	      name="{=kotk_t5_khuzait_archer_boot}T4 Khuzait Archer Boots"
+	      mesh="t5_khuzait_archer_boot"
+	      culture="Culture.khuzait"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_leg_armor_01"
+	      name="{=kotk_t5_khuzait_leg_armor_01}T5 Khuzait Legarmor"
+	      mesh="khuz_new_boot_t5"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="samurai_boots_red"
+	      name="{=kotk_samurai_boots_red}T5 Red Samurai Boots"
+	      mesh="samurai_boots_red"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit1_legs_og_maps"
+	      name="{=kotk_nn_samurai_suit1_legs_og_maps}T5 Samurai I Boots"
+	      mesh="nn_samurai_suit1_legs_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit2_legs_og_maps"
+	      name="{=kotk_nn_samurai_suit2_legs_og_maps}T5 Samurai II Boots"
+	      mesh="nn_samurai_suit2_legs_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit3_legs_og_maps"
+	      name="{=kotk_nn_samurai_suit3_legs_og_maps}T5 Samurai III Boots"
+	      mesh="nn_samurai_suit3_legs_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="samurai_boots_black"
+	      name="{=kotk_samurai_boots_black}T5 Black Samurai Boots"
+	      mesh="samurai_boots_black"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_leg_armor_05"
+	      name="{=kotk_t6_khuzait_leg_armor_05}T6 Khuzait Legarmor"
+	      mesh="khuz_boot_t6"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_armor_whole_hero_boot"
+	      name="{=kotk_t6_khuzait_armor_whole_hero_boot}T6 Khuzait Hero Legarmor"
+	      mesh="t6_khuzait_armor_whole_hero_boot"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_boots_red"
+	      name="{=kotk_t6_khuzait_nn_2024_boots_red}T6 Khuzait Hero Legarmor"
+	      mesh="t6_khuzait_nn_2024_boots_red"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_boots"
+	      name="{=kotk_t6_khuzait_nn_2024_boots}T6 Khuzait Hero Legarmor"
+	      mesh="t6_khuzait_nn_2024_boots"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_bracer_boot_leopard_boot"
+	      name="{=kotk_t6_khuzait_bracer_boot_leopard_boot}T6 Khuzait Hero Legarmor"
+	      mesh="t6_khuzait_bracer_boot_leopard_boot"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_wizard_leg_foot_armor_nergui"
+	      name="{=kotk_t6_wizard_leg_foot_armor_nergui}T6 Khuzait Nergui Boots"
+	      mesh="t6_wizard_leg_foot_armor_nergui"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nergui_leg_armor"
+	      name="{=kotk_t6_khuzait_nergui_leg_armor}T6 Khuzait Nergui Legarmor"
+	      mesh="armored_boot_black_brass"
+	      culture="Culture.khuzait"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_khuzait_noble_civi_boots"
+	      name="{=kotk_kotk_khuzait_noble_civi_boots}KOTK Khuzait Noble Cilivian Boots"
+	      mesh="kotk_khuzait_noble_civi_boots"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="kotk_khuzait_suede_leather_foot"
+	      name="{=kotk_kotk_khuzait_suede_leather_foot}KOTK Khuzait Noble Boots"
+	      mesh="kotk_khuzait_suede_leather_foot"
+	      culture="Culture.khuzait"
+	      weight="1.0"
+	      difficulty="4"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="khuzait_curved_boots_edit"
+	      name="{=kotk_khuzait_curved_boots_edit}Curved Boots"
+	      mesh="khuzait_leather_boots_edit_cb"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="khuzait_leather_boots_new_uv_cb_01"
+	      name="{=kotk_khuzait_leather_boots_new_uv_cb_01}Curved Boots"
+	      mesh="khuzait_leather_boots_new_uv_cb"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="khuzait_leather_boots_new_uv_cb_02"
+	      name="{=kotk_khuzait_leather_boots_new_uv_cb_02}Curved Boots"
+	      mesh="khuzait_leather_boots_new_uv_cb_a"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="khuzait_leather_boots_new_uv_cb_03"
+	      name="{=kotk_khuzait_leather_boots_new_uv_cb_03}Curved Boots"
+	      mesh="khuzait_leather_boots_new_uv_cb_b"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="khuzait_leather_boots_new_uv_cb_04"
+	      name="{=kotk_khuzait_leather_boots_new_uv_cb_04}Curved Boots"
+	      mesh="khuzait_leather_boots_new_uv_cb_d"
+	      culture="Culture.khuzait"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="t2_harkonnen_boot"
+	      name="{=kotk_t2_harkonnen_boot}T2 Harkonnen Boots"
+	      mesh="t2_harkonnen_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="elven_lingerie_2_shoe_stockings_with_gold"
+	      name="{=kotk_elven_lingerie_2_shoe_stockings_with_gold}T2 Stocking with Shoes"
+	      mesh="elven_lingerie_2_shoe_stockings_with_gold"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="elven_lingerie_2_shoe_stockings"
+	      name="{=kotk_elven_lingerie_2_shoe_stockings}T2 Stocking with Shoes"
+	      mesh="elven_lingerie_2_shoe_stockings"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="elven_lingerie_2_shoe_stockings_faction"
+	      name="{=kotk_elven_lingerie_2_shoe_stockings_faction}T2 Stocking with Shoes"
+	      mesh="elven_lingerie_2_shoe_stockings_faction"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="slave_suit_iron_leg_shackle"
+	      name="{=kotk_slave_suit_iron_leg_shackle}T2 Iron Shackle"
+	      mesh="slave_suit_iron_leg_shackle"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="slave_suit_gold_leg_shackle"
+	      name="{=kotk_slave_suit_gold_leg_shackle}T2 Gold Shackle"
+	      mesh="slave_suit_gold_leg_shackle"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_heels"
+	      name="{=kotk_t2_heels}T2 Heels"
+	      mesh="t2_heels"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gazu_active_wear_stockings_default"
+	      name="{=kotk_gazu_active_wear_stockings_default}T2 Gazu Active Stockings Black"
+	      mesh="gazu_active_wear_stockings_default"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gazu_active_wear_stockings_faction"
+	      name="{=kotk_gazu_active_wear_stockings_faction}T2 Gazu Active Stockings Faction"
+	      mesh="gazu_active_wear_stockings_faction"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gt_sexy_heels_glass"
+	      name="{=kotk_gt_sexy_heels_glass}T2 Glass Heels"
+	      mesh="gt_sexy_heels_glass"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gt_sexy_heels_low_poly_blackleather"
+	      name="{=kotk_gt_sexy_heels_low_poly_blackleather}T2 Black Heels"
+	      mesh="gt_sexy_heels_low_poly_blackleather"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gt_sexy_heels_low_poly_blackleather_stocking_01"
+	      name="{=kotk_gt_sexy_heels_low_poly_blackleather_stocking_01}T2 Black Heels with Stockings"
+	      mesh="gt_sexy_heels_low_poly_blackleather_stocking_01"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="gt_sexy_heels_low_poly_blackleather_alt_1"
+	      name="{=kotk_gt_sexy_heels_low_poly_blackleather_alt_1}T2 Black Heels with Stockings"
+	      mesh="gt_sexy_heels_low_poly_blackleather_alt_1"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="hh_with_stockings"
+	      name="{=kotk_hh_with_stockings}T2 Black Heels with Stockings"
+	      mesh="hh_with_stockings"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_leg_armor_03"
+	      name="{=kotk_t2_nympho_leg_armor_03}T2 Nympho Legarmor"
+	      mesh="thicc_elves_black_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_leg_armor_04"
+	      name="{=kotk_t2_nympho_leg_armor_04}T2 Nympho Legarmor"
+	      mesh="thicc_elves_red_black"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_leg_armor_01"
+	      name="{=kotk_t2_nympho_leg_armor_01}T2 Nympho Legarmor"
+	      mesh="nympho_boot_new_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_leg_armor_02"
+	      name="{=kotk_t2_nympho_leg_armor_02}T2 Nympho Legarmor"
+	      mesh="t6_devil_armor_leg_silver"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_01"
+	      name="{=kotk_t2_bandit_leg_armor_01}T2 Bandit Legarmor"
+	      mesh="bandit_gear_01_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_02"
+	      name="{=kotk_t2_bandit_leg_armor_02}T2 Bandit Legarmor"
+	      mesh="bandit_gear_02_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_03"
+	      name="{=kotk_t2_bandit_leg_armor_03}T2 Bandit Legarmor"
+	      mesh="bandit_gear_03_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_04"
+	      name="{=kotk_t2_bandit_leg_armor_04}T2 Bandit Legarmor"
+	      mesh="bandit_gear_04_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_05"
+	      name="{=kotk_t2_bandit_leg_armor_05}T2 Bandit Legarmor"
+	      mesh="bandit_gear_05_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_06"
+	      name="{=kotk_t2_bandit_leg_armor_06}T2 Bandit Legarmor"
+	      mesh="sturgia_boots_d_converted_a"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_07"
+	      name="{=kotk_t2_bandit_leg_armor_07}T2 Bandit Legarmor"
+	      mesh="sturgia_boots_d_converted_b"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_08"
+	      name="{=kotk_t2_bandit_leg_armor_08}T2 Bandit Legarmor"
+	      mesh="sturgia_coots_c_converted_c"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_leg_armor_09"
+	      name="{=kotk_t2_bandit_leg_armor_09}T2 Bandit Legarmor"
+	      mesh="sturgia_doots_d_converted_d"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_leather_leg_armor_01"
+	      name="{=kotk_t2_leather_leg_armor_01}T2 Leather Legarmor"
+	      mesh="fantasy_leather_boots_01_a"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_leather_leg_armor_02"
+	      name="{=kotk_t2_leather_leg_armor_02}T2 Leather Legarmor"
+	      mesh="fantasy_leather_boots_01_b"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_leather_leg_armor_03"
+	      name="{=kotk_t2_leather_leg_armor_03}T2 Leather Legarmor"
+	      mesh="fantasy_leather_boots_02_a"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_leather_leg_armor_04"
+	      name="{=kotk_t2_leather_leg_armor_04}T2 Leather Legarmor"
+	      mesh="fantasy_leather_boots_02_b"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_barbarian_boots_default"
+	      name="{=kotk_t3_barbarian_boots_default}T3 Barbarian Boots"
+	      mesh="t3_barbarian_boots_default"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_barbarian_boots_default_alt_1"
+	      name="{=kotk_t3_barbarian_boots_default_alt_1}T3 Barbarian Boots"
+	      mesh="t3_barbarian_boots_default_alt_1"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="minthara_boot"
+	      name="{=kotk_minthara_boot}T3 Minthara Boots"
+	      mesh="minthara_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bl_bodysuit_cleveage_black_boot"
+	      name="{=kotk_bl_bodysuit_cleveage_black_boot}T3 Black Lowcut Boots"
+	      mesh="bl_bodysuit_cleveage_black_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_royal_boot"
+	      name="{=kotk_t3_royal_boot}T3 Royal Boots"
+	      mesh="t3_royal_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_nympho_leg_armor_01"
+	      name="{=kotk_t3_nympho_leg_armor_01}T3 Nympho Legarmor"
+	      mesh="nympho_boot_new_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_nympho_leg_armor_02"
+	      name="{=kotk_t3_nympho_leg_armor_02}T3 Nympho Legarmor"
+	      mesh="thicc_elves_black_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_nympho_leg_armor_03"
+	      name="{=kotk_t3_nympho_leg_armor_03}T3 Nympho Legarmor"
+	      mesh="thicc_elves_red_black"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_nympho_leg_armor_04"
+	      name="{=kotk_t3_nympho_leg_armor_04}T3 Nympho Legarmor"
+	      mesh="t6_devil_armor_leg_silver"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_leg_armor_01"
+	      name="{=kotk_t3_bandit_leg_armor_01}T3 Bandit Legarmor"
+	      mesh="bandit_gear_01_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_leg_armor_02"
+	      name="{=kotk_t3_bandit_leg_armor_02}T3 Bandit Legarmor"
+	      mesh="bandit_gear_02_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_leg_armor_03"
+	      name="{=kotk_t3_bandit_leg_armor_03}T3 Bandit Legarmor"
+	      mesh="bandit_gear_03_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_leg_armor_04"
+	      name="{=kotk_t3_bandit_leg_armor_04}T3 Bandit Legarmor"
+	      mesh="bandit_gear_04_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_leg_armor_05"
+	      name="{=kotk_t3_bandit_leg_armor_05}T3 Bandit Legarmor"
+	      mesh="bandit_gear_05_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_leather_leg_armor_01"
+	      name="{=kotk_t3_leather_leg_armor_01}T3 Leather Legarmor"
+	      mesh="fantasy_leather_boots_01_c"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_leather_leg_armor_02"
+	      name="{=kotk_t3_leather_leg_armor_02}T3 Leather Legarmor"
+	      mesh="fantasy_leather_boots_01_d"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_leather_leg_armor_03"
+	      name="{=kotk_t3_leather_leg_armor_03}T3 Leather Legarmor"
+	      mesh="fantasy_leather_boots_02_c"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_leather_leg_armor_04"
+	      name="{=kotk_t3_leather_leg_armor_04}T3 Leather Legarmor"
+	      mesh="fantasy_leather_boots_02_d"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_faction_new_2"
+	      name="{=kotk_thicc_elves_faction_new}T3 Faction Leather Boot"
+	      mesh="thicc_elves_faction_new"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_zebra"
+	      name="{=kotk_thicc_elves_zebra}T3 Zebra Boot"
+	      mesh="thicc_elves_zebra"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_leopard"
+	      name="{=kotk_thicc_elves_leopard}T3 Leopard Boot"
+	      mesh="thicc_elves_leopard"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_boots_brown"
+	      name="{=kotk_thicc_elves_boots_brown}T3 Brown Leather Boot"
+	      mesh="thicc_elves_boots_brown"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thicc_elves_boots_black"
+	      name="{=kotk_thicc_elves_boots_black}T3 Black Leather Boot"
+	      mesh="thicc_elves_boots_black"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_dryad_leg_armor_01"
+	      name="{=kotk_t3_dryad_leg_armor_01}T3 Dryad Legarmor"
+	      mesh="t4_dryad_boots"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_emberline_huntress_boots"
+	      name="{=kotk_t4_emberline_huntress_boots}T4 Emberline Huntress Boots"
+	      mesh="t4_emberline_huntress_boots"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_bandit_light_armor_boots"
+	      name="{=kotk_t4_bandit_light_armor_boots}T4 Bandit Light Armored Boots"
+	      mesh="t4_bandit_light_armor_boots"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_barbarian_boot"
+	      name="{=kotk_t4_barbarian_boot}T4 Barbarian Boots"
+	      mesh="t4_barbarian_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_nympho_leg_armor_01"
+	      name="{=kotk_t4_nympho_leg_armor_01}T4 Nympho Legarmor"
+	      mesh="nympho_boot_new_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_nympho_leg_armor_02"
+	      name="{=kotk_t4_nympho_leg_armor_02}T4 Nympho Legarmor"
+	      mesh="t6_devil_armor_leg_silver"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_nympho_leg_armor_03"
+	      name="{=kotk_t4_nympho_leg_armor_03}T4 Nympho Legarmor"
+	      mesh="thicc_elves_red_black"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_nympho_leg_armor_04"
+	      name="{=kotk_t4_nympho_leg_armor_04}T4 Nympho Legarmor"
+	      mesh="thicc_elves_black_red"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_boots_alternate"
+	      name="{=kotk_t2_nympho_boots_alternate}T4 Nympho Long Boots"
+	      mesh="t2_nympho_boots_alternate"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_dryad_leg_armor_01"
+	      name="{=kotk_t4_dryad_leg_armor_01}T4 Dryad Legarmor"
+	      mesh="t4_dryad_boots"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="moon_warrior_leg_brown_leather"
+	      name="{=kotk_moon_warrior_leg_brown_leather}T4 Archer Boots"
+	      mesh="moon_warrior_leg_brown_leather"
+	      culture="Culture.neutral_culture"
+	      weight="0.2"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="10"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_pirate_boot"
+	      name="{=kotk_t4_pirate_boot}T4 Brown Leather Boots"
+	      mesh="t4_pirate_boot"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_pirate_boot_black"
+	      name="{=kotk_t4_pirate_boot_black}T4 Black Leather Boots"
+	      mesh="t4_pirate_boot_black"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_pirate_boot_brown"
+	      name="{=kotk_t4_pirate_boot_brown}T4 Brown Leather Boots"
+	      mesh="t4_pirate_boot_brown"
+	      culture="Culture.neutral_culture"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="shadowheart_gtcarbonbody_boots"
+	      name="{=kotk_shadowheart_gtcarbonbody_boots}T5 Shadowheart Boots"
+	      mesh="shadowheart_gtcarbonbody_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="leather_boot_black_t5"
+	      name="{=kotk_leather_boot_black_t5}T5 Black Leather Boots"
+	      mesh="leather_boot_black_t5"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="leather_boot_brown_t5"
+	      name="{=kotk_leather_boot_brown_t5}T5 Brown Leather Boots"
+	      mesh="leather_boot_brown_t5"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_gladiator_boots"
+	      name="{=kotk_kotk_gladiator_boots}T5 KotK Gladiator Boots"
+	      mesh="kotk_gladiator_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bdsm_gladiator_boots"
+	      name="{=kotk_bdsm_gladiator_boots}T5 BDSM Gladiator Boots"
+	      mesh="bdsm_gladiator_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="plate_boot_faction_t5"
+	      name="{=kotk_plate_boot_faction_t5}T5 Faction Knight Boots"
+	      mesh="plate_boot_faction_t5"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_nympho_leg_armor_01"
+	      name="{=kotk_t5_nympho_leg_armor_01}T5 Nympho Legarmor"
+	      mesh="nympho_boot_new_red"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_nympho_leg_armor_02"
+	      name="{=kotk_t5_nympho_leg_armor_02}T5 Nympho Legarmor"
+	      mesh="t6_devil_armor_leg_silver"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="goondor_t5_boot"
+	      name="{=kotk_goondor_t5_boot}T5 Goondor Boots"
+	      mesh="goondor_t5_boot"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_nympho_leg_armor_03"
+	      name="{=kotk_t5_nympho_leg_armor_03}T5 Nympho Legarmor"
+	      mesh="thicc_elves_red_black"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_nympho_leg_armor_04"
+	      name="{=kotk_t5_nympho_leg_armor_04}T5 Nympho Legarmor"
+	      mesh="thicc_elves_black_red"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="red_heels"
+	      name="{=kotk_red_heels}T5 Red Heels"
+	      mesh="red_heels"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="black_heels"
+	      name="{=kotk_black_heels}T5 Black Heels"
+	      mesh="black_heels"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_spike_boot_black_leather"
+	      name="{=kotk_t5_spike_boot_black_leather}T5 Black Leather Spikey Boots"
+	      mesh="t5_spike_boot_black_leather"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_spike_boot_brown_leather"
+	      name="{=kotk_t5_spike_boot_brown_leather}T5 Brown Leather Spikey Boots"
+	      mesh="t5_spike_boot_brown_leather"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_dryad_leg_armor_01"
+	      name="{=kotk_t5_dryad_leg_armor_01}T5 Dryad Legarmor"
+	      mesh="t5_dryad_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_highshine_faction"
+	      name="{=kotk_t5_plate_armor_new_boots_highshine_faction}T5 Vlandian Faction Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_highshine"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_iron"
+	      name="{=kotk_t5_plate_armor_new_boots_iron}T5 Iron Legarmor"
+	      mesh="t5_plate_armor_new_boots_iron"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_gold"
+	      name="{=kotk_t5_plate_armor_new_boots_gold}T5 Gold Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_gold"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_filthy"
+	      name="{=kotk_t5_plate_armor_new_boots_filthy}T5 Filthy Legarmor"
+	      mesh="t5_plate_armor_new_boots_filthy"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_paint_faction"
+	      name="{=kotk_t5_plate_armor_new_boots_paint_faction}T5 Paint Faction Legarmor"
+	      mesh="t5_plate_armor_new_boots_paint_faction"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_vlandia_red"
+	      name="{=kotk_t5_plate_armor_new_boots_vlandia_red}T5 Vlandia Red Legarmor"
+	      mesh="t5_plate_armor_new_boots_vlandia_red"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_black"
+	      name="{=kotk_t5_plate_armor_new_boots_black}T5 Black Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_black"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_silver"
+	      name="{=kotk_t5_plate_armor_new_boots_silver}T5 Silver Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_silver"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_dragon_scale"
+	      name="{=kotk_t5_plate_armor_new_boots_dragon_scale}T5 Teal Plate Boots"
+	      mesh="t5_plate_armor_new_boots_dragon_scale"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_brass_leopard"
+	      name="{=kotk_t5_plate_armor_new_boots_brass_leopard}T5 Brass Leopard Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_brass_leopard"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_zebra"
+	      name="{=kotk_t5_plate_armor_new_boots_zebra}T5 Zebra Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_zebra"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_whorelord_boots"
+	      name="{=kotk_t6_whorelord_boots}T6 Whorelord Boots"
+	      mesh="t6_whorelord_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_nympho_leg_armor_05"
+	      name="{=kotk_t6_nympho_leg_armor_05}T6 Nympho Legarmor"
+	      mesh="nympho_boot_new_red"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="lineage_suit_boots"
+	      name="{=kotk_lineage_suit_boots}T6 Lineage Boots"
+	      mesh="lineage_suit_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_angel_armor_boots"
+	      name="{=kotk_t6_angel_armor_boots}T6 Angel Boots"
+	      mesh="t6_angel_armor_boots"
+	      culture="Culture.neutral_culture"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight2_legs_2"
+	      name="{=kotk_knight2_legs_2}T6 Golden Knight Boots"
+	      mesh="knight2_legs_2"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight_2_darksteel_worn_legs"
+	      name="{=kotk_knight_2_darksteel_worn_legs}T6 Darksteel Boots"
+	      mesh="knight_2_darksteel_worn_legs"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight_2_iron_legs"
+	      name="{=kotk_knight_2_iron_legs}T6 Iron Boots"
+	      mesh="knight_2_iron_legs"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_boot_silver"
+	      name="{=kotk_t6_demon_boot_silver}T6 Silver Demon Boot"
+	      mesh="t6_demon_boot_silver"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_boot_gold"
+	      name="{=kotk_t6_demon_boot_gold}T6 Gold Demon Boot"
+	      mesh="t6_demon_boot_gold"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_boot_faction"
+	      name="{=kotk_t6_demon_boot_faction}T6 Faction Demon Boot"
+	      mesh="t6_demon_boot_faction"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bladedancermercenary_boots"
+	      name="{=kotk_bladedancermercenary_boots}T6 Blade Dancer Mercenary Legarmor"
+	      mesh="kotk_blader_boots"
+	      culture="Culture.neutral_culture"
+	      weight="1.8"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="25"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_devil_armor_leg_silver"
+	      name="{=kotk_t6_devil_armor_leg_silver}T6 Devil Princess Legarmor"
+	      mesh="t6_devil_armor_leg_silver"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_warrior_princess_boot_gold"
+	      name="{=kotk_t6_warrior_princess_boot_gold}T6 Warrior Princess Legarmor"
+	      mesh="t6_warrior_princess_boot_gold"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_warrior_princess_boot_gold_alt_01"
+	      name="{=kotk_t6_warrior_princess_boot_gold_alt_01}T6 Warrior Princess Legarmor"
+	      mesh="t6_warrior_princess_boot_gold_alt_01"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_warrior_leg_boot_regular"
+	      name="{=kotk_t6_warrior_leg_boot_regular}T6 Gold Warrior Boot"
+	      mesh="t6_warrior_leg_boot_regular"
+	      culture="Culture.neutral_culture"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_warrior_leg_boot_faction"
+	      name="{=kotk_t6_warrior_leg_boot_faction}T6 Faction Leather Boot"
+	      mesh="t6_warrior_leg_boot_faction"
+	      culture="Culture.neutral_culture"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_wizard_leg_foot_armor_faction_black"
+	      name="{=kotk_t6_wizard_leg_foot_armor_faction_black}T6 Faction Plate Boot"
+	      mesh="t6_wizard_leg_foot_armor_faction_black"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="dragon_armor_boot_dragon_scale"
+	      name="{=kotk_dragon_armor_boot_dragon_scale}T6 Dragonscale Legarmor"
+	      mesh="dragon_armor_boot_dragon_scale"
+	      culture="Culture.neutral_culture"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgian_leg_armor_01"
+	      name="{=kotk_t2_sturgian_leg_armor_01}T2 Nord Legarmor"
+	      mesh="short_boot_faction"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgian_valk_boot"
+	      name="{=kotk_t2_sturgian_valk_boot}T2 Valkyrjur Boots"
+	      mesh="t2_sturgian_valk_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_forestpeople_leg_armor_01"
+	      name="{=kotk_t2_forestpeople_leg_armor_01}T2 Forest People Legarmor"
+	      mesh="forestpeople_t2_boots"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgian_leg_armor_01"
+	      name="{=kotk_t3_sturgian_leg_armor_01}T3 Nord Legarmor"
+	      mesh="t3_sturgian_leg_armor_01"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_lakerat_recruit_boot"
+	      name="{=kotk_t3_lakerat_recruit_boot}T3 Lakerat Boot"
+	      mesh="t3_lakerat_recruit_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgian_valk_boot"
+	      name="{=kotk_t3_sturgian_valk_boot}T3 Valkyrjur Boots"
+	      mesh="t3_sturgian_valk_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_forestpeople_leg_armor_01"
+	      name="{=kotk_t3_forestpeople_leg_armor_01}T3 Forest People Legarmor"
+	      mesh="forestpeople_t3_boots"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgian_leg_armor_01"
+	      name="{=kotk_t4_sturgian_leg_armor_01}T4 Nord Legarmor"
+	      mesh="sturgian_armored_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgian_leg_armor_02"
+	      name="{=kotk_t4_sturgian_leg_armor_02}T4 Nord Legarmor"
+	      mesh="sturgia_t4_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sea_raider_boot"
+	      name="{=kotk_t4_sea_raider_boot}T4 Nord Legarmor"
+	      mesh="t4_sea_raider_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_skolder_leg_armor_01"
+	      name="{=kotk_t4_skolder_leg_armor_01}T4 Skolder Broda Legarmor"
+	      mesh="bandit_gear_06_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgian_valk_boot"
+	      name="{=kotk_t4_sturgian_valk_boot}T4 Valkyrjur Boots"
+	      mesh="t4_sturgian_valk_boot"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_forestpeople_leg_armor_01"
+	      name="{=kotk_t4_forestpeople_leg_armor_01}T4 Forest People Legarmor"
+	      mesh="forestpeople_t4_boots"
+	      culture="Culture.nord"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_lakerat_recruit_boot"
+	      name="{=kotk_t5_lakerat_recruit_boot}T5 Lakerat Boots"
+	      mesh="t5_lakerat_recruit_boot"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_leg_armor_02"
+	      name="{=kotk_t5_sturgian_leg_armor_02}T5 Nord Legarmor"
+	      mesh="sturgia_t5_boot"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_boot_new"
+	      name="{=kotk_t5_sturgian_boot_new}T5 Nord Legarmor"
+	      mesh="t5_sturgian_boot_new"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_boot_sea_raider_gold"
+	      name="{=kotk_t5_sturgian_boot_sea_raider_gold}T5 Nord Legarmor"
+	      mesh="t6_sea_raider_boot_gold"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_boot_sea_raider_silver"
+	      name="{=kotk_t5_sturgian_boot_sea_raider_silver}T5 Nord Legarmor"
+	      mesh="t6_sea_raider_boot_silver"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_leg_armor_01"
+	      name="{=kotk_t5_sturgian_leg_armor_01}T5 Valkyrjur Boots"
+	      mesh="t5_valkyrjur_boots_dark_gold"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_demon_kang_boot_original"
+	      name="{=kotk_t5_demon_kang_boot_original}T5 Demoness Boot"
+	      mesh="t5_demon_kang_boot_original"
+	      culture="Culture.nord"
+	      weight="1.8"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_demon_kang_boot_original_alt_01"
+	      name="{=kotk_t5_demon_kang_boot_original_alt_01}T5 Demoness Boot"
+	      mesh="t5_demon_kang_boot_original_alt_01"
+	      culture="Culture.nord"
+	      weight="1.8"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sturgian_leg_armor_05"
+	      name="{=kotk_t6_sturgian_leg_armor_05}T6 Nord Legarmor"
+	      mesh="sturgia_boot_knight2"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_boots_brass"
+	      name="{=kotk_t6_valkyrjur_boots_brass}T6 Valkyrjur Brass Legarmor"
+	      mesh="t6_valkyrjur_boots_brass"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_boots_dark_gold"
+	      name="{=kotk_t6_valkyrjur_boots_dark_gold}T6 Valkyrjur Gold Legarmor"
+	      mesh="t6_valkyrjur_boots_dark_gold"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_valkyrjur_boots_silver"
+	      name="{=kotk_t6_valkyrjur_boots_silver}T6 Valkyrjur Silver Legarmor"
+	      mesh="t6_valkyrjur_boots_silver"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_kang_boot_original"
+	      name="{=kotk_t6_demon_kang_boot_original}T6 Demoness Boots"
+	      mesh="t6_demon_kang_boot_original"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sea_raider_boot_faction"
+	      name="{=kotk_t6_sea_raider_boot_faction}T6 Faction Sea Raider Boot"
+	      mesh="t6_sea_raider_boot_faction"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sea_raider_boot_gold"
+	      name="{=kotk_t6_sea_raider_boot_gold}T6 Gold Sea Raider Boot"
+	      mesh="t6_sea_raider_boot_gold"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sea_raider_boot_original"
+	      name="{=kotk_t6_sea_raider_boot_original}T6 Sea Raider Boot"
+	      mesh="t6_sea_raider_boot_original"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sea_raider_boot_silver"
+	      name="{=kotk_t6_sea_raider_boot_silver}T6 Silver Sea Raider Boot"
+	      mesh="t6_sea_raider_boot_silver"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_nn_viking_boot_original"
+	      name="{=kotk_t6_nn_viking_boot_original}T6 Siga's Boots"
+	      mesh="t6_nn_viking_boot_original"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="svana_boot"
+	      name="{=kotk_svana_boot}T6 Svana's Boots"
+	      mesh="svana_boot"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_coomsviking_boot"
+	      name="{=kotk_t6_coomsviking_boot}T6 Coomsviking Silver Legarmor"
+	      mesh="t6_coomsviking_boot"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_coomsviking_boot_gold"
+	      name="{=kotk_t6_coomsviking_boot_gold}T6 Coomsviking Gold Legarmor"
+	      mesh="t6_coomsviking_boot_gold"
+	      culture="Culture.nord"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_cav_boots"
+	      name="{=kotk_kotk_cav_boots}KOTK Nord Noble Boots"
+	      mesh="kotk_cav_boots"
+	      culture="Culture.nord"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="kotk_northern_plated_boots"
+	      name="{=kotk_kotk_northern_plated_boots}KOTK Nord Noble Boots"
+	      mesh="kotk_northern_plated_boots"
+	      culture="Culture.nord"
+	      weight="2.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="18"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_bimbo_lingerie_boot"
+	      name="{=kotk_t2_bimbo_lingerie_boot}T2 Bimbo Stockings"
+	      mesh="t2_bimbo_lingerie_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bimbo_heels"
+	      name="{=kotk_t2_bimbo_heels}T2 Bimbo Heels"
+	      mesh="t2_bimbo_heels"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_vlandia_leg_armor_01"
+	      name="{=kotk_t2_vlandia_leg_armor_01}T2 Vlandian Legarmor"
+	      mesh="vlandia_gear_01_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_steppe_bandit_boots"
+	      name="{=kotk_t2_steppe_bandit_boots}T2 Steppe Bandit Boots"
+	      mesh="t2_steppe_bandit_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_coftb_boots"
+	      name="{=kotk_t2_coftb_boots}T2 Company of the Boar Boots"
+	      mesh="t2_coftb_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bimbo_boot"
+	      name="{=kotk_t3_bimbo_boot}T3 Bimbo Boots"
+	      mesh="t3_bimbo_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_vlandia_leg_armor_01"
+	      name="{=kotk_t3_vlandia_leg_armor_01}T3 Vlandian Legarmor"
+	      mesh="vlandia_gear_02_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thottingham_t3_boot"
+	      name="{=kotk_thottingham_t3_boot}T3 Thottingham Boots"
+	      mesh="thottingham_t2_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_western_mercenary_leg_armor_01"
+	      name="{=kotk_t3_western_mercenary_leg_armor_01}T3 Western Mercenary Legarmor"
+	      mesh="mercenary_archer_armor_02_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_coftb_boots"
+	      name="{=kotk_t3_coftb_boots}T3 Company of the Boar Boots"
+	      mesh="t3_coftb_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_bimbo_light_armor_boots"
+	      name="{=kotk_t4_bimbo_light_armor_boots}T4 Bimbo Light Armored Boots"
+	      mesh="t4_bimbo_light_armor_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_light_armor_boots"
+	      name="{=kotk_t4_vlandian_light_armor_boots}T4 Bimbo Light Armored Boots"
+	      mesh="t4_vlandian_light_armor_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_og_archer_boots"
+	      name="{=kotk_t4_vlandian_og_archer_boots}T4 Vlandian Archer Boots"
+	      mesh="t4_vlandian_og_archer_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_bimbo_archer_boots"
+	      name="{=kotk_t4_vlandian_bimbo_archer_boots}T4 Bimbo Archer Boots"
+	      mesh="t4_vlandian_bimbo_archer_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_bimbo_boots"
+	      name="{=kotk_t4_bimbo_boots}T4 Bimbo Legarmor"
+	      mesh="t4_bimbo_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandia_leg_armor_01"
+	      name="{=kotk_t4_vlandia_leg_armor_01}T4 Vlandian Legarmor"
+	      mesh="vlandia_gear_03_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_western_mercenary_leg_armor_01"
+	      name="{=kotk_t4_western_mercenary_leg_armor_01}T4 Western Mercenary Legarmor"
+	      mesh="mercenary_armor_02_boot"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_steppe_bandit_boots"
+	      name="{=kotk_t4_steppe_bandit_boots}T4 Steppe Bandit Boots"
+	      mesh="t4_steppe_bandit_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_coftb_boots"
+	      name="{=kotk_t4_coftb_boots}T4 Company of the Boar Boots"
+	      mesh="t4_coftb_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_kardia_boots"
+	      name="{=kotk_t4_kardia_boots}T4 Noble Vlandian Boots"
+	      mesh="t4_kardia_boots"
+	      culture="Culture.vlandia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="8"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_kardia_boot"
+	      name="{=kotk_t5_kardia_boot}T5 Gendarme Boots"
+	      mesh="t5_kardia_boot"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_silver_vlandian_plate_boot"
+	      name="{=kotk_t5_silver_vlandian_plate_boot}T5 Silver Vlandian Plate Legarmor"
+	      mesh="vlandia_t5_boot_silver"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_gold_vlandian_plate_boot"
+	      name="{=kotk_t5_gold_vlandian_plate_boot}T5 Gold Vlandian Plate Legarmor"
+	      mesh="vlandia_t5_boot_gold"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="plate_boot_vlandian_darksteel_t5"
+	      name="{=kotk_plate_boot_vlandian_darksteel_t5}T5 Vlandian Knight Boots"
+	      mesh="plate_boot_vlandian_darksteel_t5"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_leg_armor_01"
+	      name="{=kotk_t5_vlandia_leg_armor_01}T5 Vlandian Legarmor"
+	      mesh="t5_vlandian_boot2_dark_steel"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_leg_armor_01a"
+	      name="{=kotk_t5_vlandia_leg_armor_01a}T5 Vlandian Legarmor"
+	      mesh="t5_vlandian_boot_dark_steel"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_leg_armor_02"
+	      name="{=kotk_t5_vlandia_leg_armor_02}T5 Vlandian Legarmor"
+	      mesh="vlandia_gear_04_boot"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_western_mercenary_leg_armor_01"
+	      name="{=kotk_t5_western_mercenary_leg_armor_01}T5 Western Mercenary Legarmor"
+	      mesh="mercenary_armor_02_boot"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_bimboknight_boots"
+	      name="{=kotk_t6_bimboknight_boots}T5 Bimboknight Boots"
+	      mesh="t6_bimboknight_boots"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_boots_plate_faction"
+	      name="{=kotk_t5_plate_armor_new_boots_plate_faction}T5 Faction Plate Legarmor"
+	      mesh="t5_plate_armor_new_boots_plate_faction"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_royal_armor_legs"
+	      name="{=kotk_t6_royal_armor_legs}T6 Gold Royal Boots"
+	      mesh="t6_royal_armor_legs"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_royal_armor_legs_alt_1"
+	      name="{=kotk_t6_royal_armor_legs_alt_1}T6 Gold Royal Boots"
+	      mesh="t6_royal_armor_legs_alt_1"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="skull_t6_boots_gold"
+	      name="{=kotk_skull_t6_boots_gold}T6 Gold Skull Boots"
+	      mesh="skull_t6_boots_gold"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="skull_t6_boots_black_worn"
+	      name="{=kotk_skull_t6_boots_black_worn}T6 Black Skull Boots"
+	      mesh="skull_t6_boots_black_worn"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_slayer_boot_lowpoly_black_gold"
+	      name="{=kotk_kotk_slayer_boot_lowpoly_black_gold}T6 KotK Slayer Black Boots"
+	      mesh="kotk_slayer_boot_lowpoly_black_gold"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_slayer_boot_lowpoly_black"
+	      name="{=kotk_kotk_slayer_boot_lowpoly_black}T6 KotK Slayer Faction Boots"
+	      mesh="kotk_slayer_boot_lowpoly_black"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_heavy_plate_boots_dark_metal"
+	      name="{=kotk_t6_heavy_plate_boots_dark_metal}T6 Vlandian Dark Steel Legarmor"
+	      mesh="t6_heavy_plate_boots_dark_metal"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_leg_armor_05"
+	      name="{=kotk_t6_vlandia_leg_armor_05}T6 Vlandian Legarmor"
+	      mesh="t6_heavy_plate_boots_dark_metal"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_hero_leg_armor"
+	      name="{=kotk_t6_vlandia_hero_leg_armor}T6 Vlandian Hero Legarmor"
+	      mesh="t5_plate_armor_new_boots_faction_calatild"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_calatild_leg_armor"
+	      name="{=kotk_t6_vlandia_calatild_leg_armor}T6 Calatild's Legarmor"
+	      mesh="t5_plate_armor_new_boots_faction_calatild"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_silvind_waifu_boots"
+	      name="{=kotk_t6_silvind_waifu_boots}T6 Silvind's Legarmor"
+	      mesh="t6_silvind_waifu_boots"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_boot_original"
+	      name="{=kotk_t6_demon_boot_original}T6 Vlandian Demon Boot"
+	      mesh="t6_demon_boot_original"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_new_plate_silver_hd_boot"
+	      name="{=kotk_t6_vlandia_new_plate_silver_hd_boot}T6 Vlandian Faction Legarmor"
+	      mesh="t6_vlandia_new_plate_silver_hd_boot"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_new_plate_silver_hd_boot_heavy"
+	      name="{=kotk_t6_vlandia_new_plate_silver_hd_boot_heavy}T6 Vlandian Faction Legarmor"
+	      mesh="t6_heavy_plate_boots_faction"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_plate_boot_darkknight_black_gold"
+	      name="{=kotk_t6_plate_boot_darkknight_black_gold}T6 Vlandian Legarmor"
+	      mesh="t6_plate_boot_darkknight_black_gold"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_plate_boot_darkknight_faction"
+	      name="{=kotk_t6_plate_boot_darkknight_faction}T6 Vlandian Faction Legarmor"
+	      mesh="t6_plate_boot_darkknight_faction"
+	      culture="Culture.vlandia"
+	      weight="2.0"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandian_boot_faction"
+	      name="{=kotk_t5_vlandian_boot_faction}T6 Vlandian Faction Legarmor"
+	      mesh="t5_vlandian_boot_faction"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_leg_armor"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_leg_armor}T6 Vlandian Cavaliers de Fer Legarmor"
+	      mesh="t5_plate_armor_new_boots_dragon_scale"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_noble_civlian_boots"
+	      name="{=kotk_kotk_noble_civlian_boots}KOTK Vlandia Noble Civilian Boots"
+	      mesh="kotk_noble_civlian_boots"
+	      culture="Culture.vlandia"
+	      weight="0.9"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_cav_boots_reinforced"
+	      name="{=kotk_kotk_cav_boots_reinforced}KOTK Vlandian Noble Mail Cavalier Boots"
+	      mesh="kotk_cav_boots_reinforced"
+	      culture="Culture.vlandia"
+	      weight="1.8"
+	      difficulty="4"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="18"
+			       covers_legs="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+</Items>

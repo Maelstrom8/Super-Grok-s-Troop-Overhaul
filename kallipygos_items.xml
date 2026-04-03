@@ -1,0 +1,4248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Item id="vlandia_pink_horse"
+	      name="{=kotk_vlandia_pink_horse}Pink Pony{@Plural}Pink Pony horses{\@}"
+	      mesh="horse_brown"
+	      subtype="horse"
+	      item_category="horse"
+	      culture="Culture.vlandia"
+	      weight="425"
+	      difficulty="15"
+	      appearance="0"
+	      Type="Horse">
+		<ItemComponent>
+			<Horse monster="Monster.horse"
+			       maneuver="61"
+			       speed="44"
+			       charge_damage="22"
+			       body_length="105"
+			       is_mountable="true"
+			       extra_health="0"
+			       skeleton_scale="vlandia_horse">
+				<AdditionalMeshes>
+					<Mesh name="horse_mane_2"
+					      affected_by_cover="true"/>
+				</AdditionalMeshes>
+				<Materials>
+					<Material name="horse_pink_mat">
+						<MeshMultipliers>
+							<MeshMultiplier mesh_multiplier="FF010101"
+							                percentage="0.75"/>
+							<MeshMultiplier mesh_multiplier="FF909090"
+							                percentage="0.25"/>
+						</MeshMultipliers>
+					</Material>
+				</Materials>
+			</Horse>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!--	<Item multiplayer_item="false"
+	      id="crossbow_blaster"
+	      name="Skeet Blaster"
+	      body_name="bo_composite_crossbows"
+	      culture="Culture.vlandia"
+	      mesh="crossbow_g"
+	      weight="2"
+	      appearance="0.7"
+	      difficulty="40"
+	      Type="Crossbow"
+	      AmmoOffset="0.0, 0.02131, 0.22975"
+	      item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+	      holster_position_shift="0.02,0,-0.4">
+		<ItemComponent>
+			<Weapon weapon_class="Crossbow"
+			        ammo_class="Bolt"
+			        ammo_limit="4"
+			        thrust_speed="85"
+			        speed_rating="55"
+			        missile_speed="93"
+			        weapon_length="95"
+			        accuracy="99"
+			        thrust_damage="95"
+			        thrust_damage_type="Pierce"
+			        item_usage="crossbow"
+			        physics_material="wood_weapon"
+			        center_of_mass="0,0,0.4"
+			        modifier_group="crossbow">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>-->
+	<Item id="skeet_fire_arrows_basic"
+	      name="{=*}Cheap Skeet Fire Arrows"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="arrow_bl_a"
+	      weight="0.05"
+	      appearance="1"
+	      flying_mesh="arrow_bl_flying"
+	      holster_mesh="kotk_quiver_wood"
+	      holster_mesh_with_weapon="kotk_quiver_wood"
+	      Type="Arrows"
+	      item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts"
+	      holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow"
+			        stack_amount="20"
+			        physics_material="missile"
+			        thrust_speed="0"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="97"
+			        thrust_damage="1"
+			        thrust_damage_type="Pierce"
+			        item_usage="arrow_right"
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="0, -80, 25"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.97,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="arrow">
+				<WeaponFlags Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             Burning="true"
+				             LeavesTrail="true"
+				             AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="skeet_fire_arrows_t"
+	      name="{=*}Skeet Fire Arrows"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="arrow_bl_a"
+	      weight="0.05"
+	      appearance="1"
+	      flying_mesh="arrow_bl_flying"
+	      holster_mesh="kotk_quiver_leather"
+	      holster_mesh_with_weapon="kotk_quiver_leather"
+	      Type="Arrows"
+	      item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts"
+	      holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow"
+			        stack_amount="25"
+			        physics_material="missile"
+			        thrust_speed="0"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="97"
+			        thrust_damage="3"
+			        thrust_damage_type="Pierce"
+			        item_usage="arrow_right"
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="0, -80, 25"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.97,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="arrow">
+				<WeaponFlags Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             Burning="true"
+				             LeavesTrail="true"
+				             AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="skeet_fire_arrows_mega"
+	      name="{=*}Backedup Skeet Fire Arrows"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="arrow_bl_a"
+	      weight="0.05"
+	      appearance="1"
+	      flying_mesh="arrow_bl_flying"
+	      holster_mesh="kotk_quiver_gold"
+	      holster_mesh_with_weapon="kotk_quiver_gold"
+	      Type="Arrows"
+	      item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts"
+	      holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon weapon_class="Arrow"
+			        stack_amount="30"
+			        physics_material="missile"
+			        thrust_speed="0"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="97"
+			        thrust_damage="4"
+			        thrust_damage_type="Pierce"
+			        item_usage="arrow_right"
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="0, -80, 25"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.97,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="arrow">
+				<WeaponFlags Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             Burning="true"
+				             LeavesTrail="true"
+				             AmmoBreaksOnBounceBack="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="skeet_bolt_quiver_wood"
+	      name="{=*}Cheap Skeet Bolts"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="bolt_bl_a"
+	      holster_mesh="skeet_bolt_quiver_wood"
+	      flying_mesh="bolt_bl_flying"
+	      holster_mesh_with_weapon="skeet_bolt_quiver_wood"
+	      weight="0.05"
+	      appearance="1"
+	      Type="Bolts"
+	      item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon weapon_class="Bolt"
+			        stack_amount="20"
+			        thrust_speed="0"
+			        thrust_damage="3"
+			        thrust_damage_type="Pierce"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="47"
+			        item_usage=""
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="180, 0, 0"
+			        physics_material="missile"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.47,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="bolt">
+				<WeaponFlags AttachAmmoToVisual="true"
+				             Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             AmmoBreaksOnBounceBack="true"
+				             Burning="true"
+				             LeavesTrail="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="skeet_fire_bolt_t"
+	      name="{=*}Skeet Fire Bolts"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="bolt_bl_a"
+	      holster_mesh="skeet_bolt_quiver_leather"
+	      flying_mesh="bolt_bl_flying"
+	      holster_mesh_with_weapon="skeet_bolt_quiver_leather"
+	      weight="0.05"
+	      appearance="1"
+	      Type="Bolts"
+	      item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon weapon_class="Bolt"
+			        stack_amount="20"
+			        thrust_speed="0"
+			        thrust_damage="4"
+			        thrust_damage_type="Pierce"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="47"
+			        item_usage=""
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="180, 0, 0"
+			        physics_material="missile"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.47,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="bolt">
+				<WeaponFlags AttachAmmoToVisual="true"
+				             Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             AmmoBreaksOnBounceBack="true"
+				             Burning="true"
+				             LeavesTrail="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="skeet_fire_bolt_mega"
+	      name="{=*}Backedup Skeet Fire Bolts"
+	      body_name="bo_capsule_arrow"
+	      holster_body_name="bo_axe_short"
+	      mesh="bolt_bl_a"
+	      holster_mesh="skeet_bolt_quiver_gold"
+	      flying_mesh="bolt_bl_flying"
+	      holster_mesh_with_weapon="skeet_bolt_quiver_gold"
+	      weight="0.05"
+	      appearance="1"
+	      Type="Bolts"
+	      item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+		<ItemComponent>
+			<Weapon weapon_class="Bolt"
+			        stack_amount="25"
+			        thrust_speed="0"
+			        thrust_damage="5"
+			        thrust_damage_type="Pierce"
+			        speed_rating="0"
+			        missile_speed="10"
+			        weapon_length="47"
+			        item_usage=""
+			        passby_sound_code="event:/mission/combat/missile/passby"
+			        rotation="180, 0, 0"
+			        physics_material="missile"
+			        trail_particle_name="psys_game_burning_agent"
+			        sticking_position="0,-0.47,0"
+			        sticking_rotation="90,0,0"
+			        center_of_mass="0,0,-0.1"
+			        modifier_group="bolt">
+				<WeaponFlags AttachAmmoToVisual="true"
+				             Consumable="true"
+				             AmmoSticksWhenShot="true"
+				             AmmoBreaksOnBounceBack="true"
+				             Burning="true"
+				             LeavesTrail="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<!--<Item id="zd_bow"
+	      name="{=*}Darawish al-Zephyr Bow"
+	      body_name="bo_composite_longbow_g"
+	      mesh="longbow_g"
+	      culture="Culture.aserai"
+	      weight="0.5"
+	      difficulty="50"
+	      appearance="0.3"
+	      Type="Bow"
+	      item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon weapon_class="Bow"
+			        ammo_class="Arrow"
+			        ammo_limit="1"
+			        thrust_speed="70"
+			        speed_rating="89"
+			        missile_speed="77"
+			        weapon_length="114"
+			        accuracy="91"
+			        thrust_damage="70"
+			        thrust_damage_type="Pierce"
+			        item_usage="bow"
+			        physics_material="wood_weapon"
+			        center_of_mass="0.15,0,0"
+			        modifier_group="bow">
+				<WeaponFlags RangedWeapon="true"
+				             HasString="true"
+				             StringHeldByHand="true"
+				             NotUsableWithOneHand="true"
+				             TwoHandIdleOnMount="true"
+				             AutoReload="true"
+				             UnloadWhenSheathed="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>-->
+	<Item id="kotk_camel_saddle"
+	      name="{=*}KOTK Camel Saddle"
+	      mesh="kotk_camel_saddle"
+	      culture="Culture.aserai"
+	      weight="130"
+	      appearance="1"
+	      Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       mane_cover_type="none"
+			       family_type="2"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item multiplayer_item="false"
+	      id="horse_harness_e_bimbo_old"
+	      name="{=kotk_horse_harness_e_bimbo}Bimbo Horse Armor"
+	      mesh="horse_harness_e_bimbo_old"
+	      subtype="body_armor"
+	      weight="120"
+	      difficulty="0"
+	      appearance="0.6"
+	      Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="55"
+			       hair_cover_type="all"
+			       covers_head="true"
+			       mane_cover_type="all"
+			       tail_cover_type="all"
+			       maneuver_bonus="0"
+			       speed_bonus="0"
+			       charge_bonus="0"
+			       family_type="1"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<!--<!{2}** ===== CraftedItem group: crafting_template='Dagger' ===== **{2}>-->
+	<CraftedItem id="t1_prison_knife"
+	             name="{=kotk_t1_prison_knife}Prison Stabby"
+	             crafting_template="Dagger">
+		<Pieces>
+			<Piece id="dagger_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_dagger_guard_4"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_34"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{2}** ===== CraftedItem group: crafting_template='Javelin' ===== **{2}>-->
+	<CraftedItem id="cheap_eastern_javelin_1_t2"
+	             name="{=kotk_cheap_eastern_javelin_1_t2}Jagging Javelin"
+	             crafting_template="Javelin"
+	             culture="Culture.khuzait">
+		<Pieces>
+			<Piece id="spear_blade_35"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cheap_eastern_javelin_3_t4"
+	             name="{=kotk_cheap_eastern_javelin_3_t4}Cheapereed"
+	             crafting_template="Javelin"
+	             culture="Culture.aserai">
+		<Pieces>
+			<Piece id="spear_blade_27"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cheap_generic_javelin_1_t3"
+	             name="{=kotk_cheap_generic_javelin_1_t3}Harpoontang"
+	             crafting_template="Javelin"
+	             culture="Culture.sturgia">
+		<Pieces>
+			<Piece id="spear_blade_10"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_javelin_01"
+	             name="{=kotk_looter_javelin_01}Looter Javelin"
+	             crafting_template="Javelin">
+		<Pieces>
+			<Piece id="spear_blade_1"
+			       Type="Blade"/>
+			<Piece id="spear_guard_15"
+			       Type="Guard"/>
+			<Piece id="spear_handle_2"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_javelin_02"
+	             name="{=kotk_looter_javelin_02}Looter Javelin"
+	             crafting_template="Javelin">
+		<Pieces>
+			<Piece id="spear_blade_15"
+			       Type="Blade"/>
+			<Piece id="spear_guard_15"
+			       Type="Guard"/>
+			<Piece id="spear_handle_9"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="skeet_eastern_javelin_3_t4"
+	             name="{=kotk_skeet_eastern_javelin_3_t4}Skeetreed"
+	             crafting_template="Javelin"
+	             culture="Culture.aserai">
+		<Pieces>
+			<Piece id="spear_blade_27"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_10"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{2}** ===== CraftedItem group: crafting_template='kotk_Mace' ===== **{2}>-->
+	<CraftedItem id="looter_hammer_01"
+	             name="{=kotk_looter_hammer_01}Looter Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t1_eggplant_wood"
+			       Type="Blade"/>
+			<Piece id="mace_handle_6"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_hammer_02"
+	             name="{=kotk_looter_hammer_02}Looter Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t2_eggplant_dirty_iron"
+			       Type="Blade"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_eggplant_01"
+	             name="{=kotk_t1_eggplant_01}Wood Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t1_eggplant_wood"
+			       Type="Blade"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_eggplant_02"
+	             name="{=kotk_t1_eggplant_02}Wood Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t1_eggplant_wood"
+			       Type="Blade"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_wooden_dick_mace_01"
+	             name="{=kotk_t1_wooden_dick_mace_01}Wooden Dick Club"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_wood"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_wooden_dick_mace_02"
+	             name="{=kotk_t1_wooden_dick_mace_02}Wooden Dick Club"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_wood"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_wooden_dick_mace_03"
+	             name="{=kotk_t1_wooden_dick_mace_02}Knarled Wooden Dick Club"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_wood"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_6"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_dirty_iron_chode_2"
+	             name="{=kotk_t2_dirty_iron_chode_2}Dirty Iron Chode Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="ugly_boi_dirty"
+			       Type="Blade"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_dirty_iron_chode_club"
+	             name="{=kotk_t2_dirty_iron_chode_club}Dirty Iron Chode Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="choady_boi_dirty"
+			       Type="Blade"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_dirty_iron_doggy_donger_club"
+	             name="{=kotk_t2_dirty_iron_doggy_donger_club}Dirty Iron Dog Dick Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="doggy_donger_dirty"
+			       Type="Blade"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_dirty_iron_donger"
+	             name="{=kotk_t2_dirty_iron_donger}Dirty Iron Donger Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="kult_mace_head_1_dirty"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_dirty_iron_knobby_club"
+	             name="{=kotk_t2_dirty_iron_knobby_club}Dirty Iron Knobbed Dick Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_dirty"
+			       Type="Blade"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_eggplant_01"
+	             name="{=kotk_t2_eggplant_01}Dirty Iron Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t2_eggplant_dirty_iron"
+			       Type="Blade"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_2"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_eggplant_02"
+	             name="{=kotk_t2_eggplant_02}Dirty Iron Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t2_eggplant_dirty_iron"
+			       Type="Blade"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_fister_mace"
+	             name="{=kotk_t2_fister_mace}Dirty Iron Fister"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="the_fist_mace_head_dirty"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_militia_eggplant_mace"
+	             name="{=kotk_t2_militia_eggplant_mace}Militia Aubergine Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t2_eggplant_dirty_iron"
+			       Type="Blade"/>
+			<Piece id="mace_handle_3"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_big_iron_chode_mace"
+	             name="{=kotk_t3_big_iron_chode_mace}Big Iron Chode Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="ugly_boi_silver"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_4"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_blacksmith_hammer"
+	             name="{=kotk_t3_blacksmith_hammer}Blacksmith Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t4_eggplant_silver"
+			       Type="Blade"/>
+			<Piece id="mace_handle_16"
+			       Type="Handle"
+			       scale_factor="94"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_dirty_empress_mace"
+	             name="{=kotk_t3_dirty_empress_mace}The Dirty Empress"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="the_empress_dirty"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_eggplant_01"
+	             name="{=kotk_t3_eggplant_01}Iron Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t3_eggplant_iron"
+			       Type="Blade"/>
+			<Piece id="mace_handle_1"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_eggplant_02"
+	             name="{=kotk_t3_eggplant_02}Iron Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t3_eggplant_iron"
+			       Type="Blade"/>
+			<Piece id="mace_handle_7"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_iron_chode_mace_01"
+	             name="{=kotk_t3_iron_chode_mace_01}Iron Chode Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="choady_boi_silver"
+			       Type="Blade"
+			       scale_factor="101"/>
+			<Piece id="mace_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_7"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_iron_doggy_dong_mace"
+	             name="{=kotk_t3_iron_doggy_dong_mace}Iron Dog Dong Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="doggy_donger_silver"
+			       Type="Blade"/>
+			<Piece id="mace_handle_12"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_iron_donger_mace"
+	             name="{=kotk_t3_iron_donger_mace}Iron Big Donger Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="kult_mace_head_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_7"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_iron_knobby_boi_mace"
+	             name="{=kotk_t3_iron_knobby_boi_mace}Iron Knobby Donger Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_silver"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_4"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_oni_1hs_kanobo"
+	             name="{=kotk_t3_oni_1hs_kanobo}Oni Kanobo"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_wood"
+			       Type="Blade"/>
+			<Piece id="kotk_mace_handle_1"
+			       Type="Handle"/>
+			<Piece id="cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_the_iron_fister"
+	             name="{=kotk_t3_the_iron_fister}The Iron Fister Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="the_fist_mace_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_12"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_eggplant_01"
+	             name="{=kotk_t4_eggplant_01}Silver Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t4_eggplant_silver"
+			       Type="Blade"/>
+			<Piece id="mace_handle_9"
+			       Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_eggplant_02"
+	             name="{=kotk_t4_eggplant_02}Silver Eggplant Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t4_eggplant_silver"
+			       Type="Blade"/>
+			<Piece id="mace_handle_10"
+			       Type="Handle"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_gilded_knob_mace_01"
+	             name="{=kotk_t4_gilded_knob_mace_01}The Gilded Knob Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_gold"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_10"
+			       Type="Handle"/>
+			<Piece id="empire_noble_pommel_2"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_gilded_knob_mace_02"
+	             name="{=kotk_t4_gilded_knob_mace_02}The Gilded Knob Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="knobby_boi_gold"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_16"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_noble_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_oni_1hs_kanobo"
+	             name="{=kotk_t4_oni_1hs_kanobo}Oni Kanobo"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_silver"
+			       Type="Blade"/>
+			<Piece id="mace_handle_9"
+			       Type="Handle"/>
+			<Piece id="cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_the_iron_empress"
+	             name="{=kotk_t4_the_iron_empress}The Iron Empress Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="the_empress_silver"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_10"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_eggplant_01"
+	             name="{=kotk_t5_eggplant_01}Gilded Aubergine Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t5_eggplant_gold"
+			       Type="Blade"/>
+			<Piece id="mace_handle_13"
+			       Type="Handle"/>
+			<Piece id="empire_noble_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_eggplant_02"
+	             name="{=kotk_t5_eggplant_02}Gilded Aubergine Hammer"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="t5_eggplant_gold"
+			       Type="Blade"/>
+			<Piece id="mace_handle_15"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_gilded_empress_mace"
+	             name="{=kotk_t5_gilded_empress_mace}The Gilded Empress"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="the_empress_gold"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="mace_handle_13"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="empire_noble_pommel_4"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_oni_1hs_kanobo"
+	             name="{=kotk_t5_oni_1hs_kanobo}Oni Kanobo"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_gold"
+			       Type="Blade"/>
+			<Piece id="kotk_mace_handle_13"
+			       Type="Handle"/>
+			<Piece id="kotk_anal_plut_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{3}** ===== CraftedItem group: crafting_template='kotk_OneHandedSword' ===== **{3}>-->
+	<CraftedItem id="1hs_imperial_gladius_1"
+	             name="{=kotk_1hs_imperial_gladius_1}Imperial Gladius"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="vlandian_noble_grip_3"
+			       Type="Handle"/>
+			<Piece id="empire_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_imperial_gladius_2"
+	             name="{=kotk_1hs_imperial_gladius_2}Cheap Gladius"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"/>
+			<Piece id="cleaver_guard_2"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_7"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_imperial_gladius_3"
+	             name="{=kotk_1hs_imperial_gladius_3}Gladius"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_28"
+			       Type="Handle"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_imperial_gladius_4"
+	             name="{=kotk_1hs_imperial_gladius_4}Imperial Gladius"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"/>
+			<Piece id="battania_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="sturgian_noble_grip_4"
+			       Type="Handle"/>
+			<Piece id="battania_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_katana_01"
+	             name="{=kotk_1hs_katana_01}Katana"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="wood_grip_2"
+			       Type="Handle"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_katana_02"
+	             name="{=kotk_1hs_katana_02}Katana"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="katana_grip_1"
+			       Type="Handle"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_katana_03"
+	             name="{=kotk_1hs_katana_03}Katana"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="92"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="empire_noble_grip_3"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="1hs_katana_04"
+	             name="{=kotk_1hs_katana_04}Katana"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="vlandian_grip_10"
+			       Type="Handle"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cheap_vlandia_noble_sword_4_t5"
+	             name="{=kotk_cheap_vlandia_noble_sword_4_t5}Cheap Arming Sword"
+	             crafting_template="kotk_OneHandedSword"
+	             is_merchandise="true"
+	             culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_3"
+			       Type="Blade"/>
+			<Piece id="cleaver_guard_2"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t3_arming_sword"
+	             name="{=kotk_goondor_t3_arming_sword}Goondor Arming Sword"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="vlandian_blade_4"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_7"
+			       Type="Handle"/>
+			<Piece id="vlandian_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t4_arming_sword"
+	             name="{=kotk_goondor_t4_arming_sword}Goondor Arming Sword"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="vlandian_blade_7"
+			       Type="Blade"/>
+			<Piece id="vlandian_guard_4"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_19"
+			       Type="Handle"/>
+			<Piece id="empire_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t5_arming_sword"
+	             name="{=kotk_goondor_t5_arming_sword}Goondor Arming Sword"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_6"
+			       Type="Blade"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"/>
+			<Piece id="empire_grip_17"
+			       Type="Handle"/>
+			<Piece id="vlandian_noble_pommel_1"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="khzu_56_blade"
+	             name="{=kotk_khzu_56_blade}Blade of AIKA"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_2"
+			       Type="Blade"/>
+			<Piece id="aserai_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="empire_grip_17"
+			       Type="Handle"/>
+			<Piece id="empire_noble_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_sword_01"
+	             name="{=kotk_looter_sword_01}Looter Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_10"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_3"
+			       Type="Guard"/>
+			<Piece id="wood_grip_2"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_sword_02"
+	             name="{=kotk_looter_sword_02}Looter Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_4"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_3"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_32"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_sword_03"
+	             name="{=kotk_looter_sword_03}Looter Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_32"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_sword_04"
+	             name="{=kotk_looter_sword_04}Looter Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="empire_noble_blade_2"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="sturgian_guard_8"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="wood_grip_2"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="raper_1hs"
+	             name="{=kotk_raper_1hs}Raper"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"/>
+			<Piece id="vlandian_noble_guard_3"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_4"
+			       Type="Handle"/>
+			<Piece id="vlandian_noble_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_bandit_blade_01"
+	             name="{=kotk_t1_bandit_blade_01}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_2"
+			       Type="Blade"/>
+			<Piece id="sturgian_guard_1"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_12"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_aserai_infantry_blade"
+	             name="{=kotk_t2_aserai_infantry_blade}Aserai Brawler Scimitar"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_4"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="cleaver_guard_5"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_7"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_bandit_blade_01"
+	             name="{=kotk_t2_bandit_blade_01}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3_iron"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="sturgian_grip_13"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_bandit_blade_02"
+	             name="{=kotk_t2_bandit_blade_02}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3_crude_iron"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="sturgian_grip_11"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_brawler_blade"
+	             name="{=kotk_t2_brawler_blade}Brawler Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_15"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_flachion_01"
+	             name="{=kotk_t2_flachion_01}Cheap Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_6"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_7"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_flachion_02"
+	             name="{=kotk_t2_flachion_02}Cheap Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_8"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_nympho_blade"
+	             name="{=kotk_t2_nympho_blade}Nympho Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_4"
+			       Type="Blade"/>
+			<Piece id="cleaver_guard_2"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_13"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_watchthot_blade"
+	             name="{=kotk_t2_watchthot_blade}Watchthot Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_5"
+			       Type="Blade"/>
+			<Piece id="cleaver_guard_5"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_8"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bandit_blade_01"
+	             name="{=kotk_t3_bandit_blade_01}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_9"
+			       Type="Blade"/>
+			<Piece id="sturgian_guard_1"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="sturgian_grip_34"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bandit_blade_02"
+	             name="{=kotk_t3_bandit_blade_02}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_4"
+			       Type="Blade"/>
+			<Piece id="sturgian_guard_1"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="wood_grip_1"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_blade"
+	             name="{=kotk_t3_blade}Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="aserai_blade_2"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_17"
+			       Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_brawler_blade"
+	             name="{=kotk_t3_brawler_blade}Infantry Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t3_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_7"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_flachion_01"
+	             name="{=kotk_t3_flachion_01}Quality Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t3_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="sturgian_noble_guard_3"
+			       Type="Guard"/>
+			<Piece id="khuzait_grip_20"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_flachion_02"
+	             name="{=kotk_t3_flachion_02}Quality Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t3_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_26"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_khuzait_infantry_blade"
+	             name="{=kotk_t3_khuzait_infantry_blade}Khuzait Infantry Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="empire_noble_blade_3"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_5"
+			       Type="Guard"/>
+			<Piece id="empire_grip_1"
+			       Type="Handle"/>
+			<Piece id="aserai_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_nympho_blade"
+	             name="{=kotk_t3_nympho_blade}Nympho Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_3"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_6"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_8"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_scout_blade"
+	             name="{=kotk_t3_scout_blade}Scout Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_blade_5"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_26"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_thotguard_blade"
+	             name="{=kotk_t3_thotguard_blade}Mercenary Guard Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="vlandian_blade_8"
+			       Type="Blade"/>
+			<Piece id="sturgian_noble_guard_3"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_16"
+			       Type="Handle"/>
+			<Piece id="sturgian_noble_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_vlandian_noble_blade"
+	             name="Ecuyere d’Armes Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="vlandian_blade_4"
+			       Type="Blade"/>
+			<Piece id="vlandian_guard_6"
+			       Type="Guard"/>
+			<Piece id="battania_grip_7"
+			       Type="Handle"/>
+			<Piece id="cleaver_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_bandit_blade_01"
+	             name="{=kotk_t4_bandit_blade_01}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_9"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_13"
+			       Type="Handle"/>
+			<Piece id="vlandian_pommel_10"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_bandit_blade_02"
+	             name="{=kotk_t4_bandit_blade_02}Bandit Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3_fine_steel"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="sturgian_guard_6"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="sturgian_grip_12"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_battanian_cav_saber"
+	             name="{=kotk_t4_battanian_cav_saber}Battanian Cavalry Saber"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"/>
+			<Piece id="sturgian_guard_12"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_18"
+			       Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_blade"
+	             name="{=kotk_t4_blade}Scout Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="aserai_blade_1"
+			       Type="Blade"/>
+			<Piece id="vlandian_guard_4"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_12"
+			       Type="Handle"/>
+			<Piece id="empire_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_brawler_blade"
+	             name="{=kotk_t4_brawler_blade}Veteran Infantry Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t4_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_7"
+			       Type="Guard"/>
+			<Piece id="khuzait_noble_grip_1"
+			       Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_3"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_flachion_01"
+	             name="{=kotk_t4_flachion_01}Uber Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t4_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_3"
+			       Type="Guard"/>
+			<Piece id="vlandian_grip_11"
+			       Type="Handle"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_flachion_02"
+	             name="{=kotk_t4_flachion_02}Uber Flachion"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="t4_runic_flachion_blade"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_9"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_28"
+			       Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_khuzait_cav_saber"
+	             name="{=kotk_t4_khuzait_cav_saber}Khuzait Cavalry Saber"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"/>
+			<Piece id="khuzait_guard_7"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_20"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_nympho_blade"
+	             name="{=kotk_t4_nympho_blade}Nympho Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_4"
+			       Type="Blade"/>
+			<Piece id="aserai_guard_8"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="vlandian_grip_4"
+			       Type="Handle"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_swordthot_blade"
+	             name="{=kotk_t4_swordthot_blade}Mercenary Swordsthot Sword"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_2"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="aserai_guard_3"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_20"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="battania_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_battanian_cav_saber"
+	             name="{=kotk_t5_battanian_cav_saber}Battanian Cavalry Saber"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"/>
+			<Piece id="battania_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_4"
+			       Type="Handle"/>
+			<Piece id="empire_noble_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bimbo_blade_1hs"
+	             name="Bimbo Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="bimbo_vlandian_noble_blade_8"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="bimbo_vlandian_noble_guard_1"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="bimbo_empire_noble_grip_4"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="bimbo_vlandian_noble_pommel_4"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bimbo_blade_1hs_uber"
+	             name="Bimbo Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="bimbo_vlandian_blade_3"
+			       Type="Blade"
+			       scale_factor="98"/>
+			<Piece id="bimbo_vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="bimbo_empire_noble_grip_4"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="bimbo_vlandian_noble_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_blade"
+	             name="{=kotk_t5_blade}Cavalry Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="aserai_blade_11"
+			       Type="Blade"/>
+			<Piece id="vlandian_noble_guard_3"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_3"
+			       Type="Handle"/>
+			<Piece id="aserai_noble_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_khuz_1hs_steppe_sister"
+	             name="{=kotk_t5_khuz_1hs_steppe_sister}Steppe Sis's Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_1"
+			       Type="Blade"/>
+			<Piece id="aserai_noble_guard_1"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="empire_noble_grip_3"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="empire_noble_pommel_4"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_khuzait_cav_saber"
+	             name="{=kotk_t5_khuzait_cav_saber}Khuzait Cavalry Saber"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="aserai_noble_blade_6"
+			       Type="Blade"/>
+			<Piece id="battania_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_4"
+			       Type="Handle"/>
+			<Piece id="aserai_noble_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_nympho_blade"
+	             name="{=kotk_t5_nympho_blade}Nympho Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="aserai_noble_guard_3"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="khuzait_noble_grip_2"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="khuzait_noble_pommel_2"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_thot_blade"
+	             name="{=kotk_t5_thot_blade}Mercenary Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="aserai_noble_guard_1"
+			       Type="Guard"/>
+			<Piece id="sturgian_noble_grip_2"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_vlandian_noble_blade"
+	             name="Gendarme d'Epee Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="kotk_vlandia_battania_noble_blade_1"
+			       Type="Blade"
+			       scale_factor="103"/>
+			<Piece id="vlandian_guard_3"
+			       Type="Guard"/>
+			<Piece id="aserai_grip_29"
+			       Type="Handle"/>
+			<Piece id="empire_noble_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_comatasa_blade"
+	             name="{=kotk_t6_comatasa_blade}Satan's Cunt"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="khuzait_noble_guard_3"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="sturgian_noble_grip_2"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="empire_noble_pommel_1"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_ira_blade"
+	             name="{=kotk_t6_ira_blade}Satan's Cock"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"/>
+			<Piece id="aserai_noble_guard_2"
+			       Type="Guard"
+			       scale_factor="90"/>
+			<Piece id="vlandian_noble_grip_3"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="vlandian_noble_pommel_4"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_vlandian_blade"
+	             name="{=kotk_t6_vlandian_blade}Gendarme Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="battania_noble_blade_1"
+			       Type="Blade"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_3"
+			       Type="Handle"/>
+			<Piece id="vlandian_noble_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_vlandian_noble_blade"
+	             name="Maitresse Blade"
+	             crafting_template="kotk_OneHandedSword">
+		<Pieces>
+			<Piece id="kotk_vlandia_battania_noble_blade_1"
+			       Type="Blade"
+			       scale_factor="103"/>
+			<Piece id="vlandian_noble_guard_3"
+			       Type="Guard"/>
+			<Piece id="empire_noble_grip_4"
+			       Type="Handle"/>
+			<Piece id="vlandian_noble_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{2}**<!{4}**	<!{7}** ===== CraftedItem group: crafting_template='kotk_TwoHandedAxe' ===== **{7}>**{4}>**{2}>-->
+	<CraftedItem id="2hs_greataxe_1"
+	             name="{=kotk_2hs_greataxe_1}Anal Fissure"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="greataxe_head_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_10_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_greataxe_2"
+	             name="{=kotk_2hs_greataxe_2}Axe of the Sexecutioner"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="greataxe_head_1"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="axe_craft_4_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="aserai_axe_t6"
+	             name="{=kotk_aserai_axe_t6}Axing Yall"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_38_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_8_handle"
+			       Type="Handle"
+			       scale_factor="96"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="ass_blasting_axe"
+	             name="{=kotk_ass_blasting_axe}Two Handed Axe Blaster"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_1_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_8_handle"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="axe_somebody_aserai_2haxe_3_t5"
+	             name="{=kotk_axe_somebody_aserai_2haxe_3_t5}Yall Betta Axe Somebodies"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_22_head"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="axe_craft_1_handle"
+			       Type="Handle"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="badiche_battania_2haxe_1_t2"
+	             name="{=kotk_badiche_battania_2haxe_1_t2}Short Handled Badbiche"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_16_head"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="axe_craft_30_handle"
+			       Type="Handle"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="kotk_2hs_bimbo_greataxe"
+	             name="Great Axe of the Bimbo"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="t5_bimbo_greataxe_head"
+			       Type="Blade"/>
+			<Piece id="t5_bimbo_greataxe_handle"
+			       Type="Handle"/>
+			<Piece id="t5_bimbo_greataxe_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="skadiarpverrir_axe"
+	             name="{=kotk_skadiarpverrir_axe}Skadiarþverrir Two Handed Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_22_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_10_handle"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_galloglaigh_2hs_axe"
+	             name="Battanian KotK 2H Axes"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_5_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_32_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_galloglaigh_2hs_axe"
+	             name="Battanian KotK 2H Axes"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_14_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_30_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_6"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_galloglaigh_2hs_axe"
+	             name="Battanian Two Handed Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_7_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_29_handle"
+			       Type="Handle"
+			       scale_factor="94"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_aserai_2h_axe"
+	             name="{=kotk_t5_aserai_2h_axe}Aserai Horse Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_38_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_4_handle"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_sturgian_2h_axe"
+	             name="{=kotk_t5_sturgian_2h_axe}Sturgian Horse Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_22_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_9_handle"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_galloglaigh_2hs_axe"
+	             name="Galloglaigh Two Handed Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="greataxe_head_1"
+			       Type="Blade"/>
+			<Piece id="axe_craft_8_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thiccc_peasant_2haxe_1_t1"
+	             name="{=kotk_thiccc_peasant_2haxe_1_t1}Dat Hoe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_14_head"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="axe_craft_7_handle"
+			       Type="Handle"
+			       scale_factor="96"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="wood_choppa"
+	             name="{=kotk_wood_choppa}Wood Choppa"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_6_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_14_handle"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="yeet_sturgia_2haxe_2_t5"
+	             name="{=kotk_yeet_sturgia_2haxe_2_t5}YEET Two Handed Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_38_head"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="axe_craft_4_handle"
+			       Type="Handle"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{3}**	<!{6}** ===== CraftedItem group: crafting_template='kotk_TwoHandedPolearm' ===== **{6}>**{3}>-->
+	<CraftedItem id="4u_khuzait_polearm_1_t4"
+	             name="{=kotk_4u_khuzait_polearm_1_t4}Glaive 4 U"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.khuzait">
+		<Pieces>
+			<Piece id="spear_blade_24"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="aerai_rashidun_polearm"
+	             name="{=kotk_aerai_rashidun_polearm}Rashidun Two Handed Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_18"
+			       Type="Blade"/>
+			<Piece id="spear_guard_4"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t3_lance"
+	             name="{=kotk_coreinriders_t3_lance}Fianna Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_25"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="spear_banner_22"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="spear_handle_13"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t4_lance"
+	             name="{=kotk_coreinriders_t4_lance}Red Branch Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_4"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="spear_banner_23"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="spear_handle_20"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t5_lance"
+	             name="{=kotk_coreinriders_t5_lance}Cuchulainn Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_27"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="spear_banner_1"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="spear_handle_19"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="exceptional_eastern_glaive"
+	             name="{=kotk_exceptional_eastern_glaive}Eastern Glaive"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_22"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="spear_banner_17"
+			       Type="Guard"/>
+			<Piece id="spear_handle_15"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t3_lance"
+	             name="{=kotk_goondor_t3_lance}Goondor Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_2"
+			       Type="Blade"/>
+			<Piece id="spear_guard_10"
+			       Type="Guard"/>
+			<Piece id="spear_handle_13"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t4_lance"
+	             name="{=kotk_goondor_t4_lance}Goondor Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_13"
+			       Type="Blade"/>
+			<Piece id="spear_guard_12"
+			       Type="Guard"/>
+			<Piece id="spear_handle_20"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_10"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="goondor_t5_lance"
+	             name="{=kotk_goondor_t5_lance}Goondor Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_13"
+			       Type="Blade"/>
+			<Piece id="spear_guard_13"
+			       Type="Guard"/>
+			<Piece id="spear_handle_19"
+			       Type="Handle"
+			       scale_factor="108"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="jawwal_throwing_spear"
+	             name="{=kotk_jawwal_throwing_spear}Jawwal Throwing Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_8"
+			       Type="Blade"/>
+			<Piece id="spear_banner_16"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="khuzait_noble_lance"
+	             name="{=kotk_khuzait_noble_lance}Khuzait Noble Lance"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_35"
+			       Type="Blade"/>
+			<Piece id="spear_banner_16"
+			       Type="Guard"/>
+			<Piece id="spear_handle_18"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="kotk_menavlion"
+	             name="{=kotk_kotk_menavlion}KOTK Menavlion"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_7"
+			       Type="Blade"/>
+			<Piece id="spear_guard_1"
+			       Type="Guard"/>
+			<Piece id="spear_handle_16"
+			       Type="Handle"
+			       scale_factor="92"/>
+			<Piece id="spear_pommel_10"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_pitchfork_01"
+	             name="{=kotk_looter_pitchfork_01}Looter Pitchfork"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_29"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_rake_01"
+	             name="{=kotk_looter_rake_01}Looter Rake"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_30"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_spear_01"
+	             name="{=kotk_looter_spear_01}Looter Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_15"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_spear_02"
+	             name="{=kotk_looter_spear_02}Looter Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_26"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_spear_03"
+	             name="{=kotk_looter_spear_03}Looter Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_14"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="rofl_billhook_polearm_t2"
+	             name="{=kotk_rofl_billhook_polearm_t2}Roflphaia"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="spear_blade_44"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_4"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="rofl_western_spear_1_t2"
+	             name="{=kotk_rofl_western_spear_1_t2}Onlyfans"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="axe_craft_10_head"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="simp_empire_polearm_1_t4"
+	             name="{=kotk_simp_empire_polearm_1_t4}Simpavlion"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_7"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="spear_guard_14"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_16"
+			       Type="Handle"
+			       scale_factor="92"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_garden_tool_01"
+	             name="{=kotk_t1_garden_tool_01}Garden Tool"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_21"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_garden_tool_02"
+	             name="{=kotk_t1_garden_tool_02}Garden Tool"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_28"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_harpoon_01"
+	             name="{=kotk_t1_harpoon_01}Fishing Harpoon"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_10"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_militia_hook"
+	             name="{=kotk_t2_militia_hook}Militia Hook"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_33"
+			       Type="Blade"/>
+			<Piece id="spear_guard_16"
+			       Type="Guard"/>
+			<Piece id="spear_handle_1"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_militia_throwing_spear"
+	             name="{=kotk_t2_militia_throwing_spear}Militia Throwing Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_8"
+			       Type="Blade"/>
+			<Piece id="spear_guard_2"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_2"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bandit_pokeystick"
+	             name="{=kotk_t3_bandit_pokeystick}Pokey Stick"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_25"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bandit_spear"
+	             name="{=kotk_t3_bandit_spear}Bandit Spear"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_40"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bimbo_spear"
+	             name="Spear of the Bimbo"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="kotk_spear_blade_11"
+			       Type="Blade"/>
+			<Piece id="kotk_spear_banner_4"
+			       Type="Guard"/>
+			<Piece id="kotk_spear_handle_14"
+			       Type="Handle"/>
+			<Piece id="kotk_spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_cav_polearm"
+	             name="{=kotk_t3_cav_polearm}Scout Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_33"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_5"
+			       Type="Handle"
+			       scale_factor="98"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_infantry_polearm"
+	             name="{=kotk_t3_infantry_polearm}Infantry Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_8"
+			       Type="Blade"/>
+			<Piece id="spear_guard_10"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_cav_polearm"
+	             name="{=kotk_t4_cav_polearm}Cavalry Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_44"
+			       Type="Blade"/>
+			<Piece id="spear_guard_12"
+			       Type="Guard"/>
+			<Piece id="spear_handle_1"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_5"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_infantry_polearm"
+	             name="{=kotk_t4_infantry_polearm}Veteran Infantry Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_38"
+			       Type="Blade"/>
+			<Piece id="spear_guard_11"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_8"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_khuzait_glaive"
+	             name="{=kotk_t4_khuzait_glaive}Noble Glaive"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_19"
+			       Type="Blade"/>
+			<Piece id="spear_banner_17"
+			       Type="Guard"/>
+			<Piece id="spear_handle_16"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_11"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bimbo_lance"
+	             name="Lance of the Bimbo"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="kotk_spear_blade_13"
+			       Type="Blade"
+			       scale_factor="101"/>
+			<Piece id="kotk_spear_banner_1"
+			       Type="Guard"/>
+			<Piece id="kotk_spear_handle_19"
+			       Type="Handle"/>
+			<Piece id="kotk_spear_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_infantry_polearm"
+	             name="{=kotk_t5_infantry_polearm}Warrior Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_6"
+			       Type="Blade"/>
+			<Piece id="spear_guard_13"
+			       Type="Guard"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_steppe_sis_polearm"
+	             name="{=kotk_t6_steppe_sis_polearm}Steppe Sis's Polearm"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_24"
+			       Type="Blade"/>
+			<Piece id="spear_banner_1"
+			       Type="Guard"/>
+			<Piece id="spear_handle_16"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thiccc_polearm_1_t4"
+	             name="{=kotk_thiccc_polearm_1_t4}Simp Slayer"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_44"
+			       Type="Blade"
+			       scale_factor="75"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thiccc_polearm_2_t4"
+	             name="{=kotk_thiccc_polearm_2_t4}Lite Simp Slayer"
+	             crafting_template="kotk_TwoHandedPolearm"
+	             culture="Culture.empire">
+		<Pieces>
+			<Piece id="spear_blade_12"
+			       Type="Blade"/>
+			<Piece id="default_polearm_guard"
+			       Type="Guard"/>
+			<Piece id="spear_handle_3"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="triarii_pilum"
+	             name="{=kotk_triarii_pilum}Triarii Pilum"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_38"
+			       Type="Blade"/>
+			<Piece id="spear_guard_13"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="spear_handle_14"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="valkyrjur_polearm"
+	             name="{=kotk_valkyrjur_polearm}Vindrjárn"
+	             crafting_template="kotk_TwoHandedPolearm">
+		<Pieces>
+			<Piece id="spear_blade_43"
+			       Type="Blade"
+			       scale_factor="102"/>
+			<Piece id="spear_guard_13"
+			       Type="Guard"/>
+			<Piece id="spear_handle_16"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{3}**	<!{6}** ===== CraftedItem group: crafting_template='OneHandedAxe' ===== **{6}>**{3}>-->
+	<CraftedItem id="looter_axe_01"
+	             name="{=kotk_looter_axe_01}Looter Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_21_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_13_handle"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_pick_01"
+	             name="{=kotk_looter_pick_01}Looter Pickaxe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_37_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_21_handle"
+			       Type="Handle"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t1_bandit_axe"
+	             name="{=kotk_t1_bandit_axe}Bandit Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_32_head"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="axe_craft_25_handle"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_axe"
+	             name="{=kotk_t3_axe}Skirmisher Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_28_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_26_handle"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_galloglaigh_1hs_axe"
+	             name="Battanian One Handed Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_2_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_25_handle"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_axe"
+	             name="{=kotk_t4_axe}Markswoman Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_23_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_22_handle"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_galloglaigh_1hs_axe"
+	             name="Battanian One Handed Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_26_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_5_handle"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_axe"
+	             name="{=kotk_t5_axe}Heroine Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_8_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_16_handle"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_galloglaigh_1hs_axe"
+	             name="Battanian One Handed Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_25_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_21_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_10"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_vlandian_1ha"
+	             name="{=kotk_t5_vlandian_1ha}THOT One Handed Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_8_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_24_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_9"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_galloglaigh_1hs_axe"
+	             name="Galloglaigh Axe"
+	             crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_8_head"
+			       Type="Blade"/>
+			<Piece id="axe_craft_16_handle"
+			       Type="Handle"/>
+			<Piece id="spear_pommel_12"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{3}**	<!{6}** ===== CraftedItem group: crafting_template='ThrowingAxe' ===== **{6}>**{3}>-->
+	<CraftedItem id="looter_throwing_axe"
+	             name="{=kotk_looter_throwing_axe}Looter Throwing Axe"
+	             crafting_template="ThrowingAxe">
+		<Pieces>
+			<Piece id="axe_craft_31_head"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="axe_craft_28_handle"
+			       Type="Handle"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_bat_kalli_throwingaxe"
+	             name="{=kotk_t4_bat_kalli_throwingaxe}Battanian Veteran Infantry Throwing Axe"
+	             crafting_template="ThrowingAxe">
+		<Pieces>
+			<Piece id="axe_craft_4_head"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="axe_craft_12_handle"
+			       Type="Handle"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{3}**	<!{6}** ===== CraftedItem group: crafting_template='ThrowingKnife' ===== **{6}>**{3}>-->
+	<CraftedItem id="looter_throwing_knife_01"
+	             name="{=kotk_looter_throwing_knife_01}Looter Throwing Knife"
+	             crafting_template="ThrowingKnife">
+		<Pieces>
+			<Piece id="dagger_blade_12"
+			       Type="Blade"/>
+			<Piece id="aserai_dagger_guard_1"
+			       Type="Guard"/>
+			<Piece id="sickle_grip_1"
+			       Type="Handle"/>
+			<Piece id="cleaver_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_throwing_knife_02"
+	             name="{=kotk_looter_throwing_knife_02}Looter Throwing Knife"
+	             crafting_template="ThrowingKnife">
+		<Pieces>
+			<Piece id="dagger_blade_10"
+			       Type="Blade"/>
+			<Piece id="sturgian_dagger_guard_1"
+			       Type="Guard"/>
+			<Piece id="sturgian_grip_12"
+			       Type="Handle"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<!--<!{2}**	<!{6}** ===== CraftedItem group: crafting_template='TwoHandedAxe' ===== **{6}>**{2}>-->
+	<CraftedItem id="t5_galloglaigh_2hs_axe"
+	             name="Battanian Two Handed Axe"
+	             crafting_template="kotk_TwoHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_1_head"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="axe_craft_10_handle"
+			       Type="Handle"
+			       scale_factor="105"/>
+			<Piece id="spear_pommel_4"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_comatasa_blade"
+	             name="{=kotk_2hs_comatasa_blade}Torn Rosebud"
+	             is_merchandise="false"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="nazgul_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="nazgul_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="nazgul_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="nazgul_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_gladius_01"
+	             name="{=kotk_2hs_gladius_01}Two Handed Gladius"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="battania_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_11"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_01"
+	             name="{=kotk_2hs_katana_01}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="katana_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_02"
+	             name="{=kotk_2hs_katana_02}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="katana_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_03"
+	             name="{=kotk_2hs_katana_03}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="katana_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_04"
+	             name="{=kotk_2hs_katana_04}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_7"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="katana_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_05"
+	             name="{=kotk_2hs_katana_05}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_06"
+	             name="{=kotk_2hs_katana_06}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="battania_grip_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_07"
+	             name="{=kotk_2hs_katana_07}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_20"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_katana_08"
+	             name="{=kotk_2hs_katana_08}Katana"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_16"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_rhagaea_blade"
+	             name="{=kotk_2hs_rhagaea_blade}Ass Ripper"
+	             is_merchandise="false"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="split_blade_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="octokuro_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="octokuro_grip_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="octokuro_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_split_blade_01"
+	             name="{=kotk_2hs_split_blade_01}Two Handed Split Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="split_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="empire_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="2hs_split_blade_02"
+	             name="{=kotk_2hs_split_blade_02}Split Bastard Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="split_blade_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="aserai_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_11"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="black_blade_of_disaster"
+	             name="{=kotk_black_blade_of_disaster}Black Blade of Disaster"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="kotk_katana_black_blade"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="kotk_khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="kotk_khuzait_grip_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="kotk_cleaver_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="cleaver_battania_2hsword_1_t2"
+	             name="{=kotk_cleaver_battania_2hsword_1_t2}Leave it to Cleaver"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="cleaver_blade_4"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_27"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t3_blade"
+	             name="{=kotk_coreinriders_t3_blade}Fianna Two Handed Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_5"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_11"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t4_blade"
+	             name="{=kotk_coreinriders_t4_blade}Red Branch Two Handed Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="empire_guard_4"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="cleaver_grip_4"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="aserai_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="coreinriders_t5_blade"
+	             name="{=kotk_coreinriders_t5_blade}Cuchulainn Two Handed Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_8"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="khuzait_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="daddy_vlandia_2hsword_2_t5"
+	             name="{=kotk_daddy_vlandia_2hsword_2_t5}Daddy Steel Two Hander"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.vlandia">
+		<Pieces>
+			<Piece id="vlandian_blade_3"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="battania_guard_3"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_25"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="empire_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="falx_u_battania_2hsword_4_t4"
+	             name="{=kotk_falx_u_battania_2hsword_4_t4}Falx You"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="battania_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_27"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="iron_battania_2hsword_4_t4"
+	             name="{=kotk_iron_battania_2hsword_4_t4}Iron n Wood"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="battania_blade_3_iron"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="sturgian_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_20"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_2hs_01"
+	             name="{=kotk_looter_2hs_01}Looter Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_32"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="khuzait_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_2hs_02"
+	             name="{=kotk_looter_2hs_02}Looter Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="cleaver_guard_2"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_33"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_2hs_03"
+	             name="{=kotk_looter_2hs_03}Looter Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3_iron"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_32"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="ridged_kaskara_2hsword_t3"
+	             name="{=kotk_ridged_kaskara_2hsword_t3}Ridged for her pleasure Kaskara"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.aserai">
+		<Pieces>
+			<Piece id="vlandian_blade_8"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_7"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="saber_battania_2hsword_1_t2"
+	             name="{=kotk_saber_battania_2hsword_1_t2}Artoria Pendragon"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="khuzait_blade_8"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_27"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_2hs_flachion_01"
+	             name="{=kotk_t2_2hs_flachion_01}Cheap Flachion"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="t2_runic_flachion_blade"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_4"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_27"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_batt_2hs"
+	             name="{=kotk_t2_batt_2hs}Battanian Young Pup Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3_iron"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="empire_grip_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="khuzait_pommel_2"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_2hs_flachion_01"
+	             name="{=kotk_t3_2hs_flachion_01}Quality Flachion"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="t3_runic_flachion_blade"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="empire_grip_8"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_bat_archer2hs"
+	             name="{=kotk_t3_bat_archer2hs}Battanian Archer Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_18"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="empire_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_batt_2hs"
+	             name="{=kotk_t3_batt_2hs}Battanian Young Pup Blade II"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_3"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_7"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_23"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_2hs_flachion_01"
+	             name="{=kotk_t4_2hs_flachion_01}Uber Flachion"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="t4_runic_flachion_blade"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="empire_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_20"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_7"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_bat_archer2hs"
+	             name="{=kotk_t4_bat_archer2hs}Battanian Archer Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="aserai_blade_5"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_3"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="khuzait_grip_11"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_bat_kalli_falx"
+	             name="{=kotk_t4_bat_kalli_falx}Battanian Veteran Infantry Falx"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_7"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="cleaver_grip_4"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_8"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_noble_2hs_sword"
+	             name="{=kotk_t4_noble_2hs_sword}Archer Champion Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_11"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="aserai_guard_3"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_9"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_noble_bat_falx"
+	             name="{=kotk_t4_noble_bat_falx}Noble Falx"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="cleaver_grip_4"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="aserai_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_thiccc_2hs_sword"
+	             name="{=kotk_t4_thiccc_2hs_sword}Simp Reaper"
+	             crafting_template="kotk_TwoHandedSword"
+	             is_merchandise="true">
+		<Pieces>
+			<Piece id="battania_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="khuzait_grip_14"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="cleaver_pommel_2"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bat_archer2hs"
+	             name="{=kotk_t5_bat_archer2hs}Battanian Archer Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="battania_grip_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="aserai_pommel_8"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bat_kalli_falx"
+	             name="{=kotk_t5_bat_kalli_falx}Battanian Warrior Falx"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="empire_guard_5"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bimbo_blade_2hs"
+	             name="Bimbo Blade Uber"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="bimbo_vlandian_noble_blade_8"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="bimbo_vlandian_noble_guard_1"
+			       Type="Guard"
+			       scale_factor="101"/>
+			<Piece id="bimbo_empire_noble_grip_4"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="bimbo_vlandian_noble_pommel_4"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_bimbo_blade_2hs_uber"
+	             name="Bimbo Blade Giga"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="bimbo_vlandian_blade_3"
+			       Type="Blade"
+			       scale_factor="109"/>
+			<Piece id="bimbo_vlandian_noble_guard_1"
+			       Type="Guard"
+			       scale_factor="110"/>
+			<Piece id="bimbo_empire_noble_grip_4"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="bimbo_vlandian_noble_pommel_1"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_blade_2hs"
+	             name="{=kotk_t5_blade_2hs}Barbarella Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="sturgian_blade_10"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="empire_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_khuzait_horsearcher_blade"
+	             name="{=kotk_t5_khuzait_horsearcher_blade}Khuzait Horse Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="katana_blade_1"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="khuzait_guard_9"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_19"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="khuzait_pommel_5"
+			       Type="Pommel"
+			       scale_factor="110"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_noble_bat_falx"
+	             name="{=kotk_t5_noble_bat_falx}Noble Falx"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="battania_grip_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="aserai_pommel_8"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_sword_mommy_blade"
+	             name="{=kotk_t5_sword_mommy_blade}Blade of the Sword Mommy"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="vlandian_blade_3"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="battania_grip_2"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_bat_falx"
+	             name="{=kotk_t6_bat_falx}Highland Mercenary Blade"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="empire_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_battania_2hsword_5_t5"
+	             name="{=kotk_t6_battania_2hsword_5_t5}The Prolapsing Blade"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.sturgia">
+		<Pieces>
+			<Piece id="battania_blade_6"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_7"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_infantry_2hs"
+	             name="{=kotk_t6_infantry_2hs}Sturgian Two Handed Sword II"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="aserai_blade_11"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_stugian_blade"
+	             name="{=kotk_t6_stugian_blade}Sturgian Two Handed Sword"
+	             crafting_template="kotk_TwoHandedSword">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_19"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t6_sturgian_2hsword_5_t5"
+	             name="{=kotk_t6_sturgian_2hsword_5_t5}Skjoldmo Blade"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="vlandian_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="khuzait_grip_14"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="cleaver_pommel_2"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thiccc_reaper_falx"
+	             name="{=kotk_thiccc_reaper_falx}Artemis Giga Gladius"
+	             crafting_template="kotk_TwoHandedSword"
+	             is_merchandise="true">
+		<Pieces>
+			<Piece id="gladius_blade_1"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="sturgian_noble_guard_1"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="aserai_grip_13"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_5"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thot_merc_battania_2hsword_5_t5"
+	             name="{=kotk_thot_merc_battania_2hsword_5_t5}The Atlantean Blade"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.sturgia">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="vlandian_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_7"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thot_reaper_mountainblade"
+	             name="{=kotk_thot_reaper_mountainblade}Fancy Lad"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="kotk_battania_blade_uber"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="cleaver_guard_3"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="vlandian_grip_12"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="vlandian_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="thotmerc_battania_2hsword_1_t2"
+	             name="{=kotk_thotmerc_battania_2hsword_1_t2}Mercenary Iron Broadsword"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="battania_blade_3_iron"
+			       Type="Blade"
+			       scale_factor="110"/>
+			<Piece id="battania_guard_3"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_25"
+			       Type="Handle"
+			       scale_factor="110"/>
+			<Piece id="empire_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="trash_battania_2hsword_1_t2"
+	             name="{=kotk_trash_battania_2hsword_1_t2}Brokeback Mountain Broadsword"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="kotk_battania_blade_quality"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="battania_guard_8"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_27"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="sturgian_pommel_4"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="wood_battania_2hsword_4_t4"
+	             name="{=kotk_wood_battania_2hsword_4_t4}Wood Mountain"
+	             crafting_template="kotk_TwoHandedSword"
+	             culture="Culture.battania">
+		<Pieces>
+			<Piece id="kotk_battania_blade_cheap"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="sturgian_guard_6"
+			       Type="Guard"
+			       scale_factor="100"/>
+			<Piece id="sturgian_grip_20"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="battania_pommel_9"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<!--BROKEN ITEMS-->
+	<CraftedItem id="boinker_2hm"
+	             name="{=kotk_boinker_2hm}Two Handed Boinker"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_32"
+			       Type="Blade"/>
+			<Piece id="mace_handle_19"
+			       Type="Handle"
+			       scale_factor="96"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_bash_stick_01"
+	             name="{=kotk_looter_bash_stick_01}Looter Bashing Stick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_35"
+			       Type="Blade"/>
+			<Piece id="mace_handle_19"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_bash_stick_02"
+	             name="{=kotk_looter_bash_stick_02}Looter Bashing Stick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_36"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="mace_handle_19"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_nympho_beatstick"
+	             name="{=kotk_t2_nympho_beatstick}Nympho Beatstick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_36"
+			       Type="Blade"
+			       scale_factor="93"/>
+			<Piece id="mace_handle_19"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_nympho_beatstick"
+	             name="{=kotk_t3_nympho_beatstick}Nympho Beatstick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_39"
+			       Type="Blade"/>
+			<Piece id="mace_handle_18"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_oni_kanobo"
+	             name="{=kotk_t3_oni_kanobo}Oni Kanobo"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_wood"
+			       Type="Blade"/>
+			<Piece id="kotk_mace_handle_18"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_double_handed_hammer"
+	             name="{=kotk_t4_double_handed_hammer}Ye'Olde Hamma Tyme"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_32"
+			       Type="Blade"/>
+			<Piece id="mace_handle_20"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_nympho_beatstick"
+	             name="{=kotk_t4_nympho_beatstick}Nympho Beatstick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_32"
+			       Type="Blade"/>
+			<Piece id="mace_handle_20"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_oni_kanobo"
+	             name="{=kotk_t4_oni_kanobo}Oni Kanobo"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_silver"
+			       Type="Blade"/>
+			<Piece id="kotk_mace_handle_20"
+			       Type="Handle"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_nympho_beatstick"
+	             name="{=kotk_t5_nympho_beatstick}Nympho Beatstick"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="mace_head_32"
+			       Type="Blade"
+			       scale_factor="90"/>
+			<Piece id="spear_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_oni_kanobo"
+	             name="{=kotk_t5_oni_kanobo}Oni Kanobo"
+	             crafting_template="kotk_TwoHandedMace">
+		<Pieces>
+			<Piece id="kotk_oni_mace_head_gold"
+			       Type="Blade"
+			       scale_factor="96"/>
+			<Piece id="kotk_spear_handle_1"
+			       Type="Handle"
+			       scale_factor="90"/>
+			<Piece id="kotk_anal_plut_pommel_1"
+			       Type="Pommel"
+			       scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_mace_01"
+	             name="{=kotk_looter_mace_01}Looter Beatstick"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_22"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_6"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_mallet_01"
+	             name="{=kotk_looter_mallet_01}Looter Mallet"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_24"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="sickle_handle_1"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="looter_mallet_02"
+	             name="{=kotk_looter_mallet_02}Looter Mallet"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_24"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_14"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="shithpar_mace_t4"
+	             name="{=kotk_shithpar_mace_t4}Light Shithpar Mace"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_21"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="khuzait_noble_pommel_1"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t2_beatstick"
+	             name="{=kotk_t2_beatstick}Brawler Beatstick"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_22"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_8"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t3_beatstick"
+	             name="{=kotk_t3_beatstick}Infantry Beatstick"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_4"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_7"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="spear_pommel_3"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t4_beatstick"
+	             name="{=kotk_t4_beatstick}Veteran Infantry Beatstick"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_26"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_9"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="t5_beatstick"
+	             name="{=kotk_t5_beatstick}Warrior Beatstick"
+	             crafting_template="kotk_Mace">
+		<Pieces>
+			<Piece id="mace_head_7"
+			       Type="Blade"
+			       scale_factor="100"/>
+			<Piece id="mace_handle_15"
+			       Type="Handle"
+			       scale_factor="100"/>
+			<Piece id="default_polearm_pommel"
+			       Type="Pommel"
+			       scale_factor="100"/>
+		</Pieces>
+	</CraftedItem>
+</Items>

@@ -1,0 +1,5529 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<NPCCharacter id="kotk_looter"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_looter}T1 Lootress"
+	              level="6"
+	              occupation="Bandit"
+	              is_basic_troop="true"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="30"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="30"/>
+			<skill id="Riding"
+			       value="0"/>
+			<skill id="Throwing"
+			       value="40"/>
+			<skill id="TwoHanded"
+			       value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.female_looter_upgade_t2"/>
+			<upgrade_target id="NPCCharacter.kotk_t2_looteress"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.mbgt_leotard_newuv_looter"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_17"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_garden_tool_01"/>
+				<equipment slot="Body"
+				           id="Item.cobra_dress_remix_looter_dress"/>
+				<equipment slot="Gloves"
+				           id="Item.cobra_dress_remix_looter_armlets"/>
+				<equipment slot="Leg"
+				           id="Item.cobra_dress_remix_looter_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.gazu_dress_01_looter"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.tsuit_looter_bloody"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_axe_1_t2"/>
+				<equipment slot="Body"
+				           id="Item.mbgt_leotard_newuv_looter"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_garden_tool_01"/>
+				<equipment slot="Item1"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Item1"
+				           id="Item.throwing_stone"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_04"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_garden_tool_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_garden_tool_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_t2_looteress"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_t2_looteress}T2 Lootress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="15"/>
+			<skill id="Throwing"
+			       value="30"/>
+			<skill id="TwoHanded"
+			       value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.female_looter_upgade_t3"/>
+			<upgrade_target id="NPCCharacter.kotk_t3_looteress"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_pick_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_pick_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_new_suit_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_02"/>
+				<equipment slot="Body"
+				           id="Item.mbgt_leotard_newuv_looter"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mace_01"/>
+				<equipment slot="Item3"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Item2"
+				           id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mace_01"/>
+				<equipment slot="Item3"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Item2"
+				           id="Item.celtic_throwing_dagger"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_07"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_knife_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_bash_stick_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_axe"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_04"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_17"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_17"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_t3_looteress"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_t3_looteress}T3 Lootress"
+	              level="16"
+	              occupation="Bandit"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="80"/>
+			<skill id="Bow"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Riding"
+			       value="0"/>
+			<skill id="Throwing"
+			       value="60"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_t4_looteress"/>
+			<upgrade_target id="NPCCharacter.female_looter_upgade_t4"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mallet_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_new_suit_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mallet_02"/>
+				<equipment slot="Head"
+				           id="Item.head_wrapping"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_new_suit_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_axe_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_axe"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_03"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_knife_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_cloth_suit_faction"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mallet_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_15"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_cloth_suit_aged_cloth"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_07"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_04"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_t4_looteress"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_t4_looteress}T4 Lootress"
+	              level="21"
+	              occupation="Bandit"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="110"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="Throwing"
+			       value="120"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.female_looter_upgade_t5"/>
+			<upgrade_target id="NPCCharacter.kotk_t5_looteress"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_padded_faction"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.thicc_elves_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.thicc_elves_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_akula_leotard_black"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.thicc_elves_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_akula_leotard_black"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.thicc_elves_boots_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_pick_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_86leotard_brown"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_pick_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_padded_faction"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_sword_03"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_25"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_hammer_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_25"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_plate_big_boob_brown_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_axe_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_plate_big_boob_brown_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_axe_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_03"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_plate_big_boob_brown_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_02"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_86leotard_brown"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_bash_stick_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_bikini_body_armor_brown"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_bash_stick_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_faction_bikini_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_sword_01"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.looter_bucket_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_faction_bikini_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_03"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_miu_brown"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.old_kite_sparring_shield"/>
+				<equipment slot="Item1"
+				           id="Item.looter_2hs_03"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.looter_active_wear_bloody_leather_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_leather_leg_armor_01"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_t5_looteress"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_t5_looteress}T5 Lootress Vanguard"
+	              level="26"
+	              occupation="Bandit"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="150"/>
+			<skill id="Polearm"
+			       value="50"/>
+			<skill id="Bow"
+			       value="50"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.looter_2hs_03"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.looter_2hs_03"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_02"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_sword_04"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_axe_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_axe"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_mallet_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_bash_stick_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_bash_stick_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_2hs_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_86leotard_chainmail_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_pick_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_knife_02"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_86leotard_chainmail_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_mallet_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_throwing_axe"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_bash_stick_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_02"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_sword_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_spear_03"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_2hs_03"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_javelin_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_brown"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_mallet_02"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_rake_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_black"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.looter_bash_stick_01"/>
+				<equipment slot="Item1"
+				           id="Item.worn_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.looter_pitchfork_01"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t4_pirate_boot_black"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_deserter"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_deserter}T2 Deserteress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="15"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="20"/>
+			<skill id="Riding"
+			       value="30"/>
+			<skill id="Throwing"
+			       value="30"/>
+			<skill id="TwoHanded"
+			       value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t2_imperial_recruit"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+				<equipment slot="Horse"
+				           id="Item.sumpter_horse"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_sea_raiders_bandit"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_sea_raiders_bandit}T2 Sea Raideress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="15"/>
+			<skill id="Throwing"
+			       value="30"/>
+			<skill id="TwoHanded"
+			       value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_sea_raiders_raider"/>
+			<upgrade_target id="NPCCharacter.t3_sturgian_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Item1"
+				           id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1"
+				           id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.roughhide_cap"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_knobby_club"/>
+				<equipment slot="Item1"
+				           id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.roughhide_cap"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_11"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_leather_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1"
+				           id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.nordic_leather_cap"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_fister_mace"/>
+				<equipment slot="Item1"
+				           id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.roughhide_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Item1"
+				           id="Item.t2_dirty_iron_chode_2"/>
+				<equipment slot="Item2"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head"
+				           id="Item.nordic_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.roughhide_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Item1"
+				           id="Item.t2_dirty_iron_knobby_club"/>
+				<equipment slot="Item2"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.northern_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_sea_raiders_raider"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_sea_raiders_raider}T3 Sea Raider Warrioress"
+	              level="16"
+	              occupation="Bandit"
+	              culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="80"/>
+			<skill id="Bow"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Riding"
+			       value="0"/>
+			<skill id="Throwing"
+			       value="60"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_sea_raiders_chief"/>
+			<upgrade_target id="NPCCharacter.t4_sturgian_veteran"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t3_iron_chode_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.mbgt_leotard_newuv_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_bikini_body_armor_faction"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_bikini_body_armor_brown"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_bikini_body_armor_black"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_15"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_doggy_dong_mace"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_19"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_minor_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_18"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_knobby_boi_mace"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.nordic_leather_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t3_minor_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_23"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_dirty_empress_mace"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.nasal_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_22"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_the_iron_fister"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.nasalhelm_over_leather"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_21"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_big_iron_chode_mace"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_sea_raiders_chief"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_sea_raiders_chief}T4 Sea Raider Chieftess"
+	              level="21"
+	              occupation="Bandit"
+	              culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="110"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="Throwing"
+			       value="120"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_sturgian_warrior"/>
+			<upgrade_target id="NPCCharacter.kotk_sea_raiders_boss"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_09"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_sturgian_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_sturgian_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_the_iron_empress"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_skolder_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mountain_bandits_bandit"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_mountain_bandits_bandit}T2 Hillwoman"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="15"/>
+			<skill id="Throwing"
+			       value="15"/>
+			<skill id="TwoHanded"
+			       value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_mountain_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.t3_vlandia_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_16"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Leg"
+				           id="Item.khuzait_leather_boots_new_uv_cb_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_bandit_blade_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_16"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Leg"
+				           id="Item.khuzait_leather_boots_new_uv_cb_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_16"/>
+				<equipment slot="Gloves"
+				           id="Item.guarded_armwraps"/>
+				<equipment slot="Leg"
+				           id="Item.rough_tied_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_bandit_axe"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_16"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Leg"
+				           id="Item.khuzait_leather_boots_new_uv_cb_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_maul_t1_2"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_16"/>
+				<equipment slot="Gloves"
+				           id="Item.guarded_armwraps"/>
+				<equipment slot="Leg"
+				           id="Item.khuzait_leather_boots_new_uv_cb_01"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mountain_bandits_raider"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_mountain_bandits_raider}T3 Brigandress"
+	              level="16"
+	              occupation="Bandit"
+	              culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Bow"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="70"/>
+			<skill id="Riding"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="70"/>
+			<skill id="TwoHanded"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_vlandia_veteran"/>
+			<upgrade_target id="NPCCharacter.kotk_mountain_bandits_chief"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.peasant_maul_t1_2"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_25"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.khuzait_curved_boots_edit"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Item1"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_2_t3"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_25"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_maul_t1_2"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.peasant_maul_t1_2"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_2_t3"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_knobby_club"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_2_t3"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_25"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t2_fister_mace"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_2_t3"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t2_fister_mace"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_2_t3"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mountain_bandits_chief"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_mountain_bandits_chief}T4 Highwaywoman"
+	              level="21"
+	              upgrade_requires="ItemCategory.horse"
+	              occupation="Bandit"
+	              culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="100"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Riding"
+			       value="120"/>
+			<skill id="Throwing"
+			       value="120"/>
+			<skill id="TwoHanded"
+			       value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_vlandia_cav"/>
+			<upgrade_target id="NPCCharacter.kotk_mountain_bandits_boss"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_knobby_boi_mace"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_knobby_boi_mace"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_04"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_dirty_empress_mace"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_04"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_04"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_the_iron_fister"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_the_iron_fister"/>
+				<equipment slot="Item3"
+				           id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.active_wear_newuv_leather_chain"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item2"
+				           id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_donger_mace"/>
+				<equipment slot="Head"
+				           id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_forest_bandits_bandit"
+	              is_female="true"
+	              default_group="Ranged"
+	              name="{=kotk_kotk_forest_bandits_bandit}T2 Bushwackeress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="20"/>
+			<skill id="Polearm"
+			       value="20"/>
+			<skill id="Riding"
+			       value="30"/>
+			<skill id="Throwing"
+			       value="20"/>
+			<skill id="TwoHanded"
+			       value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_forest_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.t3_battanian_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_06"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_08"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_new_suit_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_battania_body_armor_new_suit"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_prison_knife"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_06"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_08"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.hooked_cleaver"/>
+				<equipment slot="Item1"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_05"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_05"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_08"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_04"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_08"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_prison_knife"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_08"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_05"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.hooked_cleaver"/>
+				<equipment slot="Item1"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_04"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_07"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_wooden_dick_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.mountain_hunting_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_06"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_forest_bandits_raider"
+	              is_female="true"
+	              default_group="Ranged"
+	              name="{=kotk_kotk_forest_bandits_raider}T3 Freebooteress"
+	              level="16"
+	              occupation="Bandit"
+	              culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="50"/>
+			<skill id="Bow"
+			       value="70"/>
+			<skill id="OneHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="30"/>
+			<skill id="Riding"
+			       value="0"/>
+			<skill id="Throwing"
+			       value="40"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_forest_bandits_chief"/>
+			<upgrade_target id="NPCCharacter.t4_battanian_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.battania_sword_3_t3"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_archer_hat"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_archer_body"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_archer_bracer"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_archer_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.battania_sword_3_t3"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_leather_bikini_body_armor_faction"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_donger"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_fister_mace"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_2"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_07"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_chode_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_forest_bandits_chief"
+	              is_female="true"
+	              default_group="Ranged"
+	              name="{=kotk_kotk_forest_bandits_chief}T4 Forest Banditress"
+	              level="21"
+	              occupation="Bandit"
+	              culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="110"/>
+			<skill id="Bow"
+			       value="150"/>
+			<skill id="OneHanded"
+			       value="120"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Riding"
+			       value="0"/>
+			<skill id="Throwing"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_battanian_ranger"/>
+			<upgrade_target id="NPCCharacter.kotk_forest_bandits_boss"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t3_iron_knobby_boi_mace"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t4_bandit_archer_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t4_bandit_archer_shoulder"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_archer_body"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_bandit_archer_bracer"/>
+				<equipment slot="Leg"
+				           id="Item.t4_bandit_archer_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.lowland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.battania_sword_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_new_suit_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_dirty_empress_mace"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_bandit_blade_01"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t3_the_iron_fister"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_big_iron_chode_mace"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1"
+				           id="Item.woodland_longbow"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3"
+				           id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_09"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_desert_bandits_bandit"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_desert_bandits_bandit}T2 Bedouin Roveress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="20"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="30"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="0"/>
+			<skill id="TwoHanded"
+			       value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_desert_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.t3_aserai_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_04"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_04"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_03"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_07"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_donger"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_04"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_09"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_07"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_desert_bandits_raider"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_desert_bandits_raider}T3 Nomad Banditress"
+	              level="16"
+	              upgrade_requires="ItemCategory.horse"
+	              occupation="Bandit"
+	              culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="60"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="Throwing"
+			       value="0"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_desert_bandits_chief"/>
+			<upgrade_target id="NPCCharacter.t4_aserai_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.t3_bandit_blade_02"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+				<equipment slot="Horse"
+				           id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.t3_iron_chode_mace_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_08"/>
+				<equipment slot="Horse"
+				           id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.star_falchion_sword_t3"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_06"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_11"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+				<equipment slot="Horse"
+				           id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.t3_iron_donger_mace"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_03"/>
+				<equipment slot="Horse"
+				           id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1"
+				           id="Item.t3_iron_doggy_dong_mace"/>
+				<equipment slot="Head"
+				           id="Item.t2_bandit_head_armor_03"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_11"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t2_bandit_leg_armor_06"/>
+				<equipment slot="Horse"
+				           id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_desert_bandits_chief"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_desert_bandits_chief}T4 Haramiress"
+	              upgrade_requires="ItemCategory.war_horse"
+	              level="21"
+	              occupation="Bandit"
+	              culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="100"/>
+			<skill id="Bow"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="Polearm"
+			       value="120"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_aserai_cav"/>
+			<upgrade_target id="NPCCharacter.kotk_desert_bandits_boss"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_02"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_03"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_05"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_03"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_bandit_blade_02"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_desert_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_bandit_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t3_bandit_leg_armor_03"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_steppe_bandits_bandit"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_steppe_bandits_bandit}T2 Steppe Banditress"
+	              level="11"
+	              occupation="Bandit"
+	              culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="20"/>
+			<skill id="Bow"
+			       value="0"/>
+			<skill id="OneHanded"
+			       value="30"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="Throwing"
+			       value="20"/>
+			<skill id="TwoHanded"
+			       value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_steppe_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.t3_khuzait_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Head"
+				           id="Item.eastern_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_07"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.khuzait_mace_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.eastern_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_07"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_07"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_donger"/>
+				<equipment slot="Head"
+				           id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t2_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_steppe_bandits_raider"
+	              is_female="true"
+	              default_group="HorseArcher"
+	              name="{=kotk_kotk_steppe_bandits_raider}T3 Marauderess"
+	              level="16"
+	              occupation="Bandit"
+	              culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="40"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.kotk_steppe_bandits_chief"/>
+			<upgrade_target id="NPCCharacter.t4_khuzait_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.broad_ild_sword_t3"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.eastern_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_knobby_boi_mace"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.eastern_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_10"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.broad_ild_sword_t3"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_11"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.t3_iron_donger_mace"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.broad_ild_sword_t3"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_13"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.t3_the_iron_fister"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item0"
+				           id="Item.broad_ild_sword_t3"/>
+				<equipment slot="Item2"
+				           id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.upturned_fur_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t3_bandit_body_armor_12"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_steppe_bandits_chief"
+	              is_female="true"
+	              default_group="HorseArcher"
+	              name="{=kotk_kotk_steppe_bandits_chief}T4 Raideress"
+	              upgrade_requires="ItemCategory.war_horse"
+	              level="21"
+	              occupation="Bandit"
+	              culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Bow"
+			       value="100"/>
+			<skill id="OneHanded"
+			       value="110"/>
+			<skill id="Polearm"
+			       value="100"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="Throwing"
+			       value="60"/>
+			<skill id="TwoHanded"
+			       value="50"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_khuzait_cav"/>
+			<upgrade_target id="NPCCharacter.kotk_steppe_bandits_boss"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.eastern_cap"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_padded_hood"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.nomad_helmet"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_06"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1"
+				           id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item2"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item3"
+				           id="Item.default_arrows"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t2_bandit_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t4_bandit_body_armor_05"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_bandit_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t2_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_sea_raiders_boss"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_kotk_sea_raiders_boss}T5 Sea Raider Bosstress"
+	              level="26"
+	              occupation="Bandit"
+	              culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="150"/>
+			<skill id="Polearm"
+			       value="50"/>
+			<skill id="Bow"
+			       value="50"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_coomsviking"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item3"
+				           id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_bloody"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_plate_armor_new_body_filthy"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_2haxe_2_t5"/>
+				<equipment slot="Item1"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_bloody"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.plate_big_boob_dirty_iron"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_2haxe_2_t5"/>
+				<equipment slot="Item1"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_bloody"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_2haxe_2_t5"/>
+				<equipment slot="Item1"
+				           id="Item.northern_throwing_axe_1_t1"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_bloody"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_coomsviking"
+	              is_female="true"
+	              default_group="Infantry"
+	              name="{=kotk_t6_coomsviking}T6 Coomsviking Svyatogorian"
+	              level="31"
+	              occupation="Soldier"
+	              culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="180"/>
+			<skill id="Riding"
+			       value="70"/>
+			<skill id="OneHanded"
+			       value="230"/>
+			<skill id="TwoHanded"
+			       value="60"/>
+			<skill id="Polearm"
+			       value="100"/>
+			<skill id="Bow"
+			       value="50"/>
+			<skill id="Crossbow"
+			       value="35"/>
+			<skill id="Throwing"
+			       value="270"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.northern_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item3"
+				           id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_silver"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_coomsviking_plate_silver"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_sturgian_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t6_coomsviking_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_silver"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_coomsviking_plate_silver"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_sturgian_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t6_coomsviking_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_gold"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_coomsviking_plate_gold"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_sturgian_arm_armor_04"/>
+				<equipment slot="Leg"
+				           id="Item.t6_coomsviking_boot_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_helm_02"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_coomsviking_plate_silver"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_sturgian_arm_armor_02"/>
+				<equipment slot="Leg"
+				           id="Item.t6_coomsviking_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.viking_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3"
+				           id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t6_coomsviking_helm_02_gold"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_coomsviking_plate_gold"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_sturgian_arm_armor_04"/>
+				<equipment slot="Leg"
+				           id="Item.t6_coomsviking_boot_gold"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mountain_bandits_boss"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_mountain_bandits_boss}T5 Mountain Bandit Bosstress"
+	              level="26"
+	              occupation="Bandit"
+	              culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="150"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="120"/>
+			<skill id="TwoHanded"
+			       value="50"/>
+			<skill id="Polearm"
+			       value="50"/>
+			<skill id="Bow"
+			       value="60"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_cavaliers_de_fer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_plate_armor_new_body_filthy"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.empire_sword_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.nympho_collar_new_grinded_metal"/>
+				<equipment slot="Cape"
+				           id="Item.t4_iron_bandit_suit_2025_shoulders"/>
+				<equipment slot="Body"
+				           id="Item.t4_iron_bandit_suit_2025_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_iron_bandit_suit_2025_bracers"/>
+				<equipment slot="Leg"
+				           id="Item.t4_iron_bandit_suit_2025_boots"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.empire_sword_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_vlandian_bandit_knight_helm"/>
+				<equipment slot="Cape"
+				           id="Item.t5_vlandian_bandit_knight_shoulder"/>
+				<equipment slot="Body"
+				           id="Item.t5_vlandian_bandit_knight_body"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_vlandian_bandit_knight_bracer"/>
+				<equipment slot="Leg"
+				           id="Item.t5_vlandian_bandit_knight_boots"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.empire_sword_4_t4"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.plate_big_boob_dirty_iron"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.battered_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.western_javelin_3_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+				<equipment slot="Horse"
+				           id="Item.battania_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.battania_horse_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_cavaliers_de_fer"
+	              default_group="Cavalry"
+	              level="31"
+	              is_female="true"
+	              name="{=kotk_t6_cavaliers_de_fer}T6 Cavaliers de Fer"
+	              occupation="Soldier"
+	              culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="210"/>
+			<skill id="OneHanded"
+			       value="230"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="270"/>
+			<skill id="Bow"
+			       value="35"/>
+			<skill id="Crossbow"
+			       value="70"/>
+			<skill id="Throwing"
+			       value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1"
+				           id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.soul_eater_helm_01_cav_de_fer"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_vlandia_cavaliers_de_fer_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1"
+				           id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.t6_vlandia_cavaliers_de_fer_head_armor_02"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_vlandia_cavaliers_de_fer_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1"
+				           id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Head"
+				           id="Item.t6_vlandia_cavaliers_de_fer_head_armor_03"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_vlandia_cavaliers_de_fer_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1"
+				           id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.vlandia_mace_2_t4"/>
+				<equipment slot="Head"
+				           id="Item.t6_vlandia_cavaliers_de_fer_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_vlandia_cavaliers_de_fer_body_armor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+			<equipment slot="Horse"
+			           id="Item.t3_vlandia_horse"/>
+			<equipment slot="HorseHarness"
+			           id="Item.chain_barding"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_forest_bandits_boss"
+	              is_female="true"
+	              default_group="Ranged"
+	              name="{=kotk_kotk_forest_bandits_boss}T5 Forest Bandit Bosstress"
+	              level="26"
+	              occupation="Bandit"
+	              culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="50"/>
+			<skill id="Polearm"
+			       value="50"/>
+			<skill id="Bow"
+			       value="150"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_gwydion"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1"
+				           id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item3"
+				           id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head"
+				           id="Item.nympho_collar_new_grinded_metal"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.plate_big_boob_dirty_iron"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item3"
+				           id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head"
+				           id="Item.nympho_collar_new_grinded_metal"/>
+				<equipment slot="Cape"
+				           id="Item.t4_iron_bandit_suit_2025_shoulders"/>
+				<equipment slot="Body"
+				           id="Item.t4_iron_bandit_suit_2025_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_iron_bandit_suit_2025_bracers"/>
+				<equipment slot="Leg"
+				           id="Item.t4_iron_bandit_suit_2025_boots"/>
+			</EquipmentRoster>			
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item3"
+				           id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head"
+				           id="Item.nympho_collar_new_grinded_metal"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_plate_armor_new_body_filthy"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.woodland_yew_bow"/>
+				<equipment slot="Item3"
+				           id="Item.bodkin_arrows_a"/>
+				<equipment slot="Head"
+				           id="Item.t5_bandit_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.rough_bearskin"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_03"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_plate_armor_new_bracer_filthy"/>
+				<equipment slot="Leg"
+				           id="Item.t5_plate_armor_new_boots_filthy"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_gwydion"
+	              default_group="Ranged"
+	              level="31"
+	              is_female="true"
+	              name="{=kotk_t6_gwydion}T6 Gwydion"
+	              occupation="Soldier"
+	              culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="180"/>
+			<skill id="Riding"
+			       value="70"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="230"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Bow"
+			       value="270"/>
+			<skill id="Crossbow"
+			       value="35"/>
+			<skill id="Throwing"
+			       value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.woodland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.battania_2hsword_5_t4"/>
+				<equipment slot="Head"
+				           id="Item.darkcrown_faction_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.darkcrown_suit_green"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_battania_hero_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_gwydion_battania_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.woodland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.battania_2hsword_5_t4"/>
+				<equipment slot="Head"
+				           id="Item.darkcrown_3_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.darkcrown_suit_gold"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_battania_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.woodland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.battania_2hsword_5_t4"/>
+				<equipment slot="Head"
+				           id="Item.darkcrown_2_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_02"/>
+				<equipment slot="Body"
+				           id="Item.darkcrown_suit_silver"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_battania_hero_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_gwydion_battania_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.woodland_longbow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.battania_2hsword_5_t4"/>
+				<equipment slot="Head"
+				           id="Item.darkcrown_4_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t6_battania_hero_shoulder_armor_03"/>
+				<equipment slot="Body"
+				           id="Item.t6_gwydion_bodyarmor_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_gwydion_battania_leg_armor_06"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_desert_bandits_boss"
+	              is_female="true"
+	              default_group="Cavalry"
+	              name="{=kotk_kotk_desert_bandits_boss}T5 Desert Bandit Bosstress"
+	              level="26"
+	              upgrade_requires="ItemCategory.war_horse"
+	              occupation="Bandit"
+	              culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="80"/>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="50"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="50"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_marid"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_02"/>
+				<equipment slot="Item1"
+				           id="Item.oval_shield"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.desert_long_sword_t4"/>
+				<equipment slot="Item1"
+				           id="Item.oval_shield"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Item1"
+				           id="Item.oval_shield"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head"
+				           id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_marid"
+	              default_group="Cavalry"
+	              level="31"
+	              is_female="true"
+	              name="{=kotk_t6_marid}T6 Marid"
+	              occupation="Soldier"
+	              culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="100"/>
+			<skill id="Riding"
+			       value="180"/>
+			<skill id="OneHanded"
+			       value="180"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="210"/>
+			<skill id="Bow"
+			       value="75"/>
+			<skill id="Crossbow"
+			       value="30"/>
+			<skill id="Throwing"
+			       value="150"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1"
+				           id="Item.ornate_adarga"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.immortal_mask_brass"/>
+				<equipment slot="Cape"
+				           id="Item.marid_scale_shoulder_e"/>
+				<equipment slot="Body"
+				           id="Item.marid_suit_brass"/>
+				<equipment slot="Gloves"
+				           id="Item.marid_bracer"/>
+				<equipment slot="Leg"
+				           id="Item.marid_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1"
+				           id="Item.ornate_adarga"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_javelin_3_t4"/>
+				<equipment slot="Item3"
+				           id="Item.aserai_sword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.immortal_mask_silver"/>
+				<equipment slot="Cape"
+				           id="Item.marid_scale_shoulder_e"/>
+				<equipment slot="Body"
+				           id="Item.marid_suit_brass"/>
+				<equipment slot="Gloves"
+				           id="Item.marid_bracer"/>
+				<equipment slot="Leg"
+				           id="Item.marid_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+			<equipment slot="Horse"
+			           id="Item.t3_aserai_horse"/>
+			<equipment slot="HorseHarness"
+			           id="Item.half_mail_and_plate_barding"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_steppe_bandits_boss"
+	              is_female="true"
+	              default_group="HorseArcher"
+	              name="{=kotk_kotk_steppe_bandits_boss}T5 Steppe Bandit Bosstress"
+	              upgrade_requires="ItemCategory.war_horse"
+	              level="26"
+	              occupation="Bandit"
+	              culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="80"/>
+			<skill id="Riding"
+			       value="100"/>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="140"/>
+			<skill id="Bow"
+			       value="160"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_nergui"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.khuzait_polearm_1_t4"/>
+				<equipment slot="Item1"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t5_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.plate_big_boob_dirty_gold"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.khuzait_polearm_1_t4"/>
+				<equipment slot="Item1"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t4_gilded_knob_mace_01"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t5_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.khuzait_polearm_1_t4"/>
+				<equipment slot="Item1"
+				           id="Item.composite_steppe_bow"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Head"
+				           id="Item.plumed_nomad_helmet"/>
+				<equipment slot="Cape"
+				           id="Item.t5_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_bandit_body_armor_04"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_steppe_bandit_boots"/>
+				<equipment slot="Horse"
+				           id="Item.t2_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_nergui"
+	              default_group="HorseArcher"
+	              level="31"
+	              is_female="true"
+	              name="{=kotk_t6_nergui}T6 Nergui"
+	              occupation="Soldier"
+	              culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="210"/>
+			<skill id="OneHanded"
+			       value="70"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="230"/>
+			<skill id="Bow"
+			       value="270"/>
+			<skill id="Crossbow"
+			       value="35"/>
+			<skill id="Throwing"
+			       value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.steppe_war_bow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.4u_khuzait_polearm_1_t4"/>
+				<equipment slot="Head"
+				           id="Item.t6_khuzait_nergui_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_khuzait_nergui_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.dragon_armor_ld_gold"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_khuzait_nergui_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_khuzait_nergui_leg_armor"/>
+				<equipment slot="Horse"
+				           id="Item.t3_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.steppe_war_bow"/>
+				<equipment slot="Item1"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.4u_khuzait_polearm_1_t4"/>
+				<equipment slot="Head"
+				           id="Item.t6_khuzait_nergui_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_khuzait_nergui_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_sturgia_nergui_plate"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_khuzait_nergui_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_wizard_leg_foot_armor_nergui"/>
+				<equipment slot="Horse"
+				           id="Item.t3_khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_half_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+			<equipment slot="Horse"
+			           id="Item.t3_khuzait_horse"/>
+			<equipment slot="HorseHarness"
+			           id="Item.steppe_half_barding"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mounted_pillager"
+	              is_female="true"
+	              default_group="HorseArcher"
+	              level="11"
+	              occupation="Bandit"
+	              is_basic_troop="true"
+	              culture="Culture.looters"
+	              name="{=kotk_kotk_mounted_pillager}T2 Mounted Pillageress"
+	              skill_template="SkillSet.horsearcher_level11_template_skills"
+	              is_hidden_encyclopedia="true">
+		<face>
+			<BodyProperties version="4"
+			                age="21.95"
+			                weight="0.0532"
+			                build="0"
+			                key="001E580F101400107792D84678A387599DAA67447A8C77C9D7D366699576C7CB0030160303D83BB700000000000000000000000000000000000000005C540003"/>
+			<BodyPropertiesMax version="4"
+			                   age="28.00"
+			                   weight="0"
+			                   build="0"
+			                   key="00297C05D1FC000B59AB88926A889A68AA779A998D8ED4767782AC7E2256AA7408C01682FAA4744300000000000000000000000000000000000000003B842003"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="20"/>
+			<skill id="TwoHanded"
+			       value="15"/>
+			<skill id="Polearm"
+			       value="10"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="5"/>
+			<skill id="Throwing"
+			       value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_chode_club"/>
+				<equipment slot="Body"
+				           id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg"
+				           id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.hunting_bow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.iron_spatha_sword_t2"/>
+				<equipment slot="Head"
+				           id="Item.pilgrim_hood"/>
+				<equipment slot="Body"
+				           id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg"
+				           id="Item.leather_boots"/>
+				<equipment slot="Horse"
+				           id="Item.empire_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.hunting_bow"/>
+				<equipment slot="Item1"
+				           id="Item.default_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Body"
+				           id="Item.bandit_envelope_dress_v1"/>
+				<equipment slot="Leg"
+				           id="Item.leather_boots"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Horse"
+				           id="Item.empire_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="kotk_mounted_ransacker"
+	              is_female="true"
+	              default_group="Cavalry"
+	              level="16"
+	              name="{=kotk_kotk_mounted_ransacker}T3 Mounted Ransackeress"
+	              upgrade_requires="ItemCategory.horse"
+	              occupation="Bandit"
+	              culture="Culture.looters"
+	              is_hidden_encyclopedia="true">
+		<face>
+			<BodyProperties version="4"
+			                age="21.95"
+			                weight="0.0532"
+			                build="0"
+			                key="001E580F101400107792D84678A387599DAA67447A8C77C9D7D366699576C7CB0030160303D83BB700000000000000000000000000000000000000005C540003"/>
+			<BodyPropertiesMax version="4"
+			                   age="28.00"
+			                   weight="0"
+			                   build="0"
+			                   key="00297C05D1FC000B59AB88926A889A68AA779A998D8ED4767782AC7E2256AA7408C01682FAA4744300000000000000000000000000000000000000003B842003"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Riding"
+			       value="70"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="TwoHanded"
+			       value="30"/>
+			<skill id="Polearm"
+			       value="70"/>
+			<skill id="Bow"
+			       value="30"/>
+			<skill id="Crossbow"
+			       value="10"/>
+			<skill id="Throwing"
+			       value="70"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Body"
+				           id="Item.barbarian_skirt_leather"/>
+				<equipment slot="Leg"
+				           id="Item.t3_barbarian_boots_default"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.small_bit_axe_t2"/>
+				<equipment slot="Item1"
+				           id="Item.old_kite_shield"/>
+				<equipment slot="Item2"
+				           id="Item.imperial_spear_t2"/>
+				<equipment slot="Head"
+				           id="Item.arming_coif"/>
+				<equipment slot="Body"
+				           id="Item.t3_barbarian_bodyarmor_default"/>
+				<equipment slot="Leg"
+				           id="Item.t3_barbarian_boots_default"/>
+				<equipment slot="Gloves"
+				           id="Item.buttoned_leather_bracers"/>
+				<equipment slot="Horse"
+				           id="Item.empire_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_doggy_donger_club"/>
+				<equipment slot="Item2"
+				           id="Item.imperial_spear_t2"/>
+				<equipment slot="Body"
+				           id="Item.barbarian_skirt_leather"/>
+				<equipment slot="Leg"
+				           id="Item.t3_barbarian_boots_default_alt_1"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Horse"
+				           id="Item.empire_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_dirty_iron_donger"/>
+				<equipment slot="Item2"
+				           id="Item.imperial_spear_t2"/>
+				<equipment slot="Body"
+				           id="Item.t3_barbarian_leathers"/>
+				<equipment slot="Leg"
+				           id="Item.t3_barbarian_boots_default"/>
+				<equipment slot="Gloves"
+				           id="Item.ragged_armwraps"/>
+				<equipment slot="Horse"
+				           id="Item.empire_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="empire_troop_civilian_template_t1"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Items>
+	<Item id="kotk_vlandia_heater_shield_i"
+	      name="{=kotk_vlandia_heater_shield_i}Vlandian Wide Heater Shield"
+	      body_name="bo_cap_heater_shield_i"
+	      shield_body_name="bo_heater_shield_i"
+	      recalculate_body="false"
+	      mesh="kotk_vlandia_heater_shield_i"
+	      culture="Culture.vlandia"
+	      using_tableau="false"
+	      weight="4.7"
+	      appearance="0.7"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="90"
+			        center_of_mass="-0.0,0.2,0.05"
+			        hit_points="450"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="kotk_vlandia_heater_shield_k"
+	      name="{=kotk_vlandia_heater_shield_k}Vlandian Tall Heater Shield"
+	      body_name="bo_cap_heater_shield_k"
+	      shield_body_name="bo_heater_shield_k"
+	      recalculate_body="false"
+	      mesh="kotk_vlandia_heater_shield_k"
+	      culture="Culture.vlandia"
+	      using_tableau="false"
+	      weight="2.1"
+	      appearance="0.6"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.0,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="13"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="85"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="105"
+			        center_of_mass="-0.0,0.1,0.05"
+			        hit_points="540"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="bimbo_heater_shield_c_1"
+	      name="{=kotk_bimbo_heater_shield_c_1}Bimbo Heater Shield"
+	      body_name="bo_cap_heater_shield_c"
+	      shield_body_name="bo_heater_shield_c"
+	      recalculate_body="false"
+	      mesh="bimbo_heater_shield_c_1"
+	      culture="Culture.vlandia"
+	      using_tableau="true"
+	      weight="4.7"
+	      appearance="1"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,0.0,0.025">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="70"
+			        center_of_mass="0.0,0.1,0.05"
+			        hit_points="325"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="bimbo_heater_shield_c_2"
+	      name="{=kotk_bimbo_heater_shield_c_2}Bimbo Heater Shield"
+	      body_name="bo_cap_heater_shield_c"
+	      shield_body_name="bo_heater_shield_c"
+	      recalculate_body="false"
+	      mesh="bimbo_heater_shield_c_2"
+	      culture="Culture.vlandia"
+	      using_tableau="true"
+	      weight="4.7"
+	      appearance="1"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,0.0,0.025">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="70"
+			        center_of_mass="0.0,0.1,0.05"
+			        hit_points="325"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="goondor_heater_shield"
+	      name="{=kotk_goondor_heater_shield}Goondor Heater Shield"
+	      body_name="bo_cap_heater_shield_j"
+	      shield_body_name="bo_heater_shield_j"
+	      recalculate_body="false"
+	      mesh="goondor_heater_shield"
+	      culture="Culture.neutral_culture"
+	      using_tableau="false"
+	      weight="4.7"
+	      appearance="1"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.0,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="95"
+			        center_of_mass="-0.0,0.1,0.05"
+			        hit_points="370"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="kotk_oni_shield"
+	      name="{=kotk_kotk_oni_shield}KotK Oni Shield"
+	      using_tableau="false"
+	      body_name="bo_cap_battania_targe_b"
+	      shield_body_name="bo_battania_targe_b"
+	      recalculate_body="false"
+	      mesh="kotk_oni_shield"
+	      culture="Culture.khuzait"
+	      weight="2.5"
+	      appearance="1.1"
+	      Type="Shield"
+	      item_holsters="shield_kite:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="0.0,0.0,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.18, -0.04, 0.00"
+			        rotation="-5.90,19.00,38.50"
+			        weapon_length="70"
+			        center_of_mass="-0.0, 0.12, 0.1"
+			        hit_points="330"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="kotk_battania_targe_b"
+	      name="{=kotk_kotk_battania_targe_b}KotK Targe"
+	      using_tableau="false"
+	      body_name="bo_cap_battania_targe_b"
+	      shield_body_name="bo_battania_targe_b"
+	      recalculate_body="false"
+	      mesh="kotk_battania_targe_b"
+	      culture="Culture.battania"
+	      weight="2.5"
+	      appearance="1.1"
+	      Type="Shield"
+	      item_holsters="shield_kite:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="0.0,0.0,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="wood_shield"
+			        item_usage="shield"
+			        position="0.18, -0.04, 0.00"
+			        rotation="-5.90,19.00,38.50"
+			        weapon_length="70"
+			        center_of_mass="-0.0, 0.12, 0.1"
+			        hit_points="330"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="khuzait_steel_round_shield"
+	      name="{=kotk_khuzait_steel_round_shield}Khuzait Steel Round Shield"
+	      body_name="bo_cap_aserai_shields_g"
+	      shield_body_name="bo_aserai_shields_g"
+	      recalculate_body="false"
+	      mesh="khuzait_steel_round_shield"
+	      culture="Culture.khuzait"
+	      weight="4"
+	      appearance="4"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.07,-0.05">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="metal_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="60"
+			        center_of_mass="0.01, 0.07, 0.1"
+			        hit_points="520"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="pussy_shield_01"
+	      name="{=kotk_pussy_shield_01}Pierced Shield of Culture"
+	      using_tableau="false"
+	      body_name="bo_cap_aserai_shields_c"
+	      shield_body_name="bo_aserai_shields_f"
+	      recalculate_body="false"
+	      mesh="pussy_shield_01"
+	      culture="Culture.neutral_culture"
+	      weight="7.3"
+	      appearance="4"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="metal_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="60"
+			        center_of_mass="-0.0, 0.1, 0.1"
+			        hit_points="520"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="butthole_shield_01"
+	      name="{=kotk_butthole_shield_01}Butthole Shield of Culture"
+	      using_tableau="false"
+	      body_name="bo_cap_aserai_shields_c"
+	      shield_body_name="bo_aserai_shields_f"
+	      recalculate_body="false"
+	      mesh="butthole_shield_01"
+	      culture="Culture.neutral_culture"
+	      weight="7.3"
+	      appearance="4"
+	      Type="Shield"
+	      item_holsters="shield:shield_2:shield_3:shield_4"
+	      has_lower_holster_priority="true"
+	      holster_position_shift="-0.1,-0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield"
+			        body_armor="1"
+			        thrust_speed="82"
+			        thrust_damage_type="Blunt"
+			        speed_rating="82"
+			        physics_material="metal_shield"
+			        item_usage="shield"
+			        position="0.0, 0.00, 0.00"
+			        rotation="0.0,10.0,40.00"
+			        weapon_length="60"
+			        center_of_mass="-0.0, 0.1, 0.1"
+			        hit_points="520"
+			        modifier_group="shield" thrust_damage="5">
+				<WeaponFlags CanBlockRanged="true"
+				             HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true"
+		       HeldInOffHand="true"
+		       ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+</Items>

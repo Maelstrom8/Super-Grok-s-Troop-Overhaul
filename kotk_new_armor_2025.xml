@@ -1,0 +1,2588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!--Battanian Shamen-->
+  <Item
+    id="t3_battanian_shamen_01_birdmanhelm"
+    name="{=kotk_t3_battania_head_armor_03}T3 Battanian Shaman Helm"
+    mesh="t3_battanian_shamen_01_birdmanhelm"
+    culture="Culture.battania"
+    weight="0.1"
+    appearance="3"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="15"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="leather"
+        material_type="Leather"
+        beard_cover_type="none" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_battanian_shamen_01_shoes"
+    name="{=kotk_t3_battanian_shamen_01_shoes}T2 Battanian Shaman Heels"
+    mesh="t3_battanian_shamen_01_shoes"
+    subtype="body_armor"
+    culture="Culture.battania"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="2">
+    <ItemComponent>
+      <Armor
+        leg_armor="4"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_battanian_shamen_01_arms"
+    name="{=kotk_t3_battanian_shamen_01_arms}T2 Battanian Shaman Bracers"
+    mesh="t3_battanian_shamen_01_arms"
+    subtype="body_armor"
+    culture="Culture.battania"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_battanian_shamen_01_body"
+    name="{=kotk_t2_battanian_shamen_01_body}T2 Battanian Shaman Outfit"
+    subtype="body_armor"
+    mesh="t2_battanian_shamen_01_body"
+    culture="Culture.battania"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_battanian_shamen_01_body_alt1"
+    name="{=kotk_t2_battanian_shamen_01_body_alt1}T2 Battanian Shaman Outfit"
+    subtype="body_armor"
+    mesh="t2_battanian_shamen_01_body_alt1"
+    culture="Culture.battania"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_battanian_shamen_01_body"
+    name="{=kotk_t3_battanian_shamen_01_body}T3 Battanian Shaman Bodyarmor"
+    subtype="body_armor"
+    mesh="t3_battanian_shamen_01_body"
+    culture="Culture.battania"
+    weight="7"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_battania_shamen_02_a"
+    name="{=kotk_t3_battania_shamen_02_a}T2 Noble Dress"
+    subtype="body_armor"
+    mesh="t3_battania_shamen_02_a"
+    culture="Culture.battania"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_battania_shamen_02_b"
+    name="{=kotk_t3_battania_shamen_02_b}T2 Noble Dress"
+    subtype="body_armor"
+    mesh="t3_battania_shamen_02_b"
+    culture="Culture.aserai"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_battania_shamen_02_c"
+    name="{=kotk_t3_battania_shamen_02_c}T2 Looter Dress"
+    subtype="body_armor"
+    mesh="t3_battania_shamen_02_c"
+    culture="Culture.aserai"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--ASERAI T6 UPDATE-->
+  <Item
+    id="t6_aserai_waifu_2025_legs"
+    name="{=kotk_t6_aserai_waifu_2025_legs}T6 Heroic Aserai Boots"
+    mesh="t6_aserai_waifu_2025_legs"
+    subtype="body_armor"
+    culture="Culture.aserai"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_aserai_waifu_2025_arms"
+    name="{=kotk_t6_aserai_waifu_2025_arms}T6 Heroic Aserai Bracers"
+    mesh="t6_aserai_waifu_2025_arms"
+    subtype="body_armor"
+    culture="Culture.aserai"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_aserai_waifu_2025_shoulders"
+    name="{=kotk_t6_aserai_waifu_2025_shoulders}T6 Heroic Aserai Shoulderarmor"
+    mesh="t6_aserai_waifu_2025_shoulders"
+    culture="Culture.aserai"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_aserai_waifu_2025_armor_01"
+    name="{=kotk_t6_aserai_waifu_2025_armor_01}T6 Heroic Aserai Armor"
+    subtype="body_armor"
+    mesh="t6_aserai_waifu_2025_armor_01"
+    culture="Culture.aserai"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_aserai_waifu_2025_armor_02"
+    name="{=kotk_t6_aserai_waifu_2025_armor_02}T6 Heroic Aserai Armor"
+    subtype="body_armor"
+    mesh="t6_aserai_waifu_2025_armor_02"
+    culture="Culture.aserai"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--Jackel Helm-->
+  <Item
+    id="t6_jackal_helm"
+    name="{=kotk_t6_jackal_helm}T6 Heroic Aserai Helm"
+    mesh="t6_jackal_helm"
+    culture="Culture.aserai"
+    weight="2.8"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="54"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="plate"
+        material_type="Plate"
+        beard_cover_type="all" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <!--Unqid Armor-->
+  <Item
+    id="draky_remix_01_legs"
+    name="{=kotk_draky_remix_01_legs}T6 Unqid's Legarmor"
+    mesh="draky_remix_01_legs"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        leg_armor="38"
+        covers_legs="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="draky_remix_01_helm"
+    name="{=kotk_draky_remix_01_helm}T6 Unqid's Helm"
+    mesh="draky_remix_01_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="5"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="70"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        covers_head="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="draky_remix_01_arms"
+    name="{=kotk_draky_remix_01_arms}T6 Unqid's Armarmor"
+    mesh="draky_remix_01_arms"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        arm_armor="22"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="draky_remix_01_shoulders"
+    name="{=kotk_draky_remix_01_shoulders}T6 Unqid's Shoulderarmor"
+    mesh="draky_remix_01_shoulders"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="5"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="25"
+        arm_armor="18"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="draky_remix_01_armor_01"
+    name="{=kotk_draky_remix_01_armor_01}T6 Unqid's Armor"
+    subtype="body_armor"
+    mesh="draky_remix_01_armor_01"
+    culture="Culture.aserai"
+    weight="14.5"
+    difficulty="4"
+    appearance="5"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="70"
+        leg_armor="20"
+        arm_armor="20"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="draky_remix_01_armor_02"
+    name="{=kotk_draky_remix_02_armor_01}T6 Unqid's Armor"
+    subtype="body_armor"
+    mesh="draky_remix_01_armor_02"
+    culture="Culture.aserai"
+    weight="14.5"
+    difficulty="4"
+    appearance="5"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="70"
+        leg_armor="20"
+        arm_armor="20"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--Cobra Dress Remix-->
+  <Item
+    id="cobra_dress_remix_01_dress"
+    name="{=kotk_cobra_dress_remix_01_dress}T2 Noble Cobra Dress"
+    subtype="body_armor"
+    mesh="cobra_dress_remix_01_dress"
+    culture="Culture.neutral_culture"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="cobra_dress_remix_01_shoes"
+    name="{=kotk_cobra_dress_remix_01_shoes}T2 Noble Cobra Heels"
+    mesh="cobra_dress_remix_01_shoes"
+    subtype="body_armor"
+    culture="Culture.neutral_culture"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="2">
+    <ItemComponent>
+      <Armor
+        leg_armor="4"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="cobra_dress_remix_01_armlets"
+    name="{=kotk_cobra_dress_remix_01_armlets}T2 Noble Cobra Bracers"
+    mesh="cobra_dress_remix_01_armlets"
+    subtype="body_armor"
+    culture="Culture.neutral_culture"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="cobra_dress_remix_looter_dress"
+    name="{=kotk_cobra_dress_remix_looter_dress}T2 Looter Cobra Dress"
+    subtype="body_armor"
+    mesh="cobra_dress_remix_looter_dress"
+    culture="Culture.neutral_culture"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="cobra_dress_remix_looter_shoes"
+    name="{=kotk_cobra_dress_remix_looter_shoes}T2 Looter Cobra Heels"
+    mesh="cobra_dress_remix_looter_shoes"
+    subtype="body_armor"
+    culture="Culture.neutral_culture"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="2">
+    <ItemComponent>
+      <Armor
+        leg_armor="4"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="cobra_dress_remix_looter_armlets"
+    name="{=kotk_cobra_dress_remix_looter_armlets}T3 Looter Cobra Bracers"
+    mesh="cobra_dress_remix_looter_armlets"
+    subtype="body_armor"
+    culture="Culture.neutral_culture"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--New Dress 2025-->
+  <Item
+    id="gazu_dress_01_looter"
+    name="{=kotk_gazu_gazu_dress_01_looter}T2 Looter Dress"
+    subtype="body_armor"
+    mesh="gazu_dress_01_looter"
+    culture="Culture.neutral_culture"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="gazu_dress_01_noble"
+    name="{=kotk_gazu_dress_01_noble}T2 Noble Dress"
+    subtype="body_armor"
+    mesh="gazu_dress_01_noble"
+    culture="Culture.neutral_culture"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="gazu_dress_01"
+    name="{=kotk_gazu_dress_01}T2 Peasant Dress"
+    subtype="body_armor"
+    mesh="gazu_dress_01"
+    culture="Culture.neutral_culture"
+    weight="2.0"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="5"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--New Imperial Armor 2025-->
+  <Item
+    id="t6_elite_imperial_hero_2025"
+    name="{=kotk_t6_elite_imperial_hero_2025}T6 Heroic Imperial Armor"
+    subtype="body_armor"
+    mesh="t6_elite_imperial_hero_2025"
+    culture="Culture.empire"
+    weight="18"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="54"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--Chainmail Bikini-->
+  <Item
+    id="bikini_5_chainmail"
+    name="{=kotk_bikini_5_chainmail}T3 Chainmail Bikini"
+    subtype="body_armor"
+    mesh="bikini_5_chainmail"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--NEW DRESS 2025-->
+  <Item
+    id="noble_dress_01_chainmail"
+    name="{=kotk_noble_dress_01_chainmail}T3 Chainmail Dress"
+    subtype="body_armor"
+    mesh="noble_dress_01_chainmail"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="noble_dress_01"
+    name="{=kotk_noble_dress_01}T2 Bimbo Noble Dress"
+    subtype="body_armor"
+    mesh="noble_dress_01"
+    culture="Culture.neutral_culture"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="16"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="noble_dress_01_faction"
+    name="{=kotk_noble_dress_01_faction}T2 Faction Noble Dress"
+    subtype="body_armor"
+    mesh="noble_dress_01_faction"
+    culture="Culture.neutral_culture"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="16"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="noble_dress_01_tavern"
+    name="{=kotk_noble_dress_01_tavern}T2 Tavern Dress"
+    subtype="body_armor"
+    mesh="noble_dress_01_tavern"
+    culture="Culture.neutral_culture"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="16"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="robe_lol_01_faction"
+    name="{=kotk_robe_lol_01_faction}T2 Noble Robe"
+    subtype="body_armor"
+    mesh="robe_lol_01_faction"
+    culture="Culture.neutral_culture"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="16"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T6 BIMBO ARMORS-->
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gtex_boots"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gtex_boots}T6 Heroic Bimbo Boots"
+    mesh="t6_vlandian_bimbo_armor_01_gtex_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gtex_crown"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gtex_crown}T6 Heroic Bimbo Crown"
+    mesh="t6_vlandian_bimbo_armor_01_gtex_crown"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gtex_gloves"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gtex_gloves}T6 Heroic Bimbo Bracers"
+    mesh="t6_vlandian_bimbo_armor_01_gtex_gloves"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gtex_shoulder"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gtex_shoulder}T6 Heroic Bimbo Shoulderarmor"
+    mesh="t6_vlandian_bimbo_armor_01_gtex_shoulder"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gtex_bodyarmor"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gtex_bodyarmor}T6 Heroic Bimbo Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_bimbo_armor_01_gtex_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_boots"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_boots}T6 Ladies Bimbo Boots"
+    mesh="t6_vlandian_bimbo_armor_01_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_crown"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_crown}T6 Ladies Bimbo Crown"
+    mesh="t6_vlandian_bimbo_armor_01_crown"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_gloves"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_gloves}T6 Ladies Bimbo Bracers"
+    mesh="t6_vlandian_bimbo_armor_01_gloves"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_shoulder"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_shoulder}T6 Ladies Bimbo Shoulderarmor"
+    mesh="t6_vlandian_bimbo_armor_01_shoulder"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_02_bodyarmor"
+    name="{=kotk_t6_vlandian_bimbo_armor_02_bodyarmor}T6 Ladies Bimbo Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_bimbo_armor_02_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_armor_01_bodyarmor"
+    name="{=kotk_t6_vlandian_bimbo_armor_01_bodyarmor}T6 Ladies Bimbo Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_bimbo_armor_01_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01_boots"
+    name="{=kotk_t6_vlandian_bimbo_redux_01_boots}T6 Painted Bimbo Boots"
+    mesh="t6_vlandian_bimbo_redux_01_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01_crown"
+    name="{=kotk_t6_vlandian_bimbo_redux_01_crown}T6 Painted Bimbo Helm"
+    mesh="t6_vlandian_bimbo_redux_01_crown"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01_gloves"
+    name="{=kotk_t6_vlandian_bimbo_redux_01_gloves}T6 Painted Bimbo Bracers"
+    mesh="t6_vlandian_bimbo_redux_01_gloves"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01_shoulder"
+    name="{=kotk_t6_vlandian_bimbo_redux_01_shoulder}T6 Painted Bimbo Shoulderarmor"
+    mesh="t6_vlandian_bimbo_redux_01_shoulder"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01a_bodyarmor"
+    name="{=kotk_t6_vlandian_bimbo_redux_01a_bodyarmor}T6 Painted Bimbo Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_bimbo_redux_01a_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_bimbo_redux_01_bodyarmor"
+    name="{=kotk_t6_vlandian_bimbo_redux_01_bodyarmor}T6 Painted Bimbo Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_bimbo_redux_01_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--t2_noble_battanian_tartan-->
+  <Item
+    id="t2_noble_battanian_tartan"
+    name="{=kotk_t2_noble_battanian_tartan}T2 Battanian Noble Bodyarmor"
+    subtype="body_armor"
+    mesh="t2_noble_battanian_tartan"
+    culture="Culture.battania"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="16"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T6 Galloglaigh 2025-->
+  <Item
+    id="t6_galloglaigh_boots"
+    name="{=kotk_t6_galloglaigh_boots}T6 Galloglaigh Boots"
+    mesh="kotk_barbarian_3_boots"
+    subtype="body_armor"
+    culture="Culture.battania"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_galloglaigh_helm"
+    name="{=kotk_t6_galloglaigh_helm}T6 Galloglaigh Helm"
+    mesh="t6_galloglaigh_helm"
+    culture="Culture.battania"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_galloglaigh_helm_01"
+    name="{=kotk_t6_galloglaigh_helm_01}T6 Galloglaigh Helm"
+    mesh="t6_galloglaigh_helm_01"
+    culture="Culture.battania"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_galloglaigh_bracers"
+    name="{=kotk_t6_galloglaigh_bracers}T6 Galloglaigh Bracers"
+    mesh="kotk_barbarian_3_arms"
+    subtype="body_armor"
+    culture="Culture.battania"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_galloglaigh_shoulders"
+    name="{=kotk_t6_galloglaigh_shoulders}T6 Galloglaigh Shoulderarmor"
+    mesh="kotk_barbarian_3_shoulders"
+    culture="Culture.battania"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_galloglaigh_bodyarmor"
+    name="{=kotk_t6_galloglaigh_bodyarmor}T6 Galloglaigh Armor"
+    subtype="body_armor"
+    mesh="t6_galloglaigh_bodyarmor"
+    culture="Culture.battania"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T2-T3 VLANDIAN SWORDMASTER-->
+  <Item
+    id="t2_vlandian_swordmaster_heels"
+    name="{=t2_vlandian_swordmaster_heels}T2 Vlandian Swordsmaster Heels"
+    mesh="t2_vlandian_swordmaster_heels"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="2">
+    <ItemComponent>
+      <Armor
+        leg_armor="4"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_vlandian_swordmaster_armor"
+    name="{=kotk_t2_vlandian_swordmaster_armor}T2 Vlandian Swordsmaster Bodyarmor"
+    subtype="body_armor"
+    mesh="t2_vlandian_swordmaster_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_vlandian_swordmaster_boots"
+    name="{=kotk_t3_vlandian_swordmaster_boots}T3 Vlandian Swordsmaster Boots"
+    mesh="t3_vlandian_swordmaster_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_vlandian_swordmaster_bracers"
+    name="{=kotk_t3_vlandian_swordmaster_bracers}T3 Vlandian Swordsmaster Bracers"
+    mesh="t3_vlandian_swordmaster_bracers"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_vlandian_swordmaster_helm"
+    name="{=kotk_t3_vlandian_swordmaster_helm}T3 Vlandian Swordsmaster Helm"
+    mesh="t3_vlandian_swordmaster_helm"
+    culture="Culture.vlandia"
+    weight="0.1"
+    appearance="3"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="15"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_vlandian_swordmaster_shoulder"
+    name="{=kotk_t3_vlandian_swordmaster_shoulder}T3 Vlandian Swordsmaster Shoulderarmor"
+    mesh="t3_vlandian_swordmaster_shoulder"
+    culture="Culture.vlandia"
+    weight="0.4"
+    appearance="3"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="2"
+        arm_armor="4"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_vlandian_swordmaster_armor"
+    name="{=kotk_t3_vlandian_swordmaster_armor}T3 Vlandian Swordsmaster Armor"
+    subtype="body_armor"
+    mesh="t3_vlandian_swordmaster_armor"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T6 VLANDIAN SWORDSMASTER-->
+  <Item
+    id="t6_vlandian_swordmaster_armor_boots"
+    name="{=kotk_t6_vlandian_swordmaster_armor_boots}T6 Vlandian Swordsmaster Boots"
+    mesh="t6_vlandian_swordmaster_armor_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        leg_armor="26"
+        covers_legs="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_swordmaster_armor_helm"
+    name="{=kotk_t6_vlandian_swordmaster_armor_helm}T6 Vlandian Swordsmaster Helm"
+    mesh="t6_vlandian_swordmaster_armor_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="8"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="52"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_swordmaster_armor_bracers"
+    name="{=kotk_t6_vlandian_swordmaster_armor_bracers}T6 Vlandian Swordsmaster Armarmor"
+    mesh="t6_vlandian_swordmaster_armor_bracers"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="8">
+    <ItemComponent>
+      <Armor
+        arm_armor="26"
+        covers_hands="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_swordmaster_armor_shoulders"
+    name="{=kotk_t6_vlandian_swordmaster_armor_shoulders}T6 Vlandian Swordsmaster Shoulderarmor"
+    mesh="t6_vlandian_swordmaster_armor_shoulders"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="8"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="18"
+        arm_armor="12"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t6_vlandian_swordmaster_armor_bodyarmor"
+    name="{=kotk_t6_vlandian_swordmaster_armor_bodyarmor}T6 Vlandian Swordsmaster Armor"
+    subtype="body_armor"
+    mesh="t6_vlandian_swordmaster_armor_bodyarmor"
+    culture="Culture.vlandia"
+    weight="20"
+    difficulty="4"
+    appearance="8"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="46"
+        leg_armor="18"
+        arm_armor="14"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--BIMBO-->
+  <Item
+    id="t2_bimbo_infantry_heels"
+    name="{=kotk_t2_bimbo_infantry_heels}T2 Bimbo Infantry Heels"
+    mesh="t2_bimbo_infantry_heels"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="2">
+    <ItemComponent>
+      <Armor
+        leg_armor="4"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_bimbo_infantry_body"
+    name="{=kotk_t2_bimbo_infantry_body}T2 Bimbo Infantry Bodyarmor"
+    subtype="body_armor"
+    mesh="t2_bimbo_infantry_body"
+    culture="Culture.vlandia"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_bimbo_infantry_bodystocking"
+    name="{=kotk_t2_t2_bimbo_infantry_bodystocking}T2 Bimbo Infantry Bodystocking"
+    subtype="body_armor"
+    mesh="t2_bimbo_infantry_bodystocking"
+    culture="Culture.vlandia"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t2_bimbo_infantry_fetish_suit"
+    name="{=kotk_t2_t2_bimbo_infantry_fetish_suit}T2 Bimbo Infantry Fetish Suit"
+    subtype="body_armor"
+    mesh="t2_bimbo_infantry_fetish_suit"
+    culture="Culture.vlandia"
+    weight="2.6"
+    difficulty="4"
+    appearance="2"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        leg_armor="6"
+        arm_armor="4"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_infantry_boots"
+    name="{=kotk_t3_bimbo_infantry_boots}T3 Bimbo Infantry Boots"
+    mesh="t3_bimbo_infantry_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_infantry_bracer"
+    name="{=kotk_t3_bimbo_infantry_bracer}T3 Bimbo Infantry Bracers"
+    mesh="t3_bimbo_infantry_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_infantry_helm"
+    name="{=kotk_t3_bimbo_infantry_helm}T3 Bimbo Infantry Helm"
+    mesh="t3_bimbo_infantry_helm"
+    culture="Culture.vlandia"
+    weight="0.1"
+    appearance="3"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="15"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_infantry_shoulder"
+    name="{=kotk_t3_bimbo_infantry_shoulder}T3 Bimbo Infantry Shoulderarmor"
+    mesh="t3_bimbo_infantry_shoulder"
+    culture="Culture.vlandia"
+    weight="0.4"
+    appearance="3"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="2"
+        arm_armor="4"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_armor_01"
+    name="{=kotk_t3_bimbo_armor}T3 Bimbo Infantry Armor"
+    subtype="body_armor"
+    mesh="t4_bimbo_infantry_body"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_boots"
+    name="{=kotk_t4_bimbo_infantry_boots}T4 Bimbo Infantry Boots"
+    mesh="t4_bimbo_infantry_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_helm"
+    name="{=kotk_t4_bimbo_infantry_helm}T4 Bimbo Infantry Helm"
+    mesh="t4_bimbo_infantry_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="40"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_bracer"
+    name="{=kotk_t4_bimbo_infantry_bracer}T4 Bimbo Infantry Bracer"
+    mesh="t4_bimbo_infantry_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        arm_armor="20"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_shoulder"
+    name="{=kotk_t4_bimbo_infantry_shoulder}T4 Bimbo Infantry Shoulderarmor"
+    mesh="t4_bimbo_infantry_shoulder"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="10"
+        arm_armor="8"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_mod1_body1"
+    name="{=kotk_t4_bimbo_infantry_mod1_body1}T4 Bimbo Infantry Armor"
+    subtype="body_armor"
+    mesh="t4_bimbo_infantry_mod1_body1"
+    culture="Culture.vlandia"
+    weight="11"
+    difficulty="4"
+    appearance="4"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="29"
+        leg_armor="9"
+        arm_armor="8"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T5 BANDIT KNIGHT-->
+  <Item
+    id="t5_vlandian_bandit_knight_boots"
+    name="{=kotk_t5_vlandian_bandit_knight_boots}T5 Bandit Plate Legarmor"
+    mesh="t5_vlandian_bandit_knight_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        leg_armor="22"
+        covers_legs="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bandit_knight_helm"
+    name="{=kotk_bandit_t5_vlandian_bandit_knight_helm}T5 Bandit Plate Helm"
+    mesh="t5_vlandian_bandit_knight_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="5"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="48"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        covers_head="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bandit_knight_bracer"
+    name="{=kotk_t5_vlandian_bandit_knight_bracer}T5 Bandit Plate Armarmor"
+    mesh="t5_vlandian_bandit_knight_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        arm_armor="22"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bandit_knight_shoulder"
+    name="{=kotk_t5_vlandian_bandit_knight_shoulder}T5 Bandit Plate Shoulderarmor"
+    mesh="t5_vlandian_bandit_knight_shoulder"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="5"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        arm_armor="6"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bandit_knight_body"
+    name="{=kotk_t5_vlandian_bandit_knight_body}T5 Bandit Plate Bodyarmor"
+    subtype="body_armor"
+    mesh="t5_vlandian_bandit_knight_body"
+    culture="Culture.vlandia"
+    weight="14.5"
+    difficulty="4"
+    appearance="5"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="32"
+        leg_armor="13"
+        arm_armor="10"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T5 BIMBO KNIGHT-->
+  <Item
+    id="t5_vlandian_bimbo_knight_boots"
+    name="{=kotk_t5_vlandian_bimbo_knight_boots}T5 Bimbo Plate Legarmor"
+    mesh="t5_vlandian_bimbo_knight_boots"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="2.6"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        leg_armor="22"
+        covers_legs="true"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bimbo_knight_helm"
+    name="{=kotk_bimbo_t5_vlandian_bimbo_knight_helm}T5 Bimbo Plate Helm"
+    mesh="t5_vlandian_bimbo_knight_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="5"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="48"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        covers_head="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bimbo_knight_bracer"
+    name="{=kotk_t5_vlandian_bimbo_knight_bracer}T5 Bimbo Plate Armarmor"
+    mesh="t5_vlandian_bimbo_knight_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="5">
+    <ItemComponent>
+      <Armor
+        arm_armor="22"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bimbo_knight_shoulder"
+    name="{=kotk_t5_vlandian_bimbo_knight_shoulder}T5 Bimbo Plate Shoulderarmor"
+    mesh="t5_vlandian_bimbo_knight_shoulder"
+    culture="Culture.vlandia"
+    weight="3.5"
+    appearance="5"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="15"
+        arm_armor="6"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t5_vlandian_bimbo_knight_body"
+    name="{=kotk_t5_vlandian_bimbo_knight_body}T5 Bimbo Plate Bodyarmor"
+    subtype="body_armor"
+    mesh="t5_vlandian_bimbo_knight_body"
+    culture="Culture.vlandia"
+    weight="14.5"
+    difficulty="4"
+    appearance="5"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="32"
+        leg_armor="13"
+        arm_armor="10"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_infantry_mod1_body2"
+    name="{=kotk_t5_t4_bimbo_infantry_mod1_body2}T5 Bimbo Plate Bodyarmor"
+    subtype="body_armor"
+    mesh="t4_bimbo_infantry_mod1_body2"
+    culture="Culture.vlandia"
+    weight="14.5"
+    difficulty="4"
+    appearance="5"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="32"
+        leg_armor="13"
+        arm_armor="10"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T2-T4 VLANDIAN BIMBO ARCHER-->
+  <Item
+    id="t2_bimbo_archer_hat"
+    name="{=kotk_t2_bimbo_archer_hat}T2 Bimbo Archer Helm"
+    mesh="t2_bimbo_archer_hat"
+    culture="Culture.vlandia"
+    weight="0.1"
+    appearance="2"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="4"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_archer_helm"
+    name="{=kotk_t4_bimbo_archer_helm}T4 Bimbo Archer Helm"
+    mesh="t4_bimbo_archer_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="40"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_archer_bracer"
+    name="{=kotk_t3_bimbo_archer_bracer}T3 Bimbo Archer Armarmor"
+    mesh="t3_bimbo_archer_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_archer_bracer"
+    name="{=kotk_t4_bimbo_archer_bracer}T4 Bimbo Archer Armarmor"
+    mesh="t4_bimbo_archer_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        arm_armor="20"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_archer_shoulder"
+    name="{=kotk_t4_bimbo_archer_shoulder}T4 Bimbo Archer Shoulderarmor"
+    mesh="t4_bimbo_archer_shoulder"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="10"
+        arm_armor="8"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_archer_boot"
+    name="{=kotk_t3_bimbo_archer_boot}T3 Bimbo Archer Boots"
+    mesh="t3_bimbo_archer_boot"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_archer_boot"
+    name="{=kotk_t4_bimbo_archer_boot}T4 Bimbo Archer Boots"
+    mesh="t4_bimbo_archer_boot"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_bimbo_archer_body"
+    name="{=kotk_t3_bimbo_archer_body}T3 Bimbo Archer Armor"
+    subtype="body_armor"
+    mesh="t3_bimbo_archer_body"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bimbo_archer_body"
+    name="{=kotk_t4_bimbo_archer_body}T4 Bimbo Archer Bodyarmor"
+    subtype="body_armor"
+    mesh="t4_bimbo_archer_body"
+    culture="Culture.vlandia"
+    weight="11"
+    difficulty="4"
+    appearance="4"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="29"
+        leg_armor="9"
+        arm_armor="8"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <!--T2-T4 BANDIT ARCHER-->
+  <Item
+    id="t2_bandit_archer_hat"
+    name="{=kotk_t2_bandit_archer_hat}T2 Bandit Archer Helm"
+    mesh="t2_bandit_archer_hat"
+    culture="Culture.vlandia"
+    weight="0.1"
+    appearance="2"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="4"
+        has_gender_variations="true"
+        hair_cover_type="none"
+        modifier_group="cloth_unarmoured"
+        material_type="Cloth" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t4_bandit_archer_helm"
+    name="{=kotk_t4_bandit_archer_helm}T4 Bandit Archer Helm"
+    mesh="t4_bandit_archer_helm"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor
+        head_armor="40"
+        has_gender_variations="true"
+        hair_cover_type="all"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bandit_archer_bracer"
+    name="{=kotk_t3_bandit_archer_bracer}T3 Bandit Archer Armarmor"
+    mesh="t3_bandit_archer_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.4"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        arm_armor="10"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bandit_archer_bracer"
+    name="{=kotk_t4_bandit_archer_bracer}T4 Bandit Archer Armarmor"
+    mesh="t4_bandit_archer_bracer"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="1.5"
+    is_merchandise="true"
+    Type="HandArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        arm_armor="20"
+        covers_hands="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bandit_archer_shoulder"
+    name="{=kotk_t4_bandit_archer_shoulder}T4 Bandit Archer Shoulderarmor"
+    mesh="t4_bandit_archer_shoulder"
+    culture="Culture.vlandia"
+    weight="3.0"
+    appearance="4"
+    Type="Cape">
+    <ItemComponent>
+      <Armor
+        body_armor="10"
+        arm_armor="8"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      Civilian="true"
+      UseTeamColor="true" />
+  </Item>
+  <Item
+    id="t3_bandit_archer_boot"
+    name="{=kotk_t3_bandit_archer_boot}T3 Bandit Archer Boots"
+    mesh="t3_bandit_archer_boot"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="3">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bandit_archer_boot"
+    name="{=kotk_t4_bandit_archer_boot}T4 Bandit Archer Legarmor"
+    mesh="t4_bandit_archer_boot"
+    subtype="body_armor"
+    culture="Culture.vlandia"
+    weight="0.5"
+    is_merchandise="true"
+    Type="LegArmor"
+    appearance="4">
+    <ItemComponent>
+      <Armor
+        leg_armor="6"
+        covers_legs="false"
+        has_gender_variations="true"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      DoesNotHideChest="false"
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t3_bandit_archer_body"
+    name="{=kotk_t3_bandit_archer_body}T3 Bandit Archer Bodyarmor"
+    subtype="body_armor"
+    mesh="t3_bandit_archer_body"
+    culture="Culture.vlandia"
+    weight="7"
+    difficulty="4"
+    appearance="3"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="22"
+        leg_armor="7"
+        arm_armor="5"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="leather"
+        material_type="Leather" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+  <Item
+    id="t4_bandit_archer_body"
+    name="{=kotk_t4_bandit_archer_body}T4 Bandit Archer Bodyarmor"
+    subtype="body_armor"
+    mesh="t4_bandit_archer_body"
+    culture="Culture.vlandia"
+    weight="11"
+    difficulty="4"
+    appearance="4"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor
+        body_armor="29"
+        leg_armor="9"
+        arm_armor="8"
+        has_gender_variations="true"
+        covers_body="false"
+        modifier_group="chain"
+        material_type="Chainmail" />
+    </ItemComponent>
+    <Flags
+      UseTeamColor="true"
+      Civilian="true" />
+  </Item>
+</Items>

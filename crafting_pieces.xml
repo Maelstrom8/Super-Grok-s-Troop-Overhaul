@@ -1,0 +1,1746 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CraftingPieces>
+	<CraftingPiece id="kotk_vlandia_battania_noble_blade_1"
+	               name="{=kotk_vlandia_battania_noble_blade_1}Vlandian Engraved Backsword Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_vlandia_battania_noble_blade_1"
+	               culture="Culture.battania"
+	               length="96"
+	               weight="1.0">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_vlandia_battania_noble_blade_1_scabbard_1">
+			<Thrust damage_type="Pierce"
+			        damage_factor="2.9"/>
+			<Swing damage_type="Cut"
+			       damage_factor="5.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield"/>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_battania_blade_6"
+	               name="{=kotk_bimbo_battania_blade_6}Bimbo Falx Blade"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="bimbo_battania_blade_6"
+	               culture="Culture.battania"
+	               length="95.6"
+	               weight="1.0"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed">
+			<Swing damage_type="Cut"
+			       damage_factor="4.9"/>
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t5_bimbo_greataxe_handle"
+	               name="{=kotk_t5_bimbo_greataxe_handle}Bimbo Great Axe Handle"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="t5_bimbo_greataxe_handle"
+	               length="132"
+	               weight="0.793"
+	               excluded_item_usage_features="widegrip">
+		<BuildData piece_offset="28.87"
+		           next_piece_offset="2.5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t5_bimbo_greataxe_head"
+	               name="{=kotk_t5_bimbo_greataxe_head}Bimbo Greataxe Head"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="t5_bimbo_greataxe_head"
+	               distance_to_next_piece="14.96"
+	               distance_to_previous_piece="2.712"
+	               weight="0.7296">
+		<BuildData piece_offset="-5.424"/>
+		<BladeData stack_amount="3"
+		           blade_length="28.366"
+		           blade_width="28.192"
+		           physics_material="metal_weapon"
+		           body_name="bo_axe_longer_b">
+			<Swing damage_type="Cut"
+			       damage_factor="5.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="CanBePickedUpFromCorpse"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="3"/>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t5_bimbo_greataxe_pommel"
+	               name="{=kotk_t5_bimbo_greataxe_pommel}Bimbo Steel Butt"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="t5_bimbo_greataxe_pommel"
+	               culture="Culture.empire"
+	               length="6"
+	               weight="0">
+		<Materials>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_noble_pommel_1"
+	               name="{=kotk_bimbo_vlandian_noble_pommel_1}Bimbo Ornamental Pommel"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="bimbo_vlandian_noble_pommel_1"
+	               culture="Culture.vlandia"
+	               length="7.1"
+	               weight="0.15">
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_guard_8"
+	               name="{=kotk_bimbo_vlandian_guard_8}Bimbo Western Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="bimbo_vlandian_guard_8"
+	               culture="Culture.vlandia"
+	               length="1.42"
+	               weight="0.15">
+		<BuildData next_piece_offset="0.2"/>
+		<StatContributions armor_bonus="5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_blade_3"
+	               name="{=kotk_bimbo_vlandian_blade_3}Bimbo Broad Two Hander Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="bimbo_vlandian_blade_3"
+	               culture="Culture.vlandia"
+	               length="99.4"
+	               weight="1.35">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="bimbo_vlandian_blade_3_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.5"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.5"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron6"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_banner_1"
+	               name="{=kotk_kotk_spear_banner_1}Bimbo Fanion Banner"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="kotk_spear_banner_1"
+	               culture="Culture.neutral_culture"
+	               length="20.4"
+	               weight="0">
+		<Materials>
+			<Material id="Iron4"
+			          count="0"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_banner_4"
+	               name="{=kotk_kotk_spear_banner_4}Bimbo Gonfalon Banner"
+	               tier="3"
+	               piece_type="Guard"
+	               mesh="kotk_spear_banner_4"
+	               culture="Culture.neutral_culture"
+	               length="35.5"
+	               weight="0">
+		<Materials>
+			<Material id="Iron4"
+			          count="0"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_blade_11"
+	               name="{=kotk_kotk_spear_blade_11}Bimbo Fine Steel Pike Head"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_spear_blade_11"
+	               length="34.56"
+	               weight="0.3096"
+	               excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+		           physics_material="wood_weapon"
+		           body_name="bo_spear_b">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.1"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_blade_13"
+	               name="{=kotk_kotk_spear_blade_13}Bimbo Triangular Spear"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_spear_blade_13"
+	               length="50.864"
+	               weight="0.3592"
+	               excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+		           physics_material="wood_weapon"
+		           body_name="bo_spear_b">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.9"/>
+		</BladeData>
+		<Flags>
+			<Flag name="NotStackable"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_handle_14"
+	               name="{=kotk_kotk_spear_handle_14}Bimbo Pine Shaft"
+	               tier="3"
+	               piece_type="Handle"
+	               mesh="kotk_spear_handle_14"
+	               length="160"
+	               weight="1.25">
+		<BuildData piece_offset="22.9"/>
+		<Materials>
+			<Material id="Wood"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_handle_19"
+	               name="{=kotk_kotk_spear_handle_19}Bimbo Ashen Staff"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="kotk_spear_handle_19"
+	               length="210"
+	               weight="1.6">
+		<BuildData piece_offset="22.9"/>
+		<Materials>
+			<Material id="Wood"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_pommel_8"
+	               name="{=kotk_kotk_spear_pommel_8}Bimbo Butt Riveted Spear Pommel"
+	               tier="3"
+	               piece_type="Pommel"
+	               mesh="kotk_spear_pommel_8"
+	               culture="Culture.empire"
+	               length="3.8"
+	               weight="0">
+		<Materials>
+			<Material id="Iron3"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_pommel_9"
+	               name="{=kotk_kotk_spear_pommel_9}Bimbo Steel Riveted Spear Pommel"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="kotk_spear_pommel_9"
+	               culture="Culture.empire"
+	               length="2.9"
+	               weight="0">
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_noble_blade_8"
+	               name="{=kotk_bimbo_vlandian_noble_blade_8}Bimbo Slut Arming Sword Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="bimbo_vlandian_noble_blade_8"
+	               culture="Culture.vlandia"
+	               length="81"
+	               weight="0.8">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="bimbo_vlandian_noble_blade_8_scabbard_8">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.8"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.8"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_noble_guard_1"
+	               name="{=kotk_bimbo_vlandian_noble_guard_1}Bimbo Wide Bimboly Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="bimbo_vlandian_noble_guard_1"
+	               culture="Culture.vlandia"
+	               length="2.6"
+	               weight="0.15">
+		<BuildData next_piece_offset="0.3"/>
+		<StatContributions armor_bonus="5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_empire_noble_grip_4"
+	               name="{=kotk_bimbo_empire_noble_grip_4}Bimbo Two Handed Grip"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="bimbo_empire_noble_grip_4"
+	               culture="Culture.sturgia"
+	               length="25"
+	               weight="0.10">
+		<BuildData piece_offset="0"
+		           next_piece_offset="0"
+		           previous_piece_offset="0.5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="bimbo_vlandian_noble_pommel_4"
+	               name="{=bimbo_vlandian_noble_pommel_4}Bimboly Pommel"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="bimbo_vlandian_noble_pommel_4"
+	               culture="Culture.vlandia"
+	               length="6"
+	               weight="0.15">
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="aserai_blade_3_blunt"
+	               name="{=kotk_aserai_blade_3_blunt}Iron Blunt Scimitar Blade"
+	               tier="2"
+	               piece_type="Blade"
+	               mesh="aserai_blade_3"
+	               culture="Culture.aserai"
+	               length="93.2"
+	               weight="0.96"
+	               is_hidden="true">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="aserai_blade_3blunt_scabbard_3">
+			<Thrust damage_type="Blunt"
+			        damage_factor="4"/>
+			<Swing damage_type="Blunt"
+			       damage_factor="8"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_cleaver_blade_3_curved1"
+	               name="{=kotk_kotk_cleaver_blade_3_curved1}KotK Curved Blade"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_cleaver_blade_3_curved1"
+	               culture="Culture.aserai"
+	               length="101"
+	               weight="1.4"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed">
+			<Swing damage_type="Cut"
+			       damage_factor="4.8"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron2"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_cleaver_blade_5_ork1"
+	               name="{=kotk_kotk_cleaver_blade_5_ork1}KotK Orky Choppa"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_cleaver_blade_5_ork1"
+	               culture="Culture.vlandia"
+	               length="103.4"
+	               weight="1.2"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed">
+			<Swing damage_type="Cut"
+			       damage_factor="4.9"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_cleaver_blade_5_ork2"
+	               name="{=kotk_kotk_cleaver_blade_5_ork2}KotK Orky Choppa"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_cleaver_blade_5_ork2"
+	               culture="Culture.vlandia"
+	               length="103.4"
+	               weight="1.2"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed">
+			<Swing damage_type="Cut"
+			       damage_factor="4.9"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_battania_blade_cheap"
+	               name="{=kotk_kotk_battania_blade_cheap}Cheap Battanian Blade"
+	               tier="3"
+	               piece_type="Blade"
+	               mesh="kotk_battania_blade_cheap"
+	               culture="Culture.battania"
+	               length="80.8"
+	               weight="0.81">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_battania_blade_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="2.5"/>
+			<Swing damage_type="Cut"
+			       damage_factor="3.8"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_battania_blade_quality"
+	               name="{=kotk_kotk_battania_blade_quality}Quailty Battanian Blade"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_battania_blade_quality"
+	               culture="Culture.battania"
+	               length="80.8"
+	               weight="0.81">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_battania_blade_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="2.7"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_battania_blade_uber"
+	               name="{=kotk_kotk_battania_blade_uber}Uber Battanian Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_battania_blade_uber"
+	               culture="Culture.battania"
+	               length="80.8"
+	               weight="0.81">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_battania_blade_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.5"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.4"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t2_runic_flachion_blade"
+	               name="{=kotk_t2_runic_flachion_blade}Cheap Flachion Blade"
+	               tier="2"
+	               piece_type="Blade"
+	               mesh="t2_runic_flachion_blade"
+	               culture="Culture.neutral_culture"
+	               length="82.5"
+	               weight="0.85">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="runic_flachion_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="2.3"/>
+			<Swing damage_type="Cut"
+			       damage_factor="3.3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t3_runic_flachion_blade"
+	               name="{=kotk_t3_runic_flachion_blade}Quality Flachion Blade"
+	               tier="3"
+	               piece_type="Blade"
+	               mesh="t3_runic_flachion_blade"
+	               culture="Culture.neutral_culture"
+	               length="82.5"
+	               weight="0.85">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="runic_flachion_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.2"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t4_runic_flachion_blade"
+	               name="{=kotk_t4_runic_flachion_blade}Uber Flachion Blade"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="t4_runic_flachion_blade"
+	               culture="Culture.neutral_culture"
+	               length="82.5"
+	               weight="0.85">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="runic_flachion_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.25"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.25"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="greataxe_head_1"
+	               name="{=kotk_greataxe_head_1}Greataxe Head"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="greataxe_head_1"
+	               distance_to_next_piece="28.8"
+	               distance_to_previous_piece="6"
+	               weight="0.9">
+		<BuildData piece_offset="-12"/>
+		<BladeData stack_amount="3"
+		           blade_length="57.435"
+		           blade_width="23.337"
+		           physics_material="metal_weapon"
+		           body_name="bo_axe_longer_b">
+			<Swing damage_type="Cut"
+			       damage_factor="5.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="CanBePickedUpFromCorpse"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="3"/>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="nazgul_grip_1"
+	               name="{=kotk_nazgul_grip_1}Imperial Warsword Grip"
+	               tier="4"
+	               piece_type="Handle"
+	               mesh="nazgul_grip_1"
+	               culture="Culture.neutral_culture"
+	               length="25.2"
+	               weight="0.18"
+	               item_holster_pos_shift="0,0,-0.03">
+		<BuildData piece_offset="-4.59"
+		           previous_piece_offset="0.358"
+		           next_piece_offset="0.2"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="nazgul_pommel_1"
+	               name="{=kotk_nazgul_pommel_1}Imperial Warsword Pommel"
+	               tier="4"
+	               piece_type="Pommel"
+	               mesh="nazgul_pommel_1"
+	               culture="Culture.neutral_culture"
+	               length="4.882"
+	               weight="0.15">
+		<BuildData next_piece_offset="-0.2"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="nazgul_guard_1"
+	               name="{=kotk_nazgul_guard_1}Imperial Warsword Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="nazgul_guard_1"
+	               culture="Culture.empire"
+	               length="2"
+	               weight="0.15">
+		<BuildData next_piece_offset="0.2"
+		           previous_piece_offset="0.2"/>
+		<StatContributions armor_bonus="5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="nazgul_blade_1"
+	               name="{=kotk_nazgul_blade_1}Imperial Warsword Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="nazgul_blade_1"
+	               culture="Culture.empire"
+	               length="104.76"
+	               weight="1.04">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="sturgian_blade_10_scabbard_10">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.0"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.25"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="octokuro_pommel_1"
+	               name="{=kotk_octokuro_pommel_1}Octokuro Pommel"
+	               tier="4"
+	               piece_type="Pommel"
+	               mesh="octokuro_pommel_1"
+	               culture="Culture.neutral_culture"
+	               length="4.882"
+	               weight="0.15">
+		<BuildData next_piece_offset="-0.2"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="octokuro_grip_1"
+	               name="{=kotk_octokuro_grip_1}Octokuro Grip"
+	               tier="4"
+	               piece_type="Handle"
+	               mesh="octokuro_grip_1"
+	               culture="Culture.neutral_culture"
+	               length="25.2"
+	               weight="0.18"
+	               item_holster_pos_shift="0,0,-0.03">
+		<BuildData piece_offset="-4.59"
+		           previous_piece_offset="0.358"
+		           next_piece_offset="0.2"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="gladius_blade_1"
+	               name="{=kotk_gladius_blade_1}Gladius Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="gladius_blade_1"
+	               culture="Culture.empire"
+	               length="80.8"
+	               weight="0.81">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="gladius_blade_1_scabbard_1">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.4"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="split_blade_1"
+	               name="{=kotk_split_blade_1}Split Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="split_blade_1"
+	               culture="Culture.neutral_culture"
+	               length="99"
+	               weight="0.99">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="split_blade_1_scabbard_1">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.4"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.5"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron6"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="octokuro_guard_1"
+	               name="{=kotk_octokuro_guard_1}Octokuro Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="octokuro_guard_1"
+	               culture="Culture.neutral_culture"
+	               length="2"
+	               weight="0.15">
+		<BuildData next_piece_offset="0.2"
+		           previous_piece_offset="0.2"/>
+		<StatContributions armor_bonus="5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="octokuro_guard_2"
+	               name="{=kotk_octokuro_guard_2}Octokuro Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="octokuro_guard_2"
+	               culture="Culture.neutral_culture"
+	               length="2"
+	               weight="0.15">
+		<BuildData next_piece_offset="0.2"
+		           previous_piece_offset="0.2"/>
+		<StatContributions armor_bonus="5"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="katana_blade_1"
+	               name="{=kotk_katana_blade_1}Katana Blade"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="katana_blade_1"
+	               culture="Culture.neutral_culture"
+	               length="96"
+	               weight="0.90">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="katana_blade_1_scabbard_1">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.0"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.7"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron5"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="katana_grip_1"
+	               name="{=kotk_katana_grip_1}Katana Grip"
+	               tier="4"
+	               piece_type="Handle"
+	               mesh="katana_grip_1"
+	               culture="Culture.neutral_culture"
+	               length="25.2"
+	               weight="0.18"
+	               item_holster_pos_shift="0,0,-0.03">
+		<BuildData piece_offset="-4.59"
+		           previous_piece_offset="0.358"
+		           next_piece_offset="0.2"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="spear_blade_38"
+	               name="{=kotk_spear_blade_38}Pilum Head"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="spear_blade_38"
+	               length="23.7"
+	               weight="0.0744"
+	               excluded_item_usage_features="swing">
+		<BladeData stack_amount="2"
+		           physics_material="wood_weapon"
+		           body_name="bo_spear_b"
+		           holster_mesh="throwing_spear_quiver_3_2"
+		           holster_body_name="bo_throwing_spear_quiver_3_2"
+		           holster_mesh_length="96.8">
+			<Thrust damage_type="Pierce"
+			        damage_factor="2.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_mace_handle_1"
+	               name="{=kotk_kotk_mace_handle_1}KotK Reinforced Mace Handle"
+	               tier="3"
+	               piece_type="Handle"
+	               mesh="kotk_mace_handle_1"
+	               length="62.5"
+	               weight="0.580"
+	               CraftingCost="75">
+		<BuildData piece_offset="18"/>
+		<Materials>
+			<Material id="Wood"
+			          count="1"/>
+			<Material id="Iron3"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_mace_handle_18"
+	               name="{=kotk_kotk_mace_handle_18}KotK Iron Topped Two Handed Mace Handle"
+	               tier="3"
+	               piece_type="Handle"
+	               mesh="kotk_mace_handle_18"
+	               length="124"
+	               weight="0.420"
+	               CraftingCost="75">
+		<BuildData piece_offset="15"/>
+		<Materials>
+			<Material id="Iron3"
+			          count="2"/>
+			<Material id="Wood"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_mace_handle_20"
+	               name="{=kotk_kotk_mace_handle_20}KotK Iron Reinforced Two Handed Mace Handle"
+	               tier="4"
+	               piece_type="Handle"
+	               mesh="kotk_mace_handle_20"
+	               length="133.2"
+	               weight="0.540"
+	               item_holster_pos_shift="0,0,-0.05"
+	               CraftingCost="75">
+		<BuildData piece_offset="19.3"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+			<Material id="Wood"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_oni_mace_head_wood"
+	               name="{=kotk_kotk_oni_mace_head_wood}Wood Oni Macehead"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="kotk_oni_mace_head_wood"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_oni_mace_head_silver"
+	               name="{=kotk_kotk_oni_mace_head_silver}Iron Oni Macehead"
+	               tier="4"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="kotk_oni_mace_head_silver"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3.85"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_oni_mace_head_gold"
+	               name="{=kotk_kotk_oni_mace_head_gold}Gilden Oni Macehead"
+	               tier="5"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="kotk_oni_mace_head_gold"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="4.95"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_mace_handle_13"
+	               name="{=kotk_kotk_mace_handle_13}KotK Gilded Mace Handle"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="kotk_mace_handle_13"
+	               length="65"
+	               weight="1.100"
+	               item_holster_pos_shift="0,0,0.05">
+		<BuildData piece_offset="13.7"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_spear_handle_1"
+	               name="{=kotk_kotk_spear_handle_1}KotK Pine Spear Staff"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="kotk_spear_handle_1"
+	               length="149"
+	               weight="1.2"
+	               excluded_item_usage_features="long"
+	               CraftingCost="100"
+	               is_default="true">
+		<BuildData piece_offset="14.9"/>
+		<Materials>
+			<Material id="Wood"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_anal_plut_pommel_1"
+	               name="{=kotk_kotk_anal_plut_pommel_1}Kult Anal Plug Pommel"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="kotk_anal_plut_pommel_1"
+	               culture="Culture.empire"
+	               length="6.8"
+	               weight="0.2"
+	               appearance="0.9">
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_khuzait_grip_15"
+	               name="{=kotk_kotk_khuzait_grip_15}KotK Black Gold Grip"
+	               tier="5"
+	               piece_type="Handle"
+	               mesh="kotk_khuzait_grip_15"
+	               culture="Culture.khuzait"
+	               length="25.5"
+	               weight="0.150">
+		<BuildData piece_offset="-1.98"
+		           previous_piece_offset="0.2"
+		           next_piece_offset="0.3"/>
+		<Materials>
+			<Material id="Iron5"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_khuzait_guard_9"
+	               name="{=kotk_kotk_khuzait_guard_9}KotK Rounded Flat Guard"
+	               tier="5"
+	               piece_type="Guard"
+	               mesh="khuzait_guard_9"
+	               culture="Culture.khuzait"
+	               length="0.459"
+	               weight="0.24">
+		<BuildData next_piece_offset="0.2"/>
+		<StatContributions armor_bonus="4"/>
+		<Materials>
+			<Material id="Iron4"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_katana_black_blade"
+	               name="{=kotk_kotk_katana_black_blade}Black Blade of Disaster"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_katana_black_blade"
+	               culture="Culture.vlandia"
+	               length="103.4"
+	               weight="1.2">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_katana_black_blade_scabbard">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.65"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron5"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_cleaver_pommel_4"
+	               name="{=kotk_kotk_cleaver_pommel_4}KOTK Flat Pommel"
+	               tier="5"
+	               piece_type="Pommel"
+	               mesh="cleaver_pommel_4"
+	               length="1.07"
+	               weight="0.08">
+		<Materials>
+			<Material id="Iron5"
+			          count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t1_eggplant_wood"
+	               name="{=kotk_t1_eggplant_wood}Aubergine Wood Head"
+	               tier="1"
+	               piece_type="Blade"
+	               mesh="t1_eggplant_wood"
+	               length="12.6"
+	               weight="1"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="wood_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="1.75"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Wood"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t2_eggplant_dirty_iron"
+	               name="{=kotk_t2_eggplant_dirty_iron}Aubergine Dirty Iron Head"
+	               tier="2"
+	               piece_type="Blade"
+	               mesh="t2_eggplant_dirty_iron"
+	               length="12.6"
+	               weight="1"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2.75"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t3_eggplant_iron"
+	               name="{=kotk_t3_eggplant_iron}Aubergine Iron Head"
+	               tier="3"
+	               piece_type="Blade"
+	               mesh="t3_eggplant_iron"
+	               length="12.6"
+	               weight="1"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3.25"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t4_eggplant_silver"
+	               name="{=kotk_t4_eggplant_silver}Aubergine Silver Head"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="t4_eggplant_silver"
+	               length="12.6"
+	               weight="1"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3.75"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="t5_eggplant_gold"
+	               name="{=kotk_t5_eggplant_gold}Aubergine Gilded Head"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="t5_eggplant_gold"
+	               length="12.6"
+	               weight="1"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="4.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+			<Flag name="CanKnockDown"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="doggy_donger_dirty"
+	               name="{=kotk_doggy_donger_dirty}Doggy Donger Dirty"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="doggy_donger_dirty"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="doggy_donger_silver"
+	               name="{=kotk_doggy_donger_silver}Doggy Donger Iron"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="doggy_donger_silver"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kult_mace_head_1"
+	               name="{=kotk_kult_mace_head_1}Iron Donger"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="kult_mace_head_1"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kult_mace_head_1_dirty"
+	               name="{=kotk_kult_mace_head_1_dirty}Dirty Iron Donger"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="kult_mace_head_1_dirty"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="the_empress_dirty"
+	               name="{=kotk_the_empress_dirty}The Dirty Empress"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="the_empress_dirty"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="the_empress_silver"
+	               name="{=kotk_the_empress_silver}The Iron Empress"
+	               tier="4"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="the_empress_silver"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="the_empress_gold"
+	               name="{=kotk_the_empress_gold}The Gilded Empress"
+	               tier="5"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="the_empress_gold"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="4.25"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="the_fist_mace_head_dirty"
+	               name="{=kotk_the_fist_mace_head_dirty}The Dirty Fister"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="the_fist_mace_head_dirty"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron2"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="the_fist_mace_head"
+	               name="{=kotk_the_fist_mace_head}The Fister"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="the_fist_mace_head"
+	               length="35.5"
+	               weight="1"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="choady_boi_silver"
+	               name="{=kotk_choady_boi_silver}Iron Chode"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="choady_boi_silver"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="choady_boi_dirty"
+	               name="{=kotk_choady_boi_dirty}Dirty Iron Chode"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="choady_boi_dirty"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="knobby_boi_silver"
+	               name="{=kotk_knobby_boi_silver}Iron Knob"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="knobby_boi_silver"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="knobby_boi_dirty"
+	               name="{=kotk_knobby_boi_dirty}Dirty Iron Knob"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="knobby_boi_dirty"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="knobby_boi_wood"
+	               name="{=kotk_knobby_boi_wood}Dirty Wood Knob"
+	               tier="1"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="knobby_boi_wood"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="wood_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="1.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Wood"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="knobby_boi_gold"
+	               name="{=kotk_knobby_boi_gold}Gilded Knob"
+	               tier="4"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="knobby_boi_gold"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3.5"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4"
+			          count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="ugly_boi_silver"
+	               name="{=kotk_ugly_boi_silver}Iron Chode"
+	               tier="3"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="ugly_boi_silver"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="ugly_boi_dirty"
+	               name="{=kotk_ugly_boi_dirty}Dirty Iron Chode"
+	               tier="2"
+	               piece_type="Blade"
+	               culture="Culture.empire"
+	               mesh="ugly_boi_dirty"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               is_default="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="2"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_sausage_mace_head_gold"
+	               name="{=kotk_kotk_sausage_mace_head_gold}Gilded Love Sausage"
+	               tier="4"
+	               piece_type="Blade"
+	               mesh="kotk_sausage_mace_head_gold"
+	               length="28.5"
+	               weight="0.97"
+	               full_scale="true"
+	               excluded_item_usage_features="thrust">
+		<BladeData stack_amount="3"
+		           physics_material="wood_weapon"
+		           body_name="bo_mace_a">
+			<Swing damage_type="Blunt"
+			       damage_factor="3.89"/>
+		</BladeData>
+		<Materials>
+			<Material id="Iron4"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_sturgian_noble_blade_5"
+	               name="{=kotk_kotk_sturgian_noble_blade_5}Cultured Short Warsword Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_sturgian_noble_blade_5"
+	               culture="Culture.sturgia"
+	               length="88.8"
+	               weight="0.7">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_sturgian_noble_blade_5_scabbard_5">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.1"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="2"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="kotk_vlandian_noble_blade_5"
+	               name="{=kotk_kotk_vlandian_noble_blade_5}Cultured Arming Sword Blade"
+	               tier="5"
+	               piece_type="Blade"
+	               mesh="kotk_vlandian_noble_blade_5"
+	               culture="Culture.vlandia"
+	               length="104.3"
+	               weight="1.0">
+		<BladeData stack_amount="3"
+		           physics_material="metal_weapon"
+		           body_name="bo_sword_one_handed"
+		           holster_mesh="kotk_vlandian_noble_blade_5_scabbard_5">
+			<Thrust damage_type="Pierce"
+			        damage_factor="3.5"/>
+			<Swing damage_type="Cut"
+			       damage_factor="4.2"/>
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+			      type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+			          count="3"/>
+		</Materials>
+	</CraftingPiece>
+</CraftingPieces>

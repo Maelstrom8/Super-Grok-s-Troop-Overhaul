@@ -1,0 +1,3726 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<NPCCharacter id="t2_imperial_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_imperial_recruit}T2 Imperial Citizen" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_imperial_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_imperial_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_brawler_blade"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.t2_imperial_head_armor_01"/>
+				<equipment slot="Body" id="Item.t2_imperial_body_armor"/>
+				<equipment slot="Cape" id="Item.t2_imperial_shoulder_armor_01"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.t2_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_imperial_infantry" default_group="Infantry" level="16" name="{=kotk_t3_imperial_infantry}T3 Imperial Ironblood" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_imperial_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_imperial_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_brawler_blade"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape" id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves" id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_imperial_veteran" default_group="Infantry" level="21" name="{=kotk_t4_imperial_veteran}T4 Imperial Vexillara" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_imperial_warrior"/>
+			<upgrade_target id="NPCCharacter.t5_imperial_warrior2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_brawler_blade"/>
+				<equipment slot="Item1" id="Item.ironrim_kite_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.imperial_helm_t4_new_gold"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_brawler_blade"/>
+				<equipment slot="Item1" id="Item.ironrim_kite_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_imperial_head_armor_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_gold"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_imperial_warrior" default_group="Infantry" level="26" name="{=kotk_t5_imperial_warrior}T5 Imperial Praetorian" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield"/>
+				<equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+				<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4_2"/>
+				<equipment slot="Head" id="Item.t6_imperial_hero_2026_silver_helm"/>
+				<equipment slot="Cape" id="Item.t6_imperial_hero_2026_silver_shoulder"/>
+				<equipment slot="Body" id="Item.t6_imperial_hero_2026_silver_armor"/>
+				<equipment slot="Gloves" id="Item.t6_imperial_hero_2026_silver_arms"/>
+				<equipment slot="Leg" id="Item.t6_imperial_hero_2026_silver_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_imperial_warrior2" default_group="Infantry" level="26" name="{=kotk_t5_imperial_warrior2}T5 Imperial Simpavliaton" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.triarii_pilum"/>
+				<equipment slot="Item2" id="Item.simp_empire_polearm_1_t4"/>
+				<equipment slot="Head" id="Item.simpavliaton_helm_silver"/>
+				<equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_silver"/>
+				<equipment slot="Body" id="Item.t5_imperial_simpavliaton_body_armor_silver"/>
+				<equipment slot="Gloves" id="Item.t5_imperial_arm_armor_silver"/>
+				<equipment slot="Leg" id="Item.t5_imperial_leg_armor_silver_simp"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
+				<equipment slot="Item1" id="Item.triarii_pilum"/>
+				<equipment slot="Item2" id="Item.simp_empire_polearm_1_t4"/>
+				<equipment slot="Head" id="Item.simpavliaton_helm_gold"/>
+				<equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t5_imperial_simpavliaton_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t5_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.t5_imperial_leg_armor_gold_simp"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_imperial_skirm" default_group="Ranged" level="16" name="{=kotk_t3_imperial_skirm}T3 Imperial Slingblade" occupation="Soldier" culture="Culture.empire" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_imperial_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t2_imperial_head_armor_01"/>
+				<equipment slot="Body" id="Item.t2_imperial_body_armor"/>
+				<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+				<equipment slot="Leg" id="Item.t2_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_imperial_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_imperial_scout}T4 Imperial Lancer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_imperial_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
+				<equipment slot="Head" id="Item.imperial_helm_t4_new_gold"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_gold"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t4_imperial_head_armor_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_gold"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_imperial_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_imperial_cav}T5 Imperial Velatrix" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_5_t4"/>
+				<equipment slot="Item3" id="Item.t5_gilded_empress_mace"/>
+				<equipment slot="Head" id="Item.t5_imperial_horselord_helm"/>
+				<equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t6_elite_imperial_hero_2025"/>
+				<equipment slot="Gloves" id="Item.t5_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.imperial_boot_b_01"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_5_t4"/>
+				<equipment slot="Item3" id="Item.t5_gilded_empress_mace"/>
+				<equipment slot="Head" id="Item.t5_imperial_horselord_helm"/>
+				<equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t5_imperial_body_armor_gold"/>
+				<equipment slot="Gloves" id="Item.t5_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.imperial_boot_b_01"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.empire_sword_5_t4"/>
+				<equipment slot="Item3" id="Item.t5_gilded_empress_mace"/>
+				<equipment slot="Head" id="Item.t5_imperial_horselord_helm"/>
+				<equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_gold"/>
+				<equipment slot="Body" id="Item.t5_imperial_body_armor_gold_a"/>
+				<equipment slot="Gloves" id="Item.t5_imperial_arm_armor_gold"/>
+				<equipment slot="Leg" id="Item.imperial_boot_b_01"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_imperial_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_imperial_archer}T4 Imperial Arcstriker" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_imperial_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_imperial_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t3_imperial_head_armor_silver"/>
+				<equipment slot="Cape" id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves" id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_imperial_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_imperial_ranger}T5 Imperial Sagittarii" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.imperial_helm_t4_new_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_silver"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_silver"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_silver"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_imperial_helm_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_silver"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_silver"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_silver"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_silver"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_imperial_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_imperial_horse_archer}T5 Imperial Skywarden" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_blade_2hs"/>
+				<equipment slot="Head" id="Item.imperial_helm_t4_new_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_silver"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_silver"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_silver"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_silver"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_blade_2hs"/>
+				<equipment slot="Head" id="Item.t4_imperial_helm_silver"/>
+				<equipment slot="Cape" id="Item.t4_imperial_shoulder_armor_silver"/>
+				<equipment slot="Body" id="Item.t4_imperial_body_armor_silver"/>
+				<equipment slot="Gloves" id="Item.t4_imperial_arm_armor_silver"/>
+				<equipment slot="Leg" id="Item.t4_imperial_leg_armor_silver"/>
+				<equipment slot="Horse" id="Item.empire_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_aserai_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_aserai_recruit}T2 Aserai Sandborn" occupation="Soldier" culture="Culture.aserai" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_aserai_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_aserai_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1" id="Item.desert_round_shield"/>
+				<equipment slot="Head" id="Item.t2_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_aserai_infantry" default_group="Infantry" level="16" name="{=kotk_t3_aserai_infantry}T3 Aserai Dune Sister" occupation="Soldier" culture="Culture.aserai" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_aserai_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_aserai_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_brawler_blade"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.t3_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t3_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_aserai_veteran" default_group="Infantry" level="21" name="{=kotk_t4_aserai_veteran}T4 Aserai Sunblade" occupation="Soldier" culture="Culture.aserai" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_aserai_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_brawler_blade"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Head" id="Item.t4_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_aserai_warrior" default_group="Infantry" level="26" name="{=kotk_t5_aserai_warrior}T5 Aserai Scorchwarden" occupation="Soldier" culture="Culture.aserai" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_05"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_04"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_aserai_skirm" default_group="Ranged" level="16" name="{=kotk_t3_aserai_skirm}T3 Aserai Windpiercer" occupation="Soldier" culture="Culture.aserai" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_aserai_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t2_aserai_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t2_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t2_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_aserai_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_aserai_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_aserai_scout}T4 Aserai Dustveil" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="45"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_aserai_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.curved_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_blade"/>
+				<equipment slot="Head" id="Item.t4_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_aserai_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_aserai_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_aserai_cav}T5 Aserai Stormlancer" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_05"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_04"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skeet_eastern_javelin_3_t4"/>
+				<equipment slot="Item1" id="Item.steel_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_blade"/>
+				<equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_aserai_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_aserai_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_aserai_archer}T4 Aserai Mirage Huntress" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_aserai_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_aserai_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t3_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t3_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_aserai_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_aserai_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_aserai_ranger}T5 Aserai Sandseer" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_aserai_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_aserai_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_aserai_horse_archer}T5 Aserai Miragepiercer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.aserai">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_aserai_2h_axe"/>
+				<equipment slot="Head" id="Item.t4_aserai_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_aserai_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_aserai_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_aserai_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_aserai_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.aserai_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_battanian_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_battanian_recruit}T2 Battanian Wildling" occupation="Soldier" culture="Culture.battania" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_battanian_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_battanian_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_batt_2hs"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.battania_t2_armor_alt_01"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_batt_2hs"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_batt_2hs"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_batt_2hs"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_batt_2hs"/>
+				<equipment slot="Item1" id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_battanian_infantry" default_group="Infantry" level="16" name="{=kotk_t3_battanian_infantry}T3 Battanian Thistleblade" occupation="Soldier" culture="Culture.battania" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_battanian_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_battanian_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_batt_2hs"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_batt_2hs"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_batt_2hs"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_batt_2hs"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_battanian_veteran" default_group="Infantry" level="21" name="{=kotk_t4_battanian_veteran}T4 Battanian Grovewarden" occupation="Soldier" culture="Culture.battania" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_battanian_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_battanian_warrior" default_group="Infantry" level="26" name="{=kotk_t5_battanian_warrior}T5 Battanian Wyrdsister" occupation="Soldier" culture="Culture.battania" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="130"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.battania_t5_armor_alt_02"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.battania_t5_coinarmor_green_pants_alt_01"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_03"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t4_bat_kalli_throwingaxe"/>
+				<equipment slot="Head" id="Item.battania_battle_crown"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_battanian_skirm" default_group="Ranged" level="16" name="{=kotk_t3_battanian_skirm}T3 Battanian Briarshot" occupation="Soldier" culture="Culture.battania" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="70"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_battanian_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t2_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t2_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_battanian_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_battanian_scout}T4 Battanian Thornhoof" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_battanian_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_scouts_shield"/>
+				<equipment slot="Item2" id="Item.t4_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_battanian_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_battanian_cav}T5 Battanian Stormhoof" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t5_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_03"/>
+				<equipment slot="Body" id="Item.battania_t5_coinarmor_green_pants_alt_01"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t5_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_03"/>
+				<equipment slot="Body" id="Item.battania_t5_armor_alt_02"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t5_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_03"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t5_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.t5_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_cav_polearm"/>
+				<equipment slot="Item1" id="Item.highland_riders_shield"/>
+				<equipment slot="Item2" id="Item.t5_battanian_cav_saber"/>
+				<equipment slot="Head" id="Item.battania_battle_crown"/>
+				<equipment slot="Cape" id="Item.t5_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t5_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_battanian_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_battanian_archer}T4 Battanian Thorncaller" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_battanian_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_battanian_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t3_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t3_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_battanian_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_battanian_ranger}T5 Battanian Moonpiercer" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_archer2hs"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_battanian_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_battanian_horse_archer}T5 Battanian Thornrider" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.battania">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_a_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_d_brnz"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor_bikini"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Head" id="Item.battania_earmuff_helmet_c_cpr"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_battania_archer_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_bat_kalli_falx"/>
+				<equipment slot="Head" id="Item.t4_battania_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t4_battania_shoulder_armor_02"/>
+				<equipment slot="Body" id="Item.t4_battania_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_battania_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_battania_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.battania_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_khuzait_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_khuzait_recruit}T2 Khuzait Ashigaru" occupation="Soldier" culture="Culture.khuzait" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_khuzait_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_khuzait_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_nympho_blade"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Head" id="Item.t2_khuzait_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_shibari_shoulders"/>
+				<equipment slot="Body" id="Item.t2_shibari_bodyarmor"/>
+				<equipment slot="Gloves" id="Item.t2_shibari_arms"/>
+				<equipment slot="Leg" id="Item.t2_shibari_legs"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_khuzait_infantry" default_group="Infantry" level="16" name="{=kotk_t3_khuzait_infantry}T3 Khuzait Onna-musha" occupation="Soldier" culture="Culture.khuzait" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_khuzait_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_khuzait_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_khuzait_infantry_blade"/>
+				<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3"/>
+				<equipment slot="Head" id="Item.t3_khuzait_newsamurai_helm"/>
+				<equipment slot="Cape" id="Item.t3_khuzait_newsamurai_shoulder"/>
+				<equipment slot="Body" id="Item.t3_khuzait_newsamurai_main_armor"/>
+				<equipment slot="Gloves" id="Item.t3_khuzait_newsamurai_bracer"/>
+				<equipment slot="Leg" id="Item.t3_khuzait_newsamurai_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_khuzait_veteran" default_group="Infantry" level="21" name="{=kotk_t4_khuzait_veteran}T4 Khuzait Kagemusha" occupation="Soldier" culture="Culture.khuzait" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_khuzait_warrior"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.1hs_katana_01"/>
+				<equipment slot="Item1" id="Item.stronger_footmans_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.t4_khuzait_newsamurai_helm"/>
+				<equipment slot="Cape" id="Item.t4_khuzait_newsamurai_shoulder"/>
+				<equipment slot="Body" id="Item.t4_khuzait_newsamurai_main_armor"/>
+				<equipment slot="Gloves" id="Item.t4_khuzait_newsamurai_bracer"/>
+				<equipment slot="Leg" id="Item.t4_khuzait_newsamurai_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_khuzait_warrior" default_group="Infantry" level="26" name="{=kotk_t5_khuzait_warrior}T5 Khuzait Shōjō-no-Kiba" occupation="Soldier" culture="Culture.khuzait" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.1hs_katana_02"/>
+				<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.t5_khuzait_newsamurai_helm"/>
+				<equipment slot="Cape" id="Item.t5_khuzait_newsamurai_shoulder"/>
+				<equipment slot="Body" id="Item.t5_khuzait_newsamurai_main_armor"/>
+				<equipment slot="Gloves" id="Item.t5_khuzait_newsamurai_bracer"/>
+				<equipment slot="Leg" id="Item.t5_khuzait_newsamurai_boot"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.1hs_katana_02"/>
+				<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit1_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit1_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit1_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit1_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit1_legs_og_maps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.1hs_katana_02"/>
+				<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit3_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit3_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit3_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit3_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit3_legs_og_maps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.1hs_katana_02"/>
+				<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+				<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit2_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit2_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit2_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit2_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit2_legs_og_maps"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_khuzait_skirm" default_group="Ranged" level="16" name="{=kotk_t3_khuzait_skirm}T3 Khuzait Yumiko" occupation="Soldier" culture="Culture.khuzait" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_khuzait_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_khuzait_infantry_blade"/>
+				<equipment slot="Head" id="Item.t2_khuzait_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_shibari_shoulders"/>
+				<equipment slot="Body" id="Item.t2_shibari_bodyarmor"/>
+				<equipment slot="Gloves" id="Item.t2_shibari_arms"/>
+				<equipment slot="Leg" id="Item.t2_shibari_legs"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_khuzait_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_khuzait_scout}T4 Khuzait Kagemusha" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_khuzait_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
+				<equipment slot="Item1" id="Item.steppe_guardian_shield"/>
+				<equipment slot="Item2" id="Item.1hs_katana_01"/>
+				<equipment slot="Head" id="Item.t4_khuzait_newsamurai_helm"/>
+				<equipment slot="Cape" id="Item.t4_khuzait_newsamurai_shoulder"/>
+				<equipment slot="Body" id="Item.t4_khuzait_newsamurai_main_armor"/>
+				<equipment slot="Gloves" id="Item.t4_khuzait_newsamurai_bracer"/>
+				<equipment slot="Leg" id="Item.t4_khuzait_newsamurai_boot"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_khuzait_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_khuzait_cav}T5 Khuzait Kensei" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.khuzait_steel_round_shield"/>
+				<equipment slot="Item2" id="Item.1hs_katana_02"/>
+				<equipment slot="Head" id="Item.t5_khuzait_newsamurai_helm"/>
+				<equipment slot="Cape" id="Item.t5_khuzait_newsamurai_shoulder"/>
+				<equipment slot="Body" id="Item.t5_khuzait_newsamurai_main_armor"/>
+				<equipment slot="Gloves" id="Item.t5_khuzait_newsamurai_bracer"/>
+				<equipment slot="Leg" id="Item.t5_khuzait_newsamurai_boot"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.khuzait_steel_round_shield"/>
+				<equipment slot="Item2" id="Item.1hs_katana_02"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit2_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit2_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit2_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit2_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit2_legs_og_maps"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.khuzait_steel_round_shield"/>
+				<equipment slot="Item2" id="Item.1hs_katana_02"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit1_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit1_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit1_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit1_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit1_legs_og_maps"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.khuzait_steel_round_shield"/>
+				<equipment slot="Item2" id="Item.1hs_katana_02"/>
+				<equipment slot="Head" id="Item.nn_samurai_suit3_helm_og_maps"/>
+				<equipment slot="Cape" id="Item.nn_samurai_suit3_shoulders_og_maps"/>
+				<equipment slot="Body" id="Item.nn_samurai_suit3_bodyarmor_og_maps"/>
+				<equipment slot="Gloves" id="Item.nn_samurai_suit3_arms_og_maps"/>
+				<equipment slot="Leg" id="Item.nn_samurai_suit3_legs_og_maps"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_khuzait_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_khuzait_archer}T4 Khuzait Kyūdōka" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_khuzait_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_khuzait_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.1hs_katana_01"/>
+				<equipment slot="Head" id="Item.t4_khuzait_archer_helmet"/>
+				<equipment slot="Cape" id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_khuzait_archer_armor"/>
+				<equipment slot="Gloves" id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_khuzait_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_khuzait_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_khuzait_ranger}T5 Khuzait Hoshiguma" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.1hs_katana_02"/>
+				<equipment slot="Head" id="Item.t5_khuzait_archer_helm"/>
+				<equipment slot="Cape" id="Item.t5_khuzait_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t5_khuzait_archer_armor"/>
+				<equipment slot="Gloves" id="Item.t5_khuzait_archer_bracer_ver_1"/>
+				<equipment slot="Leg" id="Item.t5_khuzait_archer_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_khuzait_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_khuzait_horse_archer}T5 Khuzait Hayabira" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.khuzait">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_khuzait_horsearcher_blade"/>
+				<equipment slot="Head" id="Item.t5_khuzait_archer_helm"/>
+				<equipment slot="Cape" id="Item.t5_khuzait_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t5_khuzait_archer_armor"/>
+				<equipment slot="Gloves" id="Item.t5_khuzait_archer_bracer_ver_1"/>
+				<equipment slot="Leg" id="Item.t5_khuzait_archer_boot"/>
+				<equipment slot="Horse" id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_bimbo_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_bimbo_recruit}T2 Vlandian Bimbo Recruit" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_bimbo_infantry"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head" id="Item.bimbo_circlet"/>
+				<equipment slot="Body" id="Item.t2_bimbo_infantry_fetish_suit"/>
+				<equipment slot="Gloves" id="Item.t2_bimbo_lingerie_arms"/>
+				<equipment slot="Leg" id="Item.t2_bimbo_infantry_heels"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head" id="Item.t2_bimbo_earrings"/>
+				<equipment slot="Body" id="Item.t2_bimbo_infantry_bodystocking"/>
+				<equipment slot="Gloves" id="Item.t2_bimbo_lingerie_arms"/>
+				<equipment slot="Leg" id="Item.t2_bimbo_infantry_heels"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head" id="Item.bimbo_circlet"/>
+				<equipment slot="Body" id="Item.t2_bimbo_infantry_body"/>
+				<equipment slot="Gloves" id="Item.t2_bimbo_lingerie_arms"/>
+				<equipment slot="Leg" id="Item.t2_bimbo_infantry_heels"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_bimbo_infantry" default_group="Infantry" level="16" name="{=kotk_t3_bimbo_infantry}T3 Vlandian Bimbo Novice" occupation="Soldier" is_female="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_bimbo_infantry"/>
+			<upgrade_target id="NPCCharacter.t4_bimbo_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_1"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Head" id="Item.t3_bimbo_infantry_helm"/>
+				<equipment slot="Cape" id="Item.t3_bimbo_infantry_shoulder"/>
+				<equipment slot="Body" id="Item.t3_bimbo_armor_01"/>
+				<equipment slot="Gloves" id="Item.t3_bimbo_infantry_bracer"/>
+				<equipment slot="Leg" id="Item.t3_bimbo_infantry_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_bimbo_archer" default_group="Ranged" level="21" is_female="true" occupation="Soldier" culture="Culture.vlandia" name="{=kotk_t4_bimbo_archer}T4 Vlandian Bimbo Archer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="25"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_bimbo_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bimbo_blade_1hs_uber"/>
+				<equipment slot="Item1" id="Item.bimbo_heater_shield_c_1"/>
+				<equipment slot="Item2" id="Item.lowland_yew_bow"/>
+				<equipment slot="Item3" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Head" id="Item.t2_bimbo_archer_hat"/>
+				<equipment slot="Cape" id="Item.t3_nympho_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_bimbo_archer_body"/>
+				<equipment slot="Gloves" id="Item.t3_bimbo_archer_bracer"/>
+				<equipment slot="Leg" id="Item.t3_bimbo_archer_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_bimbo_archer" default_group="Ranged" level="26" is_female="true" occupation="Soldier" culture="Culture.vlandia" name="{=kotk_t5_bimbo_archer}T5 Vlandian Bimbo Elite Archer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_bimbo_blade_1hs_uber"/>
+				<equipment slot="Item1" id="Item.bimbo_heater_shield_c_1"/>
+				<equipment slot="Item2" id="Item.woodland_longbow"/>
+				<equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Head" id="Item.t4_bimbo_archer_helm"/>
+				<equipment slot="Cape" id="Item.t4_bimbo_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t4_bimbo_archer_body"/>
+				<equipment slot="Gloves" id="Item.t4_bimbo_archer_bracer"/>
+				<equipment slot="Leg" id="Item.t4_bimbo_archer_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_bimbo_infantry" default_group="Infantry" level="21" name="{=kotk_t4_bimbo_infantry}T4 Vlandian Bimbo Footwoman" occupation="Soldier" is_female="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_bimbo_infantry"/>
+			<upgrade_target id="NPCCharacter.t5_bimbo_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_1"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Head" id="Item.t4_bimbo_infantry_helm"/>
+				<equipment slot="Cape" id="Item.t4_bimbo_infantry_shoulder"/>
+				<equipment slot="Body" id="Item.t4_bimbo_infantry_mod1_body1"/>
+				<equipment slot="Gloves" id="Item.t4_bimbo_infantry_bracer"/>
+				<equipment slot="Leg" id="Item.t4_bimbo_infantry_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_bimbo_infantry" default_group="Infantry" level="26" name="{=kotk_t5_bimbo_infantry}T5 Bimbo Sergeant" occupation="Soldier" is_female="true" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_2"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Head" id="Item.t5_vlandian_bimbo_knight_helm"/>
+				<equipment slot="Cape" id="Item.t5_vlandian_bimbo_knight_shoulder"/>
+				<equipment slot="Body" id="Item.t5_vlandian_bimbo_knight_body"/>
+				<equipment slot="Gloves" id="Item.t5_vlandian_bimbo_knight_bracer"/>
+				<equipment slot="Leg" id="Item.t5_vlandian_bimbo_knight_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_2"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Head" id="Item.t5_vlandian_bimbo_knight_helm"/>
+				<equipment slot="Cape" id="Item.t5_vlandian_bimbo_knight_shoulder"/>
+				<equipment slot="Body" id="Item.t4_bimbo_infantry_mod1_body2"/>
+				<equipment slot="Gloves" id="Item.t5_vlandian_bimbo_knight_bracer"/>
+				<equipment slot="Leg" id="Item.t5_vlandian_bimbo_knight_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_bimbo_cav" default_group="Cavalry" level="26" occupation="Soldier" is_female="true" culture="Culture.vlandia" upgrade_requires="ItemCategory.horse" name="{=kotk_t5_bimbo_cav}T5 Vlandian Bimbo Knight">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_2"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Item3" id="Item.t5_bimbo_lance"/>
+				<equipment slot="Head" id="Item.t5_vlandian_bimbo_knight_helm"/>
+				<equipment slot="Cape" id="Item.t5_vlandian_bimbo_knight_shoulder"/>
+				<equipment slot="Body" id="Item.t5_vlandian_bimbo_knight_body"/>
+				<equipment slot="Gloves" id="Item.t5_vlandian_bimbo_knight_bracer"/>
+				<equipment slot="Leg" id="Item.t5_vlandian_bimbo_knight_boots"/>
+				<equipment slot="Horse" id="Item.vlandia_pink_horse"/>
+				<equipment slot="HorseHarness" id="Item.horse_harness_e_bimbo_old"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bimbo_heater_shield_c_2"/>
+				<equipment slot="Item1" id="Item.t3_bimbo_spear"/>
+				<equipment slot="Item2" id="Item.t5_bimbo_blade_1hs"/>
+				<equipment slot="Item3" id="Item.t5_bimbo_lance"/>
+				<equipment slot="Head" id="Item.t5_vlandian_bimbo_knight_helm"/>
+				<equipment slot="Cape" id="Item.t5_vlandian_bimbo_knight_shoulder"/>
+				<equipment slot="Body" id="Item.t4_bimbo_infantry_mod1_body2"/>
+				<equipment slot="Gloves" id="Item.t5_vlandian_bimbo_knight_bracer"/>
+				<equipment slot="Leg" id="Item.t5_vlandian_bimbo_knight_boots"/>
+				<equipment slot="Horse" id="Item.vlandia_pink_horse"/>
+				<equipment slot="HorseHarness" id="Item.horse_harness_e_bimbo_old"/>
+			</EquipmentRoster>
+			<EquipmentSet id="paladins_of_silvinds_radiance_civilian_template" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_vlandia_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_vlandia_recruit}T2 Vlandian Levywoman" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_vlandia_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_vlandia_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t2_brawler_blade"/>
+				<equipment slot="Item1" id="Item.horsemans_heater_shield"/>
+				<equipment slot="Head" id="Item.t2_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t2_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Item1" id="Item.horsemans_heater_shield"/>
+				<equipment slot="Head" id="Item.t2_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_vlandia_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t2_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_vlandia_skirm" default_group="Ranged" level="16" name="{=kotk_t3_vlandia_skirm}T3 Vlandian Bowmaiden" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_vlandia_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t2_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_vlandia_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t2_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="vlandia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t2_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_vlandia_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t2_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_vlandia_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_vlandia_archer}T4 Vlandian Longbow Sister" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_vlandia_ranger"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_vlandia_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_vlandia_ranger}T5 Vlandian Rosemarkswoman" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t4_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_vlandia_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t4_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_vlandia_infantry" default_group="Infantry" level="16" name="{=kotk_t3_vlandia_infantry}T3 Vlandian Footwoman" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_vlandia_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_vlandia_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t3_brawler_blade"/>
+				<equipment slot="Item1" id="Item.small_heater_shield"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t3_vlandia_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_vlandia_veteran" default_group="Infantry" level="21" name="{=kotk_t4_vlandia_veteran}T4 Vlandian Woman-at-Arms" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_vlandia_warrior"/>
+			<upgrade_target id="NPCCharacter.t5_vlandia_warrior2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_brawler_blade"/>
+				<equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_vlandia_helm_silver"/>
+				<equipment slot="Cape" id="Item.t4_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t4_flachion_01"/>
+				<equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_knight_helmet"/>
+				<equipment slot="Cape" id="Item.t4_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_vlandia_warrior" default_group="Infantry" level="26" name="{=kotk_t5_vlandia_warrior}T5 Vlandian Dreadguard" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.flat_heater_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_vlandia_helm_01_gold"/>
+				<equipment slot="Cape" id="Item.t5_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_plate_armor_new_body_gold"/>
+				<equipment slot="Gloves" id="Item.t5_plate_armor_new_bracer_gold"/>
+				<equipment slot="Leg" id="Item.t5_plate_armor_new_boots_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1" id="Item.flat_heater_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_vlandia_head_armor_03"/>
+				<equipment slot="Cape" id="Item.t5_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_gold_vlandian_plate"/>
+				<equipment slot="Gloves" id="Item.t5_plate_armor_new_bracer_gold"/>
+				<equipment slot="Leg" id="Item.t5_gold_vlandian_plate_boot"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_vlandia_warrior2" default_group="Infantry" level="26" name="{=kotk_t5_vlandia_warrior2}T5 Vlandian Sword Mommy" occupation="Soldier" culture="Culture.vlandia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_sword_mommy_blade"/>
+				<equipment slot="Head" id="Item.t5_vlandia_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t6_vlandia_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_vlandia_arm_armor_02"/>
+				<equipment slot="Leg" id="Item.t5_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_sword_mommy_blade"/>
+				<equipment slot="Head" id="Item.t5_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_black"/>
+				<equipment slot="Body" id="Item.t5_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t5_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_sword_mommy_blade"/>
+				<equipment slot="Head" id="Item.t5_vlandia_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_black"/>
+				<equipment slot="Body" id="Item.t6_vlandia_body_armor"/>
+				<equipment slot="Gloves" id="Item.t5_vlandia_arm_armor_02"/>
+				<equipment slot="Leg" id="Item.t5_vlandia_leg_armor_01a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_sword_mommy_blade"/>
+				<equipment slot="Head" id="Item.t6_vlandia_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_black"/>
+				<equipment slot="Body" id="Item.t5_vlandia_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_vlandia_arm_armor_02"/>
+				<equipment slot="Leg" id="Item.t6_heavy_plate_boots_dark_metal"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.t5_sword_mommy_blade"/>
+				<equipment slot="Head" id="Item.t6_vlandia_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_black"/>
+				<equipment slot="Body" id="Item.t6_vlandian_armor_newuv_black"/>
+				<equipment slot="Gloves" id="Item.t5_vlandia_arm_armor_02"/>
+				<equipment slot="Leg" id="Item.t5_vlandia_leg_armor_01a"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_vlandia_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_vlandia_scout}T4 Vlandian Banner Dame" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_vlandia_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.t4_vlandia_helm_silver"/>
+				<equipment slot="Cape" id="Item.t4_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_vlandia_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.t4_knight_helmet"/>
+				<equipment slot="Cape" id="Item.t4_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t4_vlandia_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_vlandia_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_vlandia_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_vlandia_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_vlandia_cav}T5 Vlandian Blacklance" occupation="Soldier" culture="Culture.vlandia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.t6_vlandia_helm_new_silver"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_faction"/>
+				<equipment slot="Body" id="Item.t6_vlandian_armor_newuv_faction"/>
+				<equipment slot="Gloves" id="Item.t6_vlandia_new_plate_silver_hd_bracer"/>
+				<equipment slot="Leg" id="Item.t6_vlandia_new_plate_silver_hd_boot_heavy"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.t5_vlandia_cavalry_helm_visorup"/>
+				<equipment slot="Cape" id="Item.t6_vlandia_new_plate_silver_hd_shoulder"/>
+				<equipment slot="Body" id="Item.t5_plate_armor_new_body_plate_faction"/>
+				<equipment slot="Gloves" id="Item.vlandia_t5_bracer_faction"/>
+				<equipment slot="Leg" id="Item.t5_plate_armor_new_boots_highshine_faction"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+				<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_4_t4"/>
+				<equipment slot="Head" id="Item.t5_vlandia_cavalry_helm_visordown"/>
+				<equipment slot="Cape" id="Item.t6_vlandian_shoulder_faction"/>
+				<equipment slot="Body" id="Item.t6_vlandia_new_plate_silver_hd_bodyarmor"/>
+				<equipment slot="Gloves" id="Item.t6_vlandia_new_plate_silver_hd_bracer"/>
+				<equipment slot="Leg" id="Item.t6_vlandia_new_plate_silver_hd_boot"/>
+				<equipment slot="Horse" id="Item.vlandia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t2_sturgian_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_sturgian_recruit}T2 Sturgian Doch" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_sturgian_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_sturgian_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.t2_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battanian_shamen_01_arms"/>
+				<equipment slot="Leg" id="Item.t2_sturgia_infantry_2026_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_sturgian_infantry" default_group="Infantry" level="16" name="{=kotk_t3_sturgian_infantry}T3 Sturgian Sentry" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_sturgian_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_sturgian_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t3_sturgia_infantry_2026_helm"/>
+				<equipment slot="Cape" id="Item.t3_sturgia_infantry_2026_shoulder"/>
+				<equipment slot="Body" id="Item.t3_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t3_sturgia_infantry_2026_bracer"/>
+				<equipment slot="Leg" id="Item.t3_sturgia_infantry_2026_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_sturgian_veteran" default_group="Infantry" level="21" name="{=kotk_t4_sturgian_veteran}T4 Sturgian Shield-Maid" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_sturgian_warrior"/>
+			<upgrade_target id="NPCCharacter.t5_sturgian_warrior2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_sturgia_infantry_2026_helm"/>
+				<equipment slot="Cape" id="Item.t4_sturgia_infantry_2026_shoulders"/>
+				<equipment slot="Body" id="Item.t4_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgia_infantry_2026_bracers"/>
+				<equipment slot="Leg" id="Item.t4_sturgia_infantry_2026_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_sturgian_warrior" default_group="Infantry" level="26" name="{=kotk_t5_sturgian_warrior}T5 Sturgian Gridnitsa" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgia_infantry_2026_helm"/>
+				<equipment slot="Cape" id="Item.t5_sturgia_infantry_2026_shoulders"/>
+				<equipment slot="Body" id="Item.t5_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t5_sturgia_infantry_2026_bracers"/>
+				<equipment slot="Leg" id="Item.t5_sturgia_infantry_2026_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_sturgian_warrior2" default_group="Infantry" level="26" name="{=kotk_t5_sturgian_warrior2}T5 Sturgian Poludnitsa" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="275"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="275"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ass_blasting_axe"/>
+				<equipment slot="Head" id="Item.sturgian_poludnitsa_2026_mask"/>
+				<equipment slot="Body" id="Item.sturgian_poludnitsa_2026_dress"/>
+				<equipment slot="Leg" id="Item.sturgian_poludnitsa_2026_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_sturgian_skirm" default_group="Ranged" level="16" name="{=kotk_t3_sturgian_skirm}T3 Sturgian Fowler" occupation="Soldier" culture="Culture.sturgia" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_sturgian_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.t2_sturgia_2026_archer_armor"/>
+				<equipment slot="Gloves" id="Item.t3_battanian_shamen_01_arms"/>
+				<equipment slot="Leg" id="Item.t3_sturgia_2026_archer_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_sturgian_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_sturgian_scout}T4 Sturgian Okhotnitsa" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_sturgian_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t4_sturgia_infantry_2026_helm"/>
+				<equipment slot="Cape" id="Item.t4_sturgia_infantry_2026_shoulders"/>
+				<equipment slot="Body" id="Item.t4_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgia_infantry_2026_bracers"/>
+				<equipment slot="Leg" id="Item.t4_sturgia_infantry_2026_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_sturgian_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_sturgian_cav}T5 Sturgian Taiga Blood-Tracker" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgia_infantry_2026_helm"/>
+				<equipment slot="Cape" id="Item.t5_sturgia_infantry_2026_shoulders"/>
+				<equipment slot="Body" id="Item.t5_sturgia_infantry_2026_armor"/>
+				<equipment slot="Gloves" id="Item.t5_sturgia_infantry_2026_bracers"/>
+				<equipment slot="Leg" id="Item.t5_sturgia_infantry_2026_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_sturgian_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_sturgian_archer}T4 Sturgian Wind-Sister" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_sturgian_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_sturgian_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgia_2026_archer_helm"/>
+				<equipment slot="Cape" id="Item.t3_nympho_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t3_sturgia_2026_archer_armor_body"/>
+				<equipment slot="Gloves" id="Item.simple_bracer_t3_iron"/>
+				<equipment slot="Leg" id="Item.t3_sturgia_2026_archer_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_sturgian_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_sturgian_ranger}T5 Sturgian Sirin" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.sturgia_2026_archer_helm"/>
+				<equipment slot="Cape" id="Item.t4_sturgia_2026_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t4_sturgia_2026_archer_armor"/>
+				<equipment slot="Gloves" id="Item.sturgia_2026_archer_arms"/>
+				<equipment slot="Leg" id="Item.sturgia_2026_archer_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.sturgia_2026_archer_helm"/>
+				<equipment slot="Cape" id="Item.t4_sturgia_2026_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t4_sturgia_2026_archer_armor"/>
+				<equipment slot="Gloves" id="Item.sturgia_2026_archer_arms"/>
+				<equipment slot="Leg" id="Item.sturgia_2026_archer_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_sturgian_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_sturgian_horse_archer}T5 Sturgian Alkonost" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.sturgia">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_sturgian_2h_axe"/>
+				<equipment slot="Head" id="Item.sturgia_2026_archer_helm"/>
+				<equipment slot="Cape" id="Item.t4_sturgia_2026_archer_shoulder"/>
+				<equipment slot="Body" id="Item.t4_sturgia_2026_archer_armor"/>
+				<equipment slot="Gloves" id="Item.sturgia_2026_archer_arms"/>
+				<equipment slot="Leg" id="Item.sturgia_2026_archer_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_sturgian_2h_axe"/>
+				<equipment slot="Head" id="Item.sturgia_2026_archer_helm"/>
+				<equipment slot="Cape" id="Item.sturgia_2026_archer_shoulder"/>
+				<equipment slot="Body" id="Item.sturgia_2026_archer_armor"/>
+				<equipment slot="Gloves" id="Item.sturgia_2026_archer_arms"/>
+				<equipment slot="Leg" id="Item.sturgia_2026_archer_boots"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--NORD-->
+	<NPCCharacter id="t2_nord_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="{=kotk_t2_nord_recruit}T2 Nord Hearthborn" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_nord_infantry"/>
+			<upgrade_target id="NPCCharacter.t3_nord_skirm"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.t2_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Cape" id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Cape" id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_sturgian_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Head" id="Item.t2_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t2_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t2_sturgian_body_armor_04"/>
+				<equipment slot="Gloves" id="Item.t2_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t2_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_nord_infantry" default_group="Infantry" level="16" name="{=kotk_t3_nord_infantry}T3 Nord Swordmaiden" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_nord_veteran"/>
+			<upgrade_target id="NPCCharacter.t4_nord_scout"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.viking_helm_ver_04_gold_base"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
+				<equipment slot="Item2" id="Item.t3_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.breast02_armor_leather_black"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_nord_veteran" default_group="Infantry" level="21" name="{=kotk_t4_nord_veteran}T4 Nord Shieldmaiden" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_nord_warrior"/>
+			<upgrade_target id="NPCCharacter.t5_nord_warrior2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_03"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.breast02_armor_chainmail"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_shield"/>
+				<equipment slot="Item2" id="Item.t4_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nord_warrior" default_group="Infantry" level="26" name="{=kotk_t5_nord_warrior}T5 Nord Blightmaiden" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.breast02_armor_darkgold_metal"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.sturgia_armor_t5_e"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.breast02_armor_metal"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.t5_infantry_polearm"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nord_warrior2" default_group="Infantry" level="26" name="{=kotk_t5_nord_warrior2}T5 Nord Skadiarþverrir" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skadiarpverrir_axe"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_warrior_plate_shoulder_silver"/>
+				<equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_02_mod"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_silver"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.axe_somebody_aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_warrior_plate_shoulder_silver"/>
+				<equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_03_mod"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_gold"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skadiarpverrir_axe"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_warrior_plate_shoulder_silver"/>
+				<equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_01_mod"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.axe_somebody_aserai_2haxe_3_t5"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.t5_warrior_plate_shoulder_silver"/>
+				<equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.skadiarpverrir_axe"/>
+				<equipment slot="Head" id="Item.viking_helm_ver_5a"/>
+				<equipment slot="Cape" id="Item.t5_warrior_plate_shoulder_silver"/>
+				<equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_nord_skirm" default_group="Ranged" level="16" name="{=kotk_t3_nord_skirm}T3 Nord Icebow" occupation="Soldier" culture="Culture.nord" is_female="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_nord_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.viking_helm_ver_04_gold_base"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tribal_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="t3_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.breast02_armor_leather_black"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_nord_scout" default_group="Cavalry" is_female="true" level="21" name="{=kotk_t4_nord_scout}T4 Nord Snowrider" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_nord_cav"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_03"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.breast02_armor_chainmail"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.viking_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+				<equipment slot="Item3" id="Item.sturgia_sword_2_t3"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nord_cav" default_group="Cavalry" is_female="true" level="26" name="{=kotk_t5_nord_cav}T5 Nord Frostlance" occupation="Soldier" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.breast02_armor_metal"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_silver"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.sturgia_armor_t5_e"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_gold"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+				<equipment slot="Body" id="Item.breast02_armor_darkgold_metal"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_3_t4"/>
+				<equipment slot="Item3" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+				<equipment slot="Cape" id="Item.t5_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body" id="Item.t5_sturgian_body_armor_02"/>
+				<equipment slot="Gloves" id="Item.t5_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t5_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_nord_archer" default_group="Ranged" is_female="true" level="21" name="{=kotk_t4_nord_archer}T4 Nord Frostshot" occupation="Soldier" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_nord_ranger"/>
+			<upgrade_target id="NPCCharacter.t5_nord_horse_archer"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_fur_cloak"/>
+				<equipment slot="Body" id="Item.breast02_armor_leather_black"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor_03"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_leather_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.nomad_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t4_axe"/>
+				<equipment slot="Head" id="Item.t3_sturgia_nasal_helm"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t3_sturgian_body_armor_04"/>
+				<equipment slot="Gloves" id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t3_leather_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nord_ranger" default_group="Ranged" is_female="true" level="26" name="{=kotk_t5_nord_ranger}T5 Nord Stormeye" occupation="Soldier" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_03"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.breast02_armor_chainmail"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.longbow_recurve_desert_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nord_horse_archer" default_group="HorseArcher" is_female="true" level="26" name="{=kotk_t5_nord_horse_archer}T5 Nord Frostpiercer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.nord">
+		<face>
+			<face_key_template value="BodyProperty.kotk_nord"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_sturgian_2h_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_03"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.breast02_armor_chainmail"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_01"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_sturgian_2h_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_war_bow"/>
+				<equipment slot="Item1" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item2" id="Item.skeet_fire_arrows_t"/>
+				<equipment slot="Item3" id="Item.t5_sturgian_2h_axe"/>
+				<equipment slot="Head" id="Item.t4_sturgian_head_armor_04"/>
+				<equipment slot="Cape" id="Item.kotk_armored_bearskin"/>
+				<equipment slot="Body" id="Item.t4_sturgian_body_armor_01"/>
+				<equipment slot="Gloves" id="Item.t4_sturgian_arm_armor_01"/>
+				<equipment slot="Leg" id="Item.t4_sturgian_leg_armor_02"/>
+				<equipment slot="Horse" id="Item.sturgia_horse"/>
+				<equipment slot="HorseHarness" id="Item.northern_light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
+	
+	
+	
+

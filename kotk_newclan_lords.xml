@@ -1,0 +1,3353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<NPCCharacter id="aseraihero1"
+	              name="{=kotk_aseraihero1}Mia Khalifa"
+	              age="22"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.16"
+			                weight="0"
+			                build="0"
+			                key="0034000012FC00096982442CABD127719C46724BA187A130BBA3EA457A6C5747009006030902B35C0000000000000000000000000000000000000000593C4003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_aserai_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="151"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="144"/>
+			<skill id="Bow"
+			       value="67"/>
+			<skill id="Crossbow"
+			       value="99"/>
+			<skill id="Throwing"
+			       value="154"/>
+			<skill id="Athletics"
+			       value="76"/>
+			<skill id="Riding"
+			       value="143"/>
+			<skill id="Scouting"
+			       value="85"/>
+			<skill id="Roguery"
+			       value="122"/>
+			<skill id="Charm"
+			       value="151"/>
+			<skill id="Leadership"
+			       value="154"/>
+			<skill id="Trade"
+			       value="157"/>
+			<skill id="Steward"
+			       value="200"/>
+			<skill id="Tactics"
+			       value="62"/>
+			<skill id="Engineering"
+			       value="62"/>
+			<skill id="Medicine"
+			       value="69"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="aseraihero2"
+	              name="{=kotk_aseraihero2}Jasmine Caro"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0"
+			                key="003F5004C400000B6982442CABD398749C46724BA187A130BBA3EA457A6C5747079006720902B35C0000000000000000000000000000000000000000593C1003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_aserai_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="147"/>
+			<skill id="TwoHanded"
+			       value="114"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="61"/>
+			<skill id="Crossbow"
+			       value="89"/>
+			<skill id="Throwing"
+			       value="83"/>
+			<skill id="Athletics"
+			       value="133"/>
+			<skill id="Riding"
+			       value="118"/>
+			<skill id="Scouting"
+			       value="103"/>
+			<skill id="Roguery"
+			       value="88"/>
+			<skill id="Charm"
+			       value="90"/>
+			<skill id="Leadership"
+			       value="139"/>
+			<skill id="Trade"
+			       value="79"/>
+			<skill id="Steward"
+			       value="146"/>
+			<skill id="Tactics"
+			       value="69"/>
+			<skill id="Engineering"
+			       value="119"/>
+			<skill id="Medicine"
+			       value="111"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="aseraihero3"
+	              name="{=kotk_aseraihero3}Ameera Milan"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.0"
+			                build="0"
+			                key="0036080010FC0010677343968A67954791464A7576DB8A4BD358B8497D53B6AB08600682F7C59A69000000000000000000000000000000000000000030D42003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_aserai_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="151"/>
+			<skill id="TwoHanded"
+			       value="138"/>
+			<skill id="Polearm"
+			       value="76"/>
+			<skill id="Bow"
+			       value="106"/>
+			<skill id="Crossbow"
+			       value="147"/>
+			<skill id="Throwing"
+			       value="91"/>
+			<skill id="Athletics"
+			       value="126"/>
+			<skill id="Riding"
+			       value="153"/>
+			<skill id="Scouting"
+			       value="138"/>
+			<skill id="Roguery"
+			       value="76"/>
+			<skill id="Charm"
+			       value="160"/>
+			<skill id="Leadership"
+			       value="61"/>
+			<skill id="Trade"
+			       value="109"/>
+			<skill id="Steward"
+			       value="126"/>
+			<skill id="Tactics"
+			       value="68"/>
+			<skill id="Engineering"
+			       value="105"/>
+			<skill id="Medicine"
+			       value="131"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="aseraihero4"
+	              name="{=kotk_aseraihero4}Loona Luxx"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0"
+			                key="0029C40BD0FC0006677343968A67954791464A7576DB8A4BD358B8497D53B6AB08600682F7C59A69000000000000000000000000000000000000000030D42003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_aserai_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="94"/>
+			<skill id="TwoHanded"
+			       value="116"/>
+			<skill id="Polearm"
+			       value="70"/>
+			<skill id="Bow"
+			       value="75"/>
+			<skill id="Crossbow"
+			       value="82"/>
+			<skill id="Throwing"
+			       value="81"/>
+			<skill id="Athletics"
+			       value="146"/>
+			<skill id="Riding"
+			       value="111"/>
+			<skill id="Scouting"
+			       value="97"/>
+			<skill id="Roguery"
+			       value="72"/>
+			<skill id="Charm"
+			       value="158"/>
+			<skill id="Leadership"
+			       value="131"/>
+			<skill id="Trade"
+			       value="108"/>
+			<skill id="Steward"
+			       value="149"/>
+			<skill id="Tactics"
+			       value="127"/>
+			<skill id="Engineering"
+			       value="70"/>
+			<skill id="Medicine"
+			       value="102"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="aseraihero5"
+	              name="{=kotk_aseraihero5}Souzan Halabi"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0"
+			                build="0"
+			                key="003C000009FC00145948A3188A41766557598897843A8925A7E38F398578987406A006620A737521000000000000000000000000000000000000000001641043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_aserai_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="95"/>
+			<skill id="TwoHanded"
+			       value="142"/>
+			<skill id="Polearm"
+			       value="99"/>
+			<skill id="Bow"
+			       value="149"/>
+			<skill id="Crossbow"
+			       value="91"/>
+			<skill id="Throwing"
+			       value="80"/>
+			<skill id="Athletics"
+			       value="117"/>
+			<skill id="Riding"
+			       value="66"/>
+			<skill id="Scouting"
+			       value="94"/>
+			<skill id="Roguery"
+			       value="141"/>
+			<skill id="Charm"
+			       value="133"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="149"/>
+			<skill id="Steward"
+			       value="112"/>
+			<skill id="Tactics"
+			       value="139"/>
+			<skill id="Engineering"
+			       value="62"/>
+			<skill id="Medicine"
+			       value="149"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="aseraihero6"
+	              name="{=kotk_aseraihero6}Aladdin 'the Cuck' Kalifa"
+	              age="18"
+	              voice="earnest"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="93"/>
+			<skill id="TwoHanded"
+			       value="91"/>
+			<skill id="Polearm"
+			       value="121"/>
+			<skill id="Bow"
+			       value="93"/>
+			<skill id="Crossbow"
+			       value="83"/>
+			<skill id="Throwing"
+			       value="61"/>
+			<skill id="Athletics"
+			       value="150"/>
+			<skill id="Riding"
+			       value="145"/>
+			<skill id="Scouting"
+			       value="120"/>
+			<skill id="Roguery"
+			       value="119"/>
+			<skill id="Charm"
+			       value="60"/>
+			<skill id="Leadership"
+			       value="83"/>
+			<skill id="Trade"
+			       value="89"/>
+			<skill id="Steward"
+			       value="123"/>
+			<skill id="Tactics"
+			       value="75"/>
+			<skill id="Engineering"
+			       value="98"/>
+			<skill id="Medicine"
+			       value="72"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero1"
+	              name="{=kotk_wame_hero1}Skyler McKay"
+	              age="22"
+	              voice="curt"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22"
+			                weight="0"
+			                build="0.0162"
+			                key="0000840714FC0004453C497C68747AA8916C58A9C85518B98B75847C3A18935201900614F9AB86730000000000000000000000000000000000000000472420C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_battania_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="146"/>
+			<skill id="TwoHanded"
+			       value="112"/>
+			<skill id="Polearm"
+			       value="130"/>
+			<skill id="Bow"
+			       value="125"/>
+			<skill id="Crossbow"
+			       value="101"/>
+			<skill id="Throwing"
+			       value="99"/>
+			<skill id="Athletics"
+			       value="87"/>
+			<skill id="Riding"
+			       value="138"/>
+			<skill id="Scouting"
+			       value="113"/>
+			<skill id="Roguery"
+			       value="92"/>
+			<skill id="Charm"
+			       value="127"/>
+			<skill id="Leadership"
+			       value="94"/>
+			<skill id="Trade"
+			       value="138"/>
+			<skill id="Steward"
+			       value="200"/>
+			<skill id="Tactics"
+			       value="157"/>
+			<skill id="Engineering"
+			       value="83"/>
+			<skill id="Medicine"
+			       value="113"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero2"
+	              name="{=kotk_wame_hero2}Lauren Phillips"
+	              age="18"
+	              voice="softspoken"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0.0162"
+			                key="0002000710FC0009453C497C68747AA8916C58A9C855F8B98B75847C3A1893520B9006B2FAAB86730000000000000000000000000000000000000000472400C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_battania_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="151"/>
+			<skill id="TwoHanded"
+			       value="125"/>
+			<skill id="Polearm"
+			       value="84"/>
+			<skill id="Bow"
+			       value="148"/>
+			<skill id="Crossbow"
+			       value="71"/>
+			<skill id="Throwing"
+			       value="87"/>
+			<skill id="Athletics"
+			       value="109"/>
+			<skill id="Riding"
+			       value="63"/>
+			<skill id="Scouting"
+			       value="99"/>
+			<skill id="Roguery"
+			       value="119"/>
+			<skill id="Charm"
+			       value="147"/>
+			<skill id="Leadership"
+			       value="143"/>
+			<skill id="Trade"
+			       value="106"/>
+			<skill id="Steward"
+			       value="129"/>
+			<skill id="Tactics"
+			       value="79"/>
+			<skill id="Engineering"
+			       value="89"/>
+			<skill id="Medicine"
+			       value="128"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero3"
+	              name="{=kotk_wame_hero3}Ashley Fires"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0"
+			                key="00050C0FD0FC00035646D8A987844C9488F76DD9A2367A3858B6C669873487080C5000C2F83C8C7A000000000000000000000000000000000000000000A04003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_battania_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="75"/>
+			<skill id="TwoHanded"
+			       value="83"/>
+			<skill id="Polearm"
+			       value="74"/>
+			<skill id="Bow"
+			       value="99"/>
+			<skill id="Crossbow"
+			       value="103"/>
+			<skill id="Throwing"
+			       value="130"/>
+			<skill id="Athletics"
+			       value="104"/>
+			<skill id="Riding"
+			       value="159"/>
+			<skill id="Scouting"
+			       value="81"/>
+			<skill id="Roguery"
+			       value="83"/>
+			<skill id="Charm"
+			       value="70"/>
+			<skill id="Leadership"
+			       value="89"/>
+			<skill id="Trade"
+			       value="159"/>
+			<skill id="Steward"
+			       value="64"/>
+			<skill id="Tactics"
+			       value="157"/>
+			<skill id="Engineering"
+			       value="136"/>
+			<skill id="Medicine"
+			       value="123"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero4"
+	              name="{=kotk_wame_hero4}Georgie Lyall"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0"
+			                key="0005740710FC000E5646D8A987844C9488F76DD9A2367A3858B6C669873487080C5000C2F83C8C7A000000000000000000000000000000000000000000A01003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_battania_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="148"/>
+			<skill id="TwoHanded"
+			       value="94"/>
+			<skill id="Polearm"
+			       value="133"/>
+			<skill id="Bow"
+			       value="71"/>
+			<skill id="Crossbow"
+			       value="102"/>
+			<skill id="Throwing"
+			       value="124"/>
+			<skill id="Athletics"
+			       value="69"/>
+			<skill id="Riding"
+			       value="69"/>
+			<skill id="Scouting"
+			       value="156"/>
+			<skill id="Roguery"
+			       value="112"/>
+			<skill id="Charm"
+			       value="93"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="160"/>
+			<skill id="Steward"
+			       value="112"/>
+			<skill id="Tactics"
+			       value="114"/>
+			<skill id="Engineering"
+			       value="94"/>
+			<skill id="Medicine"
+			       value="130"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero5"
+	              name="{=kotk_wame_hero5}Addison O'Riley"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0"
+			                build="0"
+			                key="0000000009FC00085948A3188A41766557598897843A8925A7E38F39857898740AB006A20B737521000000000000000000000000000000000000000001641043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_battania_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="134"/>
+			<skill id="TwoHanded"
+			       value="75"/>
+			<skill id="Polearm"
+			       value="62"/>
+			<skill id="Bow"
+			       value="126"/>
+			<skill id="Crossbow"
+			       value="92"/>
+			<skill id="Throwing"
+			       value="121"/>
+			<skill id="Athletics"
+			       value="72"/>
+			<skill id="Riding"
+			       value="159"/>
+			<skill id="Scouting"
+			       value="140"/>
+			<skill id="Roguery"
+			       value="125"/>
+			<skill id="Charm"
+			       value="76"/>
+			<skill id="Leadership"
+			       value="131"/>
+			<skill id="Trade"
+			       value="140"/>
+			<skill id="Steward"
+			       value="72"/>
+			<skill id="Tactics"
+			       value="71"/>
+			<skill id="Engineering"
+			       value="86"/>
+			<skill id="Medicine"
+			       value="60"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wame_hero6"
+	              name="{=kotk_wame_hero6}Seoc 'MacCuck' Mckay"
+	              age="20"
+	              voice="earnest"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.battania"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="bat_bat_template_medium"/>
+			<EquipmentSet id="bat_civ_template_default"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="101"/>
+			<skill id="TwoHanded"
+			       value="111"/>
+			<skill id="Polearm"
+			       value="154"/>
+			<skill id="Bow"
+			       value="106"/>
+			<skill id="Crossbow"
+			       value="158"/>
+			<skill id="Throwing"
+			       value="152"/>
+			<skill id="Athletics"
+			       value="113"/>
+			<skill id="Riding"
+			       value="144"/>
+			<skill id="Scouting"
+			       value="131"/>
+			<skill id="Roguery"
+			       value="88"/>
+			<skill id="Charm"
+			       value="156"/>
+			<skill id="Leadership"
+			       value="98"/>
+			<skill id="Trade"
+			       value="126"/>
+			<skill id="Steward"
+			       value="61"/>
+			<skill id="Tactics"
+			       value="65"/>
+			<skill id="Engineering"
+			       value="95"/>
+			<skill id="Medicine"
+			       value="135"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl1"
+	              name="{=kotk_sempiregirl1}Inna Innaki"
+	              age="22"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22"
+			                weight="0.0255"
+			                build="0.044"
+			                key="001E5C0490B42009C486966CA6A39396395EBC15947764737B762A7963D6584200C10603FC5A596B00000000000000000000000000000000000000002F944003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_southern_empire_bat_template_lady"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_southern_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="135"/>
+			<skill id="TwoHanded"
+			       value="138"/>
+			<skill id="Polearm"
+			       value="133"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="Crossbow"
+			       value="135"/>
+			<skill id="Throwing"
+			       value="138"/>
+			<skill id="Athletics"
+			       value="129"/>
+			<skill id="Riding"
+			       value="92"/>
+			<skill id="Scouting"
+			       value="150"/>
+			<skill id="Roguery"
+			       value="82"/>
+			<skill id="Charm"
+			       value="71"/>
+			<skill id="Leadership"
+			       value="119"/>
+			<skill id="Trade"
+			       value="89"/>
+			<skill id="Steward"
+			       value="225"/>
+			<skill id="Tactics"
+			       value="90"/>
+			<skill id="Engineering"
+			       value="137"/>
+			<skill id="Medicine"
+			       value="155"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl2"
+	              name="{=kotk_sempiregirl2}Luna Melba"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.0255"
+			                build="0.044"
+			                key="00312C01892C101464A8887952878598758B891808B7F888B69DEEDDC89C735505A006520A86A66500000000000000000000000000000000000000000D4C1083"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_southern_empire_bat_template_lady"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_southern_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="139"/>
+			<skill id="TwoHanded"
+			       value="115"/>
+			<skill id="Polearm"
+			       value="134"/>
+			<skill id="Bow"
+			       value="76"/>
+			<skill id="Crossbow"
+			       value="98"/>
+			<skill id="Throwing"
+			       value="124"/>
+			<skill id="Athletics"
+			       value="142"/>
+			<skill id="Riding"
+			       value="145"/>
+			<skill id="Scouting"
+			       value="107"/>
+			<skill id="Roguery"
+			       value="101"/>
+			<skill id="Charm"
+			       value="84"/>
+			<skill id="Leadership"
+			       value="122"/>
+			<skill id="Trade"
+			       value="135"/>
+			<skill id="Steward"
+			       value="78"/>
+			<skill id="Tactics"
+			       value="148"/>
+			<skill id="Engineering"
+			       value="114"/>
+			<skill id="Medicine"
+			       value="98"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl3"
+	              name="{=kotk_sempiregirl3}Helen Xatzi"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.142"
+			                build="0.5648"
+			                key="002678001000300A69A69A268488B9979788AC468432A669462C5684866664390540105204BA91B4000000000000000000000000000000000000000058883043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_southern_empire_bat_template_lady"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_southern_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="118"/>
+			<skill id="TwoHanded"
+			       value="144"/>
+			<skill id="Polearm"
+			       value="126"/>
+			<skill id="Bow"
+			       value="137"/>
+			<skill id="Crossbow"
+			       value="139"/>
+			<skill id="Throwing"
+			       value="84"/>
+			<skill id="Athletics"
+			       value="95"/>
+			<skill id="Riding"
+			       value="153"/>
+			<skill id="Scouting"
+			       value="157"/>
+			<skill id="Roguery"
+			       value="85"/>
+			<skill id="Charm"
+			       value="94"/>
+			<skill id="Leadership"
+			       value="137"/>
+			<skill id="Trade"
+			       value="76"/>
+			<skill id="Steward"
+			       value="148"/>
+			<skill id="Tactics"
+			       value="142"/>
+			<skill id="Engineering"
+			       value="108"/>
+			<skill id="Medicine"
+			       value="65"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl4"
+	              name="{=kotk_sempiregirl4}Evelina Chivu"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="32.27"
+			                weight="0.142"
+			                build="0.5648"
+			                key="0018C00B10FC000763B8C87941868498779B3336466B8678C67EEEDEC8AE759502882624F8C7A5050000000000000000000000000000000000000000711C10C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_southern_empire_bat_template_lady"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_southern_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="77"/>
+			<skill id="Polearm"
+			       value="124"/>
+			<skill id="Bow"
+			       value="81"/>
+			<skill id="Crossbow"
+			       value="63"/>
+			<skill id="Throwing"
+			       value="131"/>
+			<skill id="Athletics"
+			       value="111"/>
+			<skill id="Riding"
+			       value="124"/>
+			<skill id="Scouting"
+			       value="131"/>
+			<skill id="Roguery"
+			       value="74"/>
+			<skill id="Charm"
+			       value="120"/>
+			<skill id="Leadership"
+			       value="88"/>
+			<skill id="Trade"
+			       value="107"/>
+			<skill id="Steward"
+			       value="63"/>
+			<skill id="Tactics"
+			       value="98"/>
+			<skill id="Engineering"
+			       value="116"/>
+			<skill id="Medicine"
+			       value="64"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl5"
+	              name="{=kotk_sempiregirl5}Jenevieve Hexxx"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="19.2"
+			                weight="0.0231"
+			                build="0"
+			                key="0013000C49FC00085948A3188A41766557598897843A8925A7E38F39857898740A5006A2057375210000000000000000000000000000000000000000009C1043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_southern_empire_bat_template_lady"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_southern_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="88"/>
+			<skill id="TwoHanded"
+			       value="140"/>
+			<skill id="Polearm"
+			       value="121"/>
+			<skill id="Bow"
+			       value="126"/>
+			<skill id="Crossbow"
+			       value="159"/>
+			<skill id="Throwing"
+			       value="86"/>
+			<skill id="Athletics"
+			       value="133"/>
+			<skill id="Riding"
+			       value="69"/>
+			<skill id="Scouting"
+			       value="145"/>
+			<skill id="Roguery"
+			       value="99"/>
+			<skill id="Charm"
+			       value="94"/>
+			<skill id="Leadership"
+			       value="92"/>
+			<skill id="Trade"
+			       value="103"/>
+			<skill id="Steward"
+			       value="96"/>
+			<skill id="Tactics"
+			       value="77"/>
+			<skill id="Engineering"
+			       value="111"/>
+			<skill id="Medicine"
+			       value="104"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="sempiregirl6"
+	              name="{=kotk_sempiregirl6}Lucius 'the Voyeur' Innaki"
+	              voice="curt"
+	              age="33"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="emp_bat_template_heavy"/>
+			<EquipmentSet id="emp_civ_template_default"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="64"/>
+			<skill id="TwoHanded"
+			       value="159"/>
+			<skill id="Polearm"
+			       value="82"/>
+			<skill id="Bow"
+			       value="137"/>
+			<skill id="Crossbow"
+			       value="65"/>
+			<skill id="Throwing"
+			       value="112"/>
+			<skill id="Athletics"
+			       value="81"/>
+			<skill id="Riding"
+			       value="69"/>
+			<skill id="Scouting"
+			       value="113"/>
+			<skill id="Roguery"
+			       value="112"/>
+			<skill id="Charm"
+			       value="154"/>
+			<skill id="Leadership"
+			       value="60"/>
+			<skill id="Trade"
+			       value="95"/>
+			<skill id="Steward"
+			       value="133"/>
+			<skill id="Tactics"
+			       value="139"/>
+			<skill id="Engineering"
+			       value="130"/>
+			<skill id="Medicine"
+			       value="105"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl1"
+	              name="{=kotk_wempiregirl1}Sasha Grey"
+	              age="22"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="21.7"
+			                weight="0"
+			                build="0.0013"
+			                key="001C5005CDB4001386C64A728933945971883D46C8A8A49B869A54A87478B78407600672064458AC0000000000000FFE00000000000000000000000000D00003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="78"/>
+			<skill id="TwoHanded"
+			       value="105"/>
+			<skill id="Polearm"
+			       value="127"/>
+			<skill id="Bow"
+			       value="69"/>
+			<skill id="Crossbow"
+			       value="79"/>
+			<skill id="Throwing"
+			       value="79"/>
+			<skill id="Athletics"
+			       value="121"/>
+			<skill id="Riding"
+			       value="79"/>
+			<skill id="Scouting"
+			       value="133"/>
+			<skill id="Roguery"
+			       value="133"/>
+			<skill id="Charm"
+			       value="78"/>
+			<skill id="Leadership"
+			       value="80"/>
+			<skill id="Trade"
+			       value="115"/>
+			<skill id="Steward"
+			       value="250"/>
+			<skill id="Tactics"
+			       value="128"/>
+			<skill id="Engineering"
+			       value="92"/>
+			<skill id="Medicine"
+			       value="118"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl2"
+	              name="{=kotk_wempiregirl2}Athena Palomino"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0.0013"
+			                key="00228C000F2C301854524B779274889B8576D2779A58552C59D774758795966307A006720A4A36540000000000000000000000000000000000000000375410C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="67"/>
+			<skill id="TwoHanded"
+			       value="86"/>
+			<skill id="Polearm"
+			       value="96"/>
+			<skill id="Bow"
+			       value="96"/>
+			<skill id="Crossbow"
+			       value="60"/>
+			<skill id="Throwing"
+			       value="65"/>
+			<skill id="Athletics"
+			       value="155"/>
+			<skill id="Riding"
+			       value="81"/>
+			<skill id="Scouting"
+			       value="71"/>
+			<skill id="Roguery"
+			       value="139"/>
+			<skill id="Charm"
+			       value="105"/>
+			<skill id="Leadership"
+			       value="150"/>
+			<skill id="Trade"
+			       value="112"/>
+			<skill id="Steward"
+			       value="98"/>
+			<skill id="Tactics"
+			       value="77"/>
+			<skill id="Engineering"
+			       value="135"/>
+			<skill id="Medicine"
+			       value="96"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl3"
+	              name="{=kotk_wempiregirl3}Amirah Adara"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.5"
+			                build="0.5"
+			                key="001B7C0711FC000F59AB88926A889A68AA779A998D8ED4767782AC7E2256AA7408677682F7A4744300000000000000000000000000000000000000003AC42003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="72"/>
+			<skill id="TwoHanded"
+			       value="106"/>
+			<skill id="Polearm"
+			       value="127"/>
+			<skill id="Bow"
+			       value="148"/>
+			<skill id="Crossbow"
+			       value="102"/>
+			<skill id="Throwing"
+			       value="115"/>
+			<skill id="Athletics"
+			       value="103"/>
+			<skill id="Riding"
+			       value="75"/>
+			<skill id="Scouting"
+			       value="115"/>
+			<skill id="Roguery"
+			       value="82"/>
+			<skill id="Charm"
+			       value="133"/>
+			<skill id="Leadership"
+			       value="130"/>
+			<skill id="Trade"
+			       value="150"/>
+			<skill id="Steward"
+			       value="72"/>
+			<skill id="Tactics"
+			       value="158"/>
+			<skill id="Engineering"
+			       value="150"/>
+			<skill id="Medicine"
+			       value="151"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl4"
+	              name="{=kotk_wempiregirl4}Abella Danger"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.0329"
+			                build="0.0569"
+			                key="001EAC0FD1E400045948A3188A41766557598897843A8925A7E38F398578987401510613F5737521000000000000000000000000000000000000000000BC1043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="95"/>
+			<skill id="TwoHanded"
+			       value="62"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Bow"
+			       value="159"/>
+			<skill id="Crossbow"
+			       value="137"/>
+			<skill id="Throwing"
+			       value="129"/>
+			<skill id="Athletics"
+			       value="79"/>
+			<skill id="Riding"
+			       value="103"/>
+			<skill id="Scouting"
+			       value="153"/>
+			<skill id="Roguery"
+			       value="118"/>
+			<skill id="Charm"
+			       value="108"/>
+			<skill id="Leadership"
+			       value="126"/>
+			<skill id="Trade"
+			       value="155"/>
+			<skill id="Steward"
+			       value="105"/>
+			<skill id="Tactics"
+			       value="78"/>
+			<skill id="Engineering"
+			       value="92"/>
+			<skill id="Medicine"
+			       value="79"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl5"
+	              name="{=kotk_wempiregirl5}Sydnee Steele"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="19.2"
+			                weight="0.0231"
+			                build="0"
+			                key="0000000FC9FC00075948A3188A41766557598897843A8925A7E38F39857898740A5006A2057375210000000000000000000000000000000000000000009C1043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="85"/>
+			<skill id="TwoHanded"
+			       value="117"/>
+			<skill id="Polearm"
+			       value="155"/>
+			<skill id="Bow"
+			       value="106"/>
+			<skill id="Crossbow"
+			       value="110"/>
+			<skill id="Throwing"
+			       value="62"/>
+			<skill id="Athletics"
+			       value="69"/>
+			<skill id="Riding"
+			       value="83"/>
+			<skill id="Scouting"
+			       value="60"/>
+			<skill id="Roguery"
+			       value="142"/>
+			<skill id="Charm"
+			       value="90"/>
+			<skill id="Leadership"
+			       value="144"/>
+			<skill id="Trade"
+			       value="93"/>
+			<skill id="Steward"
+			       value="128"/>
+			<skill id="Tactics"
+			       value="140"/>
+			<skill id="Engineering"
+			       value="112"/>
+			<skill id="Medicine"
+			       value="66"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wempiregirl6"
+	              name="{=kotk_wempiregirl6}Tiberius 'the Sodomiser' Grey"
+	              voice="curt"
+	              age="41"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="emp_bat_template_medium"/>
+			<EquipmentSet id="emp_civ_template_default"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="113"/>
+			<skill id="TwoHanded"
+			       value="111"/>
+			<skill id="Polearm"
+			       value="63"/>
+			<skill id="Bow"
+			       value="68"/>
+			<skill id="Crossbow"
+			       value="140"/>
+			<skill id="Throwing"
+			       value="99"/>
+			<skill id="Athletics"
+			       value="141"/>
+			<skill id="Riding"
+			       value="130"/>
+			<skill id="Scouting"
+			       value="92"/>
+			<skill id="Roguery"
+			       value="150"/>
+			<skill id="Charm"
+			       value="68"/>
+			<skill id="Leadership"
+			       value="114"/>
+			<skill id="Trade"
+			       value="96"/>
+			<skill id="Steward"
+			       value="128"/>
+			<skill id="Tactics"
+			       value="93"/>
+			<skill id="Engineering"
+			       value="63"/>
+			<skill id="Medicine"
+			       value="102"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl1"
+	              name="{=kotk_nempiregirl1}Julia Alexandratou"
+	              age="22"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.01"
+			                weight="0.0532"
+			                build="0"
+			                key="001F28008914101463A8978245878376B898982EA7C7C887C98DCE9D9849968505A006520AB5852500000000000000000000000000000000000000005D6410C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="121"/>
+			<skill id="TwoHanded"
+			       value="74"/>
+			<skill id="Polearm"
+			       value="151"/>
+			<skill id="Bow"
+			       value="146"/>
+			<skill id="Crossbow"
+			       value="98"/>
+			<skill id="Throwing"
+			       value="90"/>
+			<skill id="Athletics"
+			       value="150"/>
+			<skill id="Riding"
+			       value="131"/>
+			<skill id="Scouting"
+			       value="141"/>
+			<skill id="Roguery"
+			       value="137"/>
+			<skill id="Charm"
+			       value="139"/>
+			<skill id="Leadership"
+			       value="102"/>
+			<skill id="Trade"
+			       value="151"/>
+			<skill id="Steward"
+			       value="265"/>
+			<skill id="Tactics"
+			       value="63"/>
+			<skill id="Engineering"
+			       value="126"/>
+			<skill id="Medicine"
+			       value="109"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl2"
+	              name="{=kotk_nempiregirl2}Angela White"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.0255"
+			                build="0.044"
+			                key="0000000012B40009C486966CA6A39396395EBC15947764737B762A7963D6584200C10603FC5A596B00000000000000000000000000000000000000002F944003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="93"/>
+			<skill id="Polearm"
+			       value="142"/>
+			<skill id="Bow"
+			       value="131"/>
+			<skill id="Crossbow"
+			       value="98"/>
+			<skill id="Throwing"
+			       value="115"/>
+			<skill id="Athletics"
+			       value="90"/>
+			<skill id="Riding"
+			       value="148"/>
+			<skill id="Scouting"
+			       value="110"/>
+			<skill id="Roguery"
+			       value="70"/>
+			<skill id="Charm"
+			       value="146"/>
+			<skill id="Leadership"
+			       value="93"/>
+			<skill id="Trade"
+			       value="74"/>
+			<skill id="Steward"
+			       value="85"/>
+			<skill id="Tactics"
+			       value="68"/>
+			<skill id="Engineering"
+			       value="99"/>
+			<skill id="Medicine"
+			       value="83"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl3"
+	              name="{=kotk_nempiregirl3}Kenzie Reeves"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0"
+			                build="0.0059"
+			                key="000D94068FE400107457927A47A68081A8ACC988E88DA588B367A9B9C79885D4076006720625866600000000000000000000000000000000000000002CD42043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="81"/>
+			<skill id="TwoHanded"
+			       value="119"/>
+			<skill id="Polearm"
+			       value="68"/>
+			<skill id="Bow"
+			       value="100"/>
+			<skill id="Crossbow"
+			       value="131"/>
+			<skill id="Throwing"
+			       value="120"/>
+			<skill id="Athletics"
+			       value="89"/>
+			<skill id="Riding"
+			       value="134"/>
+			<skill id="Scouting"
+			       value="148"/>
+			<skill id="Roguery"
+			       value="66"/>
+			<skill id="Charm"
+			       value="111"/>
+			<skill id="Leadership"
+			       value="138"/>
+			<skill id="Trade"
+			       value="139"/>
+			<skill id="Steward"
+			       value="98"/>
+			<skill id="Tactics"
+			       value="122"/>
+			<skill id="Engineering"
+			       value="148"/>
+			<skill id="Medicine"
+			       value="105"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl4"
+	              name="{=kotk_nempiregirl4}Aidra Fox"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.5"
+			                build="0.5"
+			                key="000024069300400E453C497C68747AA8916C58A9C85518B98B75847C3A18935201977614F9AB86730000000000000000000000000000000000000000472410C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="94"/>
+			<skill id="TwoHanded"
+			       value="69"/>
+			<skill id="Polearm"
+			       value="114"/>
+			<skill id="Bow"
+			       value="99"/>
+			<skill id="Crossbow"
+			       value="139"/>
+			<skill id="Throwing"
+			       value="117"/>
+			<skill id="Athletics"
+			       value="91"/>
+			<skill id="Riding"
+			       value="128"/>
+			<skill id="Scouting"
+			       value="64"/>
+			<skill id="Roguery"
+			       value="79"/>
+			<skill id="Charm"
+			       value="66"/>
+			<skill id="Leadership"
+			       value="104"/>
+			<skill id="Trade"
+			       value="144"/>
+			<skill id="Steward"
+			       value="73"/>
+			<skill id="Tactics"
+			       value="63"/>
+			<skill id="Engineering"
+			       value="106"/>
+			<skill id="Medicine"
+			       value="102"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl5"
+	              name="{=kotk_nempiregirl5}Victoria Banxxx"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="19.2"
+			                weight="0.0231"
+			                build="0"
+			                key="001B000489FC00075948A3188A41766557598897843A8925A7E38F39857898740A5006A2057375210000000000000000000000000000000000000000009C1043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_empire_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="133"/>
+			<skill id="TwoHanded"
+			       value="151"/>
+			<skill id="Polearm"
+			       value="111"/>
+			<skill id="Bow"
+			       value="122"/>
+			<skill id="Crossbow"
+			       value="153"/>
+			<skill id="Throwing"
+			       value="135"/>
+			<skill id="Athletics"
+			       value="143"/>
+			<skill id="Riding"
+			       value="112"/>
+			<skill id="Scouting"
+			       value="101"/>
+			<skill id="Roguery"
+			       value="134"/>
+			<skill id="Charm"
+			       value="147"/>
+			<skill id="Leadership"
+			       value="66"/>
+			<skill id="Trade"
+			       value="157"/>
+			<skill id="Steward"
+			       value="73"/>
+			<skill id="Tactics"
+			       value="95"/>
+			<skill id="Engineering"
+			       value="97"/>
+			<skill id="Medicine"
+			       value="160"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="nempiregirl6"
+	              name="{=kotk_nempiregirl6}Vopiscus 'BAC lover' Alexandratou"
+	              voice="curt"
+	              age="33"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.empire"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_civ_template_default"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="94"/>
+			<skill id="TwoHanded"
+			       value="87"/>
+			<skill id="Polearm"
+			       value="76"/>
+			<skill id="Bow"
+			       value="94"/>
+			<skill id="Crossbow"
+			       value="154"/>
+			<skill id="Throwing"
+			       value="122"/>
+			<skill id="Athletics"
+			       value="157"/>
+			<skill id="Riding"
+			       value="129"/>
+			<skill id="Scouting"
+			       value="101"/>
+			<skill id="Roguery"
+			       value="94"/>
+			<skill id="Charm"
+			       value="100"/>
+			<skill id="Leadership"
+			       value="107"/>
+			<skill id="Trade"
+			       value="110"/>
+			<skill id="Steward"
+			       value="85"/>
+			<skill id="Tactics"
+			       value="145"/>
+			<skill id="Engineering"
+			       value="61"/>
+			<skill id="Medicine"
+			       value="100"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero1"
+	              name="{=kotk_yankhan_hero1}Asa Akira"
+	              age="22"
+	              voice="curt"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.khuzait"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.54"
+			                weight="0.0278"
+			                build="0"
+			                key="0018D00DC900201469C5BF29AAAA7887D477D8DEC59FDA457A2DAD2B8663231300400603042411D5000000000000000000000000000000000000000050941043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_khuzait_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="62"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="72"/>
+			<skill id="Bow"
+			       value="84"/>
+			<skill id="Crossbow"
+			       value="150"/>
+			<skill id="Throwing"
+			       value="67"/>
+			<skill id="Athletics"
+			       value="84"/>
+			<skill id="Riding"
+			       value="88"/>
+			<skill id="Scouting"
+			       value="102"/>
+			<skill id="Roguery"
+			       value="140"/>
+			<skill id="Charm"
+			       value="82"/>
+			<skill id="Leadership"
+			       value="125"/>
+			<skill id="Trade"
+			       value="144"/>
+			<skill id="Steward"
+			       value="225"/>
+			<skill id="Tactics"
+			       value="146"/>
+			<skill id="Engineering"
+			       value="98"/>
+			<skill id="Medicine"
+			       value="155"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero2"
+	              name="{=kotk_yankhan_hero2}Kurea Hasumi"
+	              age="18"
+	              voice="softspoken"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.khuzait"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.62"
+			                weight="0"
+			                build="0"
+			                key="0020C8000900100688756CCA5A4283DD57EC9A2ED8E35C5A79ACD77175EBDD750890068209196226000000000000000000000000000000000000000075242003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_khuzait_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="122"/>
+			<skill id="TwoHanded"
+			       value="158"/>
+			<skill id="Polearm"
+			       value="138"/>
+			<skill id="Bow"
+			       value="71"/>
+			<skill id="Crossbow"
+			       value="142"/>
+			<skill id="Throwing"
+			       value="90"/>
+			<skill id="Athletics"
+			       value="123"/>
+			<skill id="Riding"
+			       value="74"/>
+			<skill id="Scouting"
+			       value="160"/>
+			<skill id="Roguery"
+			       value="128"/>
+			<skill id="Charm"
+			       value="145"/>
+			<skill id="Leadership"
+			       value="134"/>
+			<skill id="Trade"
+			       value="70"/>
+			<skill id="Steward"
+			       value="88"/>
+			<skill id="Tactics"
+			       value="93"/>
+			<skill id="Engineering"
+			       value="153"/>
+			<skill id="Medicine"
+			       value="85"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero3"
+	              name="{=kotk_yankhan_hero3}Yuna Ogura"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.khuzait"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.98"
+			                weight="0.0255"
+			                build="0.044"
+			                key="001E5C0F10B40019C486966CA6A39396395E8958B9FE64737B762A7963D6584206010662005A596B00000000000000000000000000000000000000002E044003"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_khuzait_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="157"/>
+			<skill id="TwoHanded"
+			       value="144"/>
+			<skill id="Polearm"
+			       value="82"/>
+			<skill id="Bow"
+			       value="66"/>
+			<skill id="Crossbow"
+			       value="80"/>
+			<skill id="Throwing"
+			       value="107"/>
+			<skill id="Athletics"
+			       value="121"/>
+			<skill id="Riding"
+			       value="63"/>
+			<skill id="Scouting"
+			       value="125"/>
+			<skill id="Roguery"
+			       value="129"/>
+			<skill id="Charm"
+			       value="85"/>
+			<skill id="Leadership"
+			       value="123"/>
+			<skill id="Trade"
+			       value="132"/>
+			<skill id="Steward"
+			       value="127"/>
+			<skill id="Tactics"
+			       value="121"/>
+			<skill id="Engineering"
+			       value="154"/>
+			<skill id="Medicine"
+			       value="140"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero4"
+	              name="{=kotk_yankhan_hero4}Suzu Honjo"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.khuzait"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.91"
+			                weight="0"
+			                build="0"
+			                key="002E0003D0FC101863B8C87941868498779B870FA8EEF888C67EEEDEC8AE75950600066200C7A5050000000000000000000000000000000000000000780410C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_khuzait_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="86"/>
+			<skill id="TwoHanded"
+			       value="74"/>
+			<skill id="Polearm"
+			       value="140"/>
+			<skill id="Bow"
+			       value="125"/>
+			<skill id="Crossbow"
+			       value="146"/>
+			<skill id="Throwing"
+			       value="61"/>
+			<skill id="Athletics"
+			       value="131"/>
+			<skill id="Riding"
+			       value="72"/>
+			<skill id="Scouting"
+			       value="113"/>
+			<skill id="Roguery"
+			       value="72"/>
+			<skill id="Charm"
+			       value="88"/>
+			<skill id="Leadership"
+			       value="154"/>
+			<skill id="Trade"
+			       value="83"/>
+			<skill id="Steward"
+			       value="117"/>
+			<skill id="Tactics"
+			       value="128"/>
+			<skill id="Engineering"
+			       value="107"/>
+			<skill id="Medicine"
+			       value="136"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero5"
+	              name="{=kotk_yankhan_hero5}AIKA"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.khuzait"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.25"
+			                weight="0"
+			                build="0"
+			                key="0034000009FC101663B8C87941868498779B870FA8EEF888C67EEEDEC8AE75950700067200C7A5050000000000000000000000000000000000000000780410C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.black_blade_of_disaster"/>
+				<equipment slot="Item1"
+				           id="Item.noble_bow"/>
+				<equipment slot="Item2"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Item3"
+				           id="Item.skeet_fire_arrows_mega"/>
+				<equipment slot="Head"
+				           id="Item.t6_khuzait_nn_2024_helm_alt_01_red"/>
+				<equipment slot="Cape"
+				           id="Item.t6_khuzait_nn_2024_shoulder_red"/>
+				<equipment slot="Body"
+				           id="Item.t6_khuzait_nn_2024_bodyarmor_02_red"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_khuzait_nn_2024_gloves_red"/>
+				<equipment slot="Leg"
+				           id="Item.t6_khuzait_nn_2024_boots_red"/>
+				<equipment slot="Horse"
+				           id="Item.noble_horse_eastern"/>
+				<equipment slot="HorseHarness"
+				           id="Item.saddle_of_aeneas"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="75"/>
+			<skill id="TwoHanded"
+			       value="141"/>
+			<skill id="Polearm"
+			       value="155"/>
+			<skill id="Bow"
+			       value="127"/>
+			<skill id="Crossbow"
+			       value="120"/>
+			<skill id="Throwing"
+			       value="82"/>
+			<skill id="Athletics"
+			       value="111"/>
+			<skill id="Riding"
+			       value="107"/>
+			<skill id="Scouting"
+			       value="151"/>
+			<skill id="Roguery"
+			       value="100"/>
+			<skill id="Charm"
+			       value="110"/>
+			<skill id="Leadership"
+			       value="153"/>
+			<skill id="Trade"
+			       value="148"/>
+			<skill id="Steward"
+			       value="150"/>
+			<skill id="Tactics"
+			       value="84"/>
+			<skill id="Engineering"
+			       value="92"/>
+			<skill id="Medicine"
+			       value="92"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="yankhan_hero6"
+	              name="{=kotk_yankhan_hero6}Ghaali 'the Elephantine' al Akira"
+	              age="44"
+	              voice="ironic"
+	              culture="Culture.aserai"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true"
+	              is_hero="true"
+	              default_group="Cavalry">
+		<face>
+			<BodyProperties version="4"
+			                age="44"
+			                weight="1"
+			                build="1"
+			                key="003FD80FD5FC2A55DC80CF712EEF4D3A3E73FEB1C2A3608CA1532AE6D4CD802000FFE0020F28DF56000000000000000000000000000000000000000001F82042"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_king_template_bat_m"/>
+			<EquipmentSet id="ase_king_template_civ_m"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="106"/>
+			<skill id="TwoHanded"
+			       value="118"/>
+			<skill id="Polearm"
+			       value="63"/>
+			<skill id="Bow"
+			       value="78"/>
+			<skill id="Crossbow"
+			       value="76"/>
+			<skill id="Throwing"
+			       value="117"/>
+			<skill id="Athletics"
+			       value="120"/>
+			<skill id="Riding"
+			       value="138"/>
+			<skill id="Scouting"
+			       value="139"/>
+			<skill id="Roguery"
+			       value="69"/>
+			<skill id="Charm"
+			       value="97"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="136"/>
+			<skill id="Steward"
+			       value="76"/>
+			<skill id="Tactics"
+			       value="73"/>
+			<skill id="Engineering"
+			       value="77"/>
+			<skill id="Medicine"
+			       value="158"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero1"
+	              name="{=kotk_horaoving_hero1}Puma Swede"
+	              age="22"
+	              voice="curtsy"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.14"
+			                weight="1"
+			                build="1"
+			                key="00001C00107000088873324163A357B4966D873971979A028B644405773A5B2400FFF6030F8B799C00000000000000000000000000000000000000001DF41083"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_sturgia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="69"/>
+			<skill id="TwoHanded"
+			       value="63"/>
+			<skill id="Polearm"
+			       value="123"/>
+			<skill id="Bow"
+			       value="147"/>
+			<skill id="Crossbow"
+			       value="124"/>
+			<skill id="Throwing"
+			       value="123"/>
+			<skill id="Athletics"
+			       value="137"/>
+			<skill id="Riding"
+			       value="160"/>
+			<skill id="Scouting"
+			       value="159"/>
+			<skill id="Roguery"
+			       value="121"/>
+			<skill id="Charm"
+			       value="111"/>
+			<skill id="Leadership"
+			       value="121"/>
+			<skill id="Trade"
+			       value="133"/>
+			<skill id="Steward"
+			       value="225"/>
+			<skill id="Tactics"
+			       value="106"/>
+			<skill id="Engineering"
+			       value="157"/>
+			<skill id="Medicine"
+			       value="118"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero2"
+	              name="{=kotk_horaoving_hero2}Nicolette Shea"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="1"
+			                build="0.0444"
+			                key="0000100010FC0010627A8278C8B6825989B65558B77AAC5795A778895979A76305F10652FA38538700000000000000000000000000000000000000001FFC00C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_sturgia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="93"/>
+			<skill id="TwoHanded"
+			       value="138"/>
+			<skill id="Polearm"
+			       value="71"/>
+			<skill id="Bow"
+			       value="159"/>
+			<skill id="Crossbow"
+			       value="145"/>
+			<skill id="Throwing"
+			       value="76"/>
+			<skill id="Athletics"
+			       value="146"/>
+			<skill id="Riding"
+			       value="123"/>
+			<skill id="Scouting"
+			       value="80"/>
+			<skill id="Roguery"
+			       value="143"/>
+			<skill id="Charm"
+			       value="112"/>
+			<skill id="Leadership"
+			       value="137"/>
+			<skill id="Trade"
+			       value="109"/>
+			<skill id="Steward"
+			       value="147"/>
+			<skill id="Tactics"
+			       value="75"/>
+			<skill id="Engineering"
+			       value="129"/>
+			<skill id="Medicine"
+			       value="122"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero3"
+	              name="{=kotk_horaoving_hero3}Mia Malkova"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.54"
+			                weight="1"
+			                build="0"
+			                key="00001C001288000F1B7213026674749A968B7726758543278B44F71278394B3508F01682FB4B1750000000000000000000000000000000000000000077FC10C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_sturgia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="111"/>
+			<skill id="TwoHanded"
+			       value="123"/>
+			<skill id="Polearm"
+			       value="107"/>
+			<skill id="Bow"
+			       value="99"/>
+			<skill id="Crossbow"
+			       value="134"/>
+			<skill id="Throwing"
+			       value="82"/>
+			<skill id="Athletics"
+			       value="73"/>
+			<skill id="Riding"
+			       value="60"/>
+			<skill id="Scouting"
+			       value="124"/>
+			<skill id="Roguery"
+			       value="85"/>
+			<skill id="Charm"
+			       value="68"/>
+			<skill id="Leadership"
+			       value="149"/>
+			<skill id="Trade"
+			       value="69"/>
+			<skill id="Steward"
+			       value="158"/>
+			<skill id="Tactics"
+			       value="112"/>
+			<skill id="Engineering"
+			       value="125"/>
+			<skill id="Medicine"
+			       value="133"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero4"
+	              name="{=kotk_horaoving_hero4}Anikka Albrite"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="20.29"
+			                weight="1"
+			                build="1"
+			                key="00001C00140040151B7213026674749A968B7726758543278B44F71278394B350DFFF6D20E4B1750000000000000000000000000000000000000000077FC10C3"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_sturgia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="148"/>
+			<skill id="TwoHanded"
+			       value="75"/>
+			<skill id="Polearm"
+			       value="112"/>
+			<skill id="Bow"
+			       value="159"/>
+			<skill id="Crossbow"
+			       value="88"/>
+			<skill id="Throwing"
+			       value="60"/>
+			<skill id="Athletics"
+			       value="74"/>
+			<skill id="Riding"
+			       value="101"/>
+			<skill id="Scouting"
+			       value="93"/>
+			<skill id="Roguery"
+			       value="147"/>
+			<skill id="Charm"
+			       value="90"/>
+			<skill id="Leadership"
+			       value="69"/>
+			<skill id="Trade"
+			       value="116"/>
+			<skill id="Steward"
+			       value="69"/>
+			<skill id="Tactics"
+			       value="152"/>
+			<skill id="Engineering"
+			       value="150"/>
+			<skill id="Medicine"
+			       value="143"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero5"
+	              name="{=kotk_horaoving_hero5}Emelie Ekstrom"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="19.2"
+			                weight="1"
+			                build="0"
+			                key="0023000009FC00085948A3188A41766557598897843A8925A7E38F39857898740AF0F6A20F737521000000000000000000000000000000000000000001FC1043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_sturgia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="90"/>
+			<skill id="TwoHanded"
+			       value="99"/>
+			<skill id="Polearm"
+			       value="84"/>
+			<skill id="Bow"
+			       value="144"/>
+			<skill id="Crossbow"
+			       value="153"/>
+			<skill id="Throwing"
+			       value="121"/>
+			<skill id="Athletics"
+			       value="124"/>
+			<skill id="Riding"
+			       value="157"/>
+			<skill id="Scouting"
+			       value="118"/>
+			<skill id="Roguery"
+			       value="149"/>
+			<skill id="Charm"
+			       value="63"/>
+			<skill id="Leadership"
+			       value="132"/>
+			<skill id="Trade"
+			       value="121"/>
+			<skill id="Steward"
+			       value="114"/>
+			<skill id="Tactics"
+			       value="139"/>
+			<skill id="Engineering"
+			       value="137"/>
+			<skill id="Medicine"
+			       value="94"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="horaoving_hero6"
+	              name="{=kotk_horaoving_hero6}Byrnjolf 'the Kallipygos' Swede"
+	              age="37"
+	              voice="curt"
+	              is_hero="true"
+	              default_group="Infantry"
+	              culture="Culture.sturgia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_king_template_bat_m"/>
+			<EquipmentSet id="stu_king_template_civ_m"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="83"/>
+			<skill id="TwoHanded"
+			       value="67"/>
+			<skill id="Polearm"
+			       value="87"/>
+			<skill id="Bow"
+			       value="145"/>
+			<skill id="Crossbow"
+			       value="135"/>
+			<skill id="Throwing"
+			       value="119"/>
+			<skill id="Athletics"
+			       value="132"/>
+			<skill id="Riding"
+			       value="145"/>
+			<skill id="Scouting"
+			       value="133"/>
+			<skill id="Roguery"
+			       value="112"/>
+			<skill id="Charm"
+			       value="159"/>
+			<skill id="Leadership"
+			       value="66"/>
+			<skill id="Trade"
+			       value="143"/>
+			<skill id="Steward"
+			       value="85"/>
+			<skill id="Tactics"
+			       value="151"/>
+			<skill id="Engineering"
+			       value="69"/>
+			<skill id="Medicine"
+			       value="138"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero1"
+	              name="{=kotk_putain_hero1}Nikita Bellucci"
+	              age="22"
+	              voice="curtsy"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.15"
+			                weight="0"
+			                build="0"
+			                key="00004403D0CC000492611464264492D99ADB8BA86151568799A9EE218B4A645600B00603FB363A260000000000000000000000000000000000000000616C2083"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_vlandia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="80"/>
+			<skill id="TwoHanded"
+			       value="131"/>
+			<skill id="Polearm"
+			       value="98"/>
+			<skill id="Bow"
+			       value="141"/>
+			<skill id="Crossbow"
+			       value="122"/>
+			<skill id="Throwing"
+			       value="153"/>
+			<skill id="Athletics"
+			       value="102"/>
+			<skill id="Riding"
+			       value="74"/>
+			<skill id="Scouting"
+			       value="88"/>
+			<skill id="Roguery"
+			       value="129"/>
+			<skill id="Charm"
+			       value="122"/>
+			<skill id="Leadership"
+			       value="110"/>
+			<skill id="Trade"
+			       value="103"/>
+			<skill id="Steward"
+			       value="225"/>
+			<skill id="Tactics"
+			       value="141"/>
+			<skill id="Engineering"
+			       value="151"/>
+			<skill id="Medicine"
+			       value="63"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero2"
+	              name="{=kotk_putain_hero2}Chloe Lacourt"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18"
+			                weight="0.4524"
+			                build="0.5804"
+			                key="00053403D0CC000D7071527435736265B7BE7A79B0614997BAB7F9397C2A987200597603F53CBA5A00000000000000000000000000000000000000005CB41043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_vlandia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="79"/>
+			<skill id="TwoHanded"
+			       value="131"/>
+			<skill id="Polearm"
+			       value="110"/>
+			<skill id="Bow"
+			       value="110"/>
+			<skill id="Crossbow"
+			       value="87"/>
+			<skill id="Throwing"
+			       value="135"/>
+			<skill id="Athletics"
+			       value="108"/>
+			<skill id="Riding"
+			       value="126"/>
+			<skill id="Scouting"
+			       value="86"/>
+			<skill id="Roguery"
+			       value="82"/>
+			<skill id="Charm"
+			       value="91"/>
+			<skill id="Leadership"
+			       value="132"/>
+			<skill id="Trade"
+			       value="143"/>
+			<skill id="Steward"
+			       value="63"/>
+			<skill id="Tactics"
+			       value="139"/>
+			<skill id="Engineering"
+			       value="129"/>
+			<skill id="Medicine"
+			       value="138"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero3"
+	              name="{=kotk_putain_hero3}Mina Sauvage"
+	              age="18"
+	              voice="earnest"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.49"
+			                weight="0.0069"
+			                build="0"
+			                key="00103C0891000001654AAC95A9972C89D33975D5959CC9D4C9754C08398B357707400672F6A5606700000000000000000000000000000000000000003E840083"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_vlandia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="71"/>
+			<skill id="TwoHanded"
+			       value="74"/>
+			<skill id="Polearm"
+			       value="69"/>
+			<skill id="Bow"
+			       value="126"/>
+			<skill id="Crossbow"
+			       value="102"/>
+			<skill id="Throwing"
+			       value="157"/>
+			<skill id="Athletics"
+			       value="62"/>
+			<skill id="Riding"
+			       value="90"/>
+			<skill id="Scouting"
+			       value="85"/>
+			<skill id="Roguery"
+			       value="145"/>
+			<skill id="Charm"
+			       value="141"/>
+			<skill id="Leadership"
+			       value="142"/>
+			<skill id="Trade"
+			       value="76"/>
+			<skill id="Steward"
+			       value="132"/>
+			<skill id="Tactics"
+			       value="108"/>
+			<skill id="Engineering"
+			       value="80"/>
+			<skill id="Medicine"
+			       value="111"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero4"
+	              name="{=kotk_putain_hero4}Clea Gaultier"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.53"
+			                weight="0.3517"
+			                build="0.5988"
+			                key="0002640710CC000A937028572492B2C7877F875AA7536C989859FD27797983B308995682F86E3949000000000000000000000000000000000000000071243043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_vlandia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="96"/>
+			<skill id="TwoHanded"
+			       value="158"/>
+			<skill id="Polearm"
+			       value="139"/>
+			<skill id="Bow"
+			       value="96"/>
+			<skill id="Crossbow"
+			       value="94"/>
+			<skill id="Throwing"
+			       value="150"/>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="151"/>
+			<skill id="Scouting"
+			       value="156"/>
+			<skill id="Roguery"
+			       value="151"/>
+			<skill id="Charm"
+			       value="128"/>
+			<skill id="Leadership"
+			       value="95"/>
+			<skill id="Trade"
+			       value="61"/>
+			<skill id="Steward"
+			       value="64"/>
+			<skill id="Tactics"
+			       value="67"/>
+			<skill id="Engineering"
+			       value="123"/>
+			<skill id="Medicine"
+			       value="140"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero5"
+	              name="{=kotk_putain_hero5}Vittoria Divine"
+	              age="18"
+	              voice="ironic"
+	              is_female="true"
+	              is_hero="true"
+	              default_group="HorseArcher"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="18.23"
+			                weight="0"
+			                build="0"
+			                key="0026000709FC00035948A3188A41766557598897843A8925A7E38F398578987407A006720A737521000000000000000000000000000000000000000001641043"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="kotk_vlandia_lady_starting_sets"/>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="92"/>
+			<skill id="TwoHanded"
+			       value="160"/>
+			<skill id="Polearm"
+			       value="101"/>
+			<skill id="Bow"
+			       value="78"/>
+			<skill id="Crossbow"
+			       value="71"/>
+			<skill id="Throwing"
+			       value="91"/>
+			<skill id="Athletics"
+			       value="155"/>
+			<skill id="Riding"
+			       value="124"/>
+			<skill id="Scouting"
+			       value="75"/>
+			<skill id="Roguery"
+			       value="134"/>
+			<skill id="Charm"
+			       value="136"/>
+			<skill id="Leadership"
+			       value="81"/>
+			<skill id="Trade"
+			       value="119"/>
+			<skill id="Steward"
+			       value="72"/>
+			<skill id="Tactics"
+			       value="103"/>
+			<skill id="Engineering"
+			       value="112"/>
+			<skill id="Medicine"
+			       value="69"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="putain_hero6"
+	              name="{=kotk_putain_hero6}Florian 'the Feltcher' Bellucci"
+	              age="48"
+	              voice="ironic"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.vlandia"
+	              skill_template="SkillSet.kotk_great_warrior"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="vla_king_template_bat_m"/>
+			<EquipmentSet id="vla_king_template_civ_m"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="134"/>
+			<skill id="TwoHanded"
+			       value="157"/>
+			<skill id="Polearm"
+			       value="96"/>
+			<skill id="Bow"
+			       value="84"/>
+			<skill id="Crossbow"
+			       value="66"/>
+			<skill id="Throwing"
+			       value="123"/>
+			<skill id="Athletics"
+			       value="65"/>
+			<skill id="Riding"
+			       value="65"/>
+			<skill id="Scouting"
+			       value="78"/>
+			<skill id="Roguery"
+			       value="150"/>
+			<skill id="Charm"
+			       value="141"/>
+			<skill id="Leadership"
+			       value="138"/>
+			<skill id="Trade"
+			       value="124"/>
+			<skill id="Steward"
+			       value="89"/>
+			<skill id="Tactics"
+			       value="144"/>
+			<skill id="Engineering"
+			       value="74"/>
+			<skill id="Medicine"
+			       value="122"/>
+		</skills>
+	</NPCCharacter>
+</NPCCharacters>

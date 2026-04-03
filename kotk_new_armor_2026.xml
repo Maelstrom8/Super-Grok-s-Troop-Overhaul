@@ -1,0 +1,1407 @@
+<Items>
+	<!--KHUZAIT T6 UPDATE-->
+	<Item id="t6_khuzait_t6_armor_2026_boots"
+	      name="{=kotk_t6_khuzait_t6_armor_2026_boots}T6 Heroic Khuzait Boots"
+	      mesh="t6_khuzait_t6_armor_2026_boots"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="2.6"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_t6_armor_2026_gloves"
+	      name="{=kotk_t6_khuzait_t6_armor_2026_gloves}T6 Heroic Khuzait Bracers"
+	      mesh="t6_khuzait_t6_armor_2026_gloves"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="26"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_t6_armor_2026_shoulders"
+	      name="{=kotk_t6_khuzait_t6_armor_2026_shoulders}T6 Heroic Khuzait Shoulderarmor"
+	      mesh="t6_khuzait_t6_armor_2026_shoulders"
+	      culture="Culture.khuzait"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_t6_armor_2026_armor"
+	      name="{=kotk_t6_khuzait_t6_armor_2026_armor}T6 Heroic Khuzait Armor"
+	      subtype="body_armor"
+	      mesh="t6_khuzait_t6_armor_2026_armor"
+	      culture="Culture.khuzait"
+	      weight="20"
+	      difficulty="4"
+	      appearance="8"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="46"
+			       leg_armor="18"
+			       arm_armor="14"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_t6_armor_2026_helm"
+	      name="{=kotk_t6_khuzait_t6_armor_2026_helm}T6 Heroic Khuzait Helm"
+	      mesh="t6_khuzait_t6_armor_2026_helm"
+	      culture="Culture.khuzait"
+	      weight="2.8"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<!--PRAETORIAN GUARD-->
+	<Item id="t6_imperial_hero_2026_silver_boots"
+	      name="{=kotk_t6_imperial_hero_2026_silver_boots}T5 Imperial Praetorian Boots"
+	      mesh="t6_imperial_hero_2026_silver_boots"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_2026_silver_helm"
+	      name="{=kotk_t6_imperial_hero_2026_silver_helm}T5 Imperial Praetorian Helm"
+	      mesh="t6_imperial_hero_2026_silver_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_2026_silver_arms"
+	      name="{=kotk_t6_imperial_hero_2026_silver_arms}T5 Imperial Praetorian Armarmor"
+	      mesh="t6_imperial_hero_2026_silver_arms"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_2026_silver_shoulder"
+	      name="{=kotk_t6_imperial_hero_2026_silver_shoulder}T5 Imperial Praetorian Shoulders"
+	      mesh="t6_imperial_hero_2026_silver_shoulder"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_2026_silver_armor"
+	      name="{=kotk_t6_imperial_hero_2026_silver_armor}T5 Imperial Praetorian Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t6_imperial_hero_2026_silver_armor"
+	      culture="Culture.empire"
+	      weight="14.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32"
+			       leg_armor="13"
+			       arm_armor="10"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--SILVER T5 IMPERIAL	-->
+	<Item id="t6_imperial_noble_2026_silver_boots"
+	      name="{=kotk_t6_imperial_noble_2026_silver_boots}T5 Imperial Hero Boots"
+	      mesh="t6_imperial_noble_2026_silver_boots"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_silver_helm"
+	      name="{=kotk_t6_imperial_noble_2026_silver_helm}T5 Imperial Hero Helm"
+	      mesh="t6_imperial_noble_2026_silver_helm"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_silver_bracers"
+	      name="{=kotk_t6_imperial_noble_2026_silver_bracers}T5 Imperial Hero Armarmor"
+	      mesh="t6_imperial_noble_2026_silver_bracers"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_silver_shoulder"
+	      name="{=kotk_t6_imperial_noble_2026_silver_shoulder}T5 Imperial Hero Shoulders"
+	      mesh="t6_imperial_noble_2026_silver_shoulder"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_silver_armor"
+	      name="{=kotk_t6_imperial_noble_2026_silver_armor}T5 Imperial Hero Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t6_imperial_noble_2026_silver_armor"
+	      culture="Culture.empire"
+	      weight="14.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32"
+			       leg_armor="13"
+			       arm_armor="10"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--Rhagaea 2026-->
+	<Item id="t6_imperial_noble_2026_boots"
+	      name="{=kotk_t6_imperial_noble_2026_boots}T6 Heroic Rhagaea Boots"
+	      mesh="t6_imperial_noble_2026_boots"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="2.6"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor leg_armor="35"
+			       covers_legs="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_bracers"
+	      name="{=kotk_t6_imperial_noble_2026_bracers}T6 Heroic Rhagaea Bracers"
+	      mesh="t6_imperial_noble_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="30"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_shoulder"
+	      name="{=kotk_t6_imperial_noble_2026_shoulder}T6 Heroic Rhagaea Shoulderarmor"
+	      mesh="t6_imperial_noble_2026_shoulder"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_armor"
+	      name="{=kotk_t6_imperial_noble_2026_armor}T6 Heroic Rhagaea Armor"
+	      subtype="body_armor"
+	      mesh="t6_imperial_noble_2026_armor"
+	      culture="Culture.empire"
+	      weight="20"
+	      difficulty="4"
+	      appearance="8"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="65"
+			       leg_armor="20"
+			       arm_armor="26"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_noble_2026_helm"
+	      name="{=kotk_t6_imperial_noble_2026_helm}T6 Heroic Rhagaea Helm"
+	      mesh="t6_imperial_noble_2026_helm"
+	      culture="Culture.empire"
+	      weight="2.8"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="65"
+			       has_gender_variations="true"
+			       hair_cover_type="none"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<!--STURGIA Noble Infantry-->
+	<Item id="t4_sturgia_noble_2026_boots"
+	      name="{=kotk_t4_sturgia_noble_2026_boots}T4 Sturgian Noble Boots"
+	      mesh="t4_sturgia_noble_2026_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgia_noble_2026_helm"
+	      name="{=kotk_t4_sturgia_noble_2026_helm}T4 Sturgian Noble Helm"
+	      mesh="t4_sturgia_noble_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgia_noble_2026_bracers"
+	      name="{=kotk_t4_sturgia_noble_2026_bracers}T4 Sturgian Noble Bracer"
+	      mesh="t4_sturgia_noble_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgia_noble_2026_shoulders"
+	      name="{=kotk_t4_sturgia_noble_2026_shoulders}T4 Sturgian Noble Shoulderarmor"
+	      mesh="t4_sturgia_noble_2026_shoulders"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgia_noble_2026_armor"
+	      name="{=kotk_t4_sturgia_noble_2026_armor}T4 Sturgian Noble Armor"
+	      subtype="body_armor"
+	      mesh="t4_sturgia_noble_2026_armor"
+	      culture="Culture.sturgia"
+	      difficulty="4"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="29"
+			       leg_armor="9"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--t4 iron bandit-->
+	<Item id="t4_iron_bandit_suit_2025_boots"
+	      name="{=kotk_t4_iron_bandit_suit_2025_boots}T4 Iron Bandit Boots"
+	      mesh="t4_iron_bandit_suit_2025_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_iron_bandit_suit_2025_bracers"
+	      name="{=kotk_t4_iron_bandit_suit_2025_bracers}T4 Iron Bandit Bracer"
+	      mesh="t4_iron_bandit_suit_2025_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_iron_bandit_suit_2025_shoulders"
+	      name="{=kotk_t4_iron_bandit_suit_2025_shoulders}T4 Iron Bandit Shoulderarmor"
+	      mesh="t4_iron_bandit_suit_2025_shoulders"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_iron_bandit_suit_2025_armor"
+	      name="{=kotk_t4_iron_bandit_suit_2025_armor}T4 Iron Bandit Armor"
+	      subtype="body_armor"
+	      mesh="t4_iron_bandit_suit_2025_armor"
+	      culture="Culture.sturgia"
+	      difficulty="4"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="29"
+			       leg_armor="9"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--STURGIA ARCHER-->
+	<Item id="sturgia_2026_archer_boots"
+	      name="{=kotk_sturgia_2026_archer_boots}T4 Sturgian Archer Boots"
+	      mesh="sturgia_2026_archer_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgia_2026_archer_helm"
+	      name="{=kotk_sturgia_2026_archer_helm}T4 Sturgian Archer Helm"
+	      mesh="sturgia_2026_archer_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="sturgia_2026_archer_arms"
+	      name="{=kotk_sturgia_2026_archer_arms}T4 Sturgian Archer Bracer"
+	      mesh="sturgia_2026_archer_arms"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgia_2026_archer_shoulder"
+	      name="{=kotk_sturgia_2026_archer_shoulder}T4 Sturgian Archer Shoulderarmor"
+	      mesh="sturgia_2026_archer_shoulder"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="sturgia_2026_archer_armor"
+	      name="{=kotk_sturgia_2026_archer_armor}T4 Sturgian Archer Armor"
+	      subtype="body_armor"
+	      mesh="sturgia_2026_archer_armor"
+	      culture="Culture.sturgia"
+	      difficulty="4"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="29"
+			       leg_armor="9"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--T2-T4 Sturgian 2026 Archer-->
+	<Item id="t4_sturgia_archer_2026_boots"
+	      name="{=kotk_t4_sturgia_archer_2026_boots}T4 Sturgian Archer Boots"
+	      mesh="sturgia_2026_archer_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgia_2026_archer_helm"
+	      name="{=kotk_t4_sturgia_2026_archer_helm}T4 Sturgian Archer Helm"
+	      mesh="t4_sturgia_2026_archer_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="t4_sturgia_2026_archer_shoulder"
+	      name="{=kotk_t4_sturgia_2026_archer_shoulder}T4 Sturgian Archer Shoulderarmor"
+	      mesh="t4_sturgia_2026_archer_shoulder"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgia_2026_archer_armor"
+	      name="{=kotk_t4_sturgia_2026_archer_armor}T4 Sturgian Archer Armor"
+	      subtype="body_armor"
+	      mesh="t4_sturgia_2026_archer_armor"
+	      culture="Culture.sturgia"
+	      difficulty="4"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="29"
+			       leg_armor="9"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgia_2026_archer_boots"
+	      name="{=kotk_t3_sturgia_infantry_2026_boots}T3 Sturgian Archer Legarmor"
+	      mesh="sturgia_2026_archer_boots"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgia_2026_archer_helm"
+	      name="{=kotk_t3_sturgia_2026_archer_helm}T3 Sturgian Archer Helm"
+	      mesh="t3_sturgia_2026_archer_helm"
+	      culture="Culture.sturgia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather"
+			       beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgia_2026_archer_armor_body"
+	      name="{=kotk_t3_sturgia_2026_archer_armor_body}T3 Sturgian Archer Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t3_sturgia_2026_archer_armor_body"
+	      culture="Culture.sturgia"
+	      weight="7"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22"
+			       leg_armor="7"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--Daughter of Zorya	-->
+	<Item id="sturgia_star_guardian_2026_boots"
+	      name="{=kotk_sturgia_star_guardian_2026_boots}T6 Daughter of Zorya Boots"
+	      mesh="sturgia_star_guardian_2026_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="2.6"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor leg_armor="26"
+			       covers_legs="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgia_star_guardian_2026_bracers"
+	      name="{=kotk_sturgia_star_guardian_2026_bracers}T6 Daughter of Zorya Bracers"
+	      mesh="sturgia_star_guardian_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="26"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgia_star_guardian_2026_shoulder"
+	      name="{=kotk_sturgia_star_guardian_2026_shoulder}T6 Daughter of Zorya Shoulderarmor"
+	      mesh="sturgia_star_guardian_2026_shoulder"
+	      culture="Culture.sturgia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="sturgia_star_guardian_2026_armor"
+	      name="{=kotk_sturgia_star_guardian_2026_armor}T6 Daughter of Zorya Armor"
+	      subtype="body_armor"
+	      mesh="sturgia_star_guardian_2026_armor"
+	      culture="Culture.sturgia"
+	      weight="20"
+	      difficulty="4"
+	      appearance="8"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="46"
+			       leg_armor="18"
+			       arm_armor="14"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgia_star_guardian_2026_helm"
+	      name="{=kotk_sturgia_star_guardian_2026_helm}T6 Daughter of Zorya Helm"
+	      mesh="sturgia_star_guardian_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="2.8"
+	      appearance="8"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="54"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<!--T5 Sturgian 2026 Infantry-->
+	<Item id="t5_sturgia_infantry_2026_boots"
+	      name="{=kotk_t5_sturgia_infantry_2026_boots}T5 Sturgian Infantry Boots"
+	      mesh="t5_sturgia_infantry_2026_boots"
+	      culture="Culture.sturgia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgia_infantry_2026_helm"
+	      name="{=kotk_t5_sturgia_infantry_2026_helm}T5 Sturgian Infantry Helm"
+	      mesh="t5_sturgia_infantry_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgia_infantry_2026_bracers"
+	      name="{=kotk_t5_sturgia_infantry_2026_bracers}T5 Sturgian Infantry Armarmor"
+	      mesh="t5_sturgia_infantry_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgia_infantry_2026_shoulders"
+	      name="{=kotk_t5_sturgia_infantry_2026_shoulders}T5 Sturgian Infantry Shoulders"
+	      mesh="t5_sturgia_infantry_2026_shoulders"
+	      culture="Culture.sturgia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgia_infantry_2026_armor"
+	      name="{=kotk_t5_sturgia_infantry_2026_armor}T5 Sturgian Infantry Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t5_sturgia_infantry_2026_armor"
+	      culture="Culture.sturgia"
+	      weight="14.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32"
+			       leg_armor="13"
+			       arm_armor="10"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--T4 Sturgian 2026 Infantry-->
+	<Item id="t4_sturgia_infantry_2026_boots"
+	      name="{=kotk_t4_sturgia_infantry_2026_boots}T4 Sturgian Infantry Boots"
+	      mesh="t4_sturgia_infantry_2026_boots"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      is_merchandise="true"
+	      Type="LegArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgia_infantry_2026_helm"
+	      name="{=kotk_t4_sturgia_infantry_2026_helm}T4 Sturgian Infantry Helm"
+	      mesh="t4_sturgia_infantry_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="40"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="t4_sturgia_infantry_2026_bracers"
+	      name="{=kotk_t4_sturgia_infantry_2026_bracers}T4 Sturgian Infantry Bracer"
+	      mesh="t4_sturgia_infantry_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgia_infantry_2026_shoulders"
+	      name="{=kotk_t4_sturgia_infantry_2026_shoulders}T4 Sturgian Infantry Shoulderarmor"
+	      mesh="t4_sturgia_infantry_2026_shoulders"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgia_infantry_2026_armor"
+	      name="{=kotk_t4_sturgia_infantry_2026_armor}T4 Sturgian Infantry Armor"
+	      subtype="body_armor"
+	      mesh="t4_sturgia_infantry_2026_armor"
+	      culture="Culture.sturgia"
+	      difficulty="4"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="29"
+			       leg_armor="9"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--T2-3 Sturgian 2026 Infantry-->
+	<Item id="t2_sturgia_infantry_2026_boots"
+	      name="{=kotk_t2_sturgia_infantry_2026_boots}T2 Sturgian Infantry Legarmor"
+	      mesh="t3_sturgia_infantry_2026_boots"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="4"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgia_infantry_2026_boots"
+	      name="{=kotk_t3_sturgia_infantry_2026_boots}T3 Sturgian Infantry Legarmor"
+	      mesh="t3_sturgia_infantry_2026_boots"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgia_infantry_2026_helm"
+	      name="{=kotk_t3_sturgia_infantry_2026_helm}T3 Sturgian Infantry Helm"
+	      mesh="t3_sturgia_infantry_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather"
+			       beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgia_infantry_2026_bracer"
+	      name="{=kotk_t3_sturgia_infantry_2026_bracer}T3 Sturgian Infantry Armarmor"
+	      mesh="t3_sturgia_infantry_2026_bracer"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgia_infantry_2026_shoulder"
+	      name="{=kotk_t3_sturgia_infantry_2026_shoulder}T3 Sturgian Infantry Shoulderarmor"
+	      mesh="t3_sturgia_infantry_2026_shoulder"
+	      culture="Culture.sturgia"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgia_infantry_2026_armor"
+	      name="{=kotk_t3_sturgia_infantry_2026_armor}T3 Sturgian Infantry Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t3_sturgia_infantry_2026_armor"
+	      culture="Culture.sturgia"
+	      weight="7"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22"
+			       leg_armor="7"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgia_infantry_2026_armor"
+	      name="{=kotk_t2_sturgia_infantry_2026_armor}T2 Sturgian Infantry Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t2_sturgia_infantry_2026_armor"
+	      culture="Culture.sturgia"
+	      weight="2.6"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       leg_armor="6"
+			       arm_armor="4"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgia_2026_archer_armor"
+	      name="{=kotk_t2_sturgia_2026_archer_armor}T2 Sturgian Archer Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t2_sturgia_2026_archer_armor"
+	      culture="Culture.sturgia"
+	      weight="2.6"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       leg_armor="6"
+			       arm_armor="4"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--Poludnitsa-->
+	<Item id="sturgian_poludnitsa_2026_boots"
+	      name="{=kotk_sturgian_poludnitsa_2026_boots}T3 Sturgian Poludnitsa Boots"
+	      mesh="sturgian_poludnitsa_2026_boots"
+	      culture="Culture.sturgia"
+	      weight="0.5"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="6"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="sturgian_poludnitsa_2026_mask"
+	      name="{=kotk_sturgian_poludnitsa_2026_mask}T3 Sturgian Poludnitsa Mask"
+	      mesh="sturgian_poludnitsa_2026_mask"
+	      culture="Culture.sturgia"
+	      weight="0.1"
+	      appearance="3"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="15"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather"
+			       beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="sturgian_poludnitsa_2026_dress"
+	      name="{=kotk_sturgian_poludnitsa_2026_dress}T3 Sturgian Poludnitsa Dress"
+	      subtype="body_armor"
+	      mesh="sturgian_poludnitsa_2026_dress"
+	      culture="Culture.sturgia"
+	      weight="7"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="22"
+			       leg_armor="7"
+			       arm_armor="5"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--sturgia noble t5-->
+	<!--T5 Sturgian 2026 noble-->
+	<Item id="t5_sturgia_noble_2026_boots"
+	      name="{=kotk_t5_sturgia_noble_2026_boots}T5 Sturgian Noble Boots"
+	      mesh="t5_sturgia_noble_2026_boots"
+	      culture="Culture.sturgia"
+	      weight="2.6"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="22"
+			       covers_legs="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgia_noble_2026_helm"
+	      name="{=kotk_t5_sturgia_noble_2026_helm}T5 Sturgian Noble Helm"
+	      mesh="t5_sturgia_noble_2026_helm"
+	      culture="Culture.sturgia"
+	      weight="3.0"
+	      appearance="5"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+			       has_gender_variations="true"
+			       hair_cover_type="all"
+			       modifier_group="plate"
+			       material_type="Plate"
+			       beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgia_noble_2026_bracers"
+	      name="{=kotk_t5_sturgia_noble_2026_bracers}T5 Sturgian Noble Armarmor"
+	      mesh="t5_sturgia_noble_2026_bracers"
+	      subtype="body_armor"
+	      culture="Culture.sturgia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgia_noble_2026_shoulders"
+	      name="{=kotk_t5_sturgia_noble_2026_shoulders}T5 Sturgian Noble Shoulders"
+	      mesh="t5_sturgia_noble_2026_shoulders"
+	      culture="Culture.sturgia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgia_noble_2026_armor"
+	      name="{=kotk_t5_sturgia_noble_2026_armor}T5 Sturgian Noble Bodyarmor"
+	      subtype="body_armor"
+	      mesh="t5_sturgia_noble_2026_armor"
+	      culture="Culture.sturgia"
+	      weight="14.5"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="32"
+			       leg_armor="13"
+			       arm_armor="10"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<!--BLACKENED STEALTH-->
+	<Item id="kotk_blackened_armor_shoulders"
+	      name="{=kotk_blackened_armor_shoulders}KOTK Blackened Cape"
+	      mesh="kotk_blackened_armor_shoulders"
+	      culture="Culture.nord"
+	      subtype="body_armor"
+	      weight="0.85"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="4"
+			       arm_armor="2"
+			       stealth_factor="15"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       Stealth="true"/>
+	</Item>
+	<Item id="kotk_blackened_armor_boot"
+	      name="{=kotk_blackened_armor_boot}KOTK Blackened Boots"
+	      mesh="kotk_blackened_armor_boot"
+	      culture="Culture.nord"
+	      weight="1"
+	      appearance="4"
+	      Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="5"
+			       stealth_factor="20"
+			       covers_legs="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Stealth="true"/>
+	</Item>
+	<Item id="kotk_blackened_armor_hood"
+	      name="{=kotk_blackened_armor_hood}KOTK Blackened Hood"
+	      subtype="head_armor"
+	      mesh="kotk_blackened_armor_hood"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="4"
+	      Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="4"
+			       stealth_factor="25"
+			       has_gender_variations="false"
+			       hair_cover_type="all"
+			       beard_cover_type="all"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       Stealth="true"/>
+	</Item>
+	<Item id="kotk_blackened_armor"
+	      name="{=kotk_blackened_armor}KOTK Blackened Armor"
+	      subtype="body_armor"
+	      mesh="kotk_blackened_armor"
+	      culture="Culture.nord"
+	      weight="5"
+	      appearance="4"
+	      Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       leg_armor="6"
+			       arm_armor="4"
+			       stealth_factor="30"
+			       has_gender_variations="true"
+			       covers_body="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Stealth="true"/>
+	</Item>
+	<Item id="kotk_blackened_armor_bracers"
+	      name="{=kotk_blackened_armor_bracers}KOTK Blackened Gloves"
+	      mesh="kotk_blackened_armor_bracers"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="1"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       stealth_factor="5"
+			       covers_hands="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Stealth="true"
+		       Civilian="true"/>
+	</Item>
+</Items>

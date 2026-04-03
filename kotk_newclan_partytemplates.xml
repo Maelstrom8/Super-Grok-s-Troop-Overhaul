@@ -1,0 +1,244 @@
+<partyTemplates>
+<MBPartyTemplate id="eahira_hero_party">
+		<stacks>
+			<!-- base -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_aserai_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_aserai_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_aserai_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_aserai_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_aserai_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_aserai_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_aserai_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_aserai_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_aserai_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_aserai_horse_archer"/>
+			<!-- +15 both (five 3–3) -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_aserai_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_aserai_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_aserai_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_aserai_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_aserai_ranger"/>
+			<!-- +16 both (eight 2–2) => total 59–67 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_aserai_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_aserai_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_aserai_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_aserai_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_aserai_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_aserai_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_aserai_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_aserai_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="wame_hero_party">
+		<stacks>
+			<!-- base -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_battanian_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_battanian_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_battanian_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_battanian_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_battanian_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_battanian_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_battanian_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_battanian_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_battanian_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_battanian_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_battanian_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_battanian_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_battanian_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_battanian_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_battanian_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_battanian_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_battanian_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_battanian_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_battanian_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_battanian_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_battanian_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_battanian_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_battanian_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="southern_hero_party">
+		<stacks>
+			<!-- base -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_imperial_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="western_hero_party">
+		<stacks>
+			<!-- same pattern as southern -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_imperial_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="northern_hero_party">
+		<stacks>
+			<!-- same pattern as southern -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_imperial_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_imperial_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_imperial_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_imperial_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_imperial_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="yankhan_hero_party">
+		<stacks>
+			<!-- base -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_khuzait_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_khuzait_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_khuzait_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_khuzait_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_khuzait_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_khuzait_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_khuzait_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_khuzait_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_khuzait_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_khuzait_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_khuzait_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_khuzait_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_khuzait_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_khuzait_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_khuzait_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_khuzait_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_khuzait_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_khuzait_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_khuzait_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_khuzait_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_khuzait_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_khuzait_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_khuzait_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="horaoving_hero_party">
+		<stacks>
+			<!-- base -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_sturgian_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_sturgian_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_sturgian_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_sturgian_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_sturgian_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_sturgian_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_sturgian_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_sturgian_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_sturgian_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_sturgian_horse_archer"/>
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_sturgian_veteran"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_sturgian_warrior"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_sturgian_cav"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_sturgian_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_sturgian_ranger"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_sturgian_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_sturgian_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_sturgian_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_sturgian_horse_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_sturgian_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_sturgian_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_sturgian_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_sturgian_veteran"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="deyputain_hero_party">
+		<stacks>
+			<!-- base (no vanilla) -->
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.t2_vlandia_recruit"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.t3_vlandia_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_vlandia_veteran"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_vlandia_warrior"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t3_vlandia_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_vlandia_scout"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_vlandia_cav"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t4_vlandia_archer"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_vlandia_ranger"/>
+			<!-- add Bimbo units + top-up to 59–67 -->
+			<!-- five 3–3 -->
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_bimbo_infantry"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_bimbo_infantry"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t4_bimbo_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_bimbo_archer"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.t5_bimbo_cav"/>
+			<!-- eight 2–2 -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t2_bimbo_recruit"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_bimbo_infantry"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_vlandia_archer"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_vlandia_ranger"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t5_vlandia_cav"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t3_vlandia_skirm"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_vlandia_scout"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.t4_vlandia_veteran"/>
+			<!-- one 2–3 to match the +1 max spread -->
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.t5_bimbo_archer"/>
+		</stacks>
+	</MBPartyTemplate>
+	</partyTemplates>

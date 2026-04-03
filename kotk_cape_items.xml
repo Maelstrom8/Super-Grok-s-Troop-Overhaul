@@ -1,0 +1,3099 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Items>
+	<Item id="t2_aserai_shoulder_armor_01"
+	      name="{=kotk_t2_aserai_shoulder_armor_01}T2 Aserai Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_aserai_shoulder_armor_01"
+	      name="{=kotk_t3_aserai_shoulder_armor_01}T3 Aserai Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_eastern_mercenary_shoulder_armor_01"
+	      name="{=kotk_t3_eastern_mercenary_shoulder_armor_01}T3 Eastern Mercenary Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_aserai_shoulder_armor_01"
+	      name="{=kotk_t4_aserai_shoulder_armor_01}T4 Aserai Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="zd_t4_shoulder"
+	      name="{=kotk_zd_t4_shoulder}T4 Darawish al-Zephyr Shoulderarmor"
+	      mesh="zd_t4_shoulder"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_eastern_mercenary_shoulder_armor_01"
+	      name="{=kotk_t4_eastern_mercenary_shoulder_armor_01}T4 Eastern Mercenary Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_animalpelt_leopard_shoulder_armor"
+	      name="{=kotk_t5_animalpelt_leopard_shoulder_armor}T5 Leopard Pelt"
+	      mesh="animal_pelt_leopard"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_leopard_pelt"
+	      name="{=kotk_kotk_leopard_pelt}T5 Leopard Pelt"
+	      mesh="kotk_leopard_pelt"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_animalpelt_zebra_shoulder_armor"
+	      name="{=kotk_t5_animalpelt_zebra_shoulder_armor}T5 Zebra Pelt"
+	      mesh="animal_pelt_zebra"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="animal_pelt_giraffe"
+	      name="{=kotk_animal_pelt_giraffe}T5 Giraffe Pelt"
+	      mesh="animal_pelt_giraffe"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_aserai_shoulder_armor_01"
+	      name="{=kotk_t5_aserai_shoulder_armor_01}T5 Aserai Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_aserai_shoulder_armor_02"
+	      name="{=kotk_t5_aserai_shoulder_armor_02}T5 Aserai Shoulderarmor"
+	      mesh="aserai_shoulder_01"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_eastern_mercenary_shoulder_armor_01"
+	      name="{=kotk_t5_eastern_mercenary_shoulder_armor_01}T5 Eastern Mercenary Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_jawwal_shoulder_armor_zebra"
+	      name="{=kotk_t5_jawwal_shoulder_armor_zebra}T5 Jawwal Shoulderarmor"
+	      mesh="jawwal_new_zebra_t5_shoulder"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_jawwal_shoulder_armor_leopard"
+	      name="{=kotk_t5_jawwal_shoulder_armor_leopard}T5 Jawwal Shoulderarmor"
+	      mesh="jawwal_new_leopard_t5_shoulder"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_shoulder_armor_01"
+	      name="{=kotk_t6_aserai_shoulder_armor_01}T6 Aserai Shoulderarmor"
+	      mesh="aserai_shoulder_02"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_shoulder_armor_02"
+	      name="{=kotk_t6_aserai_shoulder_armor_02}T6 Aserai Shoulderarmor"
+	      mesh="aserai_shoulder_01"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_hero_shoulder_armor"
+	      name="{=kotk_t6_aserai_hero_shoulder_armor}T6 Aserai Hero Shoulderarmor"
+	      mesh="aserai_t6_waifu_armlet"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_aserai_arwa_shoulder_armor"
+	      name="{=kotk_t6_aserai_arwa_shoulder_armor}T6 Arwa's Shoulderarmor"
+	      mesh="aserai_t6_waifu_armlet_01"
+	      culture="Culture.aserai"
+	      weight="2.8"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_dragon_shoulder_armor_03"
+	      name="{=kotk_t6_dragon_shoulder_armor_03}T6 Corein's Dragon Shoulderarmor"
+	      mesh="dragon_shoulder_corein"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_dragon_shoulder_armor_04"
+	      name="{=kotk_t6_dragon_shoulder_armor_04}T6 Vlandia Red Dragon Shoulderarmor"
+	      mesh="dragon_shoulder_vlandia_red"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_dragon_shoulder_armor_01"
+	      name="{=kotk_t6_dragon_shoulder_armor_01}T6 Gold Dragon Shoulderarmor"
+	      mesh="dragon_shoulder_gold"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_dragon_shoulder_armor_02"
+	      name="{=kotk_t6_dragon_shoulder_armor_02}T6 Silver Dragon Shoulderarmor"
+	      mesh="dragon_shoulder_silver"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="marid_scale_shoulder_e"
+	      name="{=kotk_marid_scale_shoulder_e}T6 Aserai Marid Shoulderarmor"
+	      mesh="marid_scale_shoulder_e"
+	      culture="Culture.aserai"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_aserai_scale_shoulder_b"
+	      name="{=kotk_kotk_aserai_scale_shoulder_b}KOTK Aserai Noble Shoulder Armor"
+	      mesh="kotk_aserai_scale_shoulder_b"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="2.2"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16"
+			       arm_armor="8"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_aserai_scale_shoulder_e"
+	      name="{=kotk_kotk_aserai_scale_shoulder_e}KOTK Aserai Noble Shoulder Armor"
+	      mesh="kotk_aserai_scale_shoulder_e"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="12.4"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="9"
+			       arm_armor="12"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="kotk_aserai_scale_b_shoulder_e"
+	      name="{=kotk_kotk_aserai_scale_b_shoulder_e}KOTK Aserai Noble Shoulder Armor"
+	      mesh="kotk_aserai_scale_b_shoulder_e"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="9.2"
+	      appearance="7"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13"
+			       arm_armor="9"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_battania_shoulder_armor_01"
+	      name="{=kotk_t2_battania_shoulder_armor_01}T2 Battanian Shoulderarmor"
+	      mesh="battania_leather_kat_shoulder"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_battania_shoulder_armor_02"
+	      name="{=kotk_t2_battania_shoulder_armor_02}T2 Battanian Shoulderarmor"
+	      mesh="battania_cloak_b_edit"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_battania_shoulder_armor_01"
+	      name="{=kotk_t3_battania_shoulder_armor_01}T3 Battanian Shoulderarmor"
+	      mesh="wolf_shoulder_edit"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="t3_battania_shoulder_armor_02"
+	      name="{=kotk_t3_battania_shoulder_armor_02}T3 Battanian Shoulderarmor"
+	      mesh="wolf_shoulder_edit_black"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="t4_battania_shoulder_armor_01"
+	      name="{=kotk_t4_battania_shoulder_armor_01}T4 Battanian Shoulderarmor"
+	      mesh="wolf_shoulder_edit_brown"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="false"/>
+	</Item>
+	<Item id="t4_battania_shoulder_armor_02"
+	      name="{=kotk_t4_battania_shoulder_armor_02}T4 Battanian Shoulderarmor"
+	      mesh="battania_shoulder_strap_cloak_edit"
+	      culture="Culture.battania"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_barbarian_3_shoulders"
+	      name="{=kotk_kotk_barbarian_3_shoulders}T5 Barbarian Shoulderarmor"
+	      mesh="kotk_barbarian_3_shoulders"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_animalpelt_brownfur_shoulder_armor"
+	      name="{=kotk_t5_animalpelt_brownfur_shoulder_armor}T5 Bear Pelt Shoulderarmor"
+	      mesh="animal_pelt4_edit"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_battania_shoulder_armor_01"
+	      name="{=kotk_t5_battania_shoulder_armor_01}T5 Battanian Shoulderarmor"
+	      mesh="cloak_fur_c"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_battania_shoulder_armor_02"
+	      name="{=kotk_t5_battania_shoulder_armor_02}T5 Battanian Shoulderarmor"
+	      mesh="battania_leather_kat_shoulder_brasswolf"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_battania_shoulder_armor_03"
+	      name="{=kotk_t5_battania_shoulder_armor_03}T5 Battanian Shoulderarmor"
+	      mesh="battania_leather_kat_shoulder_ironwolf"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_shoulder_armor_01"
+	      name="{=kotk_t6_battania_shoulder_armor_01}T6 Battanian Shoulderarmor"
+	      mesh="battania_pauldrons"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_shoulder_armor_01"
+	      name="{=kotk_t6_battania_hero_shoulder_armor_01}T6 Battanian Hero Shoulderarmor"
+	      mesh="battania_t6_shoulder_hero"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_shoulder_armor_02"
+	      name="{=kotk_t6_battania_hero_shoulder_armor_02}T6 Battanian Hero Shoulderarmor"
+	      mesh="battania_t6_wolf_pauldrons_brass"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_shoulder_gold"
+	      name="{=kotk_t6_wolf_shoulder_gold}T6 Gold Wolf Shoulderamor"
+	      mesh="t6_wolf_shoulder_gold"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_shoulder_silver"
+	      name="{=kotk_t6_wolf_shoulder_silver}T6 Silver Wolf Shoulderamor"
+	      mesh="t6_wolf_shoulder_silver"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_kotk_cloak_fur_c_white"
+	      name="{=kotk_kotk_cloak_fur_c_white}T6 White Bear Cloak"
+	      mesh="kotk_cloak_fur_c_white"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_hero_shoulder_armor_03"
+	      name="{=kotk_t6_battania_hero_shoulder_armor_03}T6 Battanian Shoulderarmor"
+	      mesh="battania_t6_wolf_pauldrons_silver"
+	      culture="Culture.battania"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_corein_shoulder_armor_01"
+	      name="{=kotk_t6_battania_corein_shoulder_armor_01}T6 Corein's Shoulderarmor"
+	      mesh="battania_t6_shoulder_hero_corein"
+	      culture="Culture.battania"
+	      weight="2.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_battania_corein_shoulder_armor_02"
+	      name="{=kotk_t6_battania_corein_shoulder_armor_02}T6 Corein's Shoulderarmor"
+	      mesh="battania_t6_wolf_pauldrons_corein"
+	      culture="Culture.battania"
+	      weight="2.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_wolf_shoulder_green"
+	      name="{=kotk_t6_wolf_shoulder_green}T6 Corein's Shoulderarmor"
+	      mesh="t6_wolf_shoulder_green"
+	      culture="Culture.battania"
+	      weight="2.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="corein_hero_shoulder_2024_green"
+	      name="{=kotk_corein_hero_shoulder_2024_green}T6 Corein's Shoulderarmor"
+	      mesh="corein_hero_shoulder_2024_green"
+	      culture="Culture.battania"
+	      weight="2.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_imperial_shoulder_armor_01"
+	      name="{=kotk_t2_imperial_shoulder_armor_01}T2 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_a"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_minor_shoulder_armor_01"
+	      name="{=kotk_t2_minor_shoulder_armor_01}T2 Black Bikini Shoulderarmor"
+	      mesh="underwear_elf_black"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_embersofflame_shoulder_armor_01"
+	      name="{=kotk_t2_embersofflame_shoulder_armor_01}T2 Embers of the Flame Shoulderarmor"
+	      mesh="embersofflame_t2_shoulder"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_hidden_hand_shoulder_armor_01"
+	      name="{=kotk_t2_hidden_hand_shoulder_armor_01}T2 Hidden Hand Shoulderarmor"
+	      mesh="hidden_hand_shoulderarmor_t2"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_imperial_shoulder_armor_01"
+	      name="{=kotk_t3_imperial_shoulder_armor_01}T3 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_a"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_faction_armband_imperial"
+	      name="{=kotk_t3_faction_armband_imperial}T3 Imperial Shoulderarmor"
+	      mesh="t3_faction_armband_imperial"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_minor_shoulder_armor_01"
+	      name="{=kotk_t3_minor_shoulder_armor_01}T3 Black Bikini Shoulderarmor"
+	      mesh="underwear_elf_black"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_minor_shoulder_armor_02"
+	      name="{=kotk_t3_minor_shoulder_armor_02}T3 Gold Armlet"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_swordsister_mercenary_shoulder_armor_01"
+	      name="{=kotk_t3_swordsister_mercenary_shoulder_armor_01}T3 Sword Sister Mercenary Shoulderarmor"
+	      mesh="imperial_armband_b"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bone_armor_gold_shoulder"
+	      name="{=kotk_t3_bone_armor_gold_shoulder}T3 Gold Bone Shoulderarmor"
+	      mesh="t3_bone_armor_gold_shoulder"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bone_armor_bone_shoulder"
+	      name="{=kotk_t3_bone_armor_bone_shoulder}T3 Bone Shoulderarmor"
+	      mesh="t3_bone_armor_bone_shoulder"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_embersofflame_shoulder_armor_01"
+	      name="{=kotk_t3_embersofflame_shoulder_armor_01}T3 Embers of the Flame Shoulderarmor"
+	      mesh="embersofflame_t3_shoulder"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_hidden_hand_shoulder_armor_01"
+	      name="{=kotk_t3_hidden_hand_shoulder_armor_01}T3 Hidden Hand Shoulderarmor"
+	      mesh="hidden_hand_shoulderarmor_t3"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_imperial_shoulder_armor_gold"
+	      name="{=kotk_t4_imperial_shoulder_armor_gold}T4 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_b"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_imperial_shoulder_armor_silver"
+	      name="{=kotk_t4_imperial_shoulder_armor_silver}T4 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_c"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_minor_shoulder_armor_01"
+	      name="{=kotk_t4_minor_shoulder_armor_01}T4 Black Bikini Shoulderarmor"
+	      mesh="underwear_elf_black"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_minor_shoulder_armor_02"
+	      name="{=kotk_t4_minor_shoulder_armor_02}T4 Golden Armlet"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_swordsister_mercenary_shoulder_armor_01"
+	      name="{=kotk_t4_swordsister_mercenary_shoulder_armor_01}T4 Sword Sister Mercenary Shoulderarmor"
+	      mesh="imperial_armband_a"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_embersofflame_shoulder_armor_01"
+	      name="{=kotk_t4_embersofflame_shoulder_armor_01}T4 Embers of the Flame Shoulderarmor"
+	      mesh="embersofflame_t4_shoulder"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_hidden_hand_shoulder_armor_01"
+	      name="{=kotk_t4_hidden_hand_shoulder_armor_01}T4 Hidden Hand Shoulderarmor"
+	      mesh="hidden_hand_shoulderarmor_t4"
+	      culture="Culture.empire"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_shoulder_armor_gold"
+	      name="{=kotk_t5_imperial_shoulder_armor_gold}T5 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_b"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_artemis_shoulder_armor"
+	      name="{=kotk_t5_artemis_shoulder_armor}T5 Imperial Artemis Shoulderarmor"
+	      mesh="t5_artemis_shoulder_armor"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_kotk_cloak_fur_c_white"
+	      name="{=kotk_kotk_cloak_fur_c_white}T5 White Bear Pelt"
+	      mesh="kotk_cloak_fur_c_white"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_imperial_shoulder_armor_silver"
+	      name="{=kotk_t5_imperial_shoulder_armor_silver}T5 Imperial Shoulderarmor"
+	      mesh="imperial_armlet_bracer_01_armlet_c"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_swordsister_mercenary_shoulder_armor_01"
+	      name="{=kotk_t5_swordsister_mercenary_shoulder_armor_01}T5 Sword Sister Mercenary Shoulderarmor"
+	      mesh="imperial_armband_b"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="embersofflame_t5_shoulder"
+	      name="{=kotk_embersofflame_t5_bodyarmor}T5 Embers of the Flame Shoulderarmor"
+	      mesh="embersofflame_t5_shoulder"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_hidden_hand_shoulder_armor_01"
+	      name="{=kotk_t5_hidden_hand_shoulder_armor_01}T5 Hidden Hand Shoulderarmor"
+	      mesh="hidden_hand_shoulderarmor_t4"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_shoulder_armor_gold"
+	      name="{=kotk_t6_imperial_shoulder_armor_gold}T6 Imperial Shoulderarmor"
+	      mesh="imperial_cape_a"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_imperial_shoulder_armor_silver"
+	      name="{=kotk_t6_imperial_shoulder_armor_silver}T6 Imperial Shoulderarmor"
+	      mesh="imperial_cape_b"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_rhagaea_shoulder_armor_01"
+	      name="{=kotk_t6_rhagaea_shoulder_armor_01}T6 Rhagaea's Shoulderarmor"
+	      mesh="imperial_cape_c"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_ira_shoulder_armor_01"
+	      name="{=kotk_t6_ira_shoulder_armor_01}T6 Ira's Shoulderarmor"
+	      mesh="t5_warrior_plate_shoulder_gold"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_comatasa_shoulders_gold"
+	      name="{=kotk_t6_comatasa_shoulders_gold}T6 Comatasa's Shoulderarmor"
+	      mesh="t6_elite_imperial_shoulders_gold"
+	      culture="Culture.empire"
+	      weight="2"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_cloak_fur_c_white_no_disk"
+	      name="{=kotk_kotk_cloak_fur_c_white_no_disk}T6 Comatasa's Shoulderarmor"
+	      mesh="kotk_cloak_fur_c_white_no_disk"
+	      culture="Culture.empire"
+	      weight="2"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_elite_imperial_shoulders_gold"
+	      name="{=kotk_t6_elite_imperial_shoulders_gold}T6 Elite Imperial Shoulderarmor"
+	      mesh="t6_elite_imperial_shoulders_gold"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_bimbo_huntress_shoulder_original"
+	      name="{=kotk_t6_bimbo_huntress_shoulder_original}T6 Bimbo Huntress Shoulderarmor"
+	      mesh="t6_bimbo_huntress_shoulder_original"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_huntress_shoulder_faction"
+	      name="{=kotk_t6_huntress_shoulder_faction}T6 Huntress Shoulderarmor"
+	      mesh="t6_huntress_shoulder_faction"
+	      culture="Culture.empire"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_huntress_shoulder_original"
+	      name="{=kotk_t6_huntress_shoulder_original}T6 Elite Huntress Pauldrons"
+	      mesh="t6_huntress_shoulder_original"
+	      culture="Culture.empire"
+	      weight="2"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_shibari_shoulders"
+	      name="{=kotk_t2_shibari_shoulders}T2 Shibari Shoulderarmor"
+	      mesh="t2_shibari_shoulders"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_khuzait_shoulder_armor_01"
+	      name="{=kotk_t2_khuzait_shoulder_armor_01}T2 Khuzait Shoulderarmor"
+	      mesh="khuz_t2_armor_belt"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_oni_shoulder"
+	      name="{=kotk_kotk_oni_shoulder}T3 Oni Shoulderarmor"
+	      mesh="kotk_oni_shoulder"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_khuzait_newsamurai_shoulder"
+	      name="{=kotk_t3_khuzait_newsamurai_shoulder}T3 Khuzait Shoulderarmor"
+	      mesh="t3_khuzait_newsamurai_shoulder"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_khuzait_shoulder_armor_01"
+	      name="{=kotk_t3_khuzait_shoulder_armor_01}T3 Khuzait Shoulderarmor"
+	      mesh="khuz_armlet"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_khuzait_newsamurai_shoulder"
+	      name="{=kotk_t4_khuzait_newsamurai_shoulder}T4 Khuzait Shoulderarmor"
+	      mesh="t4_khuzait_newsamurai_shoulder"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_khuzait_shoulder_armor_01"
+	      name="{=kotk_t4_khuzait_shoulder_armor_01}T4 Khuzait Shoulderarmor"
+	      mesh="khuz_armlet"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_archer_shoulder"
+	      name="{=kotk_t5_khuzait_archer_shoulder}T4 Khuzait Archer Shoulderarmor"
+	      mesh="t5_khuzait_archer_shoulder"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_newsamurai_shoulder"
+	      name="{=kotk_t5_khuzait_newsamurai_shoulder}T5 Khuzait  Shoulderarmor"
+	      mesh="t5_khuzait_newsamurai_shoulder"
+	      culture="Culture.khuzait"
+	      weight="3.0"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_khuzait_shoulder_armor_01"
+	      name="{=kotk_t5_khuzait_shoulder_armor_01}T5 Khuzait Shoulderarmor"
+	      mesh="khuz_armlet"
+	      culture="Culture.khuzait"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit1_shoulders_og_maps"
+	      name="{=kotk_nn_samurai_suit1_shoulders_og_maps}T5 Samurai I Shoulderarmor"
+	      mesh="nn_samurai_suit1_shoulders_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit2_shoulders_og_maps"
+	      name="{=kotk_nn_samurai_suit2_shoulders_og_maps}T5 Samurai II Shoulderarmor"
+	      mesh="nn_samurai_suit2_shoulders_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="nn_samurai_suit3_shoulders_og_maps"
+	      name="{=kotk_nn_samurai_suit3_shoulders_og_maps}T5 Samurai III Shoulderarmor"
+	      mesh="nn_samurai_suit3_shoulders_og_maps"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="samurai_shoulder_red"
+	      name="{=kotk_samurai_shoulder_red}T5 Red Samurai Shoulderarmor"
+	      mesh="samurai_shoulder_red"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="samurai_shoulder_black"
+	      name="{=kotk_samurai_shoulder_black}T5 Black Samurai Shoulderarmor"
+	      mesh="samurai_shoulder_black"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_shoulder_armor_01"
+	      name="{=kotk_t6_khuzait_shoulder_armor_01}T6 Khuzait Shoulderarmor"
+	      mesh="khuz_armlet"
+	      culture="Culture.khuzait"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_shoulder"
+	      name="{=kotk_t6_khuzait_nn_2024_shoulder}T6 Khuzait Shoulderarmor"
+	      mesh="t6_khuzait_nn_2024_shoulder"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_shoulder_red"
+	      name="{=kotk_t6_khuzait_nn_2024_shoulder_red}T6 Khuzait Shoulderarmor"
+	      mesh="t6_khuzait_nn_2024_shoulder_red"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_armlet_bronze"
+	      name="{=kotk_t6_khuzait_armlet_bronze}T6 Khuzait Bronze Armlet"
+	      mesh="t6_khuzait_armlet_bronze"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_khuzait_nergui_shoulder_armor_01"
+	      name="{=kotk_t6_khuzait_nergui_shoulder_armor_01}T6 Khuzait Nergui Shoulderarmor"
+	      mesh="dragon_shoulder_brass"
+	      culture="Culture.khuzait"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_leather_shoulder_b"
+	      name="{=kotk_kotk_khuzait_leather_shoulder_b}KOTK Khuzait Noble Shoulder Guards"
+	      mesh="kotk_khuzait_leather_shoulder_b"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="2.0"
+	      appearance="6"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_brass_lamellar_shoulder"
+	      name="{=kotk_kotk_brass_lamellar_shoulder}KOTK Khuzait Noble Shoulder Guards"
+	      mesh="kotk_brass_lamellar_shoulder"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="2.0"
+	      appearance="6"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_brass_lamellar_shoulder_white"
+	      name="{=kotk_kotk_brass_lamellar_shoulder_white}KOTK Khuzait Noble Shoulder Guards"
+	      mesh="kotk_brass_lamellar_shoulder_white"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="2.0"
+	      appearance="6"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_nympho_shoulder_armor_01"
+	      name="{=kotk_t2_nympho_shoulder_armor_01}T2 Nympho Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_shoulder_armor_01"
+	      name="{=kotk_t2_bandit_shoulder_armor_01}T2 Bandit Shoulderarmor"
+	      mesh="bandit_gear_01_armlet"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_bandit_shoulder_armor_02"
+	      name="{=kotk_t2_bandit_shoulder_armor_02}T2 Bandit Shoulderarmor"
+	      mesh="vlandia_gear_01_armlet"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_nympho_shoulder_armor_01"
+	      name="{=kotk_t3_nympho_shoulder_armor_01}T3 Nympho Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bandit_shoulder_armor_01"
+	      name="{=kotk_t3_bandit_shoulder_armor_01}T3 Bandit Shoulderarmor"
+	      mesh="vlandia_gear_03_armlet"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_dryad_shoulder_armor_01"
+	      name="{=kotk_t3_dryad_shoulder_armor_01}T3 Dryad Shoulderarmor"
+	      mesh="dryad_shoulder"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bandit_light_armor_shoulders"
+	      name="{=kotk_t4_bandit_light_armor_shoulders}T4 Bandit Light Armored Shoulder"
+	      mesh="t4_bandit_light_armor_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="goondor_t4_shoulder"
+	      name="{=kotk_goondor_t4_shoulder}T4 Goondor Shoulderarmor"
+	      mesh="goondor_t4_shoulder"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_nympho_shoulder_armor_01"
+	      name="{=kotk_t4_nympho_shoulder_armor_01}T4 Nympho Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_dryad_shoulder_armor_01"
+	      name="{=kotk_t4_dryad_shoulder_armor_01}T4 Dryad Shoulderarmor"
+	      mesh="dryad_shoulder"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_emberline_huntress_shoulders"
+	      name="{=kotk_t4_emberline_huntress_shoulders}T4 Emberline Huntress Shoulderarmor"
+	      mesh="t4_emberline_huntress_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_wraithcall_markswoman_shoulders"
+	      name="{=kotk_t5_wraithcall_markswoman_shoulders}T5 Wraithcall Markswoman Shoulderarmor"
+	      mesh="t5_wraithcall_markswoman_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_gladiator_shoulders"
+	      name="{=kotk_kotk_gladiator_shoulders}T5 KotK Gladiator Shoulderarmor"
+	      mesh="kotk_gladiator_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bdsm_gladiator_shoulders"
+	      name="{=kotk_bdsm_gladiator_shoulders}T5 BDSM Gladiator Shoulderarmor"
+	      mesh="bdsm_gladiator_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="shadowheart_gtcarbonbody_shoulders"
+	      name="{=kotk_shadowheart_gtcarbonbody_shoulders}T5 Shadowheart Shoulderarmor"
+	      mesh="shadowheart_gtcarbonbody_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="goondor_t5_shoulder"
+	      name="{=kotk_goondor_t5_shoulder}T5 Goondor Shoulderarmor"
+	      mesh="goondor_t5_shoulder"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_nympho_shoulder_armor_01"
+	      name="{=kotk_t5_nympho_shoulder_armor_01}T5 Nympho Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_dryad_shoulder_armor_01"
+	      name="{=kotk_t5_dryad_shoulder_armor_01}T5 Dryad Shoulderarmor"
+	      mesh="dryad_shoulder"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_warrior_plate_shoulder_gold"
+	      name="{=kotk_t5_warrior_plate_shoulder_gold}T5 Golden Warrior Shoulder"
+	      mesh="t5_warrior_plate_shoulder_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_warrior_plate_shoulder_silver"
+	      name="{=kotk_t5_warrior_plate_shoulder_silver}T5 Silver Warrior Shoulder"
+	      mesh="t5_warrior_plate_shoulder_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="lineage_suit_shoulders"
+	      name="{=kotk_lineage_suit_shoulders}T6 Lineage Shoulderarmor"
+	      mesh="lineage_suit_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_imperial_shoulder_hybrid_2"
+	      name="{=kotk_kotk_imperial_shoulder_hybrid_2}T6 Heroic Shoulder Armor"
+	      mesh="kotk_imperial_shoulder_hybrid_2"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_imperial_shoulder_hybrid"
+	      name="{=kotk_kotk_imperial_shoulder_hybrid}T6 Heroic Shoulder Armor"
+	      mesh="kotk_imperial_shoulder_hybrid"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>	
+	<Item id="kotk_shoulder_bikini_faction"
+	      name="{=kotk_kotk_shoulder_bikini_faction}T6 Heroic Bikini Shoulder"
+	      mesh="kotk_shoulder_bikini_faction"
+	      culture="Culture.neutral_culture"
+	      weight="1.0"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="12"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>	
+	
+	
+	<Item id="t6_whorelord_strapon_shoulder_silver"
+	      name="{=kotk_t6_whorelord_strapon_shoulder_silver}T6 Whorelord Strapon"
+	      mesh="t6_whorelord_strapon_shoulder_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_whorelord_strapon_shoulder_gold"
+	      name="{=kotk_t6_whorelord_strapon_shoulder_gold}T6 Whorelord Strapon"
+	      mesh="t6_whorelord_strapon_shoulder_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_nympho_shoulder_armor_01"
+	      name="{=kotk_t6_nympho_shoulder_armor_01}T6 Nympho Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="bladedancermercenary_shoulder"
+	      name="{=kotk_bladedancermercenary_shoulder}T6 Blade Dancer Mercenary Shoulderarmor"
+	      mesh="kotk_blader_shoulders"
+	      culture="Culture.neutral_culture"
+	      weight="2.0"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16"
+			       arm_armor="8"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_devil_armor_shoulder_silver"
+	      name="{=kotk_t6_devil_armor_shoulder_silver}T6 Devil Princess Shoulderarmor"
+	      mesh="t6_devil_armor_shoulder_silver"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_warrior_princess_shoulder_gold"
+	      name="{=kotk_t6_warrior_princess_shoulder_gold}T6 Warrior Princess Shoulderarmor"
+	      mesh="t6_warrior_princess_shoulder_gold"
+	      culture="Culture.neutral_culture"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_hero_ghostshoulder"
+	      name="{=kotk_t6_hero_ghostshoulder}KOTK Hero Shoulderarmor"
+	      mesh="ghostarmor"
+	      culture="Culture.neutral_culture"
+	      is_merchandise="false"
+	      weight="3.5"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_sturgian_shoulder_armor_01"
+	      name="{=kotk_t2_sturgian_shoulder_armor_01}T2 Nord Shoulderarmor"
+	      mesh="sturgia_armlet_02"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_sturgian_valk_armlet"
+	      name="{=kotk_t2_sturgian_valk_armlet}T2 Valkyrjur Armlet"
+	      mesh="t2_sturgian_valk_armlet"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_forestpeople_shoulder_armor_01"
+	      name="{=kotk_t2_forestpeople_shoulder_armor_01}T2 Forest People Shoulderarmor"
+	      mesh="forestpeople_t2_shoulder"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_shoulder_armor_01"
+	      name="{=kotk_t3_sturgian_shoulder_armor_01}T3 Nord Shoulderarmor"
+	      mesh="sturgia_armlet_02"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_sturgian_valk_armlet"
+	      name="{=kotk_t3_sturgian_valk_armlet}T3 Valkyrjur Armlet"
+	      mesh="t3_sturgian_valk_armlet"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_fur_cloak"
+	      name="{=kotk_kotk_fur_cloak}T3 KOTK Fur Cloak"
+	      mesh="kotk_fur_cloak"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_forestpeople_shoulder_armor_01"
+	      name="{=kotk_t3_forestpeople_shoulder_armor_01}T3 Forest People Shoulderarmor"
+	      mesh="forestpeople_t3_shoulder"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_shoulder_armor_01"
+	      name="{=kotk_t4_sturgian_shoulder_armor_01}T4 Nord Shoulderarmor"
+	      mesh="sturgia_armlet_01"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_sturgian_valk_armlet"
+	      name="{=kotk_t4_sturgian_valk_armlet}T4 Valkyrjur Armlet"
+	      mesh="t4_sturgian_valk_armlet"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_armored_bearskin"
+	      name="{=kotk_kotk_armored_bearskin}T4 KOTK Armored Bearskin"
+	      mesh="kotk_armored_bearskin"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_forestpeople_shoulder_armor_01"
+	      name="{=kotk_t4_forestpeople_shoulder_armor_01}T4 Forest People Shoulderarmor"
+	      mesh="forestpeople_t4_shoulder"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_shoulder_armor_01"
+	      name="{=kotk_t5_sturgian_shoulder_armor_01}T5 Nord Shoulderarmor"
+	      mesh="sturgia_armlet_01"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_sturgian_valk_armlet"
+	      name="{=kotk_t5_sturgian_valk_armlet}T5 Valkyrjur Armlet"
+	      mesh="t5_sturgian_valk_armlet"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_cloak_fur_c"
+	      name="{=kotk_kotk_cloak_fur_c}T5 KOTK Bear Cloak with Round Plate"
+	      mesh="kotk_cloak_fur_c"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="svana_shoulder"
+	      name="{=kotk_svana_shoulder}T6 Nord Shoulderarmor"
+	      mesh="svana_shoulder"
+	      culture="Culture.nord"
+	      weight="3.0"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_shoulder_armor_01"
+	      name="{=kotk_t6_sturgian_shoulder_armor_01}T6 Nord Shoulderarmor"
+	      mesh="sturgia_armlet_01"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_shoulder_armor_02"
+	      name="{=kotk_t6_sturgian_shoulder_armor_02}T6 Nord Shoulderarmor"
+	      mesh="sturgia_t6_gear_01_armlet"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_shoulder_armor_03"
+	      name="{=kotk_t6_sturgian_shoulder_armor_03}T6 Nord Shoulderarmor"
+	      mesh="sturgia_t6_gear_02_armlet"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_shoulder_armor_04"
+	      name="{=kotk_t6_sturgian_shoulder_armor_04}T6 Nord Shoulderarmor"
+	      mesh="sturgia_t6_gear_03_armlet"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_sturgian_valk_armlet"
+	      name="{=kotk_t6_sturgian_valk_armlet}T6 Valkyrjur Armlet"
+	      mesh="t6_sturgian_valk_armlet"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_demon_kang_shoulder_original"
+	      name="{=kotk_t6_demon_kang_shoulder_original}T6 Demoness Shoulderarmor"
+	      mesh="t6_demon_kang_shoulder_original"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_nn_viking_shoulder_original"
+	      name="{=kotk_t6_nn_viking_shoulder_original}T6 Nord Hero Shoulderarmor"
+	      mesh="t6_nn_viking_shoulder_original"
+	      culture="Culture.nord"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t2_vlandia_shoulder_armor_01"
+	      name="{=kotk_t2_vlandia_shoulder_armor_01}T2 Vlandian Shoulderarmor"
+	      mesh="vlandia_gear_01_armlet"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      appearance="2"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="thottingham_t3_shoulder"
+	      name="{=kotk_thottingham_t3_shoulder}T3 Thottingham Shoulderarmor"
+	      mesh="thottingham_t2_shoulder"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_vlandia_shoulder_armor_01"
+	      name="{=kotk_t3_vlandia_shoulder_armor_01}T3 Vlandian Shoulderarmor"
+	      mesh="vlandia_gear_02_armlet"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_bimbo_shoulder"
+	      name="{=kotk_t3_bimbo_shoulder}T3 Bimbo Shoulderarmor"
+	      mesh="t3_bimbo_shoulder"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t3_western_mercenary_shoulder_armor_01"
+	      name="{=kotk_t3_western_mercenary_shoulder_armor_01}T3 Western Mercenary Shoulderarmor"
+	      mesh="mercenary_archer_armor_02_armlet"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      appearance="3"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="2"
+			       arm_armor="4"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bimbo_light_armor_shoulders"
+	      name="{=kotk_t4_bimbo_light_armor_shoulders}T4 Bimbo Light Sholderarmor"
+	      mesh="t4_bimbo_light_armor_shoulders"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandian_og_archer_shoulder"
+	      name="{=kotk_t4_vlandian_og_archer_shoulder}T4 Vlandian Archer Shoulderarmor"
+	      mesh="t4_vlandian_og_archer_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandian_bimbo_archer_shoulder"
+	      name="{=kotk_t4_vlandian_bimbo_archer_shoulder}T4 Bimbo Archer Shoulderarmor"
+	      mesh="t4_vlandian_bimbo_archer_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_bimbo_shoulder"
+	      name="{=kotk_t4_bimbo_shoulder}T4 Bimbo Shoulderarmor"
+	      mesh="t4_bimbo_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_vlandia_shoulder_armor_01"
+	      name="{=kotk_t4_vlandia_shoulder_armor_01}T4 Vlandian Shoulderarmor"
+	      mesh="vlandia_gear_03_armlet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_kardia_shoulder"
+	      name="{=kotk_t4_t4_kardia_shoulder}T4 Noble Vlandian Shoulderarmor"
+	      mesh="t4_kardia_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t4_western_mercenary_shoulder_armor_01"
+	      name="{=kotk_t4_western_mercenary_shoulder_armor_01}T4 Western Mercenary Shoulderarmor"
+	      mesh="vlandia_gear_03_armlet"
+	      culture="Culture.vlandia"
+	      weight="3.0"
+	      appearance="4"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="10"
+			       arm_armor="8"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_kardia_shoulder"
+	      name="{=kotk_t5_vlandia_shoulder_armor_01}T5 Gendarme Shoulderarmor"
+	      mesh="t5_kardia_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_bimboknight_shoulders"
+	      name="{=kotk_t6_bimboknight_shoulders}T5 Bimboknight Shoulderarmor"
+	      mesh="t6_bimboknight_shoulders"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_vlandia_shoulder_armor_01"
+	      name="{=kotk_t5_vlandia_shoulder_armor_01}T5 Vlandian Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t5_western_mercenary_shoulder_armor_01"
+	      name="{=kotk_t5_western_mercenary_shoulder_armor_01}T5 Western Mercenary Shoulderarmor"
+	      mesh="vlandia_gear_03_armlet"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="5"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="6"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_royal_armor_shoulders"
+	      name="{=kotk_t6_royal_armor_shoulders}T6 Gold Royal Shoulderarmor"
+	      mesh="t6_royal_armor_shoulders"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_shoulder_armor_01"
+	      name="{=kotk_t6_vlandia_shoulder_armor_01}T6 Vlandian Shoulderarmor"
+	      mesh="vlandia_gear_04_armlet"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="skull_t6_shoulders_gold"
+	      name="{=kotk_skull_t6_shoulders_gold}T6 Gold Skull Shoulders"
+	      mesh="skull_t6_shoulders_gold"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="skull_t6_shoulders_black_worn"
+	      name="{=kotk_skull_t6_shoulders_black_worn}T6 Black Skull Shoulders"
+	      mesh="skull_t6_shoulders_black_worn"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandian_shoulder_black"
+	      name="{=kotk_t6_vlandian_shoulder_black}T6 Vlandian Shoulderarmor"
+	      mesh="t6_vlandian_shoulder_black"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_slayer_shoulders_lowpoly_black_gold"
+	      name="{=kotk_kotk_slayer_shoulders_lowpoly_black_gold}T6 KotK Slayer Black Shoulders"
+	      mesh="kotk_slayer_shoulders_lowpoly_black_gold"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_slayer_shoulders_lowpoly_black"
+	      name="{=kotk_kotk_slayer_shoulders_lowpoly_black}T6 KotK Slayer Faction Shoulders"
+	      mesh="kotk_slayer_shoulders_lowpoly_black"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandian_shoulder_faction"
+	      name="{=kotk_t6_vlandian_shoulder_faction}T6 Vlandian Shoulderarmor"
+	      mesh="t6_vlandian_shoulder_faction"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandian_shoulder_silver"
+	      name="{=kotk_t6_vlandian_shoulder_silver}T6 Vlandian Shoulderarmor"
+	      mesh="t6_vlandian_shoulder_silver"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandian_shoulder_gold"
+	      name="{=kotk_t6_vlandian_shoulder_gold}T6 Vlandian Shoulderarmor"
+	      mesh="t6_vlandian_shoulder_gold"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_new_dragon_shoulder"
+	      name="{=kotk_t6_new_dragon_shoulder}T6 Gold Dragon Shoulderarmor"
+	      mesh="t6_new_dragon_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_new_dragon_shoulder_black"
+	      name="{=kotk_t6_new_dragon_shoulder_black}T6 Black Dragon Shoulderarmor"
+	      mesh="t6_new_dragon_shoulder_black"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_new_plate_silver_hd_shoulder"
+	      name="{=kotk_t6_vlandia_new_plate_silver_hd_shoulder}T6 Vlandian Faction Shoulderarmor"
+	      mesh="t6_vlandia_new_plate_silver_hd_shoulder"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_shoulder_armor_01"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_shoulder_armor_01}T6 Vlandian Cavaliers de Fer Shoulderarmor"
+	      mesh="battania_t6_shoulder_hero"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="t6_silvind_waifu_shoulders"
+	      name="{=kotk_t6_silvind_waifu_shoulders}T6 Silvind's Shoulderarmor"
+	      mesh="t6_silvind_waifu_shoulders"
+	      culture="Culture.vlandia"
+	      weight="3.5"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+			       arm_armor="10"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"
+		       UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_pauldron_over_scale_armor"
+	      name="{=kotk_kotk_pauldron_over_scale_armor}KOTK Vlandian Noble Pauldrons over Scale"
+	      mesh="kotk_pauldron_over_scale_armor"
+	      culture="Culture.vlandia"
+	      is_merchandise="false"
+	      weight="11.4"
+	      appearance="8"
+	      Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="15"
+			       arm_armor="12"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+</Items>

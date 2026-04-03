@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<NPCCharacter id="t2_nympho"
+	              default_group="Infantry"
+	              is_female="true"
+	              is_hero="false"
+	              level="11"
+	              name="{=kotk_t2_nympho}T2 Nympho Acolyte"
+	              occupation="Soldier"
+	              is_basic_troop="true"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="40"/>
+			<skill id="Riding"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="40"/>
+			<skill id="TwoHanded"
+			       value="40"/>
+			<skill id="Polearm"
+			       value="20"/>
+			<skill id="Bow"
+			       value="5"/>
+			<skill id="Crossbow"
+			       value="5"/>
+			<skill id="Throwing"
+			       value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t3_nympho"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_nympho_beatstick"/>
+				<equipment slot="Item1"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Item2"
+				           id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_02_new_alt_1"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_nympho_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_nympho_beatstick"/>
+				<equipment slot="Item1"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Item2"
+				           id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t2_nympho_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_nympho_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_nympho_beatstick"/>
+				<equipment slot="Item1"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Item2"
+				           id="Item.heater_shield_with_cutout"/>
+				<equipment slot="Head"
+				           id="Item.t2_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t2_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_02_new_alt_2"/>
+				<equipment slot="Gloves"
+				           id="Item.t2_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t2_nympho_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t3_nympho"
+	              default_group="Infantry"
+	              is_female="true"
+	              is_hero="false"
+	              level="16"
+	              name="{=kotk_t3_nympho}T3 Nympho Disciple"
+	              occupation="Soldier"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="70"/>
+			<skill id="Riding"
+			       value="40"/>
+			<skill id="OneHanded"
+			       value="70"/>
+			<skill id="TwoHanded"
+			       value="70"/>
+			<skill id="Polearm"
+			       value="40"/>
+			<skill id="Bow"
+			       value="10"/>
+			<skill id="Crossbow"
+			       value="10"/>
+			<skill id="Throwing"
+			       value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t4_nympho"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t3_nympho_beatstick"/>
+				<equipment slot="Item3"
+				           id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_01_new_alt_1"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_nympho_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t3_nympho_beatstick"/>
+				<equipment slot="Item3"
+				           id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_nympho_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_nympho_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t3_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t3_nympho_beatstick"/>
+				<equipment slot="Item3"
+				           id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head"
+				           id="Item.t3_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_01_new_alt_2"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_nympho_leg_armor_04"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t4_nympho"
+	              default_group="Infantry"
+	              is_female="true"
+	              is_hero="false"
+	              level="21"
+	              name="{=kotk_t4_nympho}T4 Nympho Zealot"
+	              occupation="Soldier"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="100"/>
+			<skill id="Riding"
+			       value="60"/>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="100"/>
+			<skill id="Polearm"
+			       value="45"/>
+			<skill id="Bow"
+			       value="15"/>
+			<skill id="Crossbow"
+			       value="15"/>
+			<skill id="Throwing"
+			       value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t5_nympho"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t4_nympho_beatstick"/>
+				<equipment slot="Item2"
+				           id="Item.battania_targe_b"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t4_nympho_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_nympho_leg_armor_03"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t4_nympho_beatstick"/>
+				<equipment slot="Item2"
+				           id="Item.battania_targe_b"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_02_corset_red_alt_2"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_nympho_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t4_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.t4_nympho_beatstick"/>
+				<equipment slot="Item2"
+				           id="Item.battania_targe_b"/>
+				<equipment slot="Head"
+				           id="Item.t4_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t4_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.nympho_gear_02_corset_red_alt_1"/>
+				<equipment slot="Gloves"
+				           id="Item.t4_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t4_nympho_leg_armor_02"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t5_nympho"
+	              default_group="Infantry"
+	              is_female="true"
+	              is_hero="false"
+	              level="26"
+	              name="{=kotk_t5_nympho}T5 Shibari Enthusiast"
+	              occupation="Soldier"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="130"/>
+			<skill id="Riding"
+			       value="20"/>
+			<skill id="OneHanded"
+			       value="130"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="80"/>
+			<skill id="Bow"
+			       value="20"/>
+			<skill id="Crossbow"
+			       value="20"/>
+			<skill id="Throwing"
+			       value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.t6_nympho"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.steppe_guardian_shield"/>
+				<equipment slot="Item2"
+				           id="Item.t5_nympho_beatstick"/>
+				<equipment slot="Head"
+				           id="Item.t5_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t5_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t5_nympho_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t5_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t5_nympho_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="t6_nympho"
+	              default_group="Infantry"
+	              is_female="true"
+	              level="31"
+	              name="{=kotk_t6_nympho}T6 Dominatrix"
+	              occupation="Soldier"
+	              culture="Culture.empire">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics"
+			       value="200"/>
+			<skill id="Riding"
+			       value="60"/>
+			<skill id="OneHanded"
+			       value="200"/>
+			<skill id="TwoHanded"
+			       value="260"/>
+			<skill id="Polearm"
+			       value="60"/>
+			<skill id="Bow"
+			       value="60"/>
+			<skill id="Crossbow"
+			       value="25"/>
+			<skill id="Throwing"
+			       value="45"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.pussy_shield_01"/>
+				<equipment slot="Item2"
+				           id="Item.t5_nympho_beatstick"/>
+				<equipment slot="Head"
+				           id="Item.t6_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_nympho_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_nympho_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t5_eggplant_01"/>
+				<equipment slot="Item1"
+				           id="Item.pussy_shield_01"/>
+				<equipment slot="Item2"
+				           id="Item.t5_nympho_beatstick"/>
+				<equipment slot="Head"
+				           id="Item.t6_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_nympho_leotard_newuv"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_nympho_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t5_nympho_blade"/>
+				<equipment slot="Item1"
+				           id="Item.pussy_shield_01"/>
+				<equipment slot="Item2"
+				           id="Item.t5_nympho_beatstick"/>
+				<equipment slot="Head"
+				           id="Item.t6_nympho_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t6_nympho_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t6_nympho_leotard_newuv_alt_01"/>
+				<equipment slot="Gloves"
+				           id="Item.t6_nympho_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t6_nympho_leg_armor_05"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

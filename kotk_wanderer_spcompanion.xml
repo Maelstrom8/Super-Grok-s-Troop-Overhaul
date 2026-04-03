@@ -1,0 +1,3285 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NPCCharacters>
+	<NPCCharacter id="wanderer_destroyer"
+	              name="{=kotk_wanderer_destroyer}{FIRSTNAME} the Dick Destroyer"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.iron_battania_2hsword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="124"/>
+			<skill id="TwoHanded"
+			       value="61"/>
+			<skill id="Polearm"
+			       value="128"/>
+			<skill id="Bow"
+			       value="64"/>
+			<skill id="Crossbow"
+			       value="106"/>
+			<skill id="Throwing"
+			       value="73"/>
+			<skill id="Athletics"
+			       value="61"/>
+			<skill id="Riding"
+			       value="150"/>
+			<skill id="Scouting"
+			       value="88"/>
+			<skill id="Roguery"
+			       value="100"/>
+			<skill id="Charm"
+			       value="93"/>
+			<skill id="Leadership"
+			       value="100"/>
+			<skill id="Trade"
+			       value="146"/>
+			<skill id="Steward"
+			       value="102"/>
+			<skill id="Tactics"
+			       value="144"/>
+			<skill id="Engineering"
+			       value="82"/>
+			<skill id="Medicine"
+			       value="118"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_perky"
+	              name="{=kotk_wanderer_perky}{FIRSTNAME} the Ever Perky"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="101"/>
+			<skill id="TwoHanded"
+			       value="105"/>
+			<skill id="Polearm"
+			       value="66"/>
+			<skill id="Bow"
+			       value="111"/>
+			<skill id="Crossbow"
+			       value="144"/>
+			<skill id="Throwing"
+			       value="119"/>
+			<skill id="Athletics"
+			       value="120"/>
+			<skill id="Riding"
+			       value="63"/>
+			<skill id="Scouting"
+			       value="118"/>
+			<skill id="Roguery"
+			       value="138"/>
+			<skill id="Charm"
+			       value="119"/>
+			<skill id="Leadership"
+			       value="135"/>
+			<skill id="Trade"
+			       value="66"/>
+			<skill id="Steward"
+			       value="73"/>
+			<skill id="Tactics"
+			       value="119"/>
+			<skill id="Engineering"
+			       value="130"/>
+			<skill id="Medicine"
+			       value="135"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_thunderjuggs"
+	              name="{=kotk_wanderer_thunderjuggs}{FIRSTNAME} Thunderjuggs"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="95"/>
+			<skill id="TwoHanded"
+			       value="75"/>
+			<skill id="Polearm"
+			       value="76"/>
+			<skill id="Bow"
+			       value="131"/>
+			<skill id="Crossbow"
+			       value="79"/>
+			<skill id="Throwing"
+			       value="116"/>
+			<skill id="Athletics"
+			       value="140"/>
+			<skill id="Riding"
+			       value="137"/>
+			<skill id="Scouting"
+			       value="101"/>
+			<skill id="Roguery"
+			       value="149"/>
+			<skill id="Charm"
+			       value="133"/>
+			<skill id="Leadership"
+			       value="111"/>
+			<skill id="Trade"
+			       value="80"/>
+			<skill id="Steward"
+			       value="152"/>
+			<skill id="Tactics"
+			       value="130"/>
+			<skill id="Engineering"
+			       value="113"/>
+			<skill id="Medicine"
+			       value="68"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_roastbeef"
+	              name="{=kotk_wanderer_roastbeef}{FIRSTNAME} the Mega Beefcurtains"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="124"/>
+			<skill id="TwoHanded"
+			       value="84"/>
+			<skill id="Polearm"
+			       value="73"/>
+			<skill id="Bow"
+			       value="117"/>
+			<skill id="Crossbow"
+			       value="139"/>
+			<skill id="Throwing"
+			       value="103"/>
+			<skill id="Athletics"
+			       value="120"/>
+			<skill id="Riding"
+			       value="98"/>
+			<skill id="Scouting"
+			       value="144"/>
+			<skill id="Roguery"
+			       value="111"/>
+			<skill id="Charm"
+			       value="150"/>
+			<skill id="Leadership"
+			       value="83"/>
+			<skill id="Trade"
+			       value="85"/>
+			<skill id="Steward"
+			       value="125"/>
+			<skill id="Tactics"
+			       value="73"/>
+			<skill id="Engineering"
+			       value="70"/>
+			<skill id="Medicine"
+			       value="62"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_emp_trader"
+	              name="{=kotk_wanderer_emp_trader}{FIRSTNAME} the Spermburping Guttersnipe"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1"
+				           id="Item.curved_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="89"/>
+			<skill id="TwoHanded"
+			       value="82"/>
+			<skill id="Polearm"
+			       value="153"/>
+			<skill id="Bow"
+			       value="71"/>
+			<skill id="Crossbow"
+			       value="156"/>
+			<skill id="Throwing"
+			       value="141"/>
+			<skill id="Athletics"
+			       value="90"/>
+			<skill id="Riding"
+			       value="94"/>
+			<skill id="Scouting"
+			       value="80"/>
+			<skill id="Roguery"
+			       value="131"/>
+			<skill id="Charm"
+			       value="69"/>
+			<skill id="Leadership"
+			       value="117"/>
+			<skill id="Trade"
+			       value="63"/>
+			<skill id="Steward"
+			       value="159"/>
+			<skill id="Tactics"
+			       value="83"/>
+			<skill id="Engineering"
+			       value="110"/>
+			<skill id="Medicine"
+			       value="97"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_busty_theif"
+	              name="{=kotk_wanderer_busty_theif}{FIRSTNAME} the Busty Theif"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="71"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="74"/>
+			<skill id="Bow"
+			       value="62"/>
+			<skill id="Crossbow"
+			       value="125"/>
+			<skill id="Throwing"
+			       value="132"/>
+			<skill id="Athletics"
+			       value="64"/>
+			<skill id="Riding"
+			       value="134"/>
+			<skill id="Scouting"
+			       value="104"/>
+			<skill id="Roguery"
+			       value="116"/>
+			<skill id="Charm"
+			       value="89"/>
+			<skill id="Leadership"
+			       value="127"/>
+			<skill id="Trade"
+			       value="134"/>
+			<skill id="Steward"
+			       value="157"/>
+			<skill id="Tactics"
+			       value="142"/>
+			<skill id="Engineering"
+			       value="94"/>
+			<skill id="Medicine"
+			       value="140"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_rhagaea_simp"
+	              name="{=kotk_wanderer_rhagaea_simp}{FIRSTNAME} the Rhagaea Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.iron_battania_2hsword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="142"/>
+			<skill id="TwoHanded"
+			       value="138"/>
+			<skill id="Polearm"
+			       value="136"/>
+			<skill id="Bow"
+			       value="85"/>
+			<skill id="Crossbow"
+			       value="123"/>
+			<skill id="Throwing"
+			       value="134"/>
+			<skill id="Athletics"
+			       value="74"/>
+			<skill id="Riding"
+			       value="71"/>
+			<skill id="Scouting"
+			       value="97"/>
+			<skill id="Roguery"
+			       value="147"/>
+			<skill id="Charm"
+			       value="80"/>
+			<skill id="Leadership"
+			       value="101"/>
+			<skill id="Trade"
+			       value="103"/>
+			<skill id="Steward"
+			       value="77"/>
+			<skill id="Tactics"
+			       value="140"/>
+			<skill id="Engineering"
+			       value="98"/>
+			<skill id="Medicine"
+			       value="156"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_ira_simp"
+	              name="{=kotk_wanderer_ira_simp}{FIRSTNAME} the Ira Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.empire"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_empire"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.iron_battania_2hsword_4_t4"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_empire"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="121"/>
+			<skill id="TwoHanded"
+			       value="61"/>
+			<skill id="Polearm"
+			       value="112"/>
+			<skill id="Bow"
+			       value="134"/>
+			<skill id="Crossbow"
+			       value="60"/>
+			<skill id="Throwing"
+			       value="87"/>
+			<skill id="Athletics"
+			       value="97"/>
+			<skill id="Riding"
+			       value="154"/>
+			<skill id="Scouting"
+			       value="142"/>
+			<skill id="Roguery"
+			       value="62"/>
+			<skill id="Charm"
+			       value="123"/>
+			<skill id="Leadership"
+			       value="142"/>
+			<skill id="Trade"
+			       value="64"/>
+			<skill id="Steward"
+			       value="68"/>
+			<skill id="Tactics"
+			       value="88"/>
+			<skill id="Engineering"
+			       value="114"/>
+			<skill id="Medicine"
+			       value="80"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_thief"
+	              name="{=kotk_wanderer_thief}{FIRSTNAME} the Ass Assassin"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_bandit_blade_02"/>
+				<equipment slot="Item1"
+				           id="Item.western_javelin_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_imperial_head_armor_gold"/>
+				<equipment slot="Cape"
+				           id="Item.t3_imperial_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_imperial_body_armor_leather"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_imperial_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_imperial_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="160"/>
+			<skill id="TwoHanded"
+			       value="65"/>
+			<skill id="Polearm"
+			       value="90"/>
+			<skill id="Bow"
+			       value="107"/>
+			<skill id="Crossbow"
+			       value="140"/>
+			<skill id="Throwing"
+			       value="94"/>
+			<skill id="Athletics"
+			       value="146"/>
+			<skill id="Riding"
+			       value="152"/>
+			<skill id="Scouting"
+			       value="141"/>
+			<skill id="Roguery"
+			       value="91"/>
+			<skill id="Charm"
+			       value="133"/>
+			<skill id="Leadership"
+			       value="61"/>
+			<skill id="Trade"
+			       value="64"/>
+			<skill id="Steward"
+			       value="87"/>
+			<skill id="Tactics"
+			       value="160"/>
+			<skill id="Engineering"
+			       value="121"/>
+			<skill id="Medicine"
+			       value="139"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_jizz_mopper"
+	              name="{=kotk_wanderer_jizz_mopper}{FIRSTNAME} the Jizz Mopper"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="102"/>
+			<skill id="Polearm"
+			       value="124"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="Crossbow"
+			       value="107"/>
+			<skill id="Throwing"
+			       value="139"/>
+			<skill id="Athletics"
+			       value="104"/>
+			<skill id="Riding"
+			       value="83"/>
+			<skill id="Scouting"
+			       value="85"/>
+			<skill id="Roguery"
+			       value="64"/>
+			<skill id="Charm"
+			       value="102"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="158"/>
+			<skill id="Steward"
+			       value="111"/>
+			<skill id="Tactics"
+			       value="81"/>
+			<skill id="Engineering"
+			       value="152"/>
+			<skill id="Medicine"
+			       value="145"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_sivlind_simp"
+	              name="{=kotk_wanderer_sivlind_simp}{FIRSTNAME} the Silvind Simp"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="72"/>
+			<skill id="TwoHanded"
+			       value="76"/>
+			<skill id="Polearm"
+			       value="114"/>
+			<skill id="Bow"
+			       value="80"/>
+			<skill id="Crossbow"
+			       value="130"/>
+			<skill id="Throwing"
+			       value="145"/>
+			<skill id="Athletics"
+			       value="139"/>
+			<skill id="Riding"
+			       value="85"/>
+			<skill id="Scouting"
+			       value="147"/>
+			<skill id="Roguery"
+			       value="139"/>
+			<skill id="Charm"
+			       value="148"/>
+			<skill id="Leadership"
+			       value="118"/>
+			<skill id="Trade"
+			       value="107"/>
+			<skill id="Steward"
+			       value="116"/>
+			<skill id="Tactics"
+			       value="153"/>
+			<skill id="Engineering"
+			       value="65"/>
+			<skill id="Medicine"
+			       value="112"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_calatild_simp"
+	              name="{=kotk_wanderer_calatild_simp}{FIRSTNAME} the Calatild Simp"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="103"/>
+			<skill id="TwoHanded"
+			       value="130"/>
+			<skill id="Polearm"
+			       value="91"/>
+			<skill id="Bow"
+			       value="73"/>
+			<skill id="Crossbow"
+			       value="81"/>
+			<skill id="Throwing"
+			       value="86"/>
+			<skill id="Athletics"
+			       value="120"/>
+			<skill id="Riding"
+			       value="99"/>
+			<skill id="Scouting"
+			       value="148"/>
+			<skill id="Roguery"
+			       value="101"/>
+			<skill id="Charm"
+			       value="120"/>
+			<skill id="Leadership"
+			       value="108"/>
+			<skill id="Trade"
+			       value="118"/>
+			<skill id="Steward"
+			       value="63"/>
+			<skill id="Tactics"
+			       value="62"/>
+			<skill id="Engineering"
+			       value="79"/>
+			<skill id="Medicine"
+			       value="83"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_nikita_simp"
+	              name="{=kotk_wanderer_nikita_simp}{FIRSTNAME} the Nikita Bellucci Simp"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="83"/>
+			<skill id="TwoHanded"
+			       value="132"/>
+			<skill id="Polearm"
+			       value="109"/>
+			<skill id="Bow"
+			       value="127"/>
+			<skill id="Crossbow"
+			       value="75"/>
+			<skill id="Throwing"
+			       value="127"/>
+			<skill id="Athletics"
+			       value="148"/>
+			<skill id="Riding"
+			       value="108"/>
+			<skill id="Scouting"
+			       value="73"/>
+			<skill id="Roguery"
+			       value="119"/>
+			<skill id="Charm"
+			       value="90"/>
+			<skill id="Leadership"
+			       value="148"/>
+			<skill id="Trade"
+			       value="98"/>
+			<skill id="Steward"
+			       value="111"/>
+			<skill id="Tactics"
+			       value="148"/>
+			<skill id="Engineering"
+			       value="136"/>
+			<skill id="Medicine"
+			       value="70"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_derthert_secret"
+	              name="{=kotk_wanderer_derthert_secret}{FIRSTNAME} the Harem Attendant"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="122"/>
+			<skill id="TwoHanded"
+			       value="82"/>
+			<skill id="Polearm"
+			       value="76"/>
+			<skill id="Bow"
+			       value="102"/>
+			<skill id="Crossbow"
+			       value="146"/>
+			<skill id="Throwing"
+			       value="69"/>
+			<skill id="Athletics"
+			       value="60"/>
+			<skill id="Riding"
+			       value="81"/>
+			<skill id="Scouting"
+			       value="71"/>
+			<skill id="Roguery"
+			       value="96"/>
+			<skill id="Charm"
+			       value="103"/>
+			<skill id="Leadership"
+			       value="136"/>
+			<skill id="Trade"
+			       value="68"/>
+			<skill id="Steward"
+			       value="76"/>
+			<skill id="Tactics"
+			       value="62"/>
+			<skill id="Engineering"
+			       value="95"/>
+			<skill id="Medicine"
+			       value="79"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_vlandian_governer"
+	              name="{=kotk_wanderer_vlandian_governer}{FIRSTNAME} the Busty Nanny"
+	              age="18"
+	              is_female="true"
+	              voice="earnest"
+	              culture="Culture.vlandia"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_vlandia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.thiccc_peasant_2haxe_1_t1"/>
+				<equipment slot="Item1"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item2"
+				           id="Item.bolt_d"/>
+				<equipment slot="Item3"
+				           id="Item.crossbow_b"/>
+				<equipment slot="Head"
+				           id="Item.t3_vlandia_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_vlandia_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_vlandia_body_armor_02"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_vlandia_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_vlandia_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_vlandia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="116"/>
+			<skill id="TwoHanded"
+			       value="105"/>
+			<skill id="Polearm"
+			       value="147"/>
+			<skill id="Bow"
+			       value="126"/>
+			<skill id="Crossbow"
+			       value="150"/>
+			<skill id="Throwing"
+			       value="92"/>
+			<skill id="Athletics"
+			       value="152"/>
+			<skill id="Riding"
+			       value="68"/>
+			<skill id="Scouting"
+			       value="72"/>
+			<skill id="Roguery"
+			       value="80"/>
+			<skill id="Charm"
+			       value="137"/>
+			<skill id="Leadership"
+			       value="130"/>
+			<skill id="Trade"
+			       value="67"/>
+			<skill id="Steward"
+			       value="69"/>
+			<skill id="Tactics"
+			       value="149"/>
+			<skill id="Engineering"
+			       value="125"/>
+			<skill id="Medicine"
+			       value="98"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_tactics"
+	              name="{=kotk_wanderer_tactics}{FIRSTNAME} the Busty Tactician"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.nordic_shortbow"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="95"/>
+			<skill id="TwoHanded"
+			       value="158"/>
+			<skill id="Polearm"
+			       value="153"/>
+			<skill id="Bow"
+			       value="142"/>
+			<skill id="Crossbow"
+			       value="149"/>
+			<skill id="Throwing"
+			       value="95"/>
+			<skill id="Athletics"
+			       value="119"/>
+			<skill id="Riding"
+			       value="79"/>
+			<skill id="Scouting"
+			       value="77"/>
+			<skill id="Roguery"
+			       value="147"/>
+			<skill id="Charm"
+			       value="92"/>
+			<skill id="Leadership"
+			       value="120"/>
+			<skill id="Trade"
+			       value="142"/>
+			<skill id="Steward"
+			       value="107"/>
+			<skill id="Tactics"
+			       value="71"/>
+			<skill id="Engineering"
+			       value="132"/>
+			<skill id="Medicine"
+			       value="89"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_svana_whore"
+	              name="{=kotk_wanderer_svana_whore}{FIRSTNAME} the Svana Boob Fanatic"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item3"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="148"/>
+			<skill id="TwoHanded"
+			       value="90"/>
+			<skill id="Polearm"
+			       value="67"/>
+			<skill id="Bow"
+			       value="105"/>
+			<skill id="Crossbow"
+			       value="120"/>
+			<skill id="Throwing"
+			       value="77"/>
+			<skill id="Athletics"
+			       value="90"/>
+			<skill id="Riding"
+			       value="120"/>
+			<skill id="Scouting"
+			       value="120"/>
+			<skill id="Roguery"
+			       value="133"/>
+			<skill id="Charm"
+			       value="150"/>
+			<skill id="Leadership"
+			       value="64"/>
+			<skill id="Trade"
+			       value="75"/>
+			<skill id="Steward"
+			       value="71"/>
+			<skill id="Tactics"
+			       value="103"/>
+			<skill id="Engineering"
+			       value="66"/>
+			<skill id="Medicine"
+			       value="92"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_siga_whore"
+	              name="{=kotk_wanderer_siga_whore}{FIRSTNAME} the Siga Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item3"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="124"/>
+			<skill id="TwoHanded"
+			       value="71"/>
+			<skill id="Polearm"
+			       value="65"/>
+			<skill id="Bow"
+			       value="148"/>
+			<skill id="Crossbow"
+			       value="90"/>
+			<skill id="Throwing"
+			       value="121"/>
+			<skill id="Athletics"
+			       value="101"/>
+			<skill id="Riding"
+			       value="75"/>
+			<skill id="Scouting"
+			       value="128"/>
+			<skill id="Roguery"
+			       value="90"/>
+			<skill id="Charm"
+			       value="95"/>
+			<skill id="Leadership"
+			       value="78"/>
+			<skill id="Trade"
+			       value="138"/>
+			<skill id="Steward"
+			       value="132"/>
+			<skill id="Tactics"
+			       value="91"/>
+			<skill id="Engineering"
+			       value="150"/>
+			<skill id="Medicine"
+			       value="110"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_apolanea_whore"
+	              name="{=kotk_wanderer_apolanea_whore}{FIRSTNAME} the Apolanea Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item3"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="140"/>
+			<skill id="TwoHanded"
+			       value="135"/>
+			<skill id="Polearm"
+			       value="81"/>
+			<skill id="Bow"
+			       value="77"/>
+			<skill id="Crossbow"
+			       value="61"/>
+			<skill id="Throwing"
+			       value="100"/>
+			<skill id="Athletics"
+			       value="155"/>
+			<skill id="Riding"
+			       value="136"/>
+			<skill id="Scouting"
+			       value="143"/>
+			<skill id="Roguery"
+			       value="155"/>
+			<skill id="Charm"
+			       value="130"/>
+			<skill id="Leadership"
+			       value="149"/>
+			<skill id="Trade"
+			       value="80"/>
+			<skill id="Steward"
+			       value="94"/>
+			<skill id="Tactics"
+			       value="83"/>
+			<skill id="Engineering"
+			       value="134"/>
+			<skill id="Medicine"
+			       value="94"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_dakhila_whore"
+	              name="{=kotk_wanderer_dakhila_whore}{FIRSTNAME} the Gerontophilia Fanatic"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item3"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="107"/>
+			<skill id="TwoHanded"
+			       value="158"/>
+			<skill id="Polearm"
+			       value="124"/>
+			<skill id="Bow"
+			       value="89"/>
+			<skill id="Crossbow"
+			       value="74"/>
+			<skill id="Throwing"
+			       value="77"/>
+			<skill id="Athletics"
+			       value="86"/>
+			<skill id="Riding"
+			       value="90"/>
+			<skill id="Scouting"
+			       value="60"/>
+			<skill id="Roguery"
+			       value="142"/>
+			<skill id="Charm"
+			       value="107"/>
+			<skill id="Leadership"
+			       value="131"/>
+			<skill id="Trade"
+			       value="151"/>
+			<skill id="Steward"
+			       value="156"/>
+			<skill id="Tactics"
+			       value="129"/>
+			<skill id="Engineering"
+			       value="133"/>
+			<skill id="Medicine"
+			       value="86"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_sootikin_bandit"
+	              name="{=kotk_wanderer_sootikin_bandit}{FIRSTNAME} the Sootikin Bandit"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.sturgia"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_sturgia"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.sturgia_old_shield_b"/>
+				<equipment slot="Item1"
+				           id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2"
+				           id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item3"
+				           id="Item.t1_harpoon_01"/>
+				<equipment slot="Head"
+				           id="Item.t3_sturgian_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_sturgian_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_sturgian_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_sturgian_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_sturgian_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_sturgia"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="76"/>
+			<skill id="TwoHanded"
+			       value="111"/>
+			<skill id="Polearm"
+			       value="127"/>
+			<skill id="Bow"
+			       value="153"/>
+			<skill id="Crossbow"
+			       value="106"/>
+			<skill id="Throwing"
+			       value="68"/>
+			<skill id="Athletics"
+			       value="68"/>
+			<skill id="Riding"
+			       value="104"/>
+			<skill id="Scouting"
+			       value="95"/>
+			<skill id="Roguery"
+			       value="137"/>
+			<skill id="Charm"
+			       value="70"/>
+			<skill id="Leadership"
+			       value="87"/>
+			<skill id="Trade"
+			       value="101"/>
+			<skill id="Steward"
+			       value="67"/>
+			<skill id="Tactics"
+			       value="60"/>
+			<skill id="Engineering"
+			       value="89"/>
+			<skill id="Medicine"
+			       value="83"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_archer"
+	              name="{=kotk_wanderer_archer}{FIRSTNAME} the Always Wet"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="156"/>
+			<skill id="TwoHanded"
+			       value="103"/>
+			<skill id="Polearm"
+			       value="107"/>
+			<skill id="Bow"
+			       value="140"/>
+			<skill id="Crossbow"
+			       value="156"/>
+			<skill id="Throwing"
+			       value="93"/>
+			<skill id="Athletics"
+			       value="66"/>
+			<skill id="Riding"
+			       value="104"/>
+			<skill id="Scouting"
+			       value="139"/>
+			<skill id="Roguery"
+			       value="158"/>
+			<skill id="Charm"
+			       value="100"/>
+			<skill id="Leadership"
+			       value="112"/>
+			<skill id="Trade"
+			       value="94"/>
+			<skill id="Steward"
+			       value="143"/>
+			<skill id="Tactics"
+			       value="127"/>
+			<skill id="Engineering"
+			       value="121"/>
+			<skill id="Medicine"
+			       value="60"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_meatlover"
+	              name="{=kotk_wanderer_meatlover}{FIRSTNAME} the Battanian Meat Lover"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="85"/>
+			<skill id="TwoHanded"
+			       value="87"/>
+			<skill id="Polearm"
+			       value="108"/>
+			<skill id="Bow"
+			       value="114"/>
+			<skill id="Crossbow"
+			       value="79"/>
+			<skill id="Throwing"
+			       value="150"/>
+			<skill id="Athletics"
+			       value="138"/>
+			<skill id="Riding"
+			       value="155"/>
+			<skill id="Scouting"
+			       value="83"/>
+			<skill id="Roguery"
+			       value="88"/>
+			<skill id="Charm"
+			       value="120"/>
+			<skill id="Leadership"
+			       value="147"/>
+			<skill id="Trade"
+			       value="85"/>
+			<skill id="Steward"
+			       value="113"/>
+			<skill id="Tactics"
+			       value="159"/>
+			<skill id="Engineering"
+			       value="70"/>
+			<skill id="Medicine"
+			       value="123"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_corein_simp"
+	              name="{=kotk_wanderer_corein_simp}{FIRSTNAME} the Corein Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.glen_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_sword_2_t3"/>
+				<equipment slot="Item2"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.barbed_arrows"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="157"/>
+			<skill id="TwoHanded"
+			       value="62"/>
+			<skill id="Polearm"
+			       value="67"/>
+			<skill id="Bow"
+			       value="112"/>
+			<skill id="Crossbow"
+			       value="160"/>
+			<skill id="Throwing"
+			       value="116"/>
+			<skill id="Athletics"
+			       value="152"/>
+			<skill id="Riding"
+			       value="119"/>
+			<skill id="Scouting"
+			       value="115"/>
+			<skill id="Roguery"
+			       value="80"/>
+			<skill id="Charm"
+			       value="132"/>
+			<skill id="Leadership"
+			       value="72"/>
+			<skill id="Trade"
+			       value="145"/>
+			<skill id="Steward"
+			       value="91"/>
+			<skill id="Tactics"
+			       value="95"/>
+			<skill id="Engineering"
+			       value="80"/>
+			<skill id="Medicine"
+			       value="84"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_ladogual_simp"
+	              name="{=kotk_wanderer_ladogual_simp}{FIRSTNAME} the Ladogual Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t3_brawler_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="125"/>
+			<skill id="TwoHanded"
+			       value="84"/>
+			<skill id="Polearm"
+			       value="96"/>
+			<skill id="Bow"
+			       value="145"/>
+			<skill id="Crossbow"
+			       value="156"/>
+			<skill id="Throwing"
+			       value="145"/>
+			<skill id="Athletics"
+			       value="115"/>
+			<skill id="Riding"
+			       value="69"/>
+			<skill id="Scouting"
+			       value="112"/>
+			<skill id="Roguery"
+			       value="78"/>
+			<skill id="Charm"
+			       value="89"/>
+			<skill id="Leadership"
+			       value="88"/>
+			<skill id="Trade"
+			       value="130"/>
+			<skill id="Steward"
+			       value="129"/>
+			<skill id="Tactics"
+			       value="87"/>
+			<skill id="Engineering"
+			       value="137"/>
+			<skill id="Medicine"
+			       value="152"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_caladawg"
+	              name="{=kotk_wanderer_caladawg}{FIRSTNAME} the Caladog Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="-1"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t3_brawler_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="118"/>
+			<skill id="TwoHanded"
+			       value="121"/>
+			<skill id="Polearm"
+			       value="69"/>
+			<skill id="Bow"
+			       value="106"/>
+			<skill id="Crossbow"
+			       value="68"/>
+			<skill id="Throwing"
+			       value="84"/>
+			<skill id="Athletics"
+			       value="73"/>
+			<skill id="Riding"
+			       value="64"/>
+			<skill id="Scouting"
+			       value="81"/>
+			<skill id="Roguery"
+			       value="127"/>
+			<skill id="Charm"
+			       value="139"/>
+			<skill id="Leadership"
+			       value="133"/>
+			<skill id="Trade"
+			       value="60"/>
+			<skill id="Steward"
+			       value="64"/>
+			<skill id="Tactics"
+			       value="131"/>
+			<skill id="Engineering"
+			       value="150"/>
+			<skill id="Medicine"
+			       value="113"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_chosenfurry"
+	              name="{=kotk_wanderer_chosenfurry}{FIRSTNAME} the Chosen Furry"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.battania"
+	              default_group="Ranged"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_battania"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.highland_ranger_bow"/>
+				<equipment slot="Item1"
+				           id="Item.battania_targe_b_sparring"/>
+				<equipment slot="Item2"
+				           id="Item.vlandic_arrows"/>
+				<equipment slot="Item3"
+				           id="Item.t3_brawler_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_battania_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_battania_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_battania_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_battania_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_battania_leg_armor_01"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_battania"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="113"/>
+			<skill id="TwoHanded"
+			       value="150"/>
+			<skill id="Polearm"
+			       value="89"/>
+			<skill id="Bow"
+			       value="60"/>
+			<skill id="Crossbow"
+			       value="64"/>
+			<skill id="Throwing"
+			       value="96"/>
+			<skill id="Athletics"
+			       value="142"/>
+			<skill id="Riding"
+			       value="130"/>
+			<skill id="Scouting"
+			       value="115"/>
+			<skill id="Roguery"
+			       value="60"/>
+			<skill id="Charm"
+			       value="142"/>
+			<skill id="Leadership"
+			       value="153"/>
+			<skill id="Trade"
+			       value="117"/>
+			<skill id="Steward"
+			       value="102"/>
+			<skill id="Tactics"
+			       value="62"/>
+			<skill id="Engineering"
+			       value="84"/>
+			<skill id="Medicine"
+			       value="160"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_cav"
+	              name="{=kotk_wanderer_cav}{FIRSTNAME} the Dick Rider"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item1"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item2"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="128"/>
+			<skill id="TwoHanded"
+			       value="101"/>
+			<skill id="Polearm"
+			       value="135"/>
+			<skill id="Bow"
+			       value="65"/>
+			<skill id="Crossbow"
+			       value="73"/>
+			<skill id="Throwing"
+			       value="138"/>
+			<skill id="Athletics"
+			       value="119"/>
+			<skill id="Riding"
+			       value="146"/>
+			<skill id="Scouting"
+			       value="66"/>
+			<skill id="Roguery"
+			       value="139"/>
+			<skill id="Charm"
+			       value="72"/>
+			<skill id="Leadership"
+			       value="130"/>
+			<skill id="Trade"
+			       value="114"/>
+			<skill id="Steward"
+			       value="95"/>
+			<skill id="Tactics"
+			       value="133"/>
+			<skill id="Engineering"
+			       value="68"/>
+			<skill id="Medicine"
+			       value="90"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_dongchugger"
+	              name="{=kotk_wanderer_dongchugger}{FIRSTNAME} the Dongchugger"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item1"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item2"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="158"/>
+			<skill id="TwoHanded"
+			       value="141"/>
+			<skill id="Polearm"
+			       value="148"/>
+			<skill id="Bow"
+			       value="100"/>
+			<skill id="Crossbow"
+			       value="107"/>
+			<skill id="Throwing"
+			       value="128"/>
+			<skill id="Athletics"
+			       value="83"/>
+			<skill id="Riding"
+			       value="72"/>
+			<skill id="Scouting"
+			       value="110"/>
+			<skill id="Roguery"
+			       value="154"/>
+			<skill id="Charm"
+			       value="71"/>
+			<skill id="Leadership"
+			       value="107"/>
+			<skill id="Trade"
+			       value="76"/>
+			<skill id="Steward"
+			       value="120"/>
+			<skill id="Tactics"
+			       value="108"/>
+			<skill id="Engineering"
+			       value="152"/>
+			<skill id="Medicine"
+			       value="153"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_mela_simp"
+	              name="{=kotk_wanderer_mela_simp}{FIRSTNAME} the Mela Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.footmans_wicker_shield"/>
+				<equipment slot="Item1"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Item2"
+				           id="Item.t2_nympho_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="118"/>
+			<skill id="TwoHanded"
+			       value="157"/>
+			<skill id="Polearm"
+			       value="63"/>
+			<skill id="Bow"
+			       value="61"/>
+			<skill id="Crossbow"
+			       value="159"/>
+			<skill id="Throwing"
+			       value="61"/>
+			<skill id="Athletics"
+			       value="154"/>
+			<skill id="Riding"
+			       value="116"/>
+			<skill id="Scouting"
+			       value="89"/>
+			<skill id="Roguery"
+			       value="104"/>
+			<skill id="Charm"
+			       value="102"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="145"/>
+			<skill id="Steward"
+			       value="98"/>
+			<skill id="Tactics"
+			       value="70"/>
+			<skill id="Engineering"
+			       value="65"/>
+			<skill id="Medicine"
+			       value="136"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_mesui_simp"
+	              name="{=kotk_wanderer_mesui_simp}{FIRSTNAME} the Mesui Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.composite_bow"/>
+				<equipment slot="Item1"
+				           id="Item.steppe_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item3"
+				           id="Item.t3_khuzait_infantry_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="114"/>
+			<skill id="TwoHanded"
+			       value="147"/>
+			<skill id="Polearm"
+			       value="98"/>
+			<skill id="Bow"
+			       value="129"/>
+			<skill id="Crossbow"
+			       value="129"/>
+			<skill id="Throwing"
+			       value="109"/>
+			<skill id="Athletics"
+			       value="67"/>
+			<skill id="Riding"
+			       value="109"/>
+			<skill id="Scouting"
+			       value="112"/>
+			<skill id="Roguery"
+			       value="151"/>
+			<skill id="Charm"
+			       value="85"/>
+			<skill id="Leadership"
+			       value="149"/>
+			<skill id="Trade"
+			       value="131"/>
+			<skill id="Steward"
+			       value="75"/>
+			<skill id="Tactics"
+			       value="136"/>
+			<skill id="Engineering"
+			       value="148"/>
+			<skill id="Medicine"
+			       value="104"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_abagai_simp"
+	              name="{=kotk_wanderer_abagai_simp}{FIRSTNAME} the Abagai Simp"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.composite_bow"/>
+				<equipment slot="Item1"
+				           id="Item.steppe_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item3"
+				           id="Item.t3_khuzait_infantry_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="149"/>
+			<skill id="TwoHanded"
+			       value="148"/>
+			<skill id="Polearm"
+			       value="147"/>
+			<skill id="Bow"
+			       value="157"/>
+			<skill id="Crossbow"
+			       value="118"/>
+			<skill id="Throwing"
+			       value="155"/>
+			<skill id="Athletics"
+			       value="154"/>
+			<skill id="Riding"
+			       value="125"/>
+			<skill id="Scouting"
+			       value="140"/>
+			<skill id="Roguery"
+			       value="159"/>
+			<skill id="Charm"
+			       value="134"/>
+			<skill id="Leadership"
+			       value="65"/>
+			<skill id="Trade"
+			       value="85"/>
+			<skill id="Steward"
+			       value="133"/>
+			<skill id="Tactics"
+			       value="121"/>
+			<skill id="Engineering"
+			       value="149"/>
+			<skill id="Medicine"
+			       value="115"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_yana_fapper"
+	              name="{=kotk_wanderer_yana_fapper}{FIRSTNAME} the Yana Fapper"
+	              age="18"
+	              is_female="true"
+	              voice="curt"
+	              culture="Culture.khuzait"
+	              default_group="Cavalry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_khuzait"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.composite_bow"/>
+				<equipment slot="Item1"
+				           id="Item.steppe_arrows"/>
+				<equipment slot="Item2"
+				           id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item3"
+				           id="Item.t3_khuzait_infantry_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_khuzait_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_khuzait_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_khuzait_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_khuzait_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_khuzait_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.khuzait_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.steppe_fur_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_khuzait"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="126"/>
+			<skill id="TwoHanded"
+			       value="96"/>
+			<skill id="Polearm"
+			       value="95"/>
+			<skill id="Bow"
+			       value="119"/>
+			<skill id="Crossbow"
+			       value="115"/>
+			<skill id="Throwing"
+			       value="115"/>
+			<skill id="Athletics"
+			       value="158"/>
+			<skill id="Riding"
+			       value="99"/>
+			<skill id="Scouting"
+			       value="98"/>
+			<skill id="Roguery"
+			       value="93"/>
+			<skill id="Charm"
+			       value="119"/>
+			<skill id="Leadership"
+			       value="71"/>
+			<skill id="Trade"
+			       value="89"/>
+			<skill id="Steward"
+			       value="71"/>
+			<skill id="Tactics"
+			       value="73"/>
+			<skill id="Engineering"
+			       value="63"/>
+			<skill id="Medicine"
+			       value="107"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_trader"
+	              name="{=kotk_wanderer_trader}{FIRSTNAME} the Golddigger Legend"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="2"/>
+			<Trait id="Calculating"
+			       value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1"
+				           id="Item.curved_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="72"/>
+			<skill id="TwoHanded"
+			       value="105"/>
+			<skill id="Polearm"
+			       value="115"/>
+			<skill id="Bow"
+			       value="152"/>
+			<skill id="Crossbow"
+			       value="153"/>
+			<skill id="Throwing"
+			       value="103"/>
+			<skill id="Athletics"
+			       value="136"/>
+			<skill id="Riding"
+			       value="66"/>
+			<skill id="Scouting"
+			       value="143"/>
+			<skill id="Roguery"
+			       value="62"/>
+			<skill id="Charm"
+			       value="67"/>
+			<skill id="Leadership"
+			       value="149"/>
+			<skill id="Trade"
+			       value="100"/>
+			<skill id="Steward"
+			       value="104"/>
+			<skill id="Tactics"
+			       value="63"/>
+			<skill id="Engineering"
+			       value="86"/>
+			<skill id="Medicine"
+			       value="97"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_arwa_simp"
+	              name="{=kotk_wanderer_arwa_simp}{FIRSTNAME} the Arwa Simp"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="0"/>
+			<Trait id="Mercy"
+			       value="2"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1"
+				           id="Item.curved_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="127"/>
+			<skill id="TwoHanded"
+			       value="96"/>
+			<skill id="Polearm"
+			       value="113"/>
+			<skill id="Bow"
+			       value="79"/>
+			<skill id="Crossbow"
+			       value="64"/>
+			<skill id="Throwing"
+			       value="138"/>
+			<skill id="Athletics"
+			       value="96"/>
+			<skill id="Riding"
+			       value="134"/>
+			<skill id="Scouting"
+			       value="95"/>
+			<skill id="Roguery"
+			       value="100"/>
+			<skill id="Charm"
+			       value="76"/>
+			<skill id="Leadership"
+			       value="157"/>
+			<skill id="Trade"
+			       value="123"/>
+			<skill id="Steward"
+			       value="136"/>
+			<skill id="Tactics"
+			       value="132"/>
+			<skill id="Engineering"
+			       value="102"/>
+			<skill id="Medicine"
+			       value="140"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_zuad_simp"
+	              name="{=kotk_wanderer_zuad_simp}{FIRSTNAME} the Zuad Simp"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1"
+				           id="Item.curved_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="100"/>
+			<skill id="TwoHanded"
+			       value="95"/>
+			<skill id="Polearm"
+			       value="126"/>
+			<skill id="Bow"
+			       value="81"/>
+			<skill id="Crossbow"
+			       value="101"/>
+			<skill id="Throwing"
+			       value="110"/>
+			<skill id="Athletics"
+			       value="152"/>
+			<skill id="Riding"
+			       value="111"/>
+			<skill id="Scouting"
+			       value="96"/>
+			<skill id="Roguery"
+			       value="110"/>
+			<skill id="Charm"
+			       value="62"/>
+			<skill id="Leadership"
+			       value="151"/>
+			<skill id="Trade"
+			       value="105"/>
+			<skill id="Steward"
+			       value="113"/>
+			<skill id="Tactics"
+			       value="121"/>
+			<skill id="Engineering"
+			       value="90"/>
+			<skill id="Medicine"
+			       value="101"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_thiqa_simp"
+	              name="{=kotk_wanderer_thiqa_simp}{FIRSTNAME} the Thiqa Simp"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Item1"
+				           id="Item.curved_round_shield"/>
+				<equipment slot="Item2"
+				           id="Item.empire_lance_1_t3"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="112"/>
+			<skill id="TwoHanded"
+			       value="153"/>
+			<skill id="Polearm"
+			       value="111"/>
+			<skill id="Bow"
+			       value="66"/>
+			<skill id="Crossbow"
+			       value="78"/>
+			<skill id="Throwing"
+			       value="113"/>
+			<skill id="Athletics"
+			       value="111"/>
+			<skill id="Riding"
+			       value="129"/>
+			<skill id="Scouting"
+			       value="95"/>
+			<skill id="Roguery"
+			       value="147"/>
+			<skill id="Charm"
+			       value="64"/>
+			<skill id="Leadership"
+			       value="145"/>
+			<skill id="Trade"
+			       value="75"/>
+			<skill id="Steward"
+			       value="150"/>
+			<skill id="Tactics"
+			       value="84"/>
+			<skill id="Engineering"
+			       value="127"/>
+			<skill id="Medicine"
+			       value="148"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_hotquim"
+	              name="{=kotk_wanderer_hotquim}{FIRSTNAME} the Hot Quim"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="2"/>
+			<Trait id="Mercy"
+			       value="-1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.bound_adarga"/>
+				<equipment slot="Item2"
+				           id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item3"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="112"/>
+			<skill id="TwoHanded"
+			       value="122"/>
+			<skill id="Polearm"
+			       value="100"/>
+			<skill id="Bow"
+			       value="111"/>
+			<skill id="Crossbow"
+			       value="111"/>
+			<skill id="Throwing"
+			       value="126"/>
+			<skill id="Athletics"
+			       value="73"/>
+			<skill id="Riding"
+			       value="68"/>
+			<skill id="Scouting"
+			       value="118"/>
+			<skill id="Roguery"
+			       value="97"/>
+			<skill id="Charm"
+			       value="104"/>
+			<skill id="Leadership"
+			       value="142"/>
+			<skill id="Trade"
+			       value="100"/>
+			<skill id="Steward"
+			       value="102"/>
+			<skill id="Tactics"
+			       value="101"/>
+			<skill id="Engineering"
+			       value="62"/>
+			<skill id="Medicine"
+			       value="83"/>
+		</skills>
+	</NPCCharacter>
+	<NPCCharacter id="wanderer_thot"
+	              name="{=kotk_wanderer_thot}{FIRSTNAME} the THOT"
+	              age="18"
+	              is_female="true"
+	              voice="softspoken"
+	              culture="Culture.aserai"
+	              default_group="Infantry"
+	              is_template="true"
+	              is_hero="false"
+	              occupation="Wanderer">
+		<face>
+			<face_key_template value="BodyProperty.kotk_aserai"/>
+		</face>
+		<Traits>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Mercy"
+			       value="0"/>
+			<Trait id="Generosity"
+			       value="0"/>
+			<Trait id="Calculating"
+			       value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0"
+				           id="Item.eastern_javelin_2_t3"/>
+				<equipment slot="Item1"
+				           id="Item.bound_adarga"/>
+				<equipment slot="Item2"
+				           id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item3"
+				           id="Item.t2_aserai_infantry_blade"/>
+				<equipment slot="Head"
+				           id="Item.t3_eastern_mercenary_head_armor_01"/>
+				<equipment slot="Cape"
+				           id="Item.t3_eastern_mercenary_shoulder_armor_01"/>
+				<equipment slot="Body"
+				           id="Item.t3_eastern_mercenary_body_armor"/>
+				<equipment slot="Gloves"
+				           id="Item.t3_eastern_mercenary_arm_armor_01"/>
+				<equipment slot="Leg"
+				           id="Item.t3_eastern_mercenary_leg_armor_01"/>
+				<equipment slot="Horse"
+				           id="Item.t2_aserai_horse"/>
+				<equipment slot="HorseHarness"
+				           id="Item.aseran_village_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="thiccc_civilian_equipment_roster_aserai"
+			              civilian="true"/>
+		</Equipments>
+		<skills>
+			<skill id="OneHanded"
+			       value="154"/>
+			<skill id="TwoHanded"
+			       value="79"/>
+			<skill id="Polearm"
+			       value="119"/>
+			<skill id="Bow"
+			       value="81"/>
+			<skill id="Crossbow"
+			       value="96"/>
+			<skill id="Throwing"
+			       value="137"/>
+			<skill id="Athletics"
+			       value="155"/>
+			<skill id="Riding"
+			       value="134"/>
+			<skill id="Scouting"
+			       value="124"/>
+			<skill id="Roguery"
+			       value="87"/>
+			<skill id="Charm"
+			       value="121"/>
+			<skill id="Leadership"
+			       value="77"/>
+			<skill id="Trade"
+			       value="145"/>
+			<skill id="Steward"
+			       value="75"/>
+			<skill id="Tactics"
+			       value="75"/>
+			<skill id="Engineering"
+			       value="88"/>
+			<skill id="Medicine"
+			       value="130"/>
+		</skills>
+	</NPCCharacter>
+</NPCCharacters>

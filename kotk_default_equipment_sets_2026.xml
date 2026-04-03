@@ -1,0 +1,1265 @@
+<EquipmentRosters>
+	<EquipmentRoster id="kotk_khuzait_lady_starting_sets" culture="Culture.khuzait">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_t6_armor_2026_helm"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_t6_armor_2026_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_t6_armor_2026_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_t6_armor_2026_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_t6_armor_2026_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nn_2024_helm"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nn_2024_shoulder"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_nn_2024_bodyarmor_02"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nn_2024_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_nn_2024_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nn_2024_helm_alt_01"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nn_2024_shoulder"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_nn_2024_bodyarmor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nn_2024_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_nn_2024_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nn_2024_helm_red"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nn_2024_shoulder_red"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_nn_2024_bodyarmor_02_red"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nn_2024_gloves_red"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_nn_2024_boots_red"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nn_2024_helm_alt_01_red"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nn_2024_shoulder_red"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_nn_2024_bodyarmor_01_red"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nn_2024_gloves_red"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_nn_2024_boots_red"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nergui_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nergui_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_sturgia_nergui_plate"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nergui_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_wizard_leg_foot_armor_nergui"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_nergui_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nergui_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.dragon_armor_ld_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_nergui_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_nergui_leg_armor"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_helm_faction_gold"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_armlet_bronze"/>
+			<Equipment slot="Body" id="Item.t6_klhuzait_armor_new_leopard"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_leg_armor_05"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_helm_faction_gold"/>
+			<Equipment slot="Cape" id="Item.t6_khuzait_nergui_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_armor_whole_hero_body"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_leg_armor_05"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_head_armor_02"/>
+			<Equipment slot="Cape" id="Item.t6_dragon_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_bodyarmor_alt_03"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_armor_whole_hero_bracer"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_armor_whole_hero_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_head_armor_05"/>
+			<Equipment slot="Cape" id="Item.t6_dragon_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_bodyarmor_alt_02"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_armor_whole_hero_bracer"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_armor_whole_hero_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_head_armor_04"/>
+			<Equipment slot="Cape" id="Item.t6_dragon_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_body_armor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_armor_whole_hero_bracer"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_armor_whole_hero_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t6_khuzait_head_armor_04"/>
+			<Equipment slot="Cape" id="Item.t6_dragon_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_khuzait_bodyarmor_alt_01"/>
+			<Equipment slot="Gloves" id="Item.t6_khuzait_bracer_boot_leopard_bracer"/>
+			<Equipment slot="Leg" id="Item.t6_khuzait_bracer_boot_leopard_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t5_khuzait_newsamurai_helm"/>
+			<Equipment slot="Cape" id="Item.t5_khuzait_newsamurai_shoulder"/>
+			<Equipment slot="Body" id="Item.t5_khuzait_newsamurai_main_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_khuzait_newsamurai_bracer"/>
+			<Equipment slot="Leg" id="Item.t5_khuzait_newsamurai_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.nn_samurai_suit1_helm_og_maps"/>
+			<Equipment slot="Cape" id="Item.nn_samurai_suit1_shoulders_og_maps"/>
+			<Equipment slot="Body" id="Item.nn_samurai_suit1_bodyarmor_og_maps"/>
+			<Equipment slot="Gloves" id="Item.nn_samurai_suit1_arms_og_maps"/>
+			<Equipment slot="Leg" id="Item.nn_samurai_suit1_legs_og_maps"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.nn_samurai_suit2_helm_og_maps"/>
+			<Equipment slot="Cape" id="Item.nn_samurai_suit2_shoulders_og_maps"/>
+			<Equipment slot="Body" id="Item.nn_samurai_suit2_bodyarmor_og_maps"/>
+			<Equipment slot="Gloves" id="Item.nn_samurai_suit2_arms_og_maps"/>
+			<Equipment slot="Leg" id="Item.nn_samurai_suit2_legs_og_maps"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.black_blade_of_disaster"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.nn_samurai_suit3_helm_og_maps"/>
+			<Equipment slot="Cape" id="Item.nn_samurai_suit3_shoulders_og_maps"/>
+			<Equipment slot="Body" id="Item.nn_samurai_suit3_bodyarmor_og_maps"/>
+			<Equipment slot="Gloves" id="Item.nn_samurai_suit3_arms_og_maps"/>
+			<Equipment slot="Leg" id="Item.nn_samurai_suit3_legs_og_maps"/>
+			<Equipment slot="Horse" id="Item.noble_horse_eastern"/>
+			<Equipment slot="HorseHarness" id="Item.saddle_of_aeneas"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_sturgia_lady_starting_sets" culture="Culture.sturgia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_infantry_shield_a"/>
+			<Equipment slot="Item2" id="Item.ridged_2hsword_t4"/>
+			<Equipment slot="Head" id="Item.sturgia_star_guardian_2026_helm"/>
+			<Equipment slot="Cape" id="Item.sturgia_star_guardian_2026_shoulder"/>
+			<Equipment slot="Body" id="Item.sturgia_star_guardian_2026_armor"/>
+			<Equipment slot="Gloves" id="Item.sturgia_star_guardian_2026_bracers"/>
+			<Equipment slot="Leg" id="Item.sturgia_star_guardian_2026_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_infantry_shield_a"/>
+			<Equipment slot="Item2" id="Item.ridged_2hsword_t4"/>
+			<Equipment slot="Head" id="Item.t5_sturgia_noble_2026_helm"/>
+			<Equipment slot="Cape" id="Item.t5_sturgia_noble_2026_shoulders"/>
+			<Equipment slot="Body" id="Item.t5_sturgia_noble_2026_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_sturgia_noble_2026_bracers"/>
+			<Equipment slot="Leg" id="Item.t5_sturgia_noble_2026_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t5_sturgia_infantry_2026_helm"/>
+			<Equipment slot="Cape" id="Item.t5_sturgia_infantry_2026_shoulders"/>
+			<Equipment slot="Body" id="Item.t5_sturgia_infantry_2026_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_sturgia_infantry_2026_bracers"/>
+			<Equipment slot="Leg" id="Item.t5_sturgia_infantry_2026_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.sturgia_2026_archer_helm"/>
+			<Equipment slot="Cape" id="Item.sturgia_2026_archer_shoulder"/>
+			<Equipment slot="Body" id="Item.sturgia_2026_archer_armor"/>
+			<Equipment slot="Gloves" id="Item.sturgia_2026_archer_arms"/>
+			<Equipment slot="Leg" id="Item.sturgia_2026_archer_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.war_razor_2hsword_t4"/>
+			<Equipment slot="Item1" id="Item.noble_bow"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Head" id="Item.t4_sturgia_infantry_2026_helm"/>
+			<Equipment slot="Cape" id="Item.t4_sturgia_infantry_2026_shoulders"/>
+			<Equipment slot="Body" id="Item.t4_sturgia_infantry_2026_armor"/>
+			<Equipment slot="Gloves" id="Item.t4_sturgia_infantry_2026_bracers"/>
+			<Equipment slot="Leg" id="Item.t4_sturgia_infantry_2026_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_nord_lady_starting_sets" culture="Culture.nord">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.nord_long_two_handed_t6"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.cyber_viking_helm"/>
+			<Equipment slot="Cape" id="Item.t6_nn_viking_shoulder_original"/>
+			<Equipment slot="Body" id="Item.t6_nn_viking_body_original_alt_02"/>
+			<Equipment slot="Gloves" id="Item.t6_nn_viking_bracer_original"/>
+			<Equipment slot="Leg" id="Item.t6_nn_viking_boot_original"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.cyber_viking_helm"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgia_coomsviking_plate_alternate_01"/>
+			<Equipment slot="Gloves" id="Item.t6_coomsviking_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t6_coomsviking_boot"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.cyber_viking_helm"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgia_coomsviking_plate_silver"/>
+			<Equipment slot="Gloves" id="Item.t6_coomsviking_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t6_coomsviking_boot"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.cyber_viking_helm"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgia_coomsviking_plate_alternate_03"/>
+			<Equipment slot="Gloves" id="Item.t6_coomsviking_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t6_coomsviking_boot"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.cyber_viking_helm"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgia_coomsviking_plate_gold_alt_1"/>
+			<Equipment slot="Gloves" id="Item.t6_coomsviking_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t6_coomsviking_boot_gold"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t6_sturgian_head_armor_03"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgian_body_armor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_sturgian_leg_armor_05"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t6_sturgian_head_armor_03"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.breast02_armor_metal"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_sea_raider_silver"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t6_sturgian_head_armor_03"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.sturgia_armor_t5_e"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_leg_armor_02"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.sturgian_crown_01_gold"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.breast02_armor_darkgold_metal"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.sturgian_crown_01_gold"/>
+			<Equipment slot="Cape" id="Item.t5_sturgian_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t5_sturgian_body_armor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.sturgian_crown_01_gold"/>
+			<Equipment slot="Cape" id="Item.t5_sturgian_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_03_mod"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.viking_helm_ver_7a"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t5_sturgian_body_armor_03"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.nord_shield_tier_6_b"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t5_sturgian_head_armor_02"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t5_sturgian_berzerker_body_armor_03"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_sturgian_boot_new"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t6_sturgian_valk_helm_brass"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgian_body_armor_04"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_04"/>
+			<Equipment slot="Leg" id="Item.t6_valkyrjur_boots_brass"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.2hs_greataxe_2"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.nord_throwing_axe_1_t3"/>
+			<Equipment slot="Head" id="Item.t6_sturgian_valk_helm_brass"/>
+			<Equipment slot="Cape" id="Item.kotk_cloak_fur_c"/>
+			<Equipment slot="Body" id="Item.t6_sturgian_body_armor_04"/>
+			<Equipment slot="Gloves" id="Item.t6_sturgian_arm_armor_04"/>
+			<Equipment slot="Leg" id="Item.t6_valkyrjur_boots_brass"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.fortunas_choice"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_vlandia_lady_starting_sets" culture="Culture.vlandia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandia_hero_head_armor"/>
+			<Equipment slot="Cape" id="Item.t6_vlandia_new_plate_silver_hd_shoulder"/>
+			<Equipment slot="Body" id="Item.t6_vlandia_hero_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_vlandia_hero_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_vlandia_hero_leg_armor"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandian_swordmaster_armor_helm"/>
+			<Equipment slot="Cape" id="Item.t6_vlandian_swordmaster_armor_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_vlandian_swordmaster_armor_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.t6_vlandian_swordmaster_armor_bracers"/>
+			<Equipment slot="Leg" id="Item.t6_vlandian_swordmaster_armor_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandia_cavaliers_de_fer_head_armor_02"/>
+			<Equipment slot="Cape" id="Item.t6_vlandia_cavaliers_de_fer_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_vlandia_cavaliers_de_fer_body_armor_02"/>
+			<Equipment slot="Gloves" id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandian_sallet_new_silver"/>
+			<Equipment slot="Cape" id="Item.t6_vlandian_shoulder_faction"/>
+			<Equipment slot="Body" id="Item.t6_vlandian_armor_newuv_faction"/>
+			<Equipment slot="Gloves" id="Item.vlandia_t5_bracer_faction"/>
+			<Equipment slot="Leg" id="Item.t6_vlandia_new_plate_silver_hd_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandian_sallet_new_silver"/>
+			<Equipment slot="Cape" id="Item.t6_vlandian_shoulder_faction"/>
+			<Equipment slot="Body" id="Item.t6_vlandia_new_plate_silver_hd_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.vlandia_t5_bracer_faction"/>
+			<Equipment slot="Leg" id="Item.t5_vlandian_boot_faction"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_vlandia_cavaliers_de_fer_head_armor_03"/>
+			<Equipment slot="Cape" id="Item.t6_vlandia_cavaliers_de_fer_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_vlandia_cavaliers_de_fer_body_armor_02"/>
+			<Equipment slot="Gloves" id="Item.t6_vlandia_cavaliers_de_fer_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_vlandia_cavaliers_de_fer_leg_armor"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.skull_t6_helm_gold"/>
+			<Equipment slot="Cape" id="Item.skull_t6_shoulders_gold"/>
+			<Equipment slot="Body" id="Item.skull_t6_bodyarmor_2_gold"/>
+			<Equipment slot="Gloves" id="Item.skull_t6_bracers_gold"/>
+			<Equipment slot="Leg" id="Item.skull_t6_boots_gold"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.skull_t6_helm_gold"/>
+			<Equipment slot="Cape" id="Item.skull_t6_shoulders_gold"/>
+			<Equipment slot="Body" id="Item.skull_t6_bodyarmor_gold"/>
+			<Equipment slot="Gloves" id="Item.skull_t6_bracers_gold"/>
+			<Equipment slot="Leg" id="Item.skull_t6_boots_gold"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.skull_t6_helm_black_worn"/>
+			<Equipment slot="Cape" id="Item.skull_t6_shoulders_black_worn"/>
+			<Equipment slot="Body" id="Item.skull_t6_bodyarmor_2_black_worn"/>
+			<Equipment slot="Gloves" id="Item.skull_t6_bracers_black_worn"/>
+			<Equipment slot="Leg" id="Item.skull_t6_boots_black_worn"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.skull_t6_helm_black_worn"/>
+			<Equipment slot="Cape" id="Item.skull_t6_shoulders_black_worn"/>
+			<Equipment slot="Body" id="Item.skull_t6_bodyarmor_black_worn"/>
+			<Equipment slot="Gloves" id="Item.skull_t6_bracers_black_worn"/>
+			<Equipment slot="Leg" id="Item.skull_t6_boots_black_worn"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_royal_armor_helm"/>
+			<Equipment slot="Cape" id="Item.t6_royal_armor_shoulders"/>
+			<Equipment slot="Body" id="Item.royal_armor_alt_1_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_royal_armor_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_royal_armor_legs_alt_1"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_royal_armor_helm"/>
+			<Equipment slot="Cape" id="Item.t6_royal_armor_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_royal_armor_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.t6_royal_armor_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_royal_armor_legs_alt_1"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_royal_armor_helm"/>
+			<Equipment slot="Cape" id="Item.t6_royal_armor_shoulders"/>
+			<Equipment slot="Body" id="Item.royal_armor_alt_1_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_royal_armor_gloves"/>
+			<Equipment slot="Leg" id="Item.t6_royal_armor_legs"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_royal_armor_helm"/>
+			<Equipment slot="Cape" id="Item.lineage_suit_shoulders"/>
+			<Equipment slot="Body" id="Item.lineage_suit_bodyarmor_alt_1"/>
+			<Equipment slot="Gloves" id="Item.lineage_suit_arms"/>
+			<Equipment slot="Leg" id="Item.lineage_suit_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item2" id="Item.t6_vlandian_noble_blade"/>
+			<Equipment slot="Head" id="Item.t6_royal_armor_helm"/>
+			<Equipment slot="Cape" id="Item.lineage_suit_shoulders"/>
+			<Equipment slot="Body" id="Item.lineage_suit_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.lineage_suit_arms"/>
+			<Equipment slot="Leg" id="Item.lineage_suit_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_western"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_empire_lady_starting_sets" culture="Culture.empire">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_imperial_head_armor_hero_gold"/>
+			<Equipment slot="Cape" id="Item.t6_imperial_shoulder_armor_gold"/>
+			<Equipment slot="Body" id="Item.t6_imperial_hero_body_armor_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_hero_arm_armor_gold"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_heavy_boot_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_imperial_noble_2026_silver_helm"/>
+			<Equipment slot="Cape" id="Item.t6_imperial_noble_2026_silver_shoulder"/>
+			<Equipment slot="Body" id="Item.t6_imperial_noble_2026_silver_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_noble_2026_silver_bracers"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_noble_2026_silver_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_imperial_head_armor_hero_silver"/>
+			<Equipment slot="Cape" id="Item.t6_imperial_shoulder_armor_gold"/>
+			<Equipment slot="Body" id="Item.t6_imperial_hero_body_armor_silver"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_hero_arm_armor_silver"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_leg_armor_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_huntress_headband_original"/>
+			<Equipment slot="Cape" id="Item.t6_elite_imperial_shoulders_gold"/>
+			<Equipment slot="Body" id="Item.t6_elite_imperial_body_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_elite_imperial_bracer_gold"/>
+			<Equipment slot="Leg" id="Item.t6_elite_imperial_boots_gold"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_huntress_headband_original"/>
+			<Equipment slot="Cape" id="Item.t6_elite_imperial_shoulders_gold"/>
+			<Equipment slot="Body" id="Item.t6_elite_imperial_body_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_huntress_bracer_original"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_heavy_boot_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.simpavliaton_helm_gold"/>
+			<Equipment slot="Cape" id="Item.t6_elite_imperial_shoulders_gold"/>
+			<Equipment slot="Body" id="Item.t6_elite_imperial_hero_2025"/>
+			<Equipment slot="Gloves" id="Item.t6_huntress_bracer_original"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_heavy_boot_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.imperial_t5_artemis_helm_gold"/>
+			<Equipment slot="Cape" id="Item.t5_artemis_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.imperial_t5_archer_new"/>
+			<Equipment slot="Gloves" id="Item.t5_imperial_artemis_bracer"/>
+			<Equipment slot="Leg" id="Item.t5_imperial_artemis_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.imperial_t5_artemis_helm_gold"/>
+			<Equipment slot="Cape" id="Item.t5_artemis_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.t5_imperial_simpavliaton_body_armor_silver"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t5_imperial_leg_armor_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.imperial_helm_t5_new_gold"/>
+			<Equipment slot="Cape" id="Item.t5_artemis_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.t5_imperial_simpavliaton_body_armor_silver"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t5_imperial_leg_armor_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.simpavliaton_helm_silver"/>
+			<Equipment slot="Cape" id="Item.t5_artemis_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.imperial_nipple_armor_faction"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_bracer_heavy_faction"/>
+			<Equipment slot="Leg" id="Item.t5_imperial_leg_armor_silver"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t5_imperial_horselord_helm_alt_01"/>
+			<Equipment slot="Cape" id="Item.t5_artemis_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.t5_imperial_simpavliaton_body_armor_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_imperial_bracer_heavy_gold"/>
+			<Equipment slot="Leg" id="Item.t6_imperial_leg_armor_gold"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.kotk_gladiator_helm"/>
+			<Equipment slot="Cape" id="Item.bdsm_gladiator_shoulders"/>
+			<Equipment slot="Body" id="Item.bdsm_gladiator_bodyarmor_alt_1"/>
+			<Equipment slot="Gloves" id="Item.bdsm_gladiator_arms"/>
+			<Equipment slot="Leg" id="Item.bdsm_gladiator_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.kotk_gladiator_helm"/>
+			<Equipment slot="Cape" id="Item.bdsm_gladiator_shoulders"/>
+			<Equipment slot="Body" id="Item.bdsm_gladiator_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.bdsm_gladiator_arms"/>
+			<Equipment slot="Leg" id="Item.bdsm_gladiator_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.kotk_gladiator_helm"/>
+			<Equipment slot="Cape" id="Item.kotk_gladiator_shoulders"/>
+			<Equipment slot="Body" id="Item.kotk_gladiator_body"/>
+			<Equipment slot="Gloves" id="Item.kotk_gladiator_arms"/>
+			<Equipment slot="Leg" id="Item.kotk_gladiator_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t6_huntress_headband_faction"/>
+			<Equipment slot="Cape" id="Item.t6_huntress_shoulder_faction"/>
+			<Equipment slot="Body" id="Item.t6_huntress_bodyarmor_faction_alt_02"/>
+			<Equipment slot="Gloves" id="Item.t6_huntress_bracer_faction"/>
+			<Equipment slot="Leg" id="Item.t6_huntress_boot_faction"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.pussy_shield_01"/>
+			<Equipment slot="Item3" id="Item.t6_comatasa_blade"/>
+			<Equipment slot="Head" id="Item.t5_imperial_gladiator_helm_with_fin_gold"/>
+			<Equipment slot="Cape" id="Item.t5_imperial_shoulder_armor_gold"/>
+			<Equipment slot="Body" id="Item.t6_slavecoast_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_golden_warrior_bracer"/>
+			<Equipment slot="Leg" id="Item.t5_imperial_leg_armor_gold_simp"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_aserai_lady_starting_sets" culture="Culture.aserai">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t6_jackal_helm"/>
+			<Equipment slot="Cape" id="Item.t6_aserai_waifu_2025_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_aserai_waifu_2025_armor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_aserai_waifu_2025_arms"/>
+			<Equipment slot="Leg" id="Item.t6_aserai_waifu_2025_legs"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t6_aserai_hero_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_aserai_hero_shoulder_armor"/>
+			<Equipment slot="Body" id="Item.t6_aserai_hero_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_aserai_hero_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_aserai_hero_leg_armor"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t6_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t6_underboob_body_armor_original"/>
+			<Equipment slot="Gloves" id="Item.t6_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_aserai_leg_armor_05"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t6_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t6_aserai_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_aserai_leg_armor_05"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.immortal_mask_brass"/>
+			<Equipment slot="Cape" id="Item.marid_scale_shoulder_e"/>
+			<Equipment slot="Body" id="Item.marid_suit_brass"/>
+			<Equipment slot="Gloves" id="Item.marid_bracer"/>
+			<Equipment slot="Leg" id="Item.marid_boot"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor_04"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_aserai_leg_armor_02"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor_05"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_aserai_boot_new_black_gold"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor_01"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor_02"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.ornate_adarga"/>
+			<Equipment slot="Item3" id="Item.kaskara_2hsword_t3"/>
+			<Equipment slot="Head" id="Item.t5_aserai_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t5_aserai_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.t5_aserai_body_armor_03"/>
+			<Equipment slot="Gloves" id="Item.t5_aserai_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t5_aserai_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.mail_and_plate_barding"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="kotk_battania_lady_starting_sets" culture="Culture.battania">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_battania_hero_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_battania_hero_shoulder_armor_03"/>
+			<Equipment slot="Body" id="Item.t6_battania_hero_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_hero_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_hero_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_battania_hero_head_armor_03"/>
+			<Equipment slot="Cape" id="Item.t6_battania_hero_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t6_battania_hero_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_hero_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_hero_leg_armor_01"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_wolf_helm_gold"/>
+			<Equipment slot="Cape" id="Item.t6_wolf_shoulder_gold"/>
+			<Equipment slot="Body" id="Item.battania_t6_coinarmor_green"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_wolf_helm_silver"/>
+			<Equipment slot="Cape" id="Item.t6_wolf_shoulder_silver"/>
+			<Equipment slot="Body" id="Item.battania_t6_armor_alt_02"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_battania_head_armor_01"/>
+			<Equipment slot="Cape" id="Item.t6_wolf_shoulder_gold"/>
+			<Equipment slot="Body" id="Item.t6_battania_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_faction_gold"/>
+			<Equipment slot="Cape" id="Item.t6_battania_hero_shoulder_armor_02"/>
+			<Equipment slot="Body" id="Item.darkcrown_suit_gold"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_3_gold"/>
+			<Equipment slot="Cape" id="Item.t6_battania_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.darkcrown_suit_silver"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_4_gold"/>
+			<Equipment slot="Cape" id="Item.t6_battania_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.darkcrown_suit_green"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_2_gold"/>
+			<Equipment slot="Cape" id="Item.t6_wolf_shoulder_silver"/>
+			<Equipment slot="Body" id="Item.t6_gwydion_bodyarmor_01"/>
+			<Equipment slot="Gloves" id="Item.t6_battania_arm_armor_01"/>
+			<Equipment slot="Leg" id="Item.t6_battania_leg_armor_06"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_galloglaigh_helm_01"/>
+			<Equipment slot="Cape" id="Item.t6_galloglaigh_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_galloglaigh_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.t6_galloglaigh_bracers"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_galloglaigh_helm"/>
+			<Equipment slot="Cape" id="Item.t6_galloglaigh_shoulders"/>
+			<Equipment slot="Body" id="Item.t6_galloglaigh_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.t6_galloglaigh_bracers"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_4_gold"/>
+			<Equipment slot="Cape" id="Item.t6_galloglaigh_shoulders"/>
+			<Equipment slot="Body" id="Item.t5_battania_body_armor_barb_gold"/>
+			<Equipment slot="Gloves" id="Item.t5_battania_arm_armor_02"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_4_gold"/>
+			<Equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.battania_t5_armor_02"/>
+			<Equipment slot="Gloves" id="Item.t5_battania_arm_armor_02"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_2_gold"/>
+			<Equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t5_battania_body_armor"/>
+			<Equipment slot="Gloves" id="Item.t5_battania_arm_armor_02"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_2_gold"/>
+			<Equipment slot="Cape" id="Item.t5_battania_shoulder_armor_03"/>
+			<Equipment slot="Body" id="Item.battania_t5_armor_alt_02"/>
+			<Equipment slot="Gloves" id="Item.t6_galloglaigh_bracers"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.kotk_barbarian_headdress"/>
+			<Equipment slot="Cape" id="Item.kotk_barbarian_3_shoulders"/>
+			<Equipment slot="Body" id="Item.kotk_barbarian_3_bodyarmor_alt_1"/>
+			<Equipment slot="Gloves" id="Item.kotk_barbarian_3_arms"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.kotk_barbarian_headdress"/>
+			<Equipment slot="Cape" id="Item.kotk_barbarian_3_shoulders"/>
+			<Equipment slot="Body" id="Item.kotk_barbarian_3_bodyarmor"/>
+			<Equipment slot="Gloves" id="Item.kotk_barbarian_3_arms"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.kotk_barbarian_headdress"/>
+			<Equipment slot="Cape" id="Item.t5_battania_shoulder_armor_01"/>
+			<Equipment slot="Body" id="Item.t4_barbarian_armor_01"/>
+			<Equipment slot="Gloves" id="Item.kotk_barbarian_3_arms"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.darkcrown_4_gold"/>
+			<Equipment slot="Cape" id="Item.t6_kotk_cloak_fur_c_white"/>
+			<Equipment slot="Body" id="Item.battania_t6_coinarmor_green"/>
+			<Equipment slot="Gloves" id="Item.kotk_barbarian_3_arms"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.noble_bow"/>
+			<Equipment slot="Item1" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item2" id="Item.skeet_fire_arrows_mega"/>
+			<Equipment slot="Item3" id="Item.battania_2hsword_5_t5"/>
+			<Equipment slot="Head" id="Item.t6_wolf_helm_silver"/>
+			<Equipment slot="Cape" id="Item.t6_kotk_cloak_fur_c_white"/>
+			<Equipment slot="Body" id="Item.t6_gwydion_bodyarmor_01"/>
+			<Equipment slot="Gloves" id="Item.kotk_barbarian_3_arms"/>
+			<Equipment slot="Leg" id="Item.t6_galloglaigh_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true"/>
+	</EquipmentRoster>
+</EquipmentRosters>

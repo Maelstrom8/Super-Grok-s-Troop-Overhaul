@@ -1,0 +1,98 @@
+<BodyProperties>
+	<BodyProperty id="kotk_khuzait">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="001E000009FC100163B8C87941868498779B870FA8EEF888C67EEEDEC8AE75950700067200C7A5050000000000000000000000000000000000000000780410C3"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="0"
+		                   build="0"
+		                   key="00340C01D2FC0010698B676ADD89177B723D7B6EDBFD69585C97A9E17B68B111060016620024A691000000000000000000000000000000000000000036044003"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_empire">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="0000140BC90000017B93794658A47B648CBA6876AB7C8588C7C4BB797636168A0100071400AAB8B90000000000000000000000000000000000000000040010C3"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="003F8C0FD2FC301554524B779274889B8576D2779A58552C59D774758795966301FEF6140F4A3654000000000000000000000000000000000000000077FC10C3"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_aserai">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="00313400090030015E52895427B8FB9575796769777D7A47CC24B992798A95580200062400B879C600000000000000000000000000000000000000007C042043"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="003F640012FC0001677343968A67954791464A7576DB8A4BD358B8497D53B6AB07BFF6720BC59A690000000000000000000000000000000000000000017C2003"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_battania">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="000024034100300D453C497C68747AA8916C58A9C85518B98B75847C3A1893520690066209AB86730000000000000000000000000000000000000000472420C3"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="000AB80FD2FC0008B8C78A899993B688B48B5878B837C8B57B879938C5B85B1406F006620F89CA8500000000000000000000000000000000000000007FFC0003"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_sturgia">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="1"
+		                   build="0"
+		                   key="00001C00090010011B7213026674749A968B7726758543278B44F71278394B3506F006620F4B175000000000000000000000000000000000000000001DFC10C3"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="0005140013B430012C654B99BBA57D7B9785373999A651AA78C8CCEC77955C960CFEF6C20FE70A59000000000000000000000000000000000000000053FC3043"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_sturgia_alt_1">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="1"
+		                   build="0"
+		                   key="0005140012B430022C654B99BBA57D7B9785373999A651AA78C8CCEC77955C960DC116D20CE70A590000000000000000000000000000000000000000538C3043"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="000068070FE40010776A7BC4C8767889A85B469799583A24DB916477A389668107C016720C89899300000000000000000000000000000000000000005B8C30C3"/>
+	</BodyProperty>	
+	<BodyProperty id="kotk_vlandia">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="0000340149B400107071527435736265B7BE7A79B0614997BAB7F9397C2A987207000672003CBA5A00000000000000000000000000000000000000005C041043"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="0010640712FC0001937028572492B2C7877F875AA7536C989859FD27797983B302FFE6240F6E3949000000000000000000000000000000000000000071FC3043"/>
+	</BodyProperty>
+	<BodyProperty id="kotk_nord">
+		<BodyPropertiesMin version="4"
+		                   age="20"
+		                   weight="0"
+		                   build="0"
+		                   key="00057005401420015D7F1A4BB34FD28DAE696861D5601C469C0FFF3F9B22476900FF06020F9BA4A300000000000000000000000000000000000000003BFC1082"/>
+		<BodyPropertiesMax version="4"
+		                   age="22"
+		                   weight="1"
+		                   build="1"
+		                   key="000054034F00201E699C89C54B9F6374E0B0BC607DA198138C5710FFA0F2301D00FF06030F9EB286000000000000000000000000000000000000000063FC1002"/>
+	</BodyProperty>	
+</BodyProperties>

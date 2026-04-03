@@ -1,0 +1,4056 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Items>
+	<Item id="t2_aserai_arm_armor_01"
+	      name="{=kotk_t2_aserai_arm_armor_01}T2 Aserai Armarmor"
+	      mesh="aserai_t2_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_aserai_arm_armor_02"
+	      name="{=kotk_t2_aserai_arm_armor_02}T2 Aserai Armarmor"
+	      mesh="aserai_t2_bracer_mod_1"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_gulam_bracer"
+	      name="{=kotk_t2_gulam_bracer}T2 Ghulam Bracer"
+	      mesh="t2_gulam_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_aserai_arm_armor_01"
+	      name="{=kotk_t3_aserai_arm_armor_01}T3 Aserai Armarmor"
+	      mesh="aserai_t2_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_eastern_mercenary_arm_armor_01"
+	      name="{=kotk_t3_eastern_mercenary_arm_armor_01}T3 Eastern Mercenary Armarmor"
+	      mesh="mercenary_archer_armor_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_gulam_bracer"
+	      name="{=kotk_t3_gulam_bracer}T3 Ghulam Bracer"
+	      mesh="t3_gulam_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_beni_zilal_bracer"
+	      name="{=kotk_t2_beni_zilal_bracer}T3 Beni Zilal Bracer"
+	      mesh="t2_beni_zilal_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="zd_t4_bracer"
+	      name="{=kotk_zd_t4_bracer}T4 Darawish al-Zephyr Bracer"
+	      mesh="zd_t4_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_aserai_arm_armor_01"
+	      name="{=kotk_t4_aserai_arm_armor_01}T4 Aserai Armarmor"
+	      mesh="aserai_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_ghulam_armarmor_01"
+	      name="{=kotk_t4_ghulam_armarmor_01}T4 Ghulam Armarmor"
+	      mesh="knight3_arms_golden"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_eastern_mercenary_arm_armor_01"
+	      name="{=kotk_t4_eastern_mercenary_arm_armor_01}T4 Eastern Mercenary Armarmor"
+	      mesh="mercenary_archer_armor_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_gulam_bracer"
+	      name="{=kotk_t4_gulam_bracer}T4 Ghulam Bracer"
+	      mesh="t4_gulam_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_beni_zilal_bracer"
+	      name="{=kotk_t4_beni_zilal_bracer}T4 Beni Zilal Bracer"
+	      mesh="t4_beni_zilal_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_aserai_arm_armor_01"
+	      name="{=kotk_t5_aserai_arm_armor_01}T5 Aserai Armarmor"
+	      mesh="aserai_bracer_plate_new"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_eastern_mercenary_arm_armor_01"
+	      name="{=kotk_t5_eastern_mercenary_arm_armor_01}T5 Eastern Mercenary Armarmor"
+	      mesh="mercenary_armor_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_gulam_bracer"
+	      name="{=kotk_t5_gulam_bracer}T5 Ghulam Bracer"
+	      mesh="t5_gulam_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_arm_armor_01"
+	      name="{=kotk_t6_aserai_arm_armor_01}T6 Aserai Armarmor"
+	      mesh="aserai_bracer_plate_new"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_hero_arm_armor_01"
+	      name="{=kotk_t6_aserai_hero_arm_armor_01}T6 Aserai Hero Armarmor"
+	      mesh="aserai_t6_waifu_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.3"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_aserai_arwa_arm_armor_01"
+	      name="{=kotk_t6_aserai_arwa_arm_armor_01}T6 Arwa's Armarmor"
+	      mesh="aserai_t6_waifu_bracer_01"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.3"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="30"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="marid_bracer"
+	      name="{=kotk_marid_bracer}T6 Aserai Marid Armarmor"
+	      mesh="marid_bracer"
+	      subtype="body_armor"
+	      culture="Culture.aserai"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_empire_plated_gauntlets"
+	      name="{=kotk_kotk_empire_plated_gauntlets}KOTK Aserai Noble Vambraces"
+	      mesh="kotk_empire_plated_gauntlets"
+	      culture="Culture.aserai"
+	      is_merchandise="false"
+	      weight="1.4"
+	      appearance="1.3"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       has_gender_variations="true"
+			       covers_hands="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_battania_arm_armor_01"
+	      name="{=kotk_t2_battania_arm_armor_01}T2 Battanian Armarmor"
+	      mesh="t3_battanian_shamen_01_arms"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_battania_arm_armor_01"
+	      name="{=kotk_t3_battania_arm_armor_01}T3 Battanian Armarmor"
+	      mesh="t3_battanian_shamen_01_arms"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_battania_arm_armor_01"
+	      name="{=kotk_t4_battania_arm_armor_01}T4 Battanian Armarmor"
+	      mesh="battania_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_battania_arm_armor_02"
+	      name="{=kotk_t5_battania_arm_armor_01}T5 Battanian Armarmor"
+	      mesh="t4_barbarian_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_barbarian_3_arms"
+	      name="{=kotk_kotk_barbarian_3_arms}T5 Barbarian Armarmor"
+	      mesh="kotk_barbarian_3_arms"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_battania_arm_armor_01"
+	      name="{=kotk_t5_battania_arm_armor_01}T5 Battanian Armarmor"
+	      mesh="battania_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_arm_armor_01"
+	      name="{=kotk_t6_battania_arm_armor_01}T6 Battanian Armarmor"
+	      mesh="battania_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_hero_arm_armor_01"
+	      name="{=kotk_t6_battania_hero_arm_armor_01}T6 Battanian Hero Armarmor"
+	      mesh="battania_t6_bracer_hero"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_battania_corein_arm_armor_01"
+	      name="{=kotk_t6_battania_corein_arm_armor_01}T6 Corein's Armarmor"
+	      mesh="battania_t6_bracer_hero_corein"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.0"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="corein_hero_bracer_2024_green"
+	      name="{=kotk_corein_hero_bracer_2024_green}T6 Corein's Armarmor"
+	      mesh="corein_hero_bracer_2024_green"
+	      subtype="body_armor"
+	      culture="Culture.battania"
+	      weight="1.0"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_battania_noble_bracers"
+	      name="{=kotk_kotk_battania_noble_bracers}KOTK Battanian Fian Bracers"
+	      mesh="kotk_battania_noble_bracers"
+	      culture="Culture.battania"
+	      is_merchandise="false"
+	      weight="0.6"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="18"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="t2_embersofflame_arm_armor_01"
+	      name="{=kotk_t2_embersofflame_arm_armor_01}T2 Embers of the Flame Armarmor"
+	      mesh="embersofflame_t2_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_hidden_hand_arm_armor_01"
+	      name="{=kotk_t2_hidden_hand_arm_armor_01}T2 Hidden Hand Armarmor"
+	      mesh="hidden_hand_bracers_t2"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_imperial_arm_armor_01"
+	      name="{=kotk_t3_imperial_arm_armor_01}T3 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_a"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_faction_bracer_imperial"
+	      name="{=kotk_t3_faction_bracer_imperial}T3 Imperial Armarmor"
+	      mesh="t3_faction_bracer_imperial"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_swordsister_mercenary_arm_armor_01"
+	      name="{=kotk_t3_swordsister_mercenary_arm_armor_01}T3 Sword Sister Mercenary Armarmor"
+	      mesh="sword_sister_armor_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bone_armor_gold_bracer"
+	      name="{=kotk_t3_bone_armor_gold_bracer}T3 Gold Bone Armarmor"
+	      mesh="t3_bone_armor_gold_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bone_armor_bone_bracer"
+	      name="{=kotk_t3_bone_armor_bone_bracer}T3 Bone Armarmor"
+	      mesh="t3_bone_armor_bone_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_embersofflame_arm_armor_01"
+	      name="{=kotk_t3_embersofflame_arm_armor_01}T3 Embers of the Flame Armarmor"
+	      mesh="embersofflame_t3_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_hidden_hand_arm_armor_01"
+	      name="{=kotk_t3_hidden_hand_arm_armor_01}T3 Hidden Hand Armarmor"
+	      mesh="hidden_hand_bracers_t3"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="imperial_hero_civilian_glove_faction"
+	      name="{=kotk_imperial_hero_civilian_glove_faction}T4 Faction Civilian Bracer"
+	      mesh="imperial_hero_bracer_faction"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_rhagaea_civilian_arm_armor_01"
+	      name="{=kotk_t4_rhagaea_civilian_arm_armor_01}T4 Rhagaea's Civilian Armarmor"
+	      mesh="rhagaea_civilian_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_hero_arm_armor_01"
+	      name="{=kotk_t4_imperial_hero_arm_armor_01}T4 Imperial Hero Civilian Armarmor"
+	      mesh="imperial_hero_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_arm_armor_gold"
+	      name="{=kotk_t4_imperial_arm_armor_gold}T4 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_b"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_imperial_arm_armor_silver"
+	      name="{=kotk_t4_imperial_arm_armor_silver}T4 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_c"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+
+	<Item id="t4_swordsister_mercenary_arm_armor_01"
+	      name="{=kotk_t4_swordsister_mercenary_arm_armor_01}T4 Sword Sister Mercenary Armarmor"
+	      mesh="sword_sister_armor_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="se_gulam_bracer"
+	      name="{=kotk_se_gulam_bracer}T4 Southern Empire Bracer"
+	      mesh="se_gulam_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_embersofflame_arm_armor_01"
+	      name="{=kotk_t4_embersofflame_arm_armor_01}T4 Embers of the Flame Armarmor"
+	      mesh="embersofflame_t4_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_hidden_hand_arm_armor_01"
+	      name="{=kotk_t4_hidden_hand_arm_armor_01}T4 Hidden Hand Armarmor"
+	      mesh="hidden_hand_bracers_t4"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_arm_armor_gold"
+	      name="{=kotk_t5_imperial_arm_armor_gold}T5 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_b"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_arm_armor_silver"
+	      name="{=kotk_t5_imperial_arm_armor_silver}T5 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_c"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_imperial_artemis_bracer"
+	      name="{=kotk_t5_imperial_artemis_bracer}T5 Imperial Artemis Armarmor"
+	      mesh="t5_imperial_artemis_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_swordsister_mercenary_arm_armor_01"
+	      name="{=kotk_t5_swordsister_mercenary_arm_armor_01}T5 Sword Sister Mercenary Armarmor"
+	      mesh="sword_sister_armor_03_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="comatasa_bracer"
+	      name="{=kotk_comatasa_bracer}T5 Comatasa's Bracers"
+	      mesh="comatasa_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="embersofflame_t5_bracer"
+	      name="{=kotk_embersofflame_t5_bracer}T5 Embers of the Flame Armarmor"
+	      mesh="embersofflame_t5_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags DoesNotHideChest="false"
+		       UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_hidden_hand_arm_armor_01"
+	      name="{=kotk_t5_hidden_hand_arm_armor_01}T5 Hidden Hand Armarmor"
+	      mesh="hidden_hand_bracers_t4"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_arm_armor_gold"
+	      name="{=kotk_t6_imperial_arm_armor_gold}T6 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_b"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_arm_armor_silver"
+	      name="{=kotk_t6_imperial_arm_armor_silver}T6 Imperial Armarmor"
+	      mesh="imperial_armlet_bracer_01_bracer_c"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_rhagaea_arm_armor_01"
+	      name="{=kotk_t6_rhagaea_arm_armor_01}T6 Rhagaea's Armarmor"
+	      mesh="imperial_t6_bracer_brass"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="30"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_ira_arm_armor_01"
+	      name="{=kotk_t6_ira_arm_armor_01}T6 Ira's Armarmor"
+	      mesh="t6_ira_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="30"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_arm_armor_gold"
+	      name="{=kotk_t6_imperial_hero_arm_armor_gold}T6 Imperial Hero Armarmor"
+	      mesh="imperial_t6_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_hero_arm_armor_silver"
+	      name="{=kotk_t6_imperial_hero_arm_armor_silver}T6 Imperial Hero Armarmor"
+	      mesh="imperial_t6_bracer_silver"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_se_imperial_bracer"
+	      name="{=kotk_t6_se_imperial_bracer}T6 Elite Southern Empire Bracers"
+	      mesh="t6_se_imperial_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_comatasa_bracer_original"
+	      name="{=kotk_t6_comatasa_bracer_original}T6 Comatasa's Armarmor"
+	      mesh="t6_se_imperial_bracer"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_elite_imperial_bracer_gold"
+	      name="{=kotk_t6_elite_imperial_bracer_gold}T6 Elite Imperial Armarmor"
+	      mesh="t6_elite_imperial_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="pethros_jewelry"
+	      name="{=kotk_pethros_jewelry}T6 Jewelry of the TRUE EMPRESS"
+	      mesh="pethros_jewelry"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1"
+	      is_merchandise="true"
+	      appearance="8"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="40"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_bimbo_huntress_bracer_original"
+	      name="{=kotk_t6_bimbo_huntress_bracer_original}T6 Bimbo Huntress Armarmor"
+	      mesh="t6_bimbo_huntress_bracer_original"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_huntress_bracer_faction"
+	      name="{=kotk_t6_huntress_bracer_faction}T6 Huntress Armarmor"
+	      mesh="t6_huntress_bracer_faction"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_huntress_bracer_original"
+	      name="{=kotk_t6_huntress_bracer_original}T6 Elite Huntress Bracer"
+	      mesh="t6_huntress_bracer_original"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_bracer_heavy_faction"
+	      name="{=kotk_t6_imperial_bracer_heavy_faction}T6 Imperial Armarmor"
+	      mesh="t6_imperial_bracer_heavy_faction"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_coomsviking_bracer_heavy_faction"
+	      name="{=kotk_t6_coomsviking_bracer_heavy_faction}T6 Coomsviking Bracer"
+	      mesh="t6_imperial_bracer_heavy_faction"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_bracer_heavy_gold"
+	      name="{=kotk_t6_imperial_bracer_heavy_gold}T6 Imperial Armarmor"
+	      mesh="t6_imperial_bracer_heavy_gold"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_imperial_bracer_heavy_silver"
+	      name="{=kotk_t6_imperial_bracer_heavy_silver}T6 Imperial Armarmor"
+	      mesh="t6_imperial_bracer_heavy_silver"
+	      subtype="body_armor"
+	      culture="Culture.empire"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_reinforced_leather_vambraces"
+	      name="{=kotk_kotk_reinforced_leather_vambraces}KOTK Imperial Noble Bracers"
+	      mesh="kotk_reinforced_leather_vambraces"
+	      culture="Culture.empire"
+	      is_merchandise="false"
+	      weight="1.0"
+	      appearance="4"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       has_gender_variations="true"
+			       covers_hands="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_shibari_arms"
+	      name="{=kotk_t2_shibari_arms}T2 Shibari Bracers"
+	      mesh="t2_shibari_arms"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_khuzait_arm_armor_01"
+	      name="{=kotk_t2_khuzait_arm_armor_01}T2 Khuzait Armarmor"
+	      mesh="khuz_bracer_05"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_oni_bracer"
+	      name="{=kotk_kotk_oni_bracer}T3 Oni Bracers"
+	      mesh="kotk_oni_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_khuzait_newsamurai_bracer"
+	      name="{=kotk_t3_khuzait_newsamurai_bracer}T3 Khuzait Armarmor"
+	      mesh="t3_khuzait_newsamurai_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_khuzait_arm_armor_01"
+	      name="{=kotk_t3_khuzait_arm_armor_01}T3 Khuzait Armarmor"
+	      mesh="khuz_bracer_04"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_khuzait_newsamurai_bracer"
+	      name="{=kotk_t4_khuzait_newsamurai_bracer}T4 Khuzait Armarmor"
+	      mesh="t4_khuzait_newsamurai_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_khuzait_arm_armor_01"
+	      name="{=kotk_t4_khuzait_arm_armor_01}T4 Khuzait Armarmor"
+	      mesh="khuz_bracer_03"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_archer_bracer_ver_1"
+	      name="{=kotk_t5_khuzait_archer_bracer_ver_1}T4 Khuzait Archer Armarmor"
+	      mesh="t5_khuzait_archer_bracer_ver_1"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_newsamurai_bracer"
+	      name="{=kotk_t5_khuzait_newsamurai_bracer}T5 Khuzait  Armarmor"
+	      mesh="t5_khuzait_newsamurai_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_khuzait_arm_armor_01"
+	      name="{=kotk_t5_khuzait_arm_armor_01}T5 Khuzait Armarmor"
+	      mesh="khuz_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit1_arms_og_maps"
+	      name="{=kotk_nn_samurai_suit1_arms_og_maps}T5 Samurai I Bracer"
+	      mesh="nn_samurai_suit1_arms_og_maps"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit2_arms_og_maps"
+	      name="{=kotk_nn_samurai_suit2_arms_og_maps}T5 Samurai II Bracer"
+	      mesh="nn_samurai_suit2_arms_og_maps"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="nn_samurai_suit3_arms_og_maps"
+	      name="{=kotk_nn_samurai_suit3_arms_og_maps}T5 Samurai III Bracer"
+	      mesh="nn_samurai_suit3_arms_og_maps"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="samurai_bracer_red"
+	      name="{=kotk_samurai_bracer_red}T5 Red Samurai Bracer"
+	      mesh="samurai_bracer_red"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="samurai_bracer_black"
+	      name="{=kotk_samurai_bracer_black}T5 Black Samurai Bracer"
+	      mesh="samurai_bracer_black"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_gloves"
+	      name="{=kotk_t6_khuzait_nn_2024_gloves}T6 Khuzait Armarmor"
+	      mesh="t6_khuzait_nn_2024_gloves"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nn_2024_gloves_red"
+	      name="{=kotk_t6_khuzait_nn_2024_gloves_red}T6 Khuzait Armarmor"
+	      mesh="t6_khuzait_nn_2024_gloves_red"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_arm_armor_01"
+	      name="{=kotk_t6_khuzait_arm_armor_01}T6 Khuzait Armarmor"
+	      mesh="khuz_bracer_01"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_armor_whole_hero_bracer"
+	      name="{=kotk_t6_khuzait_armor_whole_hero_bracer}T6 Khuzait Hero Armarmor"
+	      mesh="t6_khuzait_armor_whole_hero_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_bracer_boot_leopard_bracer"
+	      name="{=kotk_t6_khuzait_bracer_boot_leopard_bracer}T6 Khuzait Hero Armarmor"
+	      mesh="t6_khuzait_bracer_boot_leopard_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_khuzait_nergui_arm_armor_01"
+	      name="{=kotk_t6_khuzait_nergui_arm_armor_01}T6 Khuzait Nergui Armarmor"
+	      mesh="t6_nergui_bracer"
+	      subtype="body_armor"
+	      culture="Culture.khuzait"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_plated_leather_armor_glove_b"
+	      name="{=kotk_kotk_plated_leather_armor_glove_b}KOTK Khuzait Noble Vambraces"
+	      mesh="kotk_plated_leather_armor_glove_b"
+	      culture="Culture.khuzait"
+	      is_merchandise="false"
+	      weight="1.7"
+	      appearance="4"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24"
+			       covers_hands="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="kotk_khuzait_heavy_armor_bracer"
+	      name="{=kotk_kotk_khuzait_heavy_armor_bracer}KOTK Khuzait Noble Bracers"
+	      mesh="kotk_khuzait_heavy_armor_bracer"
+	      culture="Culture.khuzait"
+	      weight="1.6"
+	      appearance="7"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24"
+			       covers_hands="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_gold_jewelry_bracelets"
+	      name="{=kotk_t2_gold_jewelry_bracelets}T2 Gold Bracelets"
+	      mesh="t2_gold_jewelry_bracelets"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="slave_suit_iron_hand_shackle"
+	      name="{=kotk_slave_suit_iron_hand_shackle}T2 Iron Slave Shackle"
+	      mesh="slave_suit_iron_hand_shackle"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="slave_suit_gold_hand_shackle"
+	      name="{=kotk_slave_suit_gold_hand_shackle}T2 Gold Slave Shackle"
+	      mesh="slave_suit_gold_hand_shackle"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_nympho_arm_armor_01"
+	      name="{=kotk_t2_nympho_arm_armor_01}T2 Nympho Armarmor"
+	      mesh="nympho_latex_gear_01_glove_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="simple_bracer_t2_leather"
+	      name="{=kotk_simple_bracer_t2_leather}T2 Simple Leather Bracer"
+	      mesh="simple_bracer_t2_leather"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_arm_armor_01"
+	      name="{=kotk_t2_bandit_arm_armor_01}T2 Bandit Armarmor"
+	      mesh="bandit_gear_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_bandit_arm_armor_02"
+	      name="{=kotk_t2_bandit_arm_armor_02}T2 Bandit Armarmor"
+	      mesh="bandit_gear_05_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_barbarian_arms_default"
+	      name="{=kotk_t3_barbarian_arms_default}T3 Barbarian Bracer"
+	      mesh="t3_barbarian_arms_default"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_nympho_arm_armor_01"
+	      name="{=kotk_t3_nympho_arm_armor_01}T3 Nympho Armarmor"
+	      mesh="nympho_latex_gear_01_glove_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="simple_bracer_t3_iron"
+	      name="{=kotk_simple_bracer_t3_iron}T3 Simple Iron Bracer"
+	      mesh="simple_bracer_t3_iron"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_arm_armor_01"
+	      name="{=kotk_t3_bandit_arm_armor_01}T3 Bandit Armarmor"
+	      mesh="bandit_gear_06_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="minthara_glove"
+	      name="{=kotk_minthara_glove}T3 Minthara Bracers"
+	      mesh="minthara_glove"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_arm_armor_02"
+	      name="{=kotk_t3_bandit_arm_armor_02}T3 Bandit Armarmor"
+	      mesh="bandit_gear_03_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bandit_arm_armor_03"
+	      name="{=kotk_t3_bandit_arm_armor_03}T3 Bandit Armarmor"
+	      mesh="bandit_gear_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_blacksmith_arm_armor_01"
+	      name="{=kotk_t3_blacksmith_arm_armor_01}T3 Blacksmith Armarmor"
+	      mesh="blacksmith_gloves_01_a"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_blacksmith_arm_armor_02"
+	      name="{=kotk_t3_blacksmith_arm_armor_02}T3 Blacksmith Armarmor"
+	      mesh="blacksmith_gloves_01_b"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_dryad_arm_armor_01"
+	      name="{=kotk_t3_dryad_arm_armor_01}T3 Dryad Armarmor"
+	      mesh="dryad_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_barbarian_bracer"
+	      name="{=kotk_t4_barbarian_bracer}T4 Barbarian Bracer"
+	      mesh="t4_barbarian_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="goondor_t4_bracer"
+	      name="{=kotk_goondor_t4_bracer}T4 Goondor Bracer"
+	      mesh="goondor_t4_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_emberline_huntress_arms"
+	      name="{=kotk_t4_emberline_huntress_arms}T4 Emberline Huntress Bracer"
+	      mesh="t4_emberline_huntress_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="simple_bracer_t4_silver"
+	      name="{=kotk_simple_bracer_t4_silver}T4 Simple Silver Bracer"
+	      mesh="simple_bracer_t4_silver"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_nympho_arm_armor_01"
+	      name="{=kotk_t4_nympho_arm_armor_01}T4 Nympho Armarmor"
+	      mesh="nympho_latex_gear_01_glove_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_blacksmith_arm_armor_01"
+	      name="{=kotk_t4_blacksmith_arm_armor_01}T4 Blacksmith Armarmor"
+	      mesh="blacksmith_gloves_01_c"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_blacksmith_arm_armor_02"
+	      name="{=kotk_t4_blacksmith_arm_armor_02}T4 Blacksmith Armarmor"
+	      mesh="blacksmith_gloves_01_d"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_dryad_arm_armor_01"
+	      name="{=kotk_t4_dryad_arm_armor_01}T4 Dryad Armarmor"
+	      mesh="dryad_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="goondor_t5_bracer"
+	      name="{=kotk_goondor_t5_bracer}T5 Goondor Bracer"
+	      mesh="goondor_t5_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_gladiator_arms"
+	      name="{=kotk_kotk_gladiator_arms}T5 KotK Gladiator Bracers"
+	      mesh="kotk_gladiator_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bdsm_gladiator_arms"
+	      name="{=kotk_bdsm_gladiator_arms}T5 BDSM Gladiator Bracers"
+	      mesh="bdsm_gladiator_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="shadowheart_gtcarbonbody_bracers"
+	      name="{=kotk_shadowheart_gtcarbonbody_bracers}T5 Shadowheart Bracers"
+	      mesh="shadowheart_gtcarbonbody_bracers"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="simple_bracer_t5_gold"
+	      name="{=kotk_simple_bracer_t5_gold}T5 Simple Gold Bracers"
+	      mesh="simple_bracer_t5_gold"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_nympho_arm_armor_01"
+	      name="{=kotk_t5_nympho_arm_armor_01}T5 Nympho Armarmor"
+	      mesh="nympho_latex_gear_01_glove_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="red_bracer"
+	      name="{=kotk_red_bracer}T5 Red Leather Bracer"
+	      mesh="red_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="black_bracer"
+	      name="{=kotk_black_bracer}T5 Black Leather Bracer"
+	      mesh="black_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+
+	<Item id="t5_dryad_arm_armor_01"
+	      name="{=kotk_t5_dryad_arm_armor_01}T5 Dryad Armarmor"
+	      mesh="dryad_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_iron"
+	      name="{=kotk_t5_plate_armor_new_bracer_iron}T5 Iron Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_iron"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_gold"
+	      name="{=kotk_t5_plate_armor_new_bracer_gold}T5 Gold Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_filthy"
+	      name="{=kotk_t5_plate_armor_new_bracer_filthy}T5 Filthy Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_filthy"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_paint_faction"
+	      name="{=kotk_t5_plate_armor_new_bracer_paint_faction}T5 Paint Faction Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_paint_faction"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_vlandia_red"
+	      name="{=kotk_t5_plate_armor_new_bracer_vlandia_red}T5 Vlandia Red Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_vlandia_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_black"
+	      name="{=kotk_t5_plate_armor_new_bracer_black}T5 Black Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_black"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_silver"
+	      name="{=kotk_t5_plate_armor_new_bracer_silver}T5 Silver Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_silver"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_dragon_scale"
+	      name="{=kotk_t5_plate_armor_new_bracer_dragon_scale}T5 Teal Plate Bracer"
+	      mesh="t5_plate_armor_new_bracer_dragon_scale"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_brass_leopard"
+	      name="{=kotk_t5_plate_armor_new_bracer_brass_leopard}T5 Brass Leopard Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_brass_leopard"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_zebra"
+	      name="{=kotk_t5_plate_armor_new_bracer_zebra}T5 Zebra Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_zebra"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="lineage_suit_arms"
+	      name="{=kotk_lineage_suit_arms}T6 Lineage Bracers"
+	      mesh="lineage_suit_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_whorelord_bracer"
+	      name="{=kotk_t6_whorelord_bracer}T6 Whorelord Bracers"
+	      mesh="t6_whorelord_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_nympho_arm_armor_01"
+	      name="{=kotk_t6_nympho_arm_armor_01}T6 Nympho Armarmor"
+	      mesh="nympho_latex_gear_01_glove_red"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_angel_armor_bracer"
+	      name="{=kotk_t6_angel_armor_bracer}T6 Angel Bracers"
+	      mesh="t6_angel_armor_bracer"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight3_arms_golden"
+	      name="{=kotk_knight3_arms_golden}T6 Golden Knight Bracers"
+	      mesh="knight3_arms_golden"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight_2_darksteel_worn_arms"
+	      name="{=kotk_knight_2_darksteel_worn_arms}T6 Darksteel Bracers"
+	      mesh="knight_2_darksteel_worn_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="knight_2_iron_arms"
+	      name="{=kotk_knight_2_iron_arms}T6 Iron Bracers"
+	      mesh="knight_2_iron_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="bladedancermercenary_bracers"
+	      name="{=kotk_bladedancermercenary_bracers}T6 Blade Dancer Mercenary Bracers"
+	      mesh="kotk_blader_arms"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="24"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_devil_armor_arm_silver"
+	      name="{=kotk_t6_devil_armor_arm_silver}T6 Devil Princess Armarmor"
+	      mesh="t6_devil_armor_arm_silver"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_warrior_princess_bracer_gold"
+	      name="{=kotk_t6_warrior_princess_bracer_gold}T6 Warrior Princess Armarmor"
+	      mesh="t6_warrior_princess_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.neutral_culture"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgian_arm_armor_01"
+	      name="{=kotk_t2_sturgian_arm_armor_01}T2 Nord Armarmor"
+	      mesh="sturgia_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_sturgian_valk_bracer"
+	      name="{=kotk_t2_sturgian_valk_bracer}T2 Valkyrjur Bracers"
+	      mesh="t2_sturgian_valk_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_forestpeople_arm_armor_01"
+	      name="{=kotk_t2_forestpeople_arm_armor_01}T2 Forest People Armarmor"
+	      mesh="forestpeople_t2_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgian_arm_armor_01"
+	      name="{=kotk_t3_sturgian_arm_armor_01}T3 Nord Armarmor"
+	      mesh="sturgia_bracer_02"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_lakerat_recruit_bracer"
+	      name="{=kotk_t3_lakerat_recruit_bracer}T3 Lakerat Bracer"
+	      mesh="t3_lakerat_recruit_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_sturgian_valk_bracer"
+	      name="{=kotk_t3_sturgian_valk_bracer}T3 Valkyrjur Bracers"
+	      mesh="t3_sturgian_valk_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_forestpeople_arm_armor_01"
+	      name="{=kotk_t3_forestpeople_arm_armor_01}T3 Forest People Armarmor"
+	      mesh="forestpeople_t3_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgian_arm_armor_01"
+	      name="{=kotk_t4_sturgian_arm_armor_01}T4 Nord Armarmor"
+	      mesh="sturgia_bracer_01"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_sturgian_valk_bracer"
+	      name="{=kotk_t4_sturgian_valk_bracer}T4 Valkyrjur Bracers"
+	      mesh="sturgian_t6_bracer_boot_01_bracer_a"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_forestpeople_arm_armor_01"
+	      name="{=kotk_t4_forestpeople_arm_armor_01}T4 Forest People Armarmor"
+	      mesh="forestpeople_t4_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_lakerat_recruit_bracer"
+	      name="{=kotk_t5_lakerat_recruit_bracer}T5 Lakerat Bracer"
+	      mesh="t5_lakerat_recruit_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_arm_armor_01"
+	      name="{=kotk_t5_sturgian_arm_armor_01}T5 Nord Armarmor"
+	      mesh="sturgia_bracer_01"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_sturgian_valk_bracer"
+	      name="{=kotk_t5_sturgian_valk_bracer}T5 Valkyrjur Bracers"
+	      mesh="sturgian_t6_bracer_boot_01_bracer_b"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sturgian_arm_armor_01"
+	      name="{=kotk_t6_sturgian_arm_armor_01}T6 Nord Armarmor"
+	      mesh="sturgia_bracer_01"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sturgian_arm_armor_02"
+	      name="{=kotk_t6_sturgian_arm_armor_02}T6 Valkyrjur Gold Arm Armor"
+	      mesh="sturgian_t6_bracer_boot_01_bracer_b"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sturgian_arm_armor_03"
+	      name="{=kotk_t6_sturgian_arm_armor_03}T6 Valkyrjur Silver Arm Armor"
+	      mesh="sturgian_t6_bracer_boot_01_bracer_c"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_sturgian_arm_armor_04"
+	      name="{=kotk_t6_sturgian_arm_armor_04}T6 Valkyrjur Brass Arm Armor"
+	      mesh="sturgian_t6_bracer_boot_01_bracer_d"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_demon_kang_bracer_original"
+	      name="{=kotk_t6_demon_kang_bracer_original}T6 Demoness Armarmor"
+	      mesh="t6_demon_kang_bracer_original"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_nn_viking_bracer_original"
+	      name="{=kotk_t6_nn_viking_bracer_original}T6 Nord Hero Bracers"
+	      mesh="t6_nn_viking_bracer_original"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="svana_bracer"
+	      name="{=kotk_svana_bracer}T6 Svana's Bracer"
+	      mesh="svana_bracer"
+	      subtype="body_armor"
+	      culture="Culture.nord"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_northern_brass_bracers"
+	      name="{=kotk_kotk_northern_brass_bracers}KOTK Nord Noble Bracers"
+	      mesh="kotk_northern_brass_bracers"
+	      culture="Culture.nord"
+	      is_merchandise="false"
+	      weight="1.3"
+	      appearance="1.6"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="t2_bimbo_lingerie_arms"
+	      name="{=kotk_t2_bimbo_lingerie_arms}T2 Bimbo Bracelets"
+	      mesh="t2_bimbo_lingerie_arms"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_vlandia_arm_armor_01"
+	      name="{=kotk_t2_vlandia_arm_armor_01}T2 Vlandian Armarmor"
+	      mesh="vlandia_gear_01_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t2_coftb_bracer"
+	      name="{=kotk_t2_coftb_bracer}T2 Company of the Boar Bracer"
+	      mesh="t2_coftb_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="2">
+		<ItemComponent>
+			<Armor arm_armor="4"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="cloth_unarmoured"
+			       material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_bimbo_bracer"
+	      name="{=kotk_t3_bimbo_bracer}T3 Bimbo Bracers"
+	      mesh="t3_bimbo_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_vlandia_arm_armor_01"
+	      name="{=kotk_t3_vlandia_arm_armor_01}T3 Vlandian Armarmor"
+	      mesh="vlandia_gear_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="thottingham_t3_bracer"
+	      name="{=kotk_thottingham_t3_bracer}T3 Thottingham Bracers"
+	      mesh="thottingham_t2_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_western_mercenary_arm_armor_01"
+	      name="{=kotk_t3_western_mercenary_arm_armor_01}T3 Western Mercenary Armarmor"
+	      mesh="mercenary_archer_armor_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t3_coftb_bracer"
+	      name="{=kotk_t3_coftb_bracer}T3 Company of the Boar Bracer"
+	      mesh="t3_coftb_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="0.4"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="3">
+		<ItemComponent>
+			<Armor arm_armor="10"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="leather"
+			       material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_light_armor_arms"
+	      name="{=kotk_t4_vlandian_light_armor_arms}T4 Bimbo Light Armored Bracers"
+	      mesh="t4_vlandian_light_armor_arms"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_og_archer_glove"
+	      name="{=kotk_t4_vlandian_og_archer_glove}T4 Vlandian Archer Bracers"
+	      mesh="t4_vlandian_og_archer_glove"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandian_bimbo_archer_glove"
+	      name="{=kotk_t4_vlandian_bimbo_archer_glove}T4 Bimbo Archer Bracers"
+	      mesh="t4_vlandian_bimbo_archer_glove"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_bimbo_gloves"
+	      name="{=kotk_t4_bimbo_gloves}T4 Bimbo Armarmor"
+	      mesh="t4_bimbo_gloves"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_vlandia_arm_armor_01"
+	      name="{=kotk_t4_vlandia_arm_armor_01}T4 Vlandian Armarmor"
+	      mesh="vlandia_gear_03_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_western_mercenary_arm_armor_01"
+	      name="{=kotk_t4_western_mercenary_arm_armor_01}T4 Western Mercenary Armarmor"
+	      mesh="mercenary_archer_armor_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_coftb_bracer"
+	      name="{=kotk_t4_coftb_bracer}T4 Company of the Boar Bracer"
+	      mesh="t4_coftb_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t4_kardia_gloves"
+	      name="{=kotk_t4_kardia_gloves}T4 Noble Vlandian"
+	      mesh="t4_kardia_gloves"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="4">
+		<ItemComponent>
+			<Armor arm_armor="20"
+			       covers_hands="true"
+			       has_gender_variations="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_bimboknight_arms"
+	      name="{=kotk_t6_bimboknight_arms}T5 Bimboknight Armarmor"
+	      mesh="t6_bimboknight_arms"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_kardia_gloves"
+	      name="{=kotk_t5_kardia_gloves}T5 Gendarme Armarmor"
+	      mesh="t5_kardia_gloves"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_arm_armor_01"
+	      name="{=kotk_t5_vlandia_arm_armor_01}T5 Vlandian Armarmor"
+	      mesh="vlandia_t5_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_arm_armor_02"
+	      name="{=kotk_t5_vlandia_arm_armor_02}T5 Vlandian Armarmor"
+	      mesh="vlandian_armored_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_vlandia_arm_armor_03"
+	      name="{=kotk_t5_vlandia_arm_armor_03}T5 Vlandian Armarmor"
+	      mesh="t5_plate_armor_new_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_western_mercenary_arm_armor_01"
+	      name="{=kotk_t5_western_mercenary_arm_armor_01}T5 Western Mercenary Armarmor"
+	      mesh="mercenary_armor_02_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_golden_warrior_bracer"
+	      name="{=kotk_t5_golden_warrior_bracer}T5 Golden Warrior Bracer"
+	      mesh="t5_golden_warrior_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_silver_warrior_bracer"
+	      name="{=kotk_t5_silver_warrior_bracer}T5 Silver Warrior Bracer"
+	      mesh="t5_silver_warrior_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_highshine_faction"
+	      name="{=kotk_t5_plate_armor_new_bracer_highshine_faction}T5 Faction Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_highshine"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t5_plate_armor_new_bracer_plate_faction"
+	      name="{=kotk_t5_plate_armor_new_bracer_plate_faction}T5 Faction Plate Armarmor"
+	      mesh="t5_plate_armor_new_bracer_plate_faction"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="5">
+		<ItemComponent>
+			<Armor arm_armor="22"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_arm_armor_01"
+	      name="{=kotk_t6_vlandia_arm_armor_01}T6 Vlandian Armarmor"
+	      mesh="vlandia_t5_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="vlandia_t5_bracer_faction"
+	      name="{=kotk_vlandia_t5_bracer_faction}T6 Vlandian Armarmor"
+	      mesh="vlandia_t5_bracer_faction"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="vlandia_t5_bracer_silver"
+	      name="{=kotk_vlandia_t5_bracer_silver}T6 Vlandian Armarmor"
+	      mesh="vlandia_t5_bracer_silver"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="vlandia_t5_bracer_gold"
+	      name="{=kotk_vlandia_t5_bracer_gold}T6 Vlandian Armarmor"
+	      mesh="vlandia_t5_bracer_gold"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_royal_armor_gloves"
+	      name="{=kotk_t6_royal_armor_gloves}T6 Gold Royal Bracers"
+	      mesh="t6_royal_armor_gloves"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="skull_t6_bracers_gold"
+	      name="{=kotk_skull_t6_bracers_gold}T6 Gold Skull Bracers"
+	      mesh="skull_t6_bracers_gold"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="skull_t6_bracers_black_worn"
+	      name="{=kotk_skull_t6_bracers_black_worn}T6 Black Skull Bracers"
+	      mesh="skull_t6_bracers_black_worn"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_slayer_bracer_lowpoly_black_gold"
+	      name="{=kotk_kotk_slayer_bracer_lowpoly_black_gold}T6 KotK Slayer Black Bracers"
+	      mesh="kotk_slayer_bracer_lowpoly_black_gold"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_slayer_bracer_lowpoly_black"
+	      name="{=kotk_kotk_slayer_bracer_lowpoly_black}T6 KotK Slayer Faction Bracers"
+	      mesh="kotk_slayer_bracer_lowpoly_black"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_hero_arm_armor_01"
+	      name="{=kotk_t6_vlandia_hero_arm_armor_01}T6 Vlandian Hero Armarmor"
+	      mesh="t6_vlandia_new_plate_silver_hd_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_calatild_arm_armor_01"
+	      name="{=kotk_t6_vlandia_calatild_arm_armor_01}T6 Calatild's Armarmor"
+	      mesh="t6_vlandia_new_plate_silver_hd_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="false"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_silvind_waifu_bracers"
+	      name="{=kotk_t6_silvind_waifu_bracers}T6 Silvind's Armarmor"
+	      mesh="t6_silvind_waifu_bracers"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="28"
+			       covers_hands="true"
+			       has_gender_variations="true"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_new_plate_silver_hd_bracer"
+	      name="{=kotk_t6_vlandia_new_plate_silver_hd_bracer}T6 Vlandian Faction Armarmor"
+	      mesh="t6_vlandia_new_plate_silver_hd_bracer"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="t6_vlandia_cavaliers_de_fer_arm_armor_01"
+	      name="{=kotk_t6_vlandia_cavaliers_de_fer_arm_armor_01}T6 Vlandian Cavaliers de Fer Armarmor"
+	      mesh="t5_plate_armor_new_bracer_dragon_scale"
+	      subtype="body_armor"
+	      culture="Culture.vlandia"
+	      weight="1.5"
+	      is_merchandise="true"
+	      Type="HandArmor"
+	      appearance="8">
+		<ItemComponent>
+			<Armor arm_armor="25"
+			       covers_hands="false"
+			       has_gender_variations="false"
+			       modifier_group="plate"
+			       material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"
+		       Civilian="true"/>
+	</Item>
+	<Item id="kotk_mail_mitten_b"
+	      name="{=kotk_kotk_mail_mitten_b}KOTK Vlandian Noble Reinforced Bracers"
+	      mesh="kotk_mail_mitten_b"
+	      culture="Culture.vlandia"
+	      is_merchandise="false"
+	      weight="1.6"
+	      difficulty="4"
+	      appearance="4"
+	      Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24"
+			       has_gender_variations="true"
+			       covers_hands="false"
+			       modifier_group="chain"
+			       material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+</Items>
