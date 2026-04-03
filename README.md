@@ -4,4 +4,4 @@ This is an experiment. You will be using the information provided to make a troo
 
 For now, follow these instructions
 
-1) Using this link: https://www.nexusmods.com/mountandblade2bannerlord/mods/4486
+- Kult of the Kallipygos: https://www.nexusmods.com/mountandblade2bannerlord/mods/4486
