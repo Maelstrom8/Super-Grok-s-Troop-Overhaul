@@ -11,7 +11,7 @@ You will be using the information provided to make a troop overhaul for Mount & 
   
 2) Zweihander Collection
       - [Nexus Mod Page](https://www.nexusmods.com/mountandblade2bannerlord/mods/7375)
-      - [Mod Files](url)
+      - [Mod Files](https://github.com/Maelstrom8/Super-Grok-Troop-Overhaul/tree/main/Zweihander%20Collection)
   
 3) Troop Tiers Plus
       - [Nexus Mod URL]
@@ -19,14 +19,14 @@ You will be using the information provided to make a troop overhaul for Mount & 
 
 4) Adonnay's Exotic Weaponry
       - [Nexus Mod URL](https://www.nexusmods.com/mountandblade2bannerlord/mods/2620?tab=description)
-      - [Mod Files](
+      - [Mod Files](https://github.com/Maelstrom8/Super-Grok-Troop-Overhaul/tree/main/Adonnays%20Exotic%20Weaponry)
 
 5) Open Source Weaponry
       - [Nexus Mod URL](https://www.nexusmods.com/mountandblade2bannerlord/mods/2829)
-      - [Mod Files](x)
+      - [Mod Files](https://github.com/Maelstrom8/Super-Grok-Troop-Overhaul/tree/main/Open%20Source%20Weaponry)
   
 6) Base Game Files
-      - [Base Game Files](x)
+      - [Base Game Files](https://github.com/Maelstrom8/Super-Grok-Troop-Overhaul/tree/main/Base%20Game)
 
 ## Instructions
 
